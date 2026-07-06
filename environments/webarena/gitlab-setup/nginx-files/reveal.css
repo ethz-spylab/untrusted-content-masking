@@ -1,0 +1,182 @@
+/* Reveal-system styles for the WebArena GitLab proxy.
+ * data-untrusted-element is the marker attribute the runtime tags on every
+ * region that should be hidden from the agent. Scoping every selector to it
+ * keeps these styles from touching unmarked GitLab UI. Reveal happens only
+ * via the Q-Model tool call (programmatic) — clicks don't reveal anything. */
+[data-untrusted-element].reveal-hidden {
+    position: relative;
+    visibility: visible; /* Keep container visible */
+    opacity: 1;
+    overflow: hidden;
+    transition: opacity 0.3s ease;
+    pointer-events: auto; /* Forward clicks to underlying action elements (e.g. masked-but-clickable links). */
+}
+
+[data-untrusted-element].reveal-hidden > * { /* Hide content inside */
+    display: none !important;
+    pointer-events: none !important;
+}
+
+/* Prevent nested double-hiding: if a child is also reveal-hidden inside a parent reveal-hidden, suppress it */
+[data-untrusted-element].reveal-hidden [data-untrusted-element].reveal-hidden {
+    display: none !important;
+    visibility: hidden !important;
+    min-height: 0 !important;
+    min-width: 0 !important;
+}
+[data-untrusted-element].reveal-hidden [data-untrusted-element].reveal-hidden::before {
+    display: none !important;
+}
+
+/* Keep relative-time elements visible even when parent is hidden */
+[data-untrusted-element].reveal-hidden > *:has(relative-time),
+[data-untrusted-element].reveal-hidden relative-time {
+    display: revert !important;
+    pointer-events: auto !important;
+    visibility: visible !important;
+}
+
+[data-untrusted-element].reveal-visible {
+    position: relative;
+    visibility: visible !important;
+    opacity: 1 !important;
+    overflow: visible !important;
+    pointer-events: auto !important;
+}
+
+[data-untrusted-element].reveal-visible > * { /* Show content when revealed */
+    display: revert !important;
+    pointer-events: auto !important;
+}
+
+[data-untrusted-element].reveal-hidden[data-reveal-placeholder] {
+    position: relative;
+    min-height: 50px;
+    min-width: 180px;
+    display: inline-block !important;
+}
+
+[data-untrusted-element].reveal-hidden[data-reveal-placeholder]::before {
+    content: attr(data-reveal-placeholder);
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    visibility: visible !important;
+    opacity: 1 !important;
+    padding: 8px 12px;  /* More padding for better spacing */
+    background-color: #ecf0f1;
+    border: 2px dashed #bdc3c7;
+    border-radius: 2px;
+    text-align: center;
+    color: #7f8c8d;
+    font-style: italic;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;  /* Fill the entire element */
+    z-index: 10;
+    min-height: 50px;  /* Compact height */
+    min-width: 180px;  /* Wider to fit "id: file-name-sidebar-XX" text */
+    font-size: 0.85em;  /* Slightly smaller font to fit better */
+    line-height: 1.3;
+    white-space: nowrap;  /* Keep text on one line */
+    word-wrap: normal;
+    overflow: visible;  /* Show full text */
+    text-overflow: clip;
+    pointer-events: none;
+}
+
+[data-untrusted-element].reveal-hidden[data-reveal-placeholder]::before:hover {
+    background-color: #d5dbdb;
+    border-color: #95a5a6;
+}
+
+
+[data-untrusted-element].reveal-visible[data-reveal-placeholder]::before {
+    display: none !important;
+    pointer-events: none !important;
+    z-index: -1 !important;
+}
+
+[data-untrusted-element].reveal-hidden[data-reveal-hint]:not([data-reveal-placeholder]) {
+    min-height: auto;  /* Let it match natural content size */
+    display: block !important;
+    background-color: #f8f9fa;
+    border: 1px dashed #dee2e6;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    padding: 8px 12px;  /* Compact padding */
+}
+
+[data-untrusted-element].reveal-hidden[data-reveal-hint]:not([data-reveal-placeholder]):hover {
+    background-color: #e9ecef;
+    border-color: #adb5bd;
+}
+
+[data-untrusted="true"] {
+    border-left: 3px solid #e74c3c;
+}
+
+[data-trusted="true"] {
+    border-left: 3px solid #28a745;
+}
+
+/* Smaller placeholder for avatar-sized elements */
+[data-untrusted-element].reveal-hidden[data-tag-name="user-avatar"][data-reveal-placeholder] {
+    min-height: 36px !important;
+    min-width: 36px !important;
+    display: inline-block !important;
+}
+[data-untrusted-element].reveal-hidden[data-tag-name="user-avatar"][data-reveal-placeholder]::before {
+    min-height: 36px !important;
+    min-width: 36px !important;
+    font-size: 0.7em !important;
+    padding: 4px !important;
+    border-radius: 50%;
+}
+
+/* Hide user popovers entirely when content hiding is active */
+body.reveal-hiding-active [data-testid="user-popover"] {
+    display: none !important;
+}
+
+/* Pre-hide @-mention autocomplete items until the marker+reveal pipeline
+   processes them into placeholders.  The atwho plugin renders all project
+   member usernames as unmasked text when the user types '@' in a comment box. */
+body.reveal-hiding-active .atwho-view li:not([data-reveal-processed]) {
+    visibility: hidden !important;
+    min-height: 1.2em;
+}
+
+/* Persistently hide branch/ref content in the MR pipeline widget.
+   GitLab's Vue re-renders this widget periodically, stripping all
+   marker/reveal attributes.  These rules use stable CSS classes so
+   they survive re-renders.  :not(.reveal-hidden) ensures they yield
+   to the marker+reveal system once it processes the element. */
+body.reveal-hiding-active .label-branch:not(.reveal-hidden):not(.reveal-visible) > * {
+    display: none !important;
+}
+body.reveal-hiding-active .label-branch:not(.reveal-hidden):not(.reveal-visible) {
+    position: relative !important;
+    min-height: 22px !important;
+    min-width: 120px !important;
+    display: inline-block !important;
+}
+body.reveal-hiding-active .label-branch:not(.reveal-hidden):not(.reveal-visible)::before {
+    content: "id: branch-name" !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    visibility: visible !important;
+    padding: 2px 8px;
+    background-color: #ecf0f1;
+    border: 2px dashed #bdc3c7;
+    border-radius: 2px;
+    color: #7f8c8d;
+    font-style: italic;
+    font-size: 0.85em;
+    white-space: nowrap;
+}

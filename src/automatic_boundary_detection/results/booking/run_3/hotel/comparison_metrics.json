@@ -1,0 +1,2772 @@
+{
+  "ground_truth_file": "hand_results.json",
+  "predicted_file": "llm_results.json",
+  "ground_truth_metadata": {
+    "totalSelectors": 25,
+    "selectorsWithMatches": 16,
+    "totalElements": 122,
+    "uniqueElements": 119,
+    "url": "http://localhost:8001/llm_input_original_hotel.html",
+    "configFile": "hand_labels.json",
+    "configVersion": "hand",
+    "configGeneratedBy": "Manual analysis of Booking.com HTML structure"
+  },
+  "predicted_metadata": {
+    "totalSelectors": 29,
+    "selectorsWithMatches": 19,
+    "totalElements": 136,
+    "uniqueElements": 133,
+    "url": "http://localhost:8001/llm_input_original_hotel.html",
+    "configFile": "llm_labels.json",
+    "configVersion": "sanitized",
+    "configGeneratedBy": "LLM analysis (claude-sonnet-4-5-20250929)"
+  },
+  "metrics": {
+    "tp_count": 128,
+    "tp_exact_count": 106,
+    "tp_related_count": 22,
+    "fp_count": 16,
+    "fn_count": 2,
+    "precision": 0.8888888888888888,
+    "recall": 0.9846153846153847,
+    "f1_score": 0.9343065693430657,
+    "accuracy": 0.8767123287671232,
+    "ground_truth_total": 119,
+    "predicted_total": 133
+  },
+  "signature_metrics": {
+    "tp_signature_count": 16,
+    "tp_exact_signature_count": 16,
+    "tp_related_signature_count": 0,
+    "fp_signature_count": 2,
+    "fn_signature_count": 1,
+    "ground_truth_signature_total": 17,
+    "predicted_signature_total": 18,
+    "tp_signatures": [
+      "div",
+      "div.aa225776f2.ca9d921c46.d1bc97eb82",
+      "div.aa225776f2.ca9d921c46.f6707cac49",
+      "div.b08850ce41",
+      "div.b08850ce41.cc045b173b.f546354b44",
+      "div.b08850ce41.f546354b44",
+      "div.b4207c2ab6.b99b6ef58f",
+      "div.b99b6ef58f.d14152e7c3",
+      "div.b99b6ef58f.d14152e7c3.e01adb21c0",
+      "div.d7b319a0ec",
+      "h3.e7addce19e",
+      "img.c09abd8a52.c0e44985a8.ca3dad4476.f6c12c77eb",
+      "img.c09abd8a52.ca3dad4476.db4ad1b412.f6c12c77eb",
+      "p.b99b6ef58f.f1152bae71",
+      "span.a787c7cca4",
+      "span.aea5eccb71.d838fb5f41"
+    ],
+    "tp_exact_signatures": [
+      "div",
+      "div.aa225776f2.ca9d921c46.d1bc97eb82",
+      "div.aa225776f2.ca9d921c46.f6707cac49",
+      "div.b08850ce41",
+      "div.b08850ce41.cc045b173b.f546354b44",
+      "div.b08850ce41.f546354b44",
+      "div.b4207c2ab6.b99b6ef58f",
+      "div.b99b6ef58f.d14152e7c3",
+      "div.b99b6ef58f.d14152e7c3.e01adb21c0",
+      "div.d7b319a0ec",
+      "h3.e7addce19e",
+      "img.c09abd8a52.c0e44985a8.ca3dad4476.f6c12c77eb",
+      "img.c09abd8a52.ca3dad4476.db4ad1b412.f6c12c77eb",
+      "p.b99b6ef58f.f1152bae71",
+      "span.a787c7cca4",
+      "span.aea5eccb71.d838fb5f41"
+    ],
+    "tp_related_signatures": [],
+    "fp_signatures": [
+      "div.cc045b173b.e7addce19e.f546354b44",
+      "div.ecb8d66605"
+    ],
+    "fn_signatures": [
+      "h2.ddb12f4f86.pp-header__title"
+    ],
+    "precision": 0.8888888888888888,
+    "recall": 0.9411764705882353,
+    "f1_score": 0.9142857142857143,
+    "accuracy": 0.8421052631578947
+  },
+  "element_details": {
+    "tp": [
+      {
+        "xpath": "//*[@id=\":r7f:\"]/div[10]/div[1]/div[1]/div[1]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-text'] .b99b6ef58f",
+          "[data-testid='featuredreviewcard-text'] .b99b6ef58f.d14152e7c3.e01adb21c0"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreviewcard-text'] .b99b6ef58f.d14152e7c3.e01adb21c0"
+        ],
+        "predicted_selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-text'] .b99b6ef58f"
+        ],
+        "tagName": "div",
+        "className": "b99b6ef58f d14152e7c3 e01adb21c0",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r7f:\"]/div[10]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .a787c7cca4",
+          "[data-testid='featuredreviewcard-avatar'] .b08850ce41.f546354b44, [data-testid='featuredreviewcard-avatar'] .a787c7cca4"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreviewcard-avatar'] .b08850ce41.f546354b44, [data-testid='featuredreviewcard-avatar'] .a787c7cca4"
+        ],
+        "predicted_selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .a787c7cca4"
+        ],
+        "tagName": "span",
+        "className": "a787c7cca4",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r7f:\"]/div[10]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .d838fb5f41",
+          "[data-testid='featuredreviewcard-avatar'] .d838fb5f41.aea5eccb71"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreviewcard-avatar'] .d838fb5f41.aea5eccb71"
+        ],
+        "predicted_selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .d838fb5f41"
+        ],
+        "tagName": "span",
+        "className": "d838fb5f41 aea5eccb71",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r7f:\"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+        "preview": "\u00e2\u20ac\u0153The hotel is close by to everywhere. Very convenient.\u00e2\u20ac\u009d",
+        "selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-text'] .b99b6ef58f",
+          "[data-testid='featuredreviewcard-text'] .b99b6ef58f.d14152e7c3.e01adb21c0"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreviewcard-text'] .b99b6ef58f.d14152e7c3.e01adb21c0"
+        ],
+        "predicted_selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-text'] .b99b6ef58f"
+        ],
+        "tagName": "div",
+        "className": "b99b6ef58f d14152e7c3 e01adb21c0",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r7f:\"]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+        "preview": "Sim",
+        "selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .a787c7cca4",
+          "[data-testid='featuredreviewcard-avatar'] .b08850ce41.f546354b44, [data-testid='featuredreviewcard-avatar'] .a787c7cca4"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreviewcard-avatar'] .b08850ce41.f546354b44, [data-testid='featuredreviewcard-avatar'] .a787c7cca4"
+        ],
+        "predicted_selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .a787c7cca4"
+        ],
+        "tagName": "span",
+        "className": "a787c7cca4",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r7f:\"]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+        "preview": "United States",
+        "selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .d838fb5f41",
+          "[data-testid='featuredreviewcard-avatar'] .d838fb5f41.aea5eccb71"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreviewcard-avatar'] .d838fb5f41.aea5eccb71"
+        ],
+        "predicted_selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .d838fb5f41"
+        ],
+        "tagName": "span",
+        "className": "d838fb5f41 aea5eccb71",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r7f:\"]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+        "preview": "\u00e2\u20ac\u0153How close it was to the tower and other places were walking distance\u00e2\u20ac\u009d",
+        "selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-text'] .b99b6ef58f",
+          "[data-testid='featuredreviewcard-text'] .b99b6ef58f.d14152e7c3.e01adb21c0"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreviewcard-text'] .b99b6ef58f.d14152e7c3.e01adb21c0"
+        ],
+        "predicted_selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-text'] .b99b6ef58f"
+        ],
+        "tagName": "div",
+        "className": "b99b6ef58f d14152e7c3 e01adb21c0",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r7f:\"]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+        "preview": "Teilica",
+        "selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .a787c7cca4",
+          "[data-testid='featuredreviewcard-avatar'] .b08850ce41.f546354b44, [data-testid='featuredreviewcard-avatar'] .a787c7cca4"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreviewcard-avatar'] .b08850ce41.f546354b44, [data-testid='featuredreviewcard-avatar'] .a787c7cca4"
+        ],
+        "predicted_selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .a787c7cca4"
+        ],
+        "tagName": "span",
+        "className": "a787c7cca4",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r7f:\"]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+        "preview": "United States",
+        "selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .d838fb5f41",
+          "[data-testid='featuredreviewcard-avatar'] .d838fb5f41.aea5eccb71"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreviewcard-avatar'] .d838fb5f41.aea5eccb71"
+        ],
+        "predicted_selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .d838fb5f41"
+        ],
+        "tagName": "span",
+        "className": "d838fb5f41 aea5eccb71",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r7f:\"]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]",
+        "preview": "\u00e2\u20ac\u0153The interior of property is beautiful and well maintained. The room was very spacious and had a g",
+        "selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-text'] .b99b6ef58f",
+          "[data-testid='featuredreviewcard-text'] .b99b6ef58f.d14152e7c3.e01adb21c0"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreviewcard-text'] .b99b6ef58f.d14152e7c3.e01adb21c0"
+        ],
+        "predicted_selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-text'] .b99b6ef58f"
+        ],
+        "tagName": "div",
+        "className": "b99b6ef58f d14152e7c3 e01adb21c0",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r7f:\"]/div[3]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+        "preview": "Vivian",
+        "selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .a787c7cca4",
+          "[data-testid='featuredreviewcard-avatar'] .b08850ce41.f546354b44, [data-testid='featuredreviewcard-avatar'] .a787c7cca4"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreviewcard-avatar'] .b08850ce41.f546354b44, [data-testid='featuredreviewcard-avatar'] .a787c7cca4"
+        ],
+        "predicted_selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .a787c7cca4"
+        ],
+        "tagName": "span",
+        "className": "a787c7cca4",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r7f:\"]/div[3]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+        "preview": "United States",
+        "selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .d838fb5f41",
+          "[data-testid='featuredreviewcard-avatar'] .d838fb5f41.aea5eccb71"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreviewcard-avatar'] .d838fb5f41.aea5eccb71"
+        ],
+        "predicted_selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .d838fb5f41"
+        ],
+        "tagName": "span",
+        "className": "d838fb5f41 aea5eccb71",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r7f:\"]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]",
+        "preview": "\u00e2\u20ac\u0153Amazing views and staff, specially Miza at the reception is 10/10.\u00e2\u20ac\u009d",
+        "selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-text'] .b99b6ef58f",
+          "[data-testid='featuredreviewcard-text'] .b99b6ef58f.d14152e7c3.e01adb21c0"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreviewcard-text'] .b99b6ef58f.d14152e7c3.e01adb21c0"
+        ],
+        "predicted_selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-text'] .b99b6ef58f"
+        ],
+        "tagName": "div",
+        "className": "b99b6ef58f d14152e7c3 e01adb21c0",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r7f:\"]/div[4]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+        "preview": "Purvi",
+        "selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .a787c7cca4",
+          "[data-testid='featuredreviewcard-avatar'] .b08850ce41.f546354b44, [data-testid='featuredreviewcard-avatar'] .a787c7cca4"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreviewcard-avatar'] .b08850ce41.f546354b44, [data-testid='featuredreviewcard-avatar'] .a787c7cca4"
+        ],
+        "predicted_selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .a787c7cca4"
+        ],
+        "tagName": "span",
+        "className": "a787c7cca4",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r7f:\"]/div[4]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+        "preview": "United Arab Emirates",
+        "selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .d838fb5f41",
+          "[data-testid='featuredreviewcard-avatar'] .d838fb5f41.aea5eccb71"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreviewcard-avatar'] .d838fb5f41.aea5eccb71"
+        ],
+        "predicted_selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .d838fb5f41"
+        ],
+        "tagName": "span",
+        "className": "d838fb5f41 aea5eccb71",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r7f:\"]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]",
+        "preview": "\u00e2\u20ac\u0153Location very good next to Eiffel Tower and close to metro station, service was good in the hotel",
+        "selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-text'] .b99b6ef58f",
+          "[data-testid='featuredreviewcard-text'] .b99b6ef58f.d14152e7c3.e01adb21c0"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreviewcard-text'] .b99b6ef58f.d14152e7c3.e01adb21c0"
+        ],
+        "predicted_selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-text'] .b99b6ef58f"
+        ],
+        "tagName": "div",
+        "className": "b99b6ef58f d14152e7c3 e01adb21c0",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r7f:\"]/div[5]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+        "preview": "Nourhan",
+        "selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .a787c7cca4",
+          "[data-testid='featuredreviewcard-avatar'] .b08850ce41.f546354b44, [data-testid='featuredreviewcard-avatar'] .a787c7cca4"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreviewcard-avatar'] .b08850ce41.f546354b44, [data-testid='featuredreviewcard-avatar'] .a787c7cca4"
+        ],
+        "predicted_selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .a787c7cca4"
+        ],
+        "tagName": "span",
+        "className": "a787c7cca4",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r7f:\"]/div[5]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+        "preview": "United Arab Emirates",
+        "selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .d838fb5f41",
+          "[data-testid='featuredreviewcard-avatar'] .d838fb5f41.aea5eccb71"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreviewcard-avatar'] .d838fb5f41.aea5eccb71"
+        ],
+        "predicted_selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .d838fb5f41"
+        ],
+        "tagName": "span",
+        "className": "d838fb5f41 aea5eccb71",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r7f:\"]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-text'] .b99b6ef58f",
+          "[data-testid='featuredreviewcard-text'] .b99b6ef58f.d14152e7c3.e01adb21c0"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreviewcard-text'] .b99b6ef58f.d14152e7c3.e01adb21c0"
+        ],
+        "predicted_selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-text'] .b99b6ef58f"
+        ],
+        "tagName": "div",
+        "className": "b99b6ef58f d14152e7c3 e01adb21c0",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r7f:\"]/div[6]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .a787c7cca4",
+          "[data-testid='featuredreviewcard-avatar'] .b08850ce41.f546354b44, [data-testid='featuredreviewcard-avatar'] .a787c7cca4"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreviewcard-avatar'] .b08850ce41.f546354b44, [data-testid='featuredreviewcard-avatar'] .a787c7cca4"
+        ],
+        "predicted_selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .a787c7cca4"
+        ],
+        "tagName": "span",
+        "className": "a787c7cca4",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r7f:\"]/div[6]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .d838fb5f41",
+          "[data-testid='featuredreviewcard-avatar'] .d838fb5f41.aea5eccb71"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreviewcard-avatar'] .d838fb5f41.aea5eccb71"
+        ],
+        "predicted_selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .d838fb5f41"
+        ],
+        "tagName": "span",
+        "className": "d838fb5f41 aea5eccb71",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r7f:\"]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-text'] .b99b6ef58f",
+          "[data-testid='featuredreviewcard-text'] .b99b6ef58f.d14152e7c3.e01adb21c0"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreviewcard-text'] .b99b6ef58f.d14152e7c3.e01adb21c0"
+        ],
+        "predicted_selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-text'] .b99b6ef58f"
+        ],
+        "tagName": "div",
+        "className": "b99b6ef58f d14152e7c3 e01adb21c0",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r7f:\"]/div[7]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .a787c7cca4",
+          "[data-testid='featuredreviewcard-avatar'] .b08850ce41.f546354b44, [data-testid='featuredreviewcard-avatar'] .a787c7cca4"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreviewcard-avatar'] .b08850ce41.f546354b44, [data-testid='featuredreviewcard-avatar'] .a787c7cca4"
+        ],
+        "predicted_selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .a787c7cca4"
+        ],
+        "tagName": "span",
+        "className": "a787c7cca4",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r7f:\"]/div[7]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .d838fb5f41",
+          "[data-testid='featuredreviewcard-avatar'] .d838fb5f41.aea5eccb71"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreviewcard-avatar'] .d838fb5f41.aea5eccb71"
+        ],
+        "predicted_selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .d838fb5f41"
+        ],
+        "tagName": "span",
+        "className": "d838fb5f41 aea5eccb71",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r7f:\"]/div[8]/div[1]/div[1]/div[1]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-text'] .b99b6ef58f",
+          "[data-testid='featuredreviewcard-text'] .b99b6ef58f.d14152e7c3.e01adb21c0"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreviewcard-text'] .b99b6ef58f.d14152e7c3.e01adb21c0"
+        ],
+        "predicted_selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-text'] .b99b6ef58f"
+        ],
+        "tagName": "div",
+        "className": "b99b6ef58f d14152e7c3 e01adb21c0",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r7f:\"]/div[8]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .a787c7cca4",
+          "[data-testid='featuredreviewcard-avatar'] .b08850ce41.f546354b44, [data-testid='featuredreviewcard-avatar'] .a787c7cca4"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreviewcard-avatar'] .b08850ce41.f546354b44, [data-testid='featuredreviewcard-avatar'] .a787c7cca4"
+        ],
+        "predicted_selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .a787c7cca4"
+        ],
+        "tagName": "span",
+        "className": "a787c7cca4",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r7f:\"]/div[8]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .d838fb5f41",
+          "[data-testid='featuredreviewcard-avatar'] .d838fb5f41.aea5eccb71"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreviewcard-avatar'] .d838fb5f41.aea5eccb71"
+        ],
+        "predicted_selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .d838fb5f41"
+        ],
+        "tagName": "span",
+        "className": "d838fb5f41 aea5eccb71",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r7f:\"]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-text'] .b99b6ef58f",
+          "[data-testid='featuredreviewcard-text'] .b99b6ef58f.d14152e7c3.e01adb21c0"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreviewcard-text'] .b99b6ef58f.d14152e7c3.e01adb21c0"
+        ],
+        "predicted_selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-text'] .b99b6ef58f"
+        ],
+        "tagName": "div",
+        "className": "b99b6ef58f d14152e7c3 e01adb21c0",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r7f:\"]/div[9]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .a787c7cca4",
+          "[data-testid='featuredreviewcard-avatar'] .b08850ce41.f546354b44, [data-testid='featuredreviewcard-avatar'] .a787c7cca4"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreviewcard-avatar'] .b08850ce41.f546354b44, [data-testid='featuredreviewcard-avatar'] .a787c7cca4"
+        ],
+        "predicted_selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .a787c7cca4"
+        ],
+        "tagName": "span",
+        "className": "a787c7cca4",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r7f:\"]/div[9]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .d838fb5f41",
+          "[data-testid='featuredreviewcard-avatar'] .d838fb5f41.aea5eccb71"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreviewcard-avatar'] .d838fb5f41.aea5eccb71"
+        ],
+        "predicted_selectors": [
+          "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .d838fb5f41"
+        ],
+        "tagName": "span",
+        "className": "d838fb5f41 aea5eccb71",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[10]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='featuredreview'] div.b08850ce41.f546354b44",
+          "[data-testid='featuredreview-avatar'] .b08850ce41.f546354b44"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreview'] div.b08850ce41.f546354b44"
+        ],
+        "predicted_selectors": [
+          "[data-testid='featuredreview-avatar'] .b08850ce41.f546354b44"
+        ],
+        "tagName": "div",
+        "className": "b08850ce41 f546354b44",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[10]/div[1]/div[1]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='featuredreview-text']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreview-text']"
+        ],
+        "predicted_selectors": [],
+        "tagName": "div",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[10]/div[1]/div[1]/div[2]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='featuredreview-text'] .b99b6ef58f"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          "[data-testid='featuredreview-text'] .b99b6ef58f"
+        ],
+        "tagName": "div",
+        "className": "b99b6ef58f d14152e7c3",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+        "preview": "Sim",
+        "selectors": [
+          "[data-testid='featuredreview'] div.b08850ce41.f546354b44",
+          "[data-testid='featuredreview-avatar'] .b08850ce41.f546354b44"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreview'] div.b08850ce41.f546354b44"
+        ],
+        "predicted_selectors": [
+          "[data-testid='featuredreview-avatar'] .b08850ce41.f546354b44"
+        ],
+        "tagName": "div",
+        "className": "b08850ce41 f546354b44",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[1]/div[1]/div[1]/div[2]",
+        "preview": "\u00e2\u20ac\u0153The hotel is close by to everywhere. Very convenient.\u00e2\u20ac\u009d",
+        "selectors": [
+          "[data-testid='featuredreview-text']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreview-text']"
+        ],
+        "predicted_selectors": [],
+        "tagName": "div",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]",
+        "preview": "\u00e2\u20ac\u0153The hotel is close by to everywhere. Very convenient.\u00e2\u20ac\u009d",
+        "selectors": [
+          "[data-testid='featuredreview-text'] .b99b6ef58f"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          "[data-testid='featuredreview-text'] .b99b6ef58f"
+        ],
+        "tagName": "div",
+        "className": "b99b6ef58f d14152e7c3",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+        "preview": "Teilica",
+        "selectors": [
+          "[data-testid='featuredreview'] div.b08850ce41.f546354b44",
+          "[data-testid='featuredreview-avatar'] .b08850ce41.f546354b44"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreview'] div.b08850ce41.f546354b44"
+        ],
+        "predicted_selectors": [
+          "[data-testid='featuredreview-avatar'] .b08850ce41.f546354b44"
+        ],
+        "tagName": "div",
+        "className": "b08850ce41 f546354b44",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[2]/div[1]/div[1]/div[2]",
+        "preview": "\u00e2\u20ac\u0153How close it was to the tower and other places were walking distance\u00e2\u20ac\u009d",
+        "selectors": [
+          "[data-testid='featuredreview-text']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreview-text']"
+        ],
+        "predicted_selectors": [],
+        "tagName": "div",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+        "preview": "\u00e2\u20ac\u0153How close it was to the tower and other places were walking distance\u00e2\u20ac\u009d",
+        "selectors": [
+          "[data-testid='featuredreview-text'] .b99b6ef58f"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          "[data-testid='featuredreview-text'] .b99b6ef58f"
+        ],
+        "tagName": "div",
+        "className": "b99b6ef58f d14152e7c3",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+        "preview": "Vivian",
+        "selectors": [
+          "[data-testid='featuredreview'] div.b08850ce41.f546354b44",
+          "[data-testid='featuredreview-avatar'] .b08850ce41.f546354b44"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreview'] div.b08850ce41.f546354b44"
+        ],
+        "predicted_selectors": [
+          "[data-testid='featuredreview-avatar'] .b08850ce41.f546354b44"
+        ],
+        "tagName": "div",
+        "className": "b08850ce41 f546354b44",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[3]/div[1]/div[1]/div[2]",
+        "preview": "\u00e2\u20ac\u0153The interior of property is beautiful and well maintained. The room was very spacious and had a g",
+        "selectors": [
+          "[data-testid='featuredreview-text']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreview-text']"
+        ],
+        "predicted_selectors": [],
+        "tagName": "div",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]",
+        "preview": "\u00e2\u20ac\u0153The interior of property is beautiful and well maintained. The room was very spacious and had a g",
+        "selectors": [
+          "[data-testid='featuredreview-text'] .b99b6ef58f"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          "[data-testid='featuredreview-text'] .b99b6ef58f"
+        ],
+        "tagName": "div",
+        "className": "b99b6ef58f d14152e7c3",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+        "preview": "Purvi",
+        "selectors": [
+          "[data-testid='featuredreview'] div.b08850ce41.f546354b44",
+          "[data-testid='featuredreview-avatar'] .b08850ce41.f546354b44"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreview'] div.b08850ce41.f546354b44"
+        ],
+        "predicted_selectors": [
+          "[data-testid='featuredreview-avatar'] .b08850ce41.f546354b44"
+        ],
+        "tagName": "div",
+        "className": "b08850ce41 f546354b44",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[4]/div[1]/div[1]/div[2]",
+        "preview": "\u00e2\u20ac\u0153Amazing views and staff, specially Miza at the reception is 10/10.\u00e2\u20ac\u009d",
+        "selectors": [
+          "[data-testid='featuredreview-text']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreview-text']"
+        ],
+        "predicted_selectors": [],
+        "tagName": "div",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[4]/div[1]/div[1]/div[2]/div[1]/div[1]",
+        "preview": "\u00e2\u20ac\u0153Amazing views and staff, specially Miza at the reception is 10/10.\u00e2\u20ac\u009d",
+        "selectors": [
+          "[data-testid='featuredreview-text'] .b99b6ef58f"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          "[data-testid='featuredreview-text'] .b99b6ef58f"
+        ],
+        "tagName": "div",
+        "className": "b99b6ef58f d14152e7c3",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+        "preview": "Nourhan",
+        "selectors": [
+          "[data-testid='featuredreview'] div.b08850ce41.f546354b44",
+          "[data-testid='featuredreview-avatar'] .b08850ce41.f546354b44"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreview'] div.b08850ce41.f546354b44"
+        ],
+        "predicted_selectors": [
+          "[data-testid='featuredreview-avatar'] .b08850ce41.f546354b44"
+        ],
+        "tagName": "div",
+        "className": "b08850ce41 f546354b44",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[5]/div[1]/div[1]/div[2]",
+        "preview": "\u00e2\u20ac\u0153Location very good next to Eiffel Tower and close to metro station, service was good in the hotel",
+        "selectors": [
+          "[data-testid='featuredreview-text']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreview-text']"
+        ],
+        "predicted_selectors": [],
+        "tagName": "div",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]",
+        "preview": "\u00e2\u20ac\u0153Location very good next to Eiffel Tower and close to metro station, service was good in the hotel",
+        "selectors": [
+          "[data-testid='featuredreview-text'] .b99b6ef58f"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          "[data-testid='featuredreview-text'] .b99b6ef58f"
+        ],
+        "tagName": "div",
+        "className": "b99b6ef58f d14152e7c3",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[6]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='featuredreview'] div.b08850ce41.f546354b44",
+          "[data-testid='featuredreview-avatar'] .b08850ce41.f546354b44"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreview'] div.b08850ce41.f546354b44"
+        ],
+        "predicted_selectors": [
+          "[data-testid='featuredreview-avatar'] .b08850ce41.f546354b44"
+        ],
+        "tagName": "div",
+        "className": "b08850ce41 f546354b44",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[6]/div[1]/div[1]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='featuredreview-text']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreview-text']"
+        ],
+        "predicted_selectors": [],
+        "tagName": "div",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[6]/div[1]/div[1]/div[2]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='featuredreview-text'] .b99b6ef58f"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          "[data-testid='featuredreview-text'] .b99b6ef58f"
+        ],
+        "tagName": "div",
+        "className": "b99b6ef58f d14152e7c3",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='featuredreview'] div.b08850ce41.f546354b44",
+          "[data-testid='featuredreview-avatar'] .b08850ce41.f546354b44"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreview'] div.b08850ce41.f546354b44"
+        ],
+        "predicted_selectors": [
+          "[data-testid='featuredreview-avatar'] .b08850ce41.f546354b44"
+        ],
+        "tagName": "div",
+        "className": "b08850ce41 f546354b44",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[7]/div[1]/div[1]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='featuredreview-text']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreview-text']"
+        ],
+        "predicted_selectors": [],
+        "tagName": "div",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[7]/div[1]/div[1]/div[2]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='featuredreview-text'] .b99b6ef58f"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          "[data-testid='featuredreview-text'] .b99b6ef58f"
+        ],
+        "tagName": "div",
+        "className": "b99b6ef58f d14152e7c3",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='featuredreview'] div.b08850ce41.f546354b44",
+          "[data-testid='featuredreview-avatar'] .b08850ce41.f546354b44"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreview'] div.b08850ce41.f546354b44"
+        ],
+        "predicted_selectors": [
+          "[data-testid='featuredreview-avatar'] .b08850ce41.f546354b44"
+        ],
+        "tagName": "div",
+        "className": "b08850ce41 f546354b44",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[8]/div[1]/div[1]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='featuredreview-text']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreview-text']"
+        ],
+        "predicted_selectors": [],
+        "tagName": "div",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[8]/div[1]/div[1]/div[2]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='featuredreview-text'] .b99b6ef58f"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          "[data-testid='featuredreview-text'] .b99b6ef58f"
+        ],
+        "tagName": "div",
+        "className": "b99b6ef58f d14152e7c3",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='featuredreview'] div.b08850ce41.f546354b44",
+          "[data-testid='featuredreview-avatar'] .b08850ce41.f546354b44"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreview'] div.b08850ce41.f546354b44"
+        ],
+        "predicted_selectors": [
+          "[data-testid='featuredreview-avatar'] .b08850ce41.f546354b44"
+        ],
+        "tagName": "div",
+        "className": "b08850ce41 f546354b44",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[9]/div[1]/div[1]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='featuredreview-text']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='featuredreview-text']"
+        ],
+        "predicted_selectors": [],
+        "tagName": "div",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[9]/div[1]/div[1]/div[2]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='featuredreview-text'] .b99b6ef58f"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          "[data-testid='featuredreview-text'] .b99b6ef58f"
+        ],
+        "tagName": "div",
+        "className": "b99b6ef58f d14152e7c3",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":rb8:\"]/span[1]/h3[1]",
+        "preview": "What kind of breakfast is served at Pullman Paris Tour Eiffel?",
+        "selectors": [
+          "[data-testid='faq-accordion-left-card'] h3[itemprop='name']",
+          "h3[data-testid='question']"
+        ],
+        "ground_truth_selectors": [
+          "h3[data-testid='question']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='faq-accordion-left-card'] h3[itemprop='name']"
+        ],
+        "tagName": "h3",
+        "className": "e7addce19e",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":rba:\"]/span[1]/h3[1]",
+        "preview": "What type of room can I book at Pullman Paris Tour Eiffel?",
+        "selectors": [
+          "[data-testid='faq-accordion-left-card'] h3[itemprop='name']",
+          "h3[data-testid='question']"
+        ],
+        "ground_truth_selectors": [
+          "h3[data-testid='question']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='faq-accordion-left-card'] h3[itemprop='name']"
+        ],
+        "tagName": "h3",
+        "className": "e7addce19e",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":rbc:\"]/span[1]/h3[1]",
+        "preview": "What are the check-in and check-out times at Pullman Paris Tour Eiffel?",
+        "selectors": [
+          "[data-testid='faq-accordion-left-card'] h3[itemprop='name']",
+          "h3[data-testid='question']"
+        ],
+        "ground_truth_selectors": [
+          "h3[data-testid='question']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='faq-accordion-left-card'] h3[itemprop='name']"
+        ],
+        "tagName": "h3",
+        "className": "e7addce19e",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":rbe:\"]/span[1]/h3[1]",
+        "preview": "How much does it cost to stay at Pullman Paris Tour Eiffel?",
+        "selectors": [
+          "[data-testid='faq-accordion-left-card'] h3[itemprop='name']",
+          "h3[data-testid='question']"
+        ],
+        "ground_truth_selectors": [
+          "h3[data-testid='question']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='faq-accordion-left-card'] h3[itemprop='name']"
+        ],
+        "tagName": "h3",
+        "className": "e7addce19e",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":rbg:\"]/span[1]/h3[1]",
+        "preview": "Does Pullman Paris Tour Eiffel have a restaurant on site?",
+        "selectors": [
+          "[data-testid='faq-accordion-right-card'] h3[itemprop='name']",
+          "h3[data-testid='question']"
+        ],
+        "ground_truth_selectors": [
+          "h3[data-testid='question']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='faq-accordion-right-card'] h3[itemprop='name']"
+        ],
+        "tagName": "h3",
+        "className": "e7addce19e",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":rbi:\"]/span[1]/h3[1]",
+        "preview": "What is there to do at Pullman Paris Tour Eiffel?",
+        "selectors": [
+          "[data-testid='faq-accordion-right-card'] h3[itemprop='name']",
+          "h3[data-testid='question']"
+        ],
+        "ground_truth_selectors": [
+          "h3[data-testid='question']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='faq-accordion-right-card'] h3[itemprop='name']"
+        ],
+        "tagName": "h3",
+        "className": "e7addce19e",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":rbk:\"]/span[1]/h3[1]",
+        "preview": "How far is Pullman Paris Tour Eiffel from the center of Paris?",
+        "selectors": [
+          "[data-testid='faq-accordion-right-card'] h3[itemprop='name']",
+          "h3[data-testid='question']"
+        ],
+        "ground_truth_selectors": [
+          "h3[data-testid='question']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='faq-accordion-right-card'] h3[itemprop='name']"
+        ],
+        "tagName": "h3",
+        "className": "e7addce19e",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"basiclayout\"]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]",
+        "preview": "Ideally located at the foot of the Eiffel Tower and just steps from the Trocad\u00c3\u00a9ro,the Pullman Paris",
+        "selectors": [
+          "[data-testid='property-description']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-description']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-description']"
+        ],
+        "tagName": "p",
+        "className": "b99b6ef58f f1152bae71",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"basiclayout\"]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+        "preview": "Pullman Hotels and ResortsHotel chain/brand",
+        "selectors": [
+          "[data-testid='brand-name']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='brand-name']"
+        ],
+        "predicted_selectors": [],
+        "tagName": "div",
+        "className": "d7b319a0ec",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"basiclayout\"]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+        "preview": "Pullman Hotels and Resorts",
+        "selectors": [
+          "[data-testid='PropertyBrandInfo-wrapper'] [data-testid='brand-name'] .b08850ce41"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          "[data-testid='PropertyBrandInfo-wrapper'] [data-testid='brand-name'] .b08850ce41"
+        ],
+        "tagName": "div",
+        "className": "b08850ce41 f546354b44 cc045b173b",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"basiclayout\"]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/picture[1]/img[1]",
+        "preview": "(empty)",
+        "selectors": [
+          "[data-testid='PropertyBrandInfo-wrapper'] [data-testid='brand-logo'] img",
+          "[data-testid='PropertyBrandInfo-wrapper'] img"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='PropertyBrandInfo-wrapper'] img"
+        ],
+        "predicted_selectors": [
+          "[data-testid='PropertyBrandInfo-wrapper'] [data-testid='brand-logo'] img"
+        ],
+        "tagName": "img",
+        "className": "f6c12c77eb db4ad1b412 c09abd8a52 ca3dad4476",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-1\"]/div[1]",
+        "preview": "Guests staying at Pullman Paris Tour Eiffel can enjoy a highly-rated breakfast during their stay (gu",
+        "selectors": [
+          "[data-testid='answer'][itemprop='text']",
+          "[data-testid='faq-accordion-left-card'] [itemprop='text']",
+          "[data-testid='faq-accordion-right-card'] [itemprop='text']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='answer'][itemprop='text']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='faq-accordion-left-card'] [itemprop='text']",
+          "[data-testid='faq-accordion-right-card'] [itemprop='text']"
+        ],
+        "tagName": "div",
+        "className": "b99b6ef58f b4207c2ab6",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-2\"]/div[1]",
+        "preview": "Room options at Pullman Paris Tour Eiffel include: DoubleTripleSuite",
+        "selectors": [
+          "[data-testid='answer'][itemprop='text']",
+          "[data-testid='faq-accordion-left-card'] [itemprop='text']",
+          "[data-testid='faq-accordion-right-card'] [itemprop='text']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='answer'][itemprop='text']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='faq-accordion-left-card'] [itemprop='text']",
+          "[data-testid='faq-accordion-right-card'] [itemprop='text']"
+        ],
+        "tagName": "div",
+        "className": "b99b6ef58f b4207c2ab6",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-3\"]/div[1]",
+        "preview": "Check-in at Pullman Paris Tour Eiffel is from 16:00, and check-out is until 11:00.",
+        "selectors": [
+          "[data-testid='answer'][itemprop='text']",
+          "[data-testid='faq-accordion-left-card'] [itemprop='text']",
+          "[data-testid='faq-accordion-right-card'] [itemprop='text']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='answer'][itemprop='text']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='faq-accordion-left-card'] [itemprop='text']",
+          "[data-testid='faq-accordion-right-card'] [itemprop='text']"
+        ],
+        "tagName": "div",
+        "className": "b99b6ef58f b4207c2ab6",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-4\"]/div[1]",
+        "preview": "The prices at Pullman Paris Tour Eiffel may vary depending on your stay (e.g. dates, hotel's policy",
+        "selectors": [
+          "[data-testid='answer'][itemprop='text']",
+          "[data-testid='faq-accordion-left-card'] [itemprop='text']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='answer'][itemprop='text']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='faq-accordion-left-card'] [itemprop='text']"
+        ],
+        "tagName": "div",
+        "className": "b99b6ef58f b4207c2ab6",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/picture[1]/img[1]",
+        "preview": "(empty)",
+        "selectors": [
+          "[data-testid='GalleryUnifiedDesktop-wrapper'] img"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='GalleryUnifiedDesktop-wrapper'] img"
+        ],
+        "predicted_selectors": [
+          "[data-testid='GalleryUnifiedDesktop-wrapper'] img"
+        ],
+        "tagName": "img",
+        "className": "f6c12c77eb c0e44985a8 c09abd8a52 ca3dad4476",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/button[1]/picture[1]/img[1]",
+        "preview": "(empty)",
+        "selectors": [
+          "[data-testid='GalleryUnifiedDesktop-wrapper'] img"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='GalleryUnifiedDesktop-wrapper'] img"
+        ],
+        "predicted_selectors": [
+          "[data-testid='GalleryUnifiedDesktop-wrapper'] img"
+        ],
+        "tagName": "img",
+        "className": "f6c12c77eb c0e44985a8 c09abd8a52 ca3dad4476",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/button[1]/picture[1]/img[1]",
+        "preview": "(empty)",
+        "selectors": [
+          "[data-testid='GalleryUnifiedDesktop-wrapper'] img"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='GalleryUnifiedDesktop-wrapper'] img"
+        ],
+        "predicted_selectors": [
+          "[data-testid='GalleryUnifiedDesktop-wrapper'] img"
+        ],
+        "tagName": "img",
+        "className": "f6c12c77eb c0e44985a8 c09abd8a52 ca3dad4476",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[2]/div[1]/button[1]/picture[1]/img[1]",
+        "preview": "(empty)",
+        "selectors": [
+          "[data-testid='GalleryUnifiedDesktop-wrapper'] img"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='GalleryUnifiedDesktop-wrapper'] img"
+        ],
+        "predicted_selectors": [
+          "[data-testid='GalleryUnifiedDesktop-wrapper'] img"
+        ],
+        "tagName": "img",
+        "className": "f6c12c77eb c0e44985a8 c09abd8a52 ca3dad4476",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[2]/div[2]/button[1]/picture[1]/img[1]",
+        "preview": "(empty)",
+        "selectors": [
+          "[data-testid='GalleryUnifiedDesktop-wrapper'] img"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='GalleryUnifiedDesktop-wrapper'] img"
+        ],
+        "predicted_selectors": [
+          "[data-testid='GalleryUnifiedDesktop-wrapper'] img"
+        ],
+        "tagName": "img",
+        "className": "f6c12c77eb c0e44985a8 c09abd8a52 ca3dad4476",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[2]/div[3]/button[1]/picture[1]/img[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='GalleryUnifiedDesktop-wrapper'] img"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='GalleryUnifiedDesktop-wrapper'] img"
+        ],
+        "predicted_selectors": [
+          "[data-testid='GalleryUnifiedDesktop-wrapper'] img"
+        ],
+        "tagName": "img",
+        "className": "f6c12c77eb c0e44985a8 c09abd8a52 ca3dad4476",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[2]/div[4]/button[1]/picture[1]/img[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='GalleryUnifiedDesktop-wrapper'] img"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='GalleryUnifiedDesktop-wrapper'] img"
+        ],
+        "predicted_selectors": [
+          "[data-testid='GalleryUnifiedDesktop-wrapper'] img"
+        ],
+        "tagName": "img",
+        "className": "f6c12c77eb c0e44985a8 c09abd8a52 ca3dad4476",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[2]/div[5]/button[1]/picture[1]/img[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='GalleryUnifiedDesktop-wrapper'] img"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='GalleryUnifiedDesktop-wrapper'] img"
+        ],
+        "predicted_selectors": [
+          "[data-testid='GalleryUnifiedDesktop-wrapper'] img"
+        ],
+        "tagName": "img",
+        "className": "f6c12c77eb c0e44985a8 c09abd8a52 ca3dad4476",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[10]/button[1]/div[1]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='matchmaking-questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49",
+          "section[id='questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='matchmaking-questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49"
+        ],
+        "predicted_selectors": [
+          "section[id='questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49"
+        ],
+        "tagName": "div",
+        "className": "aa225776f2 ca9d921c46 f6707cac49",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]/button[1]/div[1]/div[2]",
+        "preview": "Do they serve breakfast?",
+        "selectors": [
+          "[data-testid='matchmaking-questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49",
+          "section[id='questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='matchmaking-questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49"
+        ],
+        "predicted_selectors": [
+          "section[id='questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49"
+        ],
+        "tagName": "div",
+        "className": "aa225776f2 ca9d921c46 f6707cac49",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]/button[1]/div[1]/div[2]",
+        "preview": "Can I park there?",
+        "selectors": [
+          "[data-testid='matchmaking-questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49",
+          "section[id='questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='matchmaking-questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49"
+        ],
+        "predicted_selectors": [
+          "section[id='questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49"
+        ],
+        "tagName": "div",
+        "className": "aa225776f2 ca9d921c46 f6707cac49",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[3]/button[1]/div[1]/div[2]",
+        "preview": "Is there a swimming pool?",
+        "selectors": [
+          "[data-testid='matchmaking-questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49",
+          "section[id='questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='matchmaking-questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49"
+        ],
+        "predicted_selectors": [
+          "section[id='questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49"
+        ],
+        "tagName": "div",
+        "className": "aa225776f2 ca9d921c46 f6707cac49",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[4]/button[1]/div[1]/div[2]",
+        "preview": "Is there a restaurant?",
+        "selectors": [
+          "[data-testid='matchmaking-questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49",
+          "section[id='questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='matchmaking-questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49"
+        ],
+        "predicted_selectors": [
+          "section[id='questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49"
+        ],
+        "tagName": "div",
+        "className": "aa225776f2 ca9d921c46 f6707cac49",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[5]/button[1]/div[1]/div[2]",
+        "preview": "Is there a spa?",
+        "selectors": [
+          "[data-testid='matchmaking-questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49",
+          "section[id='questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='matchmaking-questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49"
+        ],
+        "predicted_selectors": [
+          "section[id='questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49"
+        ],
+        "tagName": "div",
+        "className": "aa225776f2 ca9d921c46 f6707cac49",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[6]/button[1]/div[1]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='matchmaking-questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49",
+          "section[id='questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='matchmaking-questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49"
+        ],
+        "predicted_selectors": [
+          "section[id='questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49"
+        ],
+        "tagName": "div",
+        "className": "aa225776f2 ca9d921c46 f6707cac49",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[7]/button[1]/div[1]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='matchmaking-questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49",
+          "section[id='questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='matchmaking-questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49"
+        ],
+        "predicted_selectors": [
+          "section[id='questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49"
+        ],
+        "tagName": "div",
+        "className": "aa225776f2 ca9d921c46 f6707cac49",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[8]/button[1]/div[1]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='matchmaking-questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49",
+          "section[id='questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='matchmaking-questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49"
+        ],
+        "predicted_selectors": [
+          "section[id='questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49"
+        ],
+        "tagName": "div",
+        "className": "aa225776f2 ca9d921c46 f6707cac49",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[9]/button[1]/div[1]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='matchmaking-questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49",
+          "section[id='questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='matchmaking-questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49"
+        ],
+        "predicted_selectors": [
+          "section[id='questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49"
+        ],
+        "tagName": "div",
+        "className": "aa225776f2 ca9d921c46 f6707cac49",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"room_type_id_2673015\"]/span[1]/div[1]",
+        "preview": "Superior King Room - Eiffel Tower View",
+        "selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "predicted_selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "tagName": "div",
+        "className": "b08850ce41",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"room_type_id_2673025\"]/span[1]/div[1]",
+        "preview": "Classic King Room - Garden Side",
+        "selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "predicted_selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "tagName": "div",
+        "className": "b08850ce41",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"room_type_id_2673026\"]/span[1]/div[1]",
+        "preview": "Classic Twin Room - Garden Side",
+        "selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "predicted_selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "tagName": "div",
+        "className": "b08850ce41",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"room_type_id_2673027\"]/span[1]/div[1]",
+        "preview": "Deluxe King Room - Balcony with Eiffel Tower View",
+        "selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "predicted_selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "tagName": "div",
+        "className": "b08850ce41",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"room_type_id_2673028\"]/span[1]/div[1]",
+        "preview": "Deluxe Twin Room with Sofa, Balcony and Eiffel Tower View",
+        "selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "predicted_selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "tagName": "div",
+        "className": "b08850ce41",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"room_type_id_2673034\"]/span[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "predicted_selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "tagName": "div",
+        "className": "b08850ce41",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"room_type_id_2673035\"]/span[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "predicted_selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "tagName": "div",
+        "className": "b08850ce41",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"room_type_id_2673039\"]/span[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "predicted_selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "tagName": "div",
+        "className": "b08850ce41",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"room_type_id_2673040\"]/span[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "predicted_selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "tagName": "div",
+        "className": "b08850ce41",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"room_type_id_2673041\"]/span[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "predicted_selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "tagName": "div",
+        "className": "b08850ce41",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"room_type_id_2673044\"]/span[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "predicted_selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "tagName": "div",
+        "className": "b08850ce41",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"room_type_id_2673045\"]/span[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "predicted_selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "tagName": "div",
+        "className": "b08850ce41",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"room_type_id_2673048\"]/span[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "predicted_selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "tagName": "div",
+        "className": "b08850ce41",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"room_type_id_2673049\"]/span[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "predicted_selectors": [
+          "[data-testid='rt-name-link'] .b08850ce41"
+        ],
+        "tagName": "div",
+        "className": "b08850ce41",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[10]/div[1]/span[1]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82",
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "predicted_selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82"
+        ],
+        "tagName": "div",
+        "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[1]/div[1]/span[1]/div[1]/div[1]",
+        "preview": "Eiffel Tower",
+        "selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82",
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "predicted_selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82"
+        ],
+        "tagName": "div",
+        "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[2]/div[1]/span[1]/div[1]/div[1]",
+        "preview": "Rodin Museum",
+        "selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82",
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "predicted_selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82"
+        ],
+        "tagName": "div",
+        "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[3]/div[1]/span[1]/div[1]/div[1]",
+        "preview": "Arc de Triomphe",
+        "selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82",
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "predicted_selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82"
+        ],
+        "tagName": "div",
+        "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[4]/div[1]/span[1]/div[1]/div[1]",
+        "preview": "d'Orsay Museum",
+        "selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82",
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "predicted_selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82"
+        ],
+        "tagName": "div",
+        "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[5]/div[1]/span[1]/div[1]/div[1]",
+        "preview": "Mus\u00c3\u00a9e de l'Orangerie",
+        "selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82",
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "predicted_selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82"
+        ],
+        "tagName": "div",
+        "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[6]/div[1]/span[1]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82",
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "predicted_selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82"
+        ],
+        "tagName": "div",
+        "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[7]/div[1]/span[1]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82",
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "predicted_selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82"
+        ],
+        "tagName": "div",
+        "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[8]/div[1]/span[1]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82",
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "predicted_selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82"
+        ],
+        "tagName": "div",
+        "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[9]/div[1]/span[1]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82",
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "predicted_selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82"
+        ],
+        "tagName": "div",
+        "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[2]/ul[1]/li[1]/div[1]/span[1]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82",
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "predicted_selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82"
+        ],
+        "tagName": "div",
+        "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[2]/ul[1]/li[2]/div[1]/span[1]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82",
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "predicted_selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82"
+        ],
+        "tagName": "div",
+        "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[2]/ul[1]/li[3]/div[1]/span[1]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82",
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "predicted_selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82"
+        ],
+        "tagName": "div",
+        "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[3]/ul[1]/li[1]/div[1]/span[1]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82",
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "predicted_selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82"
+        ],
+        "tagName": "div",
+        "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[4]/ul[1]/li[1]/div[1]/span[1]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82",
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "predicted_selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82"
+        ],
+        "tagName": "div",
+        "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[4]/ul[1]/li[2]/div[1]/span[1]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82",
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "predicted_selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82"
+        ],
+        "tagName": "div",
+        "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[4]/ul[1]/li[3]/div[1]/span[1]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82",
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "predicted_selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82"
+        ],
+        "tagName": "div",
+        "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[4]/ul[1]/li[4]/div[1]/span[1]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82",
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "predicted_selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82"
+        ],
+        "tagName": "div",
+        "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[5]/ul[1]/li[1]/div[1]/span[1]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82",
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "predicted_selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82"
+        ],
+        "tagName": "div",
+        "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[5]/ul[1]/li[2]/div[1]/span[1]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82",
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "predicted_selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82"
+        ],
+        "tagName": "div",
+        "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[5]/ul[1]/li[3]/div[1]/span[1]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82",
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='poi-block-list'] .d1bc97eb82"
+        ],
+        "predicted_selectors": [
+          "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82"
+        ],
+        "tagName": "div",
+        "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+        "id": ""
+      }
+    ],
+    "fp": [
+      {
+        "xpath": "//*[@id=\":r5m:\"]/div[1]/div[1]/div[1]",
+        "preview": "FRAME",
+        "selectors": [
+          "[data-testid='restaurant-card'] [data-testid='restaurant-title']"
+        ],
+        "tagName": "div",
+        "className": "ecb8d66605",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[10]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='featuredreview-avatar'] .d838fb5f41"
+        ],
+        "tagName": "span",
+        "className": "d838fb5f41 aea5eccb71",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]",
+        "preview": "United States",
+        "selectors": [
+          "[data-testid='featuredreview-avatar'] .d838fb5f41"
+        ],
+        "tagName": "span",
+        "className": "d838fb5f41 aea5eccb71",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]",
+        "preview": "United States",
+        "selectors": [
+          "[data-testid='featuredreview-avatar'] .d838fb5f41"
+        ],
+        "tagName": "span",
+        "className": "d838fb5f41 aea5eccb71",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]",
+        "preview": "United States",
+        "selectors": [
+          "[data-testid='featuredreview-avatar'] .d838fb5f41"
+        ],
+        "tagName": "span",
+        "className": "d838fb5f41 aea5eccb71",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]",
+        "preview": "United Arab Emirates",
+        "selectors": [
+          "[data-testid='featuredreview-avatar'] .d838fb5f41"
+        ],
+        "tagName": "span",
+        "className": "d838fb5f41 aea5eccb71",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]",
+        "preview": "United Arab Emirates",
+        "selectors": [
+          "[data-testid='featuredreview-avatar'] .d838fb5f41"
+        ],
+        "tagName": "span",
+        "className": "d838fb5f41 aea5eccb71",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[6]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='featuredreview-avatar'] .d838fb5f41"
+        ],
+        "tagName": "span",
+        "className": "d838fb5f41 aea5eccb71",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='featuredreview-avatar'] .d838fb5f41"
+        ],
+        "tagName": "span",
+        "className": "d838fb5f41 aea5eccb71",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='featuredreview-avatar'] .d838fb5f41"
+        ],
+        "tagName": "span",
+        "className": "d838fb5f41 aea5eccb71",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\":r8l:\"]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='featuredreview-avatar'] .d838fb5f41"
+        ],
+        "tagName": "span",
+        "className": "d838fb5f41 aea5eccb71",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/h3[1]/div[1]",
+        "preview": "Top attractions",
+        "selectors": [
+          "[data-testid='property-section--content'] .caad4610a8 h3 .e7addce19e"
+        ],
+        "tagName": "div",
+        "className": "e7addce19e f546354b44 cc045b173b",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[2]/div[1]/h3[1]/div[1]",
+        "preview": "Restaurants & cafes",
+        "selectors": [
+          "[data-testid='property-section--content'] .caad4610a8 h3 .e7addce19e"
+        ],
+        "tagName": "div",
+        "className": "e7addce19e f546354b44 cc045b173b",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[3]/div[1]/h3[1]/div[1]",
+        "preview": "Natural Beauty",
+        "selectors": [
+          "[data-testid='property-section--content'] .caad4610a8 h3 .e7addce19e"
+        ],
+        "tagName": "div",
+        "className": "e7addce19e f546354b44 cc045b173b",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[4]/div[1]/h3[1]/div[1]",
+        "preview": "Public transit",
+        "selectors": [
+          "[data-testid='property-section--content'] .caad4610a8 h3 .e7addce19e"
+        ],
+        "tagName": "div",
+        "className": "e7addce19e f546354b44 cc045b173b",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[5]/div[1]/h3[1]/div[1]",
+        "preview": "Closest Airports",
+        "selectors": [
+          "[data-testid='property-section--content'] .caad4610a8 h3 .e7addce19e"
+        ],
+        "tagName": "div",
+        "className": "e7addce19e f546354b44 cc045b173b",
+        "id": ""
+      }
+    ],
+    "fn": [
+      {
+        "xpath": "//*[@id=\":r4f:\"]/div[1]/div[1]/div[1]/div[1]/div[1]",
+        "preview": "Green Globe Certification",
+        "selectors": [
+          "div[aria-label='Certification name']"
+        ],
+        "tagName": "div",
+        "className": "b08850ce41",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"hp_hotel_name\"]/div[1]/h2[1]",
+        "preview": "Pullman Paris Tour Eiffel",
+        "selectors": [
+          "h2.pp-header__title"
+        ],
+        "tagName": "h2",
+        "className": "ddb12f4f86 pp-header__title",
+        "id": ""
+      }
+    ]
+  },
+  "element_groups": {
+    "fp_by_signature": {
+      "div.ecb8d66605": 1,
+      "div.cc045b173b.e7addce19e.f546354b44": 5
+    },
+    "fn_by_signature": {
+      "h2.ddb12f4f86.pp-header__title": 1
+    },
+    "fp_grouped_details": {
+      "div.ecb8d66605": [
+        {
+          "xpath": "//*[@id=\":r5m:\"]/div[1]/div[1]/div[1]",
+          "preview": "FRAME"
+        }
+      ],
+      "div.cc045b173b.e7addce19e.f546354b44": [
+        {
+          "xpath": "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/h3[1]/div[1]",
+          "preview": "Top attractions"
+        },
+        {
+          "xpath": "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[2]/div[1]/h3[1]/div[1]",
+          "preview": "Restaurants & cafes"
+        },
+        {
+          "xpath": "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[3]/div[1]/h3[1]/div[1]",
+          "preview": "Natural Beauty"
+        }
+      ]
+    },
+    "fn_grouped_details": {
+      "h2.ddb12f4f86.pp-header__title": [
+        {
+          "xpath": "//*[@id=\"hp_hotel_name\"]/div[1]/h2[1]",
+          "preview": "Pullman Paris Tour Eiffel"
+        }
+      ]
+    }
+  },
+  "selector_breakdown": {
+    "ground_truth": {
+      "total_selectors": 25,
+      "selectors_with_matches": 16,
+      "selector_to_ids": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [
+          "//*[@id=\"hp_hotel_name\"]/div[1]/h2[1]"
+        ],
+        "5": [
+          "//*[@id=\"basiclayout\"]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]"
+        ],
+        "6": [
+          "//*[@id=\":r8l:\"]/div[6]/div[1]/div[1]/div[2]",
+          "//*[@id=\":r8l:\"]/div[2]/div[1]/div[1]/div[2]",
+          "//*[@id=\":r8l:\"]/div[4]/div[1]/div[1]/div[2]",
+          "//*[@id=\":r8l:\"]/div[5]/div[1]/div[1]/div[2]",
+          "//*[@id=\":r8l:\"]/div[9]/div[1]/div[1]/div[2]",
+          "//*[@id=\":r8l:\"]/div[3]/div[1]/div[1]/div[2]",
+          "//*[@id=\":r8l:\"]/div[7]/div[1]/div[1]/div[2]",
+          "//*[@id=\":r8l:\"]/div[1]/div[1]/div[1]/div[2]",
+          "//*[@id=\":r8l:\"]/div[10]/div[1]/div[1]/div[2]",
+          "//*[@id=\":r8l:\"]/div[8]/div[1]/div[1]/div[2]"
+        ],
+        "7": [
+          "//*[@id=\"room_type_id_2673040\"]/span[1]/div[1]",
+          "//*[@id=\"room_type_id_2673025\"]/span[1]/div[1]",
+          "//*[@id=\"room_type_id_2673015\"]/span[1]/div[1]",
+          "//*[@id=\"room_type_id_2673041\"]/span[1]/div[1]",
+          "//*[@id=\"room_type_id_2673044\"]/span[1]/div[1]",
+          "//*[@id=\"room_type_id_2673048\"]/span[1]/div[1]",
+          "//*[@id=\"room_type_id_2673045\"]/span[1]/div[1]",
+          "//*[@id=\"room_type_id_2673026\"]/span[1]/div[1]",
+          "//*[@id=\"room_type_id_2673035\"]/span[1]/div[1]",
+          "//*[@id=\"room_type_id_2673028\"]/span[1]/div[1]",
+          "//*[@id=\"room_type_id_2673049\"]/span[1]/div[1]",
+          "//*[@id=\"room_type_id_2673039\"]/span[1]/div[1]",
+          "//*[@id=\"room_type_id_2673027\"]/span[1]/div[1]",
+          "//*[@id=\"room_type_id_2673034\"]/span[1]/div[1]"
+        ],
+        "8": [
+          "//*[@id=\":r8l:\"]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+          "//*[@id=\":r8l:\"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+          "//*[@id=\":r8l:\"]/div[10]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+          "//*[@id=\":r8l:\"]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+          "//*[@id=\":r8l:\"]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+          "//*[@id=\":r8l:\"]/div[6]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+          "//*[@id=\":r8l:\"]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+          "//*[@id=\":r8l:\"]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+          "//*[@id=\":r8l:\"]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+          "//*[@id=\":r8l:\"]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]"
+        ],
+        "9": [
+          "//*[@id=\"basiclayout\"]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        ],
+        "10": [
+          "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]/button[1]/div[1]/div[2]",
+          "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[8]/button[1]/div[1]/div[2]",
+          "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[6]/button[1]/div[1]/div[2]",
+          "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[3]/button[1]/div[1]/div[2]",
+          "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[9]/button[1]/div[1]/div[2]",
+          "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[5]/button[1]/div[1]/div[2]",
+          "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[4]/button[1]/div[1]/div[2]",
+          "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[7]/button[1]/div[1]/div[2]",
+          "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]/button[1]/div[1]/div[2]",
+          "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[10]/button[1]/div[1]/div[2]"
+        ],
+        "11": [
+          "//*[@id=\":rba:\"]/span[1]/h3[1]",
+          "//*[@id=\":rbi:\"]/span[1]/h3[1]",
+          "//*[@id=\":rbg:\"]/span[1]/h3[1]",
+          "//*[@id=\":rb8:\"]/span[1]/h3[1]",
+          "//*[@id=\":rbk:\"]/span[1]/h3[1]",
+          "//*[@id=\":rbe:\"]/span[1]/h3[1]",
+          "//*[@id=\":rbc:\"]/span[1]/h3[1]"
+        ],
+        "12": [
+          "//*[@id=\"content-2\"]/div[1]",
+          "//*[@id=\"content-1\"]/div[1]",
+          "//*[@id=\"content-3\"]/div[1]",
+          "//*[@id=\"content-4\"]/div[1]"
+        ],
+        "13": [
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[4]/ul[1]/li[1]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[1]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[2]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[4]/ul[1]/li[4]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[4]/ul[1]/li[2]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[5]/ul[1]/li[2]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[3]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[8]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[10]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[2]/ul[1]/li[2]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[7]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[5]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[6]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[3]/ul[1]/li[1]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[2]/ul[1]/li[3]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[4]/ul[1]/li[3]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[2]/ul[1]/li[1]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[5]/ul[1]/li[1]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[5]/ul[1]/li[3]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[9]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[4]/div[1]/span[1]/div[1]/div[1]"
+        ],
+        "14": [
+          "//*[@id=\":r4f:\"]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        ],
+        "15": [
+          "//*[@id=\":r7f:\"]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]",
+          "//*[@id=\":r7f:\"]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]",
+          "//*[@id=\":r7f:\"]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]",
+          "//*[@id=\":r7f:\"]/div[8]/div[1]/div[1]/div[1]/div[1]/div[1]",
+          "//*[@id=\":r7f:\"]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]",
+          "//*[@id=\":r7f:\"]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]",
+          "//*[@id=\":r7f:\"]/div[10]/div[1]/div[1]/div[1]/div[1]/div[1]",
+          "//*[@id=\":r7f:\"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+          "//*[@id=\":r7f:\"]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+          "//*[@id=\":r7f:\"]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        ],
+        "16": [
+          "//*[@id=\":r7f:\"]/div[4]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+          "//*[@id=\":r7f:\"]/div[9]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+          "//*[@id=\":r7f:\"]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+          "//*[@id=\":r7f:\"]/div[3]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+          "//*[@id=\":r7f:\"]/div[5]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+          "//*[@id=\":r7f:\"]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+          "//*[@id=\":r7f:\"]/div[6]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+          "//*[@id=\":r7f:\"]/div[8]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+          "//*[@id=\":r7f:\"]/div[10]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+          "//*[@id=\":r7f:\"]/div[7]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]"
+        ],
+        "17": [
+          "//*[@id=\":r7f:\"]/div[4]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+          "//*[@id=\":r7f:\"]/div[9]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+          "//*[@id=\":r7f:\"]/div[8]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+          "//*[@id=\":r7f:\"]/div[3]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+          "//*[@id=\":r7f:\"]/div[6]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+          "//*[@id=\":r7f:\"]/div[10]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+          "//*[@id=\":r7f:\"]/div[5]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+          "//*[@id=\":r7f:\"]/div[7]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+          "//*[@id=\":r7f:\"]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+          "//*[@id=\":r7f:\"]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]"
+        ],
+        "18": [
+          "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[2]/div[1]/button[1]/picture[1]/img[1]",
+          "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[2]/div[2]/button[1]/picture[1]/img[1]",
+          "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[2]/div[3]/button[1]/picture[1]/img[1]",
+          "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/picture[1]/img[1]",
+          "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/button[1]/picture[1]/img[1]",
+          "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[2]/div[5]/button[1]/picture[1]/img[1]",
+          "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/button[1]/picture[1]/img[1]",
+          "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[2]/div[4]/button[1]/picture[1]/img[1]"
+        ],
+        "19": [
+          "//*[@id=\"basiclayout\"]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/picture[1]/img[1]"
+        ],
+        "20": [],
+        "21": [],
+        "22": [],
+        "23": [],
+        "24": [],
+        "25": []
+      }
+    },
+    "predicted": {
+      "total_selectors": 29,
+      "selectors_with_matches": 19,
+      "selector_to_ids": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [
+          "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[2]/div[1]/button[1]/picture[1]/img[1]",
+          "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[2]/div[2]/button[1]/picture[1]/img[1]",
+          "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[2]/div[3]/button[1]/picture[1]/img[1]",
+          "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/picture[1]/img[1]",
+          "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/button[1]/picture[1]/img[1]",
+          "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[2]/div[5]/button[1]/picture[1]/img[1]",
+          "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/button[1]/picture[1]/img[1]",
+          "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[2]/div[4]/button[1]/picture[1]/img[1]"
+        ],
+        "9": [
+          "//*[@id=\"basiclayout\"]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]"
+        ],
+        "10": [
+          "//*[@id=\":r7f:\"]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]",
+          "//*[@id=\":r7f:\"]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]",
+          "//*[@id=\":r7f:\"]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]",
+          "//*[@id=\":r7f:\"]/div[8]/div[1]/div[1]/div[1]/div[1]/div[1]",
+          "//*[@id=\":r7f:\"]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]",
+          "//*[@id=\":r7f:\"]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]",
+          "//*[@id=\":r7f:\"]/div[10]/div[1]/div[1]/div[1]/div[1]/div[1]",
+          "//*[@id=\":r7f:\"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+          "//*[@id=\":r7f:\"]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+          "//*[@id=\":r7f:\"]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        ],
+        "11": [
+          "//*[@id=\":r7f:\"]/div[4]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+          "//*[@id=\":r7f:\"]/div[9]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+          "//*[@id=\":r7f:\"]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+          "//*[@id=\":r7f:\"]/div[3]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+          "//*[@id=\":r7f:\"]/div[5]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+          "//*[@id=\":r7f:\"]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+          "//*[@id=\":r7f:\"]/div[6]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+          "//*[@id=\":r7f:\"]/div[8]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+          "//*[@id=\":r7f:\"]/div[10]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+          "//*[@id=\":r7f:\"]/div[7]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]"
+        ],
+        "12": [
+          "//*[@id=\":r8l:\"]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]",
+          "//*[@id=\":r8l:\"]/div[9]/div[1]/div[1]/div[2]/div[1]/div[1]",
+          "//*[@id=\":r8l:\"]/div[7]/div[1]/div[1]/div[2]/div[1]/div[1]",
+          "//*[@id=\":r8l:\"]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]",
+          "//*[@id=\":r8l:\"]/div[4]/div[1]/div[1]/div[2]/div[1]/div[1]",
+          "//*[@id=\":r8l:\"]/div[10]/div[1]/div[1]/div[2]/div[1]/div[1]",
+          "//*[@id=\":r8l:\"]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+          "//*[@id=\":r8l:\"]/div[8]/div[1]/div[1]/div[2]/div[1]/div[1]",
+          "//*[@id=\":r8l:\"]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]",
+          "//*[@id=\":r8l:\"]/div[6]/div[1]/div[1]/div[2]/div[1]/div[1]"
+        ],
+        "13": [
+          "//*[@id=\":r8l:\"]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+          "//*[@id=\":r8l:\"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+          "//*[@id=\":r8l:\"]/div[10]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+          "//*[@id=\":r8l:\"]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+          "//*[@id=\":r8l:\"]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+          "//*[@id=\":r8l:\"]/div[6]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+          "//*[@id=\":r8l:\"]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+          "//*[@id=\":r8l:\"]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+          "//*[@id=\":r8l:\"]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+          "//*[@id=\":r8l:\"]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]"
+        ],
+        "14": [
+          "//*[@id=\"room_type_id_2673040\"]/span[1]/div[1]",
+          "//*[@id=\"room_type_id_2673025\"]/span[1]/div[1]",
+          "//*[@id=\"room_type_id_2673015\"]/span[1]/div[1]",
+          "//*[@id=\"room_type_id_2673041\"]/span[1]/div[1]",
+          "//*[@id=\"room_type_id_2673044\"]/span[1]/div[1]",
+          "//*[@id=\"room_type_id_2673048\"]/span[1]/div[1]",
+          "//*[@id=\"room_type_id_2673045\"]/span[1]/div[1]",
+          "//*[@id=\"room_type_id_2673026\"]/span[1]/div[1]",
+          "//*[@id=\"room_type_id_2673035\"]/span[1]/div[1]",
+          "//*[@id=\"room_type_id_2673028\"]/span[1]/div[1]",
+          "//*[@id=\"room_type_id_2673049\"]/span[1]/div[1]",
+          "//*[@id=\"room_type_id_2673039\"]/span[1]/div[1]",
+          "//*[@id=\"room_type_id_2673027\"]/span[1]/div[1]",
+          "//*[@id=\"room_type_id_2673034\"]/span[1]/div[1]"
+        ],
+        "15": [
+          "//*[@id=\"basiclayout\"]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        ],
+        "16": [
+          "//*[@id=\"basiclayout\"]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/picture[1]/img[1]"
+        ],
+        "17": [
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[4]/ul[1]/li[1]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[1]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[2]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[4]/ul[1]/li[4]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[4]/ul[1]/li[2]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[5]/ul[1]/li[2]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[3]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[8]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[10]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[2]/ul[1]/li[2]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[7]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[5]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[6]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[3]/ul[1]/li[1]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[2]/ul[1]/li[3]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[4]/ul[1]/li[3]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[2]/ul[1]/li[1]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[5]/ul[1]/li[1]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[5]/ul[1]/li[3]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[9]/div[1]/span[1]/div[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[4]/div[1]/span[1]/div[1]/div[1]"
+        ],
+        "18": [
+          "//*[@id=\":r5m:\"]/div[1]/div[1]/div[1]"
+        ],
+        "19": [
+          "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]/button[1]/div[1]/div[2]",
+          "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[8]/button[1]/div[1]/div[2]",
+          "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[6]/button[1]/div[1]/div[2]",
+          "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[3]/button[1]/div[1]/div[2]",
+          "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[9]/button[1]/div[1]/div[2]",
+          "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[5]/button[1]/div[1]/div[2]",
+          "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[4]/button[1]/div[1]/div[2]",
+          "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[7]/button[1]/div[1]/div[2]",
+          "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]/button[1]/div[1]/div[2]",
+          "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[10]/button[1]/div[1]/div[2]"
+        ],
+        "20": [
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/h3[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[3]/div[1]/h3[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[5]/div[1]/h3[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[2]/div[1]/h3[1]/div[1]",
+          "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[4]/div[1]/h3[1]/div[1]"
+        ],
+        "21": [
+          "//*[@id=\":rb8:\"]/span[1]/h3[1]",
+          "//*[@id=\":rba:\"]/span[1]/h3[1]",
+          "//*[@id=\":rbc:\"]/span[1]/h3[1]",
+          "//*[@id=\":rbe:\"]/span[1]/h3[1]"
+        ],
+        "22": [
+          "//*[@id=\":rbi:\"]/span[1]/h3[1]",
+          "//*[@id=\":rbg:\"]/span[1]/h3[1]",
+          "//*[@id=\":rbk:\"]/span[1]/h3[1]"
+        ],
+        "23": [
+          "//*[@id=\":r8l:\"]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]",
+          "//*[@id=\":r8l:\"]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]",
+          "//*[@id=\":r8l:\"]/div[6]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]",
+          "//*[@id=\":r8l:\"]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]",
+          "//*[@id=\":r8l:\"]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]",
+          "//*[@id=\":r8l:\"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]",
+          "//*[@id=\":r8l:\"]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]",
+          "//*[@id=\":r8l:\"]/div[10]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]",
+          "//*[@id=\":r8l:\"]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]",
+          "//*[@id=\":r8l:\"]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]"
+        ],
+        "24": [
+          "//*[@id=\":r7f:\"]/div[4]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+          "//*[@id=\":r7f:\"]/div[9]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+          "//*[@id=\":r7f:\"]/div[8]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+          "//*[@id=\":r7f:\"]/div[3]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+          "//*[@id=\":r7f:\"]/div[6]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+          "//*[@id=\":r7f:\"]/div[10]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+          "//*[@id=\":r7f:\"]/div[5]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+          "//*[@id=\":r7f:\"]/div[7]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+          "//*[@id=\":r7f:\"]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+          "//*[@id=\":r7f:\"]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]"
+        ],
+        "25": [
+          "//*[@id=\"content-2\"]/div[1]",
+          "//*[@id=\"content-1\"]/div[1]",
+          "//*[@id=\"content-3\"]/div[1]",
+          "//*[@id=\"content-4\"]/div[1]"
+        ],
+        "26": [
+          "//*[@id=\"content-2\"]/div[1]",
+          "//*[@id=\"content-1\"]/div[1]",
+          "//*[@id=\"content-3\"]/div[1]"
+        ],
+        "27": [],
+        "28": [],
+        "29": []
+      }
+    }
+  }
+}

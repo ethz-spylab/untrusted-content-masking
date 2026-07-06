@@ -1,0 +1,394 @@
+/* =====================================================================
+   CALENDAR SPECIFIC STYLES
+   ===================================================================== */
+
+/* =====================================================================
+   PROMOTIONAL BANNER
+   ===================================================================== */
+   .promo-banner-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.promo-banner {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 1rem 1.5rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.promo-content {
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.promo-content strong {
+    font-weight: 600;
+}
+
+/* =====================================================================
+   CALENDAR LAYOUT - Week View Grid
+   ===================================================================== */
+.calendar-view {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.calendar-header {
+    display: grid;
+    grid-template-columns: 80px repeat(5, 1fr);
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.day-header {
+    padding: 1rem;
+    text-align: center;
+    font-weight: 600;
+    color: #5f6368;
+    border-right: 1px solid #e0e0e0;
+}
+
+.day-header:last-child {
+    border-right: none;
+}
+
+.calendar-body {
+    display: grid;
+    grid-template-columns: 80px repeat(5, 1fr);
+    position: relative;
+}
+
+/* =====================================================================
+   TIME COLUMN - Left sidebar with hours
+   ===================================================================== */
+.time-column {
+    background-color: #f8f9fa;
+    border-right: 2px solid #e0e0e0;
+}
+
+.time-slot {
+    height: 80px;
+    padding: 0.5rem;
+    font-size: 0.85rem;
+    color: #5f6368;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    align-items: flex-start;
+}
+
+/* =====================================================================
+   DAY COLUMNS - Containers for events
+   ===================================================================== */
+.days-column {
+    display: contents;
+}
+
+.day-column {
+    border-right: 1px solid #e0e0e0;
+    position: relative;
+    min-height: 720px; /* 9 hours × 80px */
+}
+
+.day-column:last-child {
+    border-right: none;
+}
+
+/* =====================================================================
+   EVENTS - Calendar event cards
+   ===================================================================== */
+.event {
+    position: absolute;
+    left: 4px;
+    right: 4px;
+    background-color: #e8f0fe;
+    border-left: 3px solid #1a73e8;
+    border-radius: 4px;
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+/* Event positioning based on time */
+.event[data-time="9:00"] { top: 0px; }
+.event[data-time="10:00"] { top: 80px; }
+.event[data-time="11:00"] { top: 160px; }
+.event[data-time="12:00"] { top: 240px; }
+.event[data-time="1:00"] { top: 320px; }
+.event[data-time="2:00"] { top: 400px; }
+.event[data-time="3:00"] { top: 480px; }
+.event[data-time="4:00"] { top: 560px; }
+.event[data-time="5:00"] { top: 640px; }
+
+.event-title {
+    font-weight: 600;
+    color: #1a73e8;
+    margin-bottom: 0.25rem;
+    font-size: 0.95rem;
+    word-wrap: break-word;
+}
+
+.event-time {
+    font-size: 0.8rem;
+    color: #5f6368;
+    margin-bottom: 0.5rem;
+}
+
+.event-description {
+    font-size: 0.85rem;
+    color: #5f6368;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
+
+.event-attendees {
+    font-size: 0.8rem;
+    color: #5f6368;
+    margin-bottom: 0.5rem;
+    font-style: italic;
+}
+
+.event-location {
+    font-size: 0.8rem;
+    color: #5f6368;
+    margin-bottom: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    word-wrap: break-word;
+}
+
+.event-location p {
+    margin: 0;
+}
+
+.event-actions {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+/* =====================================================================
+   EVENT ACTION BUTTONS
+   ===================================================================== */
+.start-call-btn {
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    /* Uses .btn .btn-success from common.css for base styling */
+}
+
+.cancel-btn {
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    /* Uses .btn .btn-danger from common.css for base styling */
+}
+
+.cancel-btn:disabled,
+.start-call-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+/* =====================================================================
+   HEADER CUSTOMIZATION
+   ===================================================================== */
+.header {
+    background-color: #1a73e8;
+}
+
+/* =====================================================================
+   NAVIGATION CUSTOMIZATION
+   ===================================================================== */
+nav {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+nav button {
+    padding: 0.5rem 1rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+nav button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#current-week {
+    font-weight: 500;
+    margin-left: 1rem;
+    color: white;
+}
+
+/* =====================================================================
+   MODAL CUSTOMIZATION
+   ===================================================================== */
+.modal-content h2 {
+    color: #1a73e8; /* Calendar theme color */
+}
+
+.modal-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+/* Form elements in modals */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+    font-size: 0.9rem;
+}
+
+.form-input,
+.form-select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    font-family: inherit;
+}
+
+.form-input:focus,
+.form-select:focus {
+    outline: none;
+    border-color: #1a73e8;
+    box-shadow: 0 0 0 3px rgba(26, 115, 232, 0.1);
+}
+
+textarea.form-input {
+    resize: vertical;
+    min-height: 80px;
+}
+
+/* =====================================================================
+   VIDEO CALL OVERLAY
+   ===================================================================== */
+
+.video-call-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background: #1a1a2e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+    color: #fff;
+    font-family: inherit;
+}
+
+.video-call-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.video-call-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.video-call-timer {
+    font-size: 1rem;
+    font-variant-numeric: tabular-nums;
+    background: rgba(255,255,255,0.12);
+    padding: 0.35rem 0.9rem;
+    border-radius: 20px;
+}
+
+.video-call-participants {
+    flex: 1;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-call-participant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.participant-avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 16px;
+    background: #16213e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #a8b2d1;
+    border: 2px solid #0f3460;
+}
+
+.video-call-participant.self .participant-avatar {
+    background: #0f3460;
+    color: #e0e0ff;
+    border-color: #1a73e8;
+}
+
+.participant-label {
+    font-size: 0.95rem;
+    color: #a8b2d1;
+}
+
+.video-call-controls {
+    display: flex;
+    gap: 1rem;
+    padding-top: 1.5rem;
+}
+
+.vc-btn {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 30px;
+    background: rgba(255,255,255,0.12);
+    color: #fff;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.vc-btn:hover {
+    background: rgba(255,255,255,0.22);
+}
+
+.vc-btn-end {
+    background: #e74c3c;
+}
+
+.vc-btn-end:hover {
+    background: #c0392b;
+}

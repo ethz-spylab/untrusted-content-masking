@@ -1,0 +1,449 @@
+/* =====================================================================
+   WEBMAIL SPECIFIC STYLES
+   ===================================================================== */
+
+/* =====================================================================
+   PROMOTIONAL BANNER
+   ===================================================================== */
+
+   .promo-banner-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.promo-banner {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    color: white;
+    padding: 1rem 1.5rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.promo-content {
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.promo-content strong {
+    font-weight: 600;
+}
+
+/* =====================================================================
+   LAYOUT - Sidebar + Main Content + Detail View
+   ===================================================================== */
+
+   .webmail-container {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 0;
+    height: calc(100vh - 100px);
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* =====================================================================
+   SIDEBAR - Folder Navigation
+   ===================================================================== */
+
+.sidebar {
+    background: white;
+    border-right: 2px solid #e0e0e0;
+    padding: 1.5rem;
+    overflow-y: auto;
+}
+
+.sidebar h3 {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+    font-size: 1rem;
+}
+
+.folder-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.folder-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    background: transparent;
+    border: none;
+    border-radius: 4px;
+    text-align: left;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: background-color 0.2s;
+}
+
+.folder-btn:hover {
+    background-color: #f8f9fa;
+}
+
+.folder-btn.active {
+    background-color: #e8f0fe;
+    color: #1a73e8;
+    font-weight: 600;
+}
+
+.folder-count {
+    background-color: #e0e0e0;
+    padding: 0.2rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.folder-btn.active .folder-count {
+    background-color: #1a73e8;
+    color: white;
+}
+
+/* =====================================================================
+   MAIN CONTENT - Email List
+   ===================================================================== */
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    overflow: hidden;
+}
+
+.toolbar {
+    padding: 1rem;
+    border-bottom: 2px solid #e0e0e0;
+    background-color: #f8f9fa;
+}
+
+.search-section {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.search-section .form-input {
+    flex: 1;
+}
+
+.filters {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+}
+
+.filter-btn:hover {
+    background-color: #f8f9fa;
+}
+
+.filter-btn.active {
+    background-color: #1a73e8;
+    color: white;
+    border-color: #1a73e8;
+}
+
+/* =====================================================================
+   EMAIL LIST - Individual Email Items
+   ===================================================================== */
+
+.email-list {
+    flex: 1;
+    overflow-y: auto;
+    padding: 0;
+}
+
+.email-item {
+    padding: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+    transition: background-color 0.2s;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 1rem;
+    align-items: start;
+}
+
+.email-item:hover {
+    background-color: #f8f9fa;
+}
+
+.email-item.unread {
+    background-color: #f0f7ff;
+    border-left: 4px solid #1a73e8;
+}
+
+.email-item.flagged {
+    border-left: 4px solid #ea4335;
+}
+
+.email-item > div:first-child {
+    /* This is automatically created by grid, but we target it for clarity */
+}
+
+.email-sender {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.email-sender strong {
+    color: #2c3e50;
+    font-size: 0.95rem;
+}
+
+.email-domain {
+    color: #7f8c8d;
+    font-size: 0.85rem;
+}
+
+.email-subject-preview {
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 0.25rem;
+    font-size: 0.95rem;
+}
+
+.email-preview {
+    color: #7f8c8d;
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+}
+
+.email-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.85rem;
+    color: #7f8c8d;
+}
+
+.email-date {
+    font-size: 0.85rem;
+}
+
+.attachment-icon,
+.star-icon,
+.flag-icon,
+.thread-icon {
+    font-size: 1rem;
+}
+
+.email-actions-list {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 0.25rem;
+}
+
+.open-email-btn {
+    white-space: nowrap;
+    min-width: 80px;
+}
+
+/* =====================================================================
+   EMAIL DETAIL VIEW
+   ===================================================================== */
+
+.email-detail {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    height: 100%;
+    /* Make detail view span both grid columns (full width) */
+    grid-column: 1 / -1;
+}
+
+.email-detail-header {
+    padding: 1rem;
+    border-bottom: 2px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+
+.email-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.email-detail-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 2rem;
+}
+
+.email-header h2 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+}
+
+.email-header h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.email-date-full {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+
+.email-body {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+}
+
+.email-body pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: inherit;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* =====================================================================
+   ATTACHMENTS
+   ===================================================================== */
+
+.email-attachments {
+    margin-bottom: 1.5rem;
+}
+
+.email-attachments h4 {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.attachment-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+}
+
+.attachment-name {
+    flex: 1;
+    font-weight: 500;
+}
+
+.attachment-size {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+}
+
+/* =====================================================================
+   EMAIL THREADS
+   ===================================================================== */
+
+.email-thread {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 2px solid #e0e0e0;
+}
+
+.email-thread h4 {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.thread-message {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    border-left: 3px solid #1a73e8;
+}
+
+.thread-header {
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+}
+
+.thread-header strong {
+    font-weight: 600;
+}
+
+.thread-body {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* =====================================================================
+   MODAL CUSTOMIZATIONS
+   ===================================================================== */
+
+.modal-content {
+    max-width: 600px;
+}
+
+.modal-content h2 {
+    color: #1a73e8;
+}
+
+/* =====================================================================
+   BADGES & COUNTS
+   ===================================================================== */
+
+#unread-count {
+    margin-left: 1rem;
+}
+
+/* =====================================================================
+   RESPONSIVE LAYOUT
+   ===================================================================== */
+
+@media (max-width: 1024px) {
+    .webmail-container {
+        grid-template-columns: 200px 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .webmail-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .sidebar {
+        border-right: none;
+        border-bottom: 2px solid #e0e0e0;
+        max-height: 200px;
+    }
+    
+    .folder-list {
+        flex-direction: row;
+        overflow-x: auto;
+    }
+    
+    /* Stack email item content on mobile */
+    .email-item {
+        grid-template-columns: 1fr;
+    }
+    
+    .email-actions-list {
+        justify-content: flex-end;
+    }
+}

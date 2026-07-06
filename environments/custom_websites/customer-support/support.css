@@ -1,0 +1,643 @@
+/* =====================================================================
+   SUPPORT TICKETING PORTAL SPECIFIC STYLES
+   ===================================================================== */
+
+/* =====================================================================
+   PROMOTIONAL BANNER
+   ===================================================================== */
+
+   .promo-banner-container {
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.promo-banner {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 1rem 1.5rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.promo-content {
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.promo-content strong {
+    font-weight: 600;
+}
+
+/* =====================================================================
+   LAYOUT - Sidebar + Main Content
+   ===================================================================== */
+
+.support-container {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 0;
+    min-height: calc(100vh - 100px);
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #f8f9fa;
+}
+
+/* =====================================================================
+   SIDEBAR - Filters & Stats
+   ===================================================================== */
+
+.sidebar {
+    background: white;
+    border-right: 2px solid #e0e0e0;
+    padding: 1.5rem;
+    overflow-y: auto;
+}
+
+.sidebar h3 {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+    font-size: 1rem;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 0.5rem;
+}
+
+/* Stats Cards */
+.stats-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.stat-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.stat-card.stat-new {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.stat-card.stat-open {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+.stat-card.stat-pending {
+    background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    opacity: 0.9;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Filter Section */
+.filter-section {
+    margin-bottom: 1.5rem;
+}
+
+.filter-group {
+    margin-bottom: 1rem;
+}
+
+.filter-group .form-label {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.25rem;
+}
+
+/* Quick Actions */
+.quick-actions {
+    margin-top: 1.5rem;
+}
+
+.quick-actions button {
+    margin-bottom: 0.5rem;
+}
+
+/* =====================================================================
+   MAIN CONTENT - Tickets List
+   ===================================================================== */
+
+.main-content {
+    background: white;
+    padding: 1.5rem;
+    overflow-y: auto;
+}
+
+.tickets-list {
+    display: grid;
+    gap: 1rem;
+}
+
+.no-tickets {
+    text-align: center;
+    padding: 3rem;
+    color: #7f8c8d;
+    font-size: 1.1rem;
+}
+
+/* Ticket Cards */
+.ticket-card {
+    background: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.25rem;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.ticket-card:hover {
+    border-color: #667eea;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+}
+
+/* Status-based border colors */
+.ticket-card.status-new {
+    border-left: 5px solid #f5576c;
+}
+
+.ticket-card.status-open {
+    border-left: 5px solid #4facfe;
+}
+
+.ticket-card.status-in-progress {
+    border-left: 5px solid #667eea;
+}
+
+.ticket-card.status-pending {
+    border-left: 5px solid #fa709a;
+}
+
+.ticket-card.status-resolved {
+    border-left: 5px solid #28a745;
+}
+
+.ticket-card.status-closed {
+    border-left: 5px solid #6c757d;
+    opacity: 0.7;
+}
+
+.ticket-header {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.ticket-id {
+    font-weight: 700;
+    color: #667eea;
+    font-size: 0.95rem;
+}
+
+/* Status Badges */
+.status-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.status-badge.status-new {
+    background-color: #ffe5ea;
+    color: #f5576c;
+}
+
+.status-badge.status-open {
+    background-color: #e5f6ff;
+    color: #4facfe;
+}
+
+.status-badge.status-in-progress {
+    background-color: #ede7f6;
+    color: #667eea;
+}
+
+.status-badge.status-pending {
+    background-color: #fff3e0;
+    color: #fa709a;
+}
+
+.status-badge.status-resolved {
+    background-color: #d4edda;
+    color: #28a745;
+}
+
+.status-badge.status-closed {
+    background-color: #e2e3e5;
+    color: #6c757d;
+}
+
+/* Priority Badges */
+.priority-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.priority-badge.priority-critical {
+    background-color: #dc3545;
+    color: white;
+}
+
+.priority-badge.priority-high {
+    background-color: #fd7e14;
+    color: white;
+}
+
+.priority-badge.priority-medium {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.priority-badge.priority-low {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Ticket Subject */
+.ticket-subject {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.ticket-customer {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+}
+
+.ticket-meta {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.85rem;
+    color: #7f8c8d;
+    margin-bottom: 1rem;
+}
+
+.ticket-time,
+.ticket-assignee,
+.ticket-attachment {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.view-ticket-btn {
+    width: 100%;
+}
+
+/* =====================================================================
+   TICKET DETAIL VIEW
+   ===================================================================== */
+
+.ticket-detail {
+    background: white;
+}
+
+.ticket-detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.ticket-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.ticket-detail-content {
+    margin-bottom: 2rem;
+}
+
+.ticket-header-detail {
+    margin-bottom: 1.5rem;
+}
+
+.ticket-header-detail h2 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.ticket-id-large {
+    font-size: 1.5rem;
+    color: #667eea;
+    font-weight: 700;
+}
+
+/* Ticket Info Grid */
+.ticket-info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.info-item label {
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: #7f8c8d;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.info-item span {
+    color: #2c3e50;
+    font-size: 0.95rem;
+}
+
+/* Attachments */
+.attachments-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.attachment-tag {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    background-color: #e8f0fe;
+    border: 1px solid #4facfe;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    color: #2c3e50;
+}
+
+/* Description */
+.ticket-description {
+    margin-bottom: 2rem;
+}
+
+.ticket-description h3 {
+    margin-bottom: 0.75rem;
+    color: #2c3e50;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 0.5rem;
+}
+
+.description-text {
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    border-left: 4px solid #667eea;
+    line-height: 1.6;
+}
+
+/* Conversation History */
+.ticket-conversation {
+    margin-bottom: 2rem;
+}
+
+.ticket-conversation h3 {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 0.5rem;
+}
+
+.reply-item {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid #e0e0e0;
+}
+
+.reply-item.reply-customer {
+    background-color: #e8f4fd;
+    border-left-color: #4facfe;
+}
+
+.reply-item.reply-agent {
+    background-color: #f0f4ff;
+    border-left-color: #667eea;
+}
+
+.reply-item.reply-internal {
+    background-color: #fff3e0;
+    border-left-color: #ffc107;
+}
+
+.reply-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    font-size: 0.85rem;
+    color: #7f8c8d;
+}
+
+.reply-header strong {
+    color: #2c3e50;
+}
+
+.reply-text {
+    line-height: 1.6;
+    color: #2c3e50;
+}
+
+/* =====================================================================
+   REPLY SECTION
+   ===================================================================== */
+
+.reply-section {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+.reply-tabs {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.reply-tab {
+    padding: 0.75rem 1.5rem;
+    background-color: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 4px 4px 0 0;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.reply-tab:hover {
+    border-color: #667eea;
+}
+
+.reply-tab.active {
+    background-color: #667eea;
+    color: white;
+    border-color: #667eea;
+}
+
+.reply-content {
+    background: white;
+    padding: 1rem;
+    border-radius: 0 4px 4px 4px;
+}
+
+.reply-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.template-selector {
+    flex: 1;
+}
+
+/* =====================================================================
+   HEADER CUSTOMIZATION
+   ===================================================================== */
+
+.header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.agent-info {
+    color: white;
+    margin-right: 1rem;
+}
+
+/* =====================================================================
+   MODALS - Support-Specific
+   ===================================================================== */
+
+.modal-content h2 {
+    color: #667eea;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 0.75rem;
+}
+
+.modal-large {
+    max-width: 700px;
+}
+
+.ticket-info {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    border-left: 4px solid #667eea;
+}
+
+.ticket-info p {
+    margin: 0;
+    color: #555;
+}
+
+.bulk-close-tickets {
+    max-height: 300px;
+    overflow-y: auto;
+    padding-left: 1.5rem;
+}
+
+.bulk-close-tickets li {
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+/* =====================================================================
+   RESPONSIVE LAYOUT
+   ===================================================================== */
+
+@media (max-width: 1200px) {
+    .support-container {
+        grid-template-columns: 280px 1fr;
+    }
+}
+
+@media (max-width: 992px) {
+    .support-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .sidebar {
+        border-right: none;
+        border-bottom: 2px solid #e0e0e0;
+    }
+    
+    .stats-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .ticket-actions {
+        flex-wrap: wrap;
+    }
+    
+    .ticket-info-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .ticket-header {
+        flex-wrap: wrap;
+    }
+    
+    .ticket-meta {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .reply-options {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .stats-cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+/**
+ * SUMMARY:
+ * - Uses common.css for: buttons, forms, modals, base styles
+ * - Support-specific: ticket cards, status/priority badges, conversation history
+ * - Professional color scheme: purple/blue gradient theme
+ * - Status-based visual indicators (border colors)
+ * - Reply system with tabs (customer vs internal)
+ * - Responsive design with mobile optimizations
+ */

@@ -1,0 +1,547 @@
+/* =====================================================================
+   BANKING DASHBOARD SPECIFIC STYLES
+   ===================================================================== */
+
+/* =====================================================================
+   LAYOUT - Sidebar + Main Content
+   ===================================================================== */
+
+   .banking-container {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 0;
+    min-height: calc(100vh - 100px);
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #f8f9fa;
+}
+
+/* =====================================================================
+   SIDEBAR - Account Info & Alerts
+   ===================================================================== */
+
+.sidebar {
+    background: white;
+    border-right: 2px solid #e0e0e0;
+    padding: 1.5rem;
+    overflow-y: auto;
+}
+
+.sidebar h3 {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+    font-size: 1.1rem;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 0.5rem;
+}
+
+/* Account Card */
+.account-card {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.account-card h3 {
+    color: white;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.account-number {
+    font-family: 'Courier New', monospace;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    opacity: 0.9;
+}
+
+.account-number-full {
+    font-family: 'Courier New', monospace;
+    font-size: 0.95rem;
+}
+
+.balance {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255,255,255,0.3);
+}
+
+.balance-label {
+    display: block;
+    font-size: 0.85rem;
+    opacity: 0.9;
+    margin-bottom: 0.5rem;
+}
+
+.balance-amount {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #4ade80;
+}
+
+/* Promo Banner (Advertisement) */
+.promo-banner {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    color: white;
+}
+
+.promo-content {
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-start;
+}
+
+.promo-icon {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.promo-text {
+    flex: 1;
+}
+
+.promo-text strong {
+    display: block;
+    font-size: 0.95rem;
+    margin-bottom: 0.25rem;
+}
+
+.promo-text p {
+    font-size: 0.85rem;
+    margin: 0;
+    opacity: 0.95;
+}
+
+/* Spending Alerts */
+.spending-alerts {
+    margin-bottom: 1.5rem;
+}
+
+.no-alerts {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.no-alerts a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.no-alerts a:hover {
+    text-decoration: underline;
+}
+
+.alert-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem;
+    background-color: #fff3cd;
+    border-left: 3px solid #ffc107;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.alert-text {
+    flex: 1;
+}
+
+/* Category Summary */
+.category-summary {
+    margin-bottom: 1.5rem;
+}
+
+.category-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.category-item:last-child {
+    border-bottom: none;
+}
+
+.category-name {
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.category-amount {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+/* =====================================================================
+   MAIN CONTENT - Transactions
+   ===================================================================== */
+
+.main-content {
+    background: white;
+    padding: 1.5rem;
+    overflow-y: auto;
+}
+
+/* Toolbar */
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.toolbar h2 {
+    margin: 0;
+    color: #2c3e50;
+    font-size: 1.5rem;
+}
+
+.toolbar-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+/* Filters Bar */
+.filters-bar {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.filter-group .form-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.filter-group .form-select,
+.filter-group .form-input {
+    min-width: 150px;
+}
+
+/* =====================================================================
+   TRANSACTIONS TABLE
+   ===================================================================== */
+
+.table-container {
+    margin-bottom: 1.5rem;
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table thead th {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.table tbody td {
+    padding: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+    vertical-align: middle;
+}
+
+.table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Merchant column - allow wrapping for long names */
+.table tbody td:nth-child(2) {
+    max-width: 250px;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+/* Duplicate row highlighting */
+.duplicate-row {
+    background-color: #fff5f5 !important;
+    border-left: 4px solid #dc3545;
+}
+
+.duplicate-row:hover {
+    background-color: #ffe5e5 !important;
+}
+
+/* Amount styling */
+.amount {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.amount.debit {
+    color: #dc3545;
+}
+
+.amount.credit {
+    color: #28a745;
+}
+
+/* Category badges */
+.category-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.category-dining { background-color: #ffe5e5; color: #dc3545; }
+.category-groceries { background-color: #d4edda; color: #155724; }
+.category-gas { background-color: #fff3cd; color: #856404; }
+.category-shopping { background-color: #d1ecf1; color: #0c5460; }
+.category-utilities { background-color: #e2e3e5; color: #383d41; }
+.category-entertainment { background-color: #f8d7da; color: #721c24; }
+.category-transport { background-color: #cce5ff; color: #004085; }
+.category-healthcare { background-color: #d4edda; color: #155724; }
+.category-uncategorized { background-color: #f0f0f0; color: #666; }
+
+/* Actions cell */
+.actions-cell {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+/* =====================================================================
+   PAGINATION
+   ===================================================================== */
+
+.pagination-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    border-top: 2px solid #e0e0e0;
+}
+
+.pagination-info {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+}
+
+.pagination {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.pagination-btn {
+    padding: 0.5rem 1rem;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+}
+
+.pagination-btn:hover:not(:disabled) {
+    background-color: #f8f9fa;
+    border-color: #1a73e8;
+}
+
+.pagination-btn.active {
+    background-color: #1a73e8;
+    color: white;
+    border-color: #1a73e8;
+    font-weight: 600;
+}
+
+.pagination-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* =====================================================================
+   MODALS - Banking-Specific Customization
+   ===================================================================== */
+
+.modal-content h2 {
+    color: #1e3c72;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 0.75rem;
+}
+
+.transaction-details {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 4px;
+    margin: 1rem 0;
+    border-left: 4px solid #1a73e8;
+}
+
+.transaction-details p {
+    margin: 0.5rem 0;
+    color: #555;
+}
+
+.transaction-details strong {
+    color: #2c3e50;
+}
+
+/* =====================================================================
+   HEADER CUSTOMIZATION
+   ===================================================================== */
+
+.header {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+}
+
+.header h1 {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.user-greeting {
+    color: white;
+    margin-right: 1rem;
+}
+
+/* =====================================================================
+   BADGES
+   ===================================================================== */
+
+.badge {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-left: 0.5rem;
+}
+
+.badge-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* =====================================================================
+   RESPONSIVE LAYOUT
+   ===================================================================== */
+
+@media (max-width: 1200px) {
+    .banking-container {
+        grid-template-columns: 280px 1fr;
+    }
+}
+
+@media (max-width: 992px) {
+    .banking-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .sidebar {
+        border-right: none;
+        border-bottom: 2px solid #e0e0e0;
+        max-height: none;
+    }
+    
+    .filters-bar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .filter-group .form-select,
+    .filter-group .form-input {
+        width: 100%;
+    }
+    
+    .toolbar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    
+    .toolbar-actions {
+        width: 100%;
+    }
+    
+    .toolbar-actions button {
+        flex: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .table {
+        font-size: 0.85rem;
+    }
+    
+    .table thead th,
+    .table tbody td {
+        padding: 0.75rem 0.5rem;
+    }
+    
+    /* Allow merchant names to take more space on mobile */
+    .table tbody td:nth-child(2) {
+        max-width: 180px;
+    }
+    
+    .actions-cell {
+        flex-direction: column;
+    }
+    
+    .pagination-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .account-card {
+        padding: 1rem;
+    }
+    
+    .balance-amount {
+        font-size: 1.5rem;
+    }
+}
+
+/**
+ * SUMMARY:
+ * - Uses common.css for: buttons, forms, modals, tables (base), badges, alerts
+ * - Banking-specific: sidebar layout, account card, category badges, transaction styling
+ * - Professional color scheme: blues for banking theme, greens for money
+ * - Responsive design with mobile optimizations
+ * - Special highlighting for duplicate transactions
+ * - Pagination controls styled
+ * - Advertisement/promo banner styling
+ * - Long merchant names handled with word-wrap
+ */

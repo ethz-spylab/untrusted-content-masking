@@ -1,0 +1,210 @@
+{
+  "version": "sanitized",
+  "generated_by": "LLM analysis (claude-sonnet-4-5-20250929)",
+  "untrusted_selectors": [
+    {
+      "selector": ".thing .title a.title",
+      "tagName": "post-title",
+      "description": "Submission/post titles written by users",
+      "confidence": "high"
+    },
+    {
+      "selector": ".usertext-body .md",
+      "tagName": "post-selftext-body",
+      "description": "Self-post body text and comment text (rendered markdown)",
+      "confidence": "high"
+    },
+    {
+      "selector": ".thing a.author",
+      "tagName": "username",
+      "description": "Username of post/comment author",
+      "confidence": "high"
+    },
+    {
+      "selector": ".thing .domain a",
+      "tagName": "external-domain",
+      "description": "External link domain names",
+      "confidence": "high"
+    },
+    {
+      "selector": ".titlebox .usertext-body .md",
+      "tagName": "sidebar-content",
+      "description": "Subreddit sidebar description and rules (markdown content)",
+      "confidence": "high"
+    },
+    {
+      "selector": ".titlebox h1.hover a",
+      "tagName": "subreddit-name-title",
+      "description": "Subreddit name displayed in sidebar title",
+      "confidence": "high"
+    },
+    {
+      "selector": ".pagename a",
+      "tagName": "subreddit-name-header",
+      "description": "Subreddit name in header",
+      "confidence": "high"
+    },
+    {
+      "selector": ".thing .userattrs",
+      "tagName": "user-flair",
+      "description": "User flair badges and text",
+      "confidence": "high"
+    },
+    {
+      "selector": ".crosspost-badge",
+      "tagName": "crosspost-indicator",
+      "description": "Crosspost attribution information",
+      "confidence": "medium"
+    },
+    {
+      "selector": ".thing[data-crosspost-root-title]",
+      "tagName": "crosspost-metadata",
+      "description": "Crosspost metadata including original post title and subreddit",
+      "confidence": "medium"
+    },
+    {
+      "selector": ".thing .linkflairlabel",
+      "tagName": "post-flair",
+      "description": "Post flair text set by users or moderators",
+      "confidence": "high"
+    },
+    {
+      "selector": ".thing .stickied-tagline",
+      "tagName": "sticky-note",
+      "description": "Moderator sticky/pin notification text",
+      "confidence": "medium"
+    },
+    {
+      "selector": ".search input[name='q']",
+      "tagName": "search-query",
+      "description": "User-entered search query text",
+      "confidence": "medium"
+    },
+    {
+      "selector": ".thing.link .title a.title",
+      "tagName": "post-title-link",
+      "description": "Post submission title text",
+      "confidence": "high"
+    },
+    {
+      "selector": ".thing.link .domain a",
+      "tagName": "external-domain",
+      "description": "External link domain displayed in post",
+      "confidence": "high"
+    },
+    {
+      "selector": ".thing .author",
+      "tagName": "username",
+      "description": "Username of post or comment author",
+      "confidence": "high"
+    },
+    {
+      "selector": ".crosspost-preview-tagline a.subreddit",
+      "tagName": "crosspost-subreddit",
+      "description": "Subreddit name in crosspost attribution",
+      "confidence": "high"
+    },
+    {
+      "selector": ".crosspost-preview .title",
+      "tagName": "crosspost-title",
+      "description": "Post title in crosspost preview",
+      "confidence": "high"
+    },
+    {
+      "selector": ".thing.link .linkflairlabel",
+      "tagName": "post-flair",
+      "description": "Post flair text (moderator or user assigned)",
+      "confidence": "high"
+    },
+    {
+      "selector": ".tagline .flair",
+      "tagName": "user-flair-text",
+      "description": "User flair text in comment/post taglines",
+      "confidence": "high"
+    },
+    {
+      "selector": ".crosspost-preview-tagline .author",
+      "tagName": "crosspost-author",
+      "description": "Username in crosspost preview",
+      "confidence": "high"
+    },
+    {
+      "selector": "a.subreddit[href^='/r/']",
+      "tagName": "subreddit-link-content",
+      "description": "Subreddit name links within post/comment content areas",
+      "confidence": "medium"
+    },
+    {
+      "selector": ".thing.comment .author",
+      "tagName": "comment-author",
+      "description": "Username of comment author",
+      "confidence": "high"
+    },
+    {
+      "selector": ".thing.link .author",
+      "tagName": "post-author",
+      "description": "Username of post author",
+      "confidence": "high"
+    },
+    {
+      "selector": ".thing.link p.title a.title",
+      "tagName": "post-title",
+      "description": "Post/submission title text",
+      "confidence": "high"
+    },
+    {
+      "selector": ".thing.comment p.parent a.title",
+      "tagName": "parent-post-title",
+      "description": "Title of parent post in comment context",
+      "confidence": "high"
+    },
+    {
+      "selector": ".thing.comment p.parent a.subreddit",
+      "tagName": "comment-context-subreddit",
+      "description": "Subreddit name shown in comment context",
+      "confidence": "high"
+    },
+    {
+      "selector": ".thing.link p.tagline a.subreddit",
+      "tagName": "post-subreddit",
+      "description": "Subreddit name in post tagline",
+      "confidence": "high"
+    },
+    {
+      "selector": ".titlebox h1",
+      "tagName": "profile-username",
+      "description": "Username displayed in profile titlebox",
+      "confidence": "high"
+    },
+    {
+      "selector": ".trophy-name",
+      "tagName": "trophy-name",
+      "description": "User trophy/badge names",
+      "confidence": "high"
+    },
+    {
+      "selector": ".trophy-description",
+      "tagName": "trophy-description",
+      "description": "User trophy/badge descriptions",
+      "confidence": "high"
+    },
+    {
+      "selector": ".thing.comment p.parent a.author",
+      "tagName": "parent-post-author",
+      "description": "Username of parent post author shown in comment context",
+      "confidence": "high"
+    },
+    {
+      "selector": ".thing.link a.thumbnail[href*='/r/']",
+      "tagName": "crosspost-thumbnail-link",
+      "description": "Thumbnail link that may contain subreddit reference in crosspost",
+      "confidence": "medium"
+    },
+    {
+      "selector": ".tagline .userattrs",
+      "tagName": "user-flair",
+      "description": "User flair text and attributes displayed next to usernames",
+      "confidence": "high"
+    }
+  ]
+}

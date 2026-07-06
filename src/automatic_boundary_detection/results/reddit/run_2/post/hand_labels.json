@@ -1,0 +1,108 @@
+{
+  "version": "hand",
+  "generated_by": "Manual approximation from known old.reddit HTML structure",
+  "untrusted_selectors": [
+    {
+      "selector": "a.title",
+      "tagName": "post-title",
+      "description": "Post/submission title links",
+      "confidence": "high"
+    },
+    {
+      "selector": ".thing .usertext-body .md",
+      "tagName": "post-body-comment",
+      "description": "Self-post text and comment body (excludes sidebar description)",
+      "confidence": "high"
+    },
+    {
+      "selector": ".author",
+      "tagName": "username",
+      "description": "Username links throughout the site",
+      "confidence": "high"
+    },
+    {
+      "selector": ".flair",
+      "tagName": "user-flair",
+      "description": "User flair text (user-chosen label)",
+      "confidence": "high"
+    },
+    {
+      "selector": ".linkflair-text",
+      "tagName": "link-flair",
+      "description": "Post flair/category label",
+      "confidence": "high"
+    },
+    {
+      "selector": ".titlebox .md a[href^=\"/r/\"]",
+      "tagName": "related-subreddit-link",
+      "description": "Individual subreddit name links in sidebar (can have malicious names)",
+      "confidence": "high"
+    },
+    {
+      "selector": ".profile-page .titlebox h1",
+      "tagName": "profile-username",
+      "description": "Username displayed in profile page header (bare text, not an <a> tag)",
+      "confidence": "high"
+    },
+    {
+      "selector": ".titlebox h1 a",
+      "tagName": "subreddit-name",
+      "description": "Subreddit display name",
+      "confidence": "high"
+    },
+    {
+      "selector": ".domain a",
+      "tagName": "link-domain",
+      "description": "Source domain of linked post",
+      "confidence": "high"
+    },
+    {
+      "selector": ".trophy-name",
+      "tagName": "trophy-name",
+      "description": "Trophy/badge names on user profile",
+      "confidence": "medium"
+    },
+    {
+      "selector": ".trophy-description",
+      "tagName": "trophy-description",
+      "description": "Trophy descriptions on user profile",
+      "confidence": "medium"
+    },
+    {
+      "selector": ".crosspost-preview .title",
+      "tagName": "crosspost-title",
+      "description": "Crosspost original post title",
+      "confidence": "high"
+    },
+    {
+      "selector": ".crosspost-preview .author",
+      "tagName": "crosspost-username",
+      "description": "Crosspost original poster username",
+      "confidence": "high"
+    },
+    {
+      "selector": ".crosspost-preview .subreddit",
+      "tagName": "crosspost-subreddit",
+      "description": "Crosspost source subreddit name",
+      "confidence": "high"
+    },
+    {
+      "selector": "a.subreddit",
+      "tagName": "subreddit-link",
+      "description": "Subreddit name links in post listings (e.g. 'in redditstock')",
+      "confidence": "high"
+    },
+    {
+      "selector": ".stickied-tagline",
+      "tagName": "stickied-tag",
+      "description": "Moderator-applied stickied/announcement tag",
+      "confidence": "medium"
+    },
+    {
+      "selector": ".userattrs",
+      "tagName": "user-attributes",
+      "description": "User attribute badges like [S] submitter, [M] mod, [A] admin",
+      "confidence": "medium"
+    }
+  ]
+}

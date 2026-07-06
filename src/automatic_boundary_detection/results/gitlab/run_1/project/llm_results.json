@@ -1,0 +1,3663 @@
+{
+  "summary": {
+    "totalSelectors": 99,
+    "selectorsWithMatches": 49,
+    "totalElements": 296,
+    "uniqueElements": 283,
+    "url": "http://localhost:8103/byteblaze/a11y-syntax-highlighting",
+    "configFile": "llm_labels.json",
+    "configVersion": "sanitized",
+    "configGeneratedBy": "LLM analysis (claude-sonnet-4-5-20250929)"
+  },
+  "results": [
+    {
+      "index": 1,
+      "selector": ".breadcrumbs-links li a span",
+      "tagName": "breadcrumb-username",
+      "description": "Username in breadcrumb navigation",
+      "count": 2,
+      "element_ids": [
+        "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/span[1]",
+        "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/span[1]"
+      ],
+      "element_info": {
+        "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "reveal-text-wrap",
+          "id": "",
+          "textPreview": "Byte Blaze"
+        },
+        "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "breadcrumb-item-text js-breadcrumb-item-text",
+          "id": "",
+          "textPreview": "a11y-syntax-highlighting"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Byte Blaze"
+        },
+        {
+          "index": 2,
+          "text_preview": "a11y-syntax-highlighting"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "selector": ".breadcrumb-item-text",
+      "tagName": "breadcrumb-project-name",
+      "description": "Project name in breadcrumb navigation",
+      "count": 1,
+      "element_ids": [
+        "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/span[1]"
+      ],
+      "element_info": {
+        "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "breadcrumb-item-text js-breadcrumb-item-text",
+          "id": "",
+          "textPreview": "a11y-syntax-highlighting"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "a11y-syntax-highlighting"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "selector": ".context-header .sidebar-context-title span",
+      "tagName": "sidebar-project-name",
+      "description": "Project name in sidebar header",
+      "count": 1,
+      "element_ids": [
+        "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[2]/span[1]"
+      ],
+      "element_info": {
+        "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[2]/span[1]": {
+          "tagName": "span",
+          "className": "reveal-text-wrap",
+          "id": "",
+          "textPreview": "a11y-syntax-highlighting"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "a11y-syntax-highlighting"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "selector": ".home-panel-title",
+      "tagName": "project-title",
+      "description": "Main project title on project home page",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"content-body\"]/div[2]/div[1]/div[1]/div[2]/h1[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"content-body\"]/div[2]/div[1]/div[1]/div[2]/h1[1]": {
+          "tagName": "h1",
+          "className": "home-panel-title gl-font-size-h1 gl-mt-3 gl-mb-2 gl-display-flex reveal-hidden",
+          "id": "",
+          "textPreview": "a11y-syntax-highlighting"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "a11y-syntax-highlighting"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "selector": ".home-panel-description-markdown",
+      "tagName": "project-description",
+      "description": "Project description text in markdown",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"content-body\"]/div[2]/div[3]/div[1]/div[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"content-body\"]/div[2]/div[3]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "home-panel-description-markdown read-more-container",
+          "id": "",
+          "textPreview": "\ud83d\udc84 Accessible light and dark syntax highlighting themes"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "\ud83d\udc84 Accessible light and dark syntax highlighting themes"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "selector": ".commit-row-message",
+      "tagName": "commit-message",
+      "description": "Commit message text",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"tree-holder\"]/div[1]/div[1]/div[1]/div[1]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"tree-holder\"]/div[1]/div[1]/div[1]/div[1]/a[1]": {
+          "tagName": "a",
+          "className": "gl-link commit-row-message item-title reveal-hidden",
+          "id": "",
+          "textPreview": "Update README.md"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Update README.md"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "selector": ".tree-commit-link span",
+      "tagName": "file-tree-commit-message",
+      "description": "Commit messages in file tree view",
+      "count": 7,
+      "element_ids": [
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]/span[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[2]/a[1]/span[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[2]/a[1]/span[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[2]/a[1]/span[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[2]/a[1]/span[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[2]/a[1]/span[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[7]/td[2]/a[1]/span[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "reveal-text-wrap",
+          "id": "",
+          "textPreview": "Add support for Vi/Vim"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[2]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "reveal-text-wrap",
+          "id": "",
+          "textPreview": "Added images"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[2]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "reveal-text-wrap",
+          "id": "",
+          "textPreview": "Fix name of theme"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[2]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "reveal-text-wrap",
+          "id": "",
+          "textPreview": "Add package.json and .npmignore"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[2]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "reveal-text-wrap",
+          "id": "",
+          "textPreview": "Added MIT License"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[2]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "reveal-text-wrap",
+          "id": "",
+          "textPreview": "Update README.md"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[7]/td[2]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "reveal-text-wrap",
+          "id": "",
+          "textPreview": "Minor version bump"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Add support for Vi/Vim"
+        },
+        {
+          "index": 2,
+          "text_preview": "Added images"
+        },
+        {
+          "index": 3,
+          "text_preview": "Fix name of theme"
+        },
+        {
+          "index": 4,
+          "text_preview": "Add package.json and .npmignore"
+        },
+        {
+          "index": 5,
+          "text_preview": "Added MIT License"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "selector": ".tree-item-link .position-relative",
+      "tagName": "file-directory-name",
+      "description": "File and directory names in repository tree",
+      "count": 18,
+      "element_ids": [
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/a[1]/span[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/a[1]/span[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[1]/a[1]/span[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[1]/a[1]/span[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[1]/a[1]/span[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[1]/a[1]/span[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[1]/a[1]/span[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[1]/a[1]/span[1]/svg[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[1]/a[1]/span[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[1]/a[1]/span[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[1]/a[1]/span[1]/svg[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[1]/a[1]/span[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[1]/a[1]/span[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[1]/a[1]/span[1]/svg[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[1]/a[1]/span[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[7]/td[1]/a[1]/span[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[7]/td[1]/a[1]/span[1]/svg[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[7]/td[1]/a[1]/span[2]"
+      ],
+      "element_info": {
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "mr-1 position-relative text-secondary",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/a[1]/span[2]": {
+          "tagName": "span",
+          "className": "position-relative",
+          "id": "",
+          "textPreview": "dist"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "mr-1 position-relative text-secondary",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[1]/a[1]/span[2]": {
+          "tagName": "span",
+          "className": "position-relative",
+          "id": "",
+          "textPreview": "images"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "mr-1 position-relative text-secondary",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[1]/a[1]/span[2]": {
+          "tagName": "span",
+          "className": "position-relative",
+          "id": "",
+          "textPreview": "test"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "mr-1 position-relative text-secondary",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[1]/a[1]/span[1]/svg[1]": {
+          "tagName": "svg",
+          "className": {},
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[1]/a[1]/span[2]": {
+          "tagName": "span",
+          "className": "position-relative",
+          "id": "",
+          "textPreview": ".npmignore"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "mr-1 position-relative text-secondary",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[1]/a[1]/span[1]/svg[1]": {
+          "tagName": "svg",
+          "className": {},
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[1]/a[1]/span[2]": {
+          "tagName": "span",
+          "className": "position-relative",
+          "id": "",
+          "textPreview": "LICENSE"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "mr-1 position-relative text-secondary",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[1]/a[1]/span[1]/svg[1]": {
+          "tagName": "svg",
+          "className": {},
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[1]/a[1]/span[2]": {
+          "tagName": "span",
+          "className": "position-relative",
+          "id": "",
+          "textPreview": "README.md"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[7]/td[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "mr-1 position-relative text-secondary",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[7]/td[1]/a[1]/span[1]/svg[1]": {
+          "tagName": "svg",
+          "className": {},
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[7]/td[1]/a[1]/span[2]": {
+          "tagName": "span",
+          "className": "position-relative",
+          "id": "",
+          "textPreview": "package.json"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 2,
+          "text_preview": "dist"
+        },
+        {
+          "index": 3,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 4,
+          "text_preview": "images"
+        },
+        {
+          "index": 5,
+          "text_preview": "(empty)"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "selector": ".file-content.md",
+      "tagName": "readme-content",
+      "description": "README and markdown file rendered content",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "file-content md reveal-hidden",
+          "id": "",
+          "textPreview": "a11y-syntax-highlighting\nAccessible light and dark syntax highlighting themes.\n\nSupport\n\nLibraries\n\n"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "a11y-syntax-highlighting\nAccessible light and dark syntax highlighting themes.\n\nSupport\n\nLibraries"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "selector": ".file-content.md h1",
+      "tagName": "readme-heading-1",
+      "description": "H1 headings in README markdown content",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/h1[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/h1[1]": {
+          "tagName": "h1",
+          "className": "",
+          "id": "",
+          "textPreview": "a11y-syntax-highlighting"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "a11y-syntax-highlighting"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "selector": ".file-content.md h2",
+      "tagName": "readme-heading-2",
+      "description": "H2 headings in README markdown content",
+      "count": 4,
+      "element_ids": [
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/h2[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/h2[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/h2[3]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/h2[4]"
+      ],
+      "element_info": {
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/h2[1]": {
+          "tagName": "h2",
+          "className": "",
+          "id": "",
+          "textPreview": "Support"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/h2[2]": {
+          "tagName": "h2",
+          "className": "",
+          "id": "",
+          "textPreview": "Themes"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/h2[3]": {
+          "tagName": "h2",
+          "className": "",
+          "id": "",
+          "textPreview": "Used by"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/h2[4]": {
+          "tagName": "h2",
+          "className": "",
+          "id": "",
+          "textPreview": "Thanks"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Support"
+        },
+        {
+          "index": 2,
+          "text_preview": "Themes"
+        },
+        {
+          "index": 3,
+          "text_preview": "Used by"
+        },
+        {
+          "index": 4,
+          "text_preview": "Thanks"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "selector": ".file-content.md h3",
+      "tagName": "readme-heading-3",
+      "description": "H3 headings in README markdown content",
+      "count": 7,
+      "element_ids": [
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/h3[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/h3[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/h3[3]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/h3[4]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/h3[5]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/h3[6]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/h3[7]"
+      ],
+      "element_info": {
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/h3[1]": {
+          "tagName": "h3",
+          "className": "",
+          "id": "",
+          "textPreview": "Libraries"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/h3[2]": {
+          "tagName": "h3",
+          "className": "",
+          "id": "",
+          "textPreview": "Applications"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/h3[3]": {
+          "tagName": "h3",
+          "className": "",
+          "id": "",
+          "textPreview": "Misc"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/h3[4]": {
+          "tagName": "h3",
+          "className": "",
+          "id": "",
+          "textPreview": "Roadmap"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/h3[5]": {
+          "tagName": "h3",
+          "className": "",
+          "id": "",
+          "textPreview": "a11y-dark"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/h3[6]": {
+          "tagName": "h3",
+          "className": "",
+          "id": "",
+          "textPreview": "a11y-light"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/h3[7]": {
+          "tagName": "h3",
+          "className": "",
+          "id": "",
+          "textPreview": "High Contrast Mode"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Libraries"
+        },
+        {
+          "index": 2,
+          "text_preview": "Applications"
+        },
+        {
+          "index": 3,
+          "text_preview": "Misc"
+        },
+        {
+          "index": 4,
+          "text_preview": "Roadmap"
+        },
+        {
+          "index": 5,
+          "text_preview": "a11y-dark"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "selector": ".file-content.md p",
+      "tagName": "readme-paragraph",
+      "description": "Paragraph text in README markdown content",
+      "count": 6,
+      "element_ids": [
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/p[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/p[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/p[3]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/p[4]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/p[5]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/p[6]"
+      ],
+      "element_info": {
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "Accessible light and dark syntax highlighting themes."
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/p[2]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/p[3]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/p[4]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "Both themes have enhanced support for Windows High Contrast Mode when possible:"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/p[5]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/p[6]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "Run across it being used elsewhere? Let me know!"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Accessible light and dark syntax highlighting themes."
+        },
+        {
+          "index": 2,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 3,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 4,
+          "text_preview": "Both themes have enhanced support for Windows High Contrast Mode when possible:"
+        },
+        {
+          "index": 5,
+          "text_preview": "(empty)"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "selector": ".file-content.md a",
+      "tagName": "readme-link-text",
+      "description": "Link text in README markdown content",
+      "count": 72,
+      "element_ids": [
+        "//*[@id=\"user-content-a11y-syntax-highlighting\"]",
+        "//*[@id=\"user-content-support\"]",
+        "//*[@id=\"user-content-libraries\"]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]/ul[1]/li[1]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]/ul[1]/li[2]/a[1]",
+        "//*[@id=\"user-content-applications\"]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[2]/li[1]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[2]/li[2]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[2]/li[3]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[2]/li[4]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[2]/li[4]/a[2]",
+        "//*[@id=\"user-content-misc\"]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[3]/li[1]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[3]/li[2]/a[1]",
+        "//*[@id=\"user-content-roadmap\"]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[4]/li[1]/ul[1]/li[1]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[4]/li[1]/ul[1]/li[2]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[4]/li[1]/ul[1]/li[3]/a[1]",
+        "//*[@id=\"user-content-themes\"]",
+        "//*[@id=\"user-content-a11y-dark\"]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/p[2]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[5]/li[3]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[3]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[1]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[3]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[1]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[3]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[1]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[3]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[1]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[3]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[1]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[3]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[7]/td[1]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[7]/td[3]/a[1]",
+        "//*[@id=\"user-content-a11y-light\"]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/p[3]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[6]/li[3]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[1]/td[1]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[1]/td[3]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[2]/td[1]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[2]/td[3]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[3]/td[1]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[3]/td[3]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[4]/td[1]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[4]/td[3]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[5]/td[1]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[5]/td[3]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[6]/td[1]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[6]/td[3]/a[1]",
+        "//*[@id=\"user-content-high-contrast-mode\"]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/p[4]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/p[5]/a[1]",
+        "//*[@id=\"user-content-used-by\"]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[7]/li[1]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[7]/li[2]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[7]/li[3]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[7]/li[4]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[7]/li[5]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[7]/li[6]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[7]/li[7]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/p[6]/a[1]",
+        "//*[@id=\"user-content-thanks\"]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[8]/li[1]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[8]/li[2]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[8]/li[2]/a[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[8]/li[2]/a[3]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[8]/li[3]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[8]/li[4]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"user-content-a11y-syntax-highlighting\"]": {
+          "tagName": "a",
+          "className": "anchor",
+          "id": "user-content-a11y-syntax-highlighting",
+          "textPreview": ""
+        },
+        "//*[@id=\"user-content-support\"]": {
+          "tagName": "a",
+          "className": "anchor",
+          "id": "user-content-support",
+          "textPreview": ""
+        },
+        "//*[@id=\"user-content-libraries\"]": {
+          "tagName": "a",
+          "className": "anchor",
+          "id": "user-content-libraries",
+          "textPreview": ""
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Highlight.js"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Prism.js"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]/ul[1]/li[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Line Highlight"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]/ul[1]/li[2]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Line Numbers"
+        },
+        "//*[@id=\"user-content-applications\"]": {
+          "tagName": "a",
+          "className": "anchor",
+          "id": "user-content-applications",
+          "textPreview": ""
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[2]/li[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Adobe"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[2]/li[2]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Figma"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[2]/li[3]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "macOS"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[2]/li[4]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Sketch"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[2]/li[4]/a[2]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Sketch Palettes plugin"
+        },
+        "//*[@id=\"user-content-misc\"]": {
+          "tagName": "a",
+          "className": "anchor",
+          "id": "user-content-misc",
+          "textPreview": ""
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[3]/li[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Carbon"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[3]/li[2]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "JSON"
+        },
+        "//*[@id=\"user-content-roadmap\"]": {
+          "tagName": "a",
+          "className": "anchor",
+          "id": "user-content-roadmap",
+          "textPreview": ""
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[4]/li[1]/ul[1]/li[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Microsoft Visual Studio Code"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[4]/li[1]/ul[1]/li[2]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Sublime Text"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[4]/li[1]/ul[1]/li[3]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Vi/Vim"
+        },
+        "//*[@id=\"user-content-themes\"]": {
+          "tagName": "a",
+          "className": "anchor",
+          "id": "user-content-themes",
+          "textPreview": ""
+        },
+        "//*[@id=\"user-content-a11y-dark\"]": {
+          "tagName": "a",
+          "className": "anchor",
+          "id": "user-content-a11y-dark",
+          "textPreview": ""
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "no-attachment-icon",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[5]/li[3]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "WCAG AAA compliant"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Bright Turquoise"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[3]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "8.59:1"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Chino"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[3]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "9.04:1"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Conifer"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[3]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "9.29:1"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Gold"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[3]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "10.09:1"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Snuff"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[3]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "8.90:1"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Spring Wood"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[3]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "13.28:1"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[7]/td[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Vivid Tangerine"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[7]/td[3]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "7.12:1"
+        },
+        "//*[@id=\"user-content-a11y-light\"]": {
+          "tagName": "a",
+          "className": "anchor",
+          "id": "user-content-a11y-light",
+          "textPreview": ""
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/p[3]/a[1]": {
+          "tagName": "a",
+          "className": "no-attachment-icon",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[6]/li[3]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "WCAG AA compliant"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[1]/td[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Chelsea Gem"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[1]/td[3]/a[1]": {
+          "tagName": "a",
+          "className": "gfm",
+          "id": "",
+          "textPreview": "4.87:1"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[2]/td[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Allports"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[2]/td[3]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "4.51:1"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[3]/td[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Dove Gray"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[3]/td[3]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "5.44:1"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[4]/td[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Emperor"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[4]/td[3]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "7.51:1"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[5]/td[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Japanese Laurel"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[5]/td[3]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "5.09:1"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[6]/td[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Thunderbird"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[6]/td[3]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "5.02:1"
+        },
+        "//*[@id=\"user-content-high-contrast-mode\"]": {
+          "tagName": "a",
+          "className": "anchor",
+          "id": "user-content-high-contrast-mode",
+          "textPreview": ""
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/p[4]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Windows High Contrast Mode"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/p[5]/a[1]": {
+          "tagName": "a",
+          "className": "no-attachment-icon",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"user-content-used-by\"]": {
+          "tagName": "a",
+          "className": "anchor",
+          "id": "user-content-used-by",
+          "textPreview": ""
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[7]/li[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Eleventy"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[7]/li[2]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Melanie Richards"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[7]/li[3]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Paul Kinchla"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[7]/li[4]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Sarah Higley"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[7]/li[5]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Quarto"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[7]/li[6]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "W3C Design System"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[7]/li[7]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "aaron-gustafson.com"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/p[6]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Let me know"
+        },
+        "//*[@id=\"user-content-thanks\"]": {
+          "tagName": "a",
+          "className": "anchor",
+          "id": "user-content-thanks",
+          "textPreview": ""
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[8]/li[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Michael Ball"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[8]/li[2]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Scott Vinkle"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[8]/li[2]/a[2]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Carie Fischer"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[8]/li[2]/a[3]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Scott O'Hara"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[8]/li[3]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Aaron Gustafson"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[8]/li[4]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "Reuben L. Lillie"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 2,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 3,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 4,
+          "text_preview": "Highlight.js"
+        },
+        {
+          "index": 5,
+          "text_preview": "Prism.js"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "selector": ".file-content.md li",
+      "tagName": "readme-list-item",
+      "description": "List items in README markdown content",
+      "count": 31,
+      "element_ids": [
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]/ul[1]/li[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]/ul[1]/li[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[2]/li[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[2]/li[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[2]/li[3]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[2]/li[4]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[3]/li[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[3]/li[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[4]/li[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[4]/li[1]/ul[1]/li[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[4]/li[1]/ul[1]/li[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[4]/li[1]/ul[1]/li[3]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[5]/li[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[5]/li[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[5]/li[3]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[6]/li[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[6]/li[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[6]/li[3]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[7]/li[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[7]/li[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[7]/li[3]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[7]/li[4]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[7]/li[5]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[7]/li[6]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[7]/li[7]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[8]/li[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[8]/li[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[8]/li[3]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[8]/li[4]"
+      ],
+      "element_info": {
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "Highlight.js"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "Prism.js\n\nLine Highlight\nLine Numbers"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]/ul[1]/li[1]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "Line Highlight"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]/ul[1]/li[2]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "Line Numbers"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[2]/li[1]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "Adobe"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[2]/li[2]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "Figma (drag SVGs onto your canvas)"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[2]/li[3]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "macOS"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[2]/li[4]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "Sketch (uses the Sketch Palettes plugin)"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[3]/li[1]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "Carbon (remember to include alt text with your image!)"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[3]/li[2]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "JSON"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[4]/li[1]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "Editors\n\nMicrosoft Visual Studio Code\nSublime Text\nVi/Vim"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[4]/li[1]/ul[1]/li[1]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "Microsoft Visual Studio Code"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[4]/li[1]/ul[1]/li[2]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "Sublime Text"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[4]/li[1]/ul[1]/li[3]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "Vi/Vim"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[5]/li[1]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "Light text on a dark background."
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[5]/li[2]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "Background color of #2b2b2b."
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[5]/li[3]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "WCAG AAA compliant for color contrast."
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[6]/li[1]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "Dark text on a light background."
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[6]/li[2]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "Background color of #fefefe."
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[6]/li[3]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "WCAG AA compliant for color contrast. WCAG AAA compliance forces the values on a light background to"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[7]/li[1]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "Eleventy"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[7]/li[2]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "Melanie Richards"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[7]/li[3]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "Paul Kinchla"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[7]/li[4]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "Sarah Higley"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[7]/li[5]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "Quarto"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[7]/li[6]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "W3C Design System"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[7]/li[7]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "aaron-gustafson.com"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[8]/li[1]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "Michael Ball, for the idea."
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[8]/li[2]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "Scott Vinkle, Carie Fischer, and Scott O'Hara for the encouragement."
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[8]/li[3]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "Aaron Gustafson, for suggesting line highlighting support."
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[8]/li[4]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "Reuben L. Lillie, for Vi/Vim support."
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Highlight.js"
+        },
+        {
+          "index": 2,
+          "text_preview": "Prism.js\n\nLine Highlight\nLine Numbers"
+        },
+        {
+          "index": 3,
+          "text_preview": "Line Highlight"
+        },
+        {
+          "index": 4,
+          "text_preview": "Line Numbers"
+        },
+        {
+          "index": 5,
+          "text_preview": "Adobe"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "selector": ".file-content.md td",
+      "tagName": "readme-table-cell",
+      "description": "Table cell content in README markdown",
+      "count": 65,
+      "element_ids": [
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[3]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[4]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[5]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[3]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[4]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[5]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[3]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[4]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[5]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[3]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[4]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[5]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[3]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[4]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[5]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[3]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[4]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[5]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[7]/td[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[7]/td[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[7]/td[3]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[7]/td[4]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[7]/td[5]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[1]/td[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[1]/td[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[1]/td[3]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[1]/td[4]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[1]/td[5]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[2]/td[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[2]/td[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[2]/td[3]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[2]/td[4]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[2]/td[5]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[3]/td[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[3]/td[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[3]/td[3]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[3]/td[4]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[3]/td[5]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[4]/td[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[4]/td[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[4]/td[3]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[4]/td[4]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[4]/td[5]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[5]/td[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[5]/td[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[5]/td[3]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[5]/td[4]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[5]/td[5]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[6]/td[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[6]/td[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[6]/td[3]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[6]/td[4]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[6]/td[5]"
+      ],
+      "element_info": {
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "Bright Turquoise"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "#00e0e0"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[3]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "8.59:1"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[4]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "AAA"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[5]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "AAA"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[1]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "Chino"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[2]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "#d4d0ab"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[3]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "9.04:1"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[4]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "AAA"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[5]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "AAA"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[1]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "Conifer"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[2]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "#abe338"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[3]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "9.29:1"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[4]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "AAA"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[5]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "AAA"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[1]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "Gold"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[2]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "#ffd700"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[3]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "10.09:1"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[4]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "AAA"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[5]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "AAA"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[1]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "Snuff"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[2]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "#dcc6e0"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[3]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "8.90:1"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[4]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "AAA"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[5]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "AAA"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[1]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "Spring Wood"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[2]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "#f8f8f2"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[3]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "13.28:1"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[4]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "AAA"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[5]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "AAA"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[7]/td[1]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "Vivid Tangerine"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[7]/td[2]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "#ffa07a"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[7]/td[3]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "7.12:1"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[7]/td[4]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "AAA"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[7]/td[5]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "AAA"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[1]/td[1]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "Chelsea Gem"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[1]/td[2]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "#aa5d00"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[1]/td[3]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "4.87:1"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[1]/td[4]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "AA"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[1]/td[5]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "AAA"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[2]/td[1]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "Allports"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[2]/td[2]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "#007299"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[2]/td[3]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "4.51:1"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[2]/td[4]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "AA"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[2]/td[5]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "AAA"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[3]/td[1]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "Dove Gray"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[3]/td[2]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "#696969"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[3]/td[3]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "5.44:1"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[3]/td[4]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "AA"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[3]/td[5]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "AAA"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[4]/td[1]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "Emperor"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[4]/td[2]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "#545454"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[4]/td[3]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "7.51:1"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[4]/td[4]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "AAA"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[4]/td[5]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "AAA"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[5]/td[1]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "Japanese Laurel"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[5]/td[2]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "#008000"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[5]/td[3]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "5.09:1"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[5]/td[4]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "AA"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[5]/td[5]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "AAA"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[6]/td[1]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "Thunderbird"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[6]/td[2]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "#d91e18"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[6]/td[3]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "5.02:1"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[6]/td[4]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "AA"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[6]/td[5]": {
+          "tagName": "td",
+          "className": "",
+          "id": "",
+          "textPreview": "AAA"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Bright Turquoise"
+        },
+        {
+          "index": 2,
+          "text_preview": "#00e0e0"
+        },
+        {
+          "index": 3,
+          "text_preview": "8.59:1"
+        },
+        {
+          "index": 4,
+          "text_preview": "AAA"
+        },
+        {
+          "index": 5,
+          "text_preview": "AAA"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "selector": ".file-content.md th",
+      "tagName": "readme-table-header",
+      "description": "Table header content in README markdown",
+      "count": 10,
+      "element_ids": [
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/thead[1]/tr[1]/th[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/thead[1]/tr[1]/th[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/thead[1]/tr[1]/th[3]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/thead[1]/tr[1]/th[4]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/thead[1]/tr[1]/th[5]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/thead[1]/tr[1]/th[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/thead[1]/tr[1]/th[2]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/thead[1]/tr[1]/th[3]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/thead[1]/tr[1]/th[4]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/thead[1]/tr[1]/th[5]"
+      ],
+      "element_info": {
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/thead[1]/tr[1]/th[1]": {
+          "tagName": "th",
+          "className": "",
+          "id": "",
+          "textPreview": "Color"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/thead[1]/tr[1]/th[2]": {
+          "tagName": "th",
+          "className": "",
+          "id": "",
+          "textPreview": "Hex"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/thead[1]/tr[1]/th[3]": {
+          "tagName": "th",
+          "className": "",
+          "id": "",
+          "textPreview": "Ratio"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/thead[1]/tr[1]/th[4]": {
+          "tagName": "th",
+          "className": "",
+          "id": "",
+          "textPreview": "Normal Text"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/thead[1]/tr[1]/th[5]": {
+          "tagName": "th",
+          "className": "",
+          "id": "",
+          "textPreview": "Large Text"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/thead[1]/tr[1]/th[1]": {
+          "tagName": "th",
+          "className": "",
+          "id": "",
+          "textPreview": "Color"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/thead[1]/tr[1]/th[2]": {
+          "tagName": "th",
+          "className": "",
+          "id": "",
+          "textPreview": "Hex"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/thead[1]/tr[1]/th[3]": {
+          "tagName": "th",
+          "className": "",
+          "id": "",
+          "textPreview": "Ratio"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/thead[1]/tr[1]/th[4]": {
+          "tagName": "th",
+          "className": "",
+          "id": "",
+          "textPreview": "Normal Text"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/thead[1]/tr[1]/th[5]": {
+          "tagName": "th",
+          "className": "",
+          "id": "",
+          "textPreview": "Large Text"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Color"
+        },
+        {
+          "index": 2,
+          "text_preview": "Hex"
+        },
+        {
+          "index": 3,
+          "text_preview": "Ratio"
+        },
+        {
+          "index": 4,
+          "text_preview": "Normal Text"
+        },
+        {
+          "index": 5,
+          "text_preview": "Large Text"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "selector": ".user-counter .gl-badge",
+      "tagName": "issue-count-badge",
+      "description": "Count badges that may include user-generated numbers",
+      "count": 5,
+      "element_ids": [
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[2]/a[1]/span[1]",
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[3]/a[1]/span[1]",
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[3]/div[1]/ul[1]/li[2]/a[1]/span[1]",
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[3]/div[1]/ul[1]/li[3]/a[1]/span[1]",
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[4]/a[1]/span[1]"
+      ],
+      "element_info": {
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[2]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "gl-badge badge badge-pill badge-success sm gl-ml-n2 ",
+          "id": "",
+          "textPreview": "13"
+        },
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[3]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "gl-badge badge badge-pill badge-warning sm js-merge-requests-count gl-ml-n2 ",
+          "id": "",
+          "textPreview": "8"
+        },
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[3]/div[1]/ul[1]/li[2]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "gl-badge badge badge-pill badge-neutral sm js-assigned-mr-count gl-ml-auto",
+          "id": "",
+          "textPreview": "3"
+        },
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[3]/div[1]/ul[1]/li[3]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "gl-badge badge badge-pill badge-neutral sm js-reviewer-mr-count gl-ml-auto",
+          "id": "",
+          "textPreview": "5"
+        },
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[4]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "gl-badge badge badge-pill badge-info sm js-todos-count gl-ml-n2 ",
+          "id": "",
+          "textPreview": "5"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "13"
+        },
+        {
+          "index": 2,
+          "text_preview": "8"
+        },
+        {
+          "index": 3,
+          "text_preview": "3"
+        },
+        {
+          "index": 4,
+          "text_preview": "5"
+        },
+        {
+          "index": 5,
+          "text_preview": "5"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "selector": ".ref-selector .gl-dropdown-button-text",
+      "tagName": "branch-name-selector",
+      "description": "Branch name in branch selector dropdown",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"__BVID__47__BV_toggle_\"]/span[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"__BVID__47__BV_toggle_\"]/span[1]": {
+          "tagName": "span",
+          "className": "gl-dropdown-button-text",
+          "id": "",
+          "textPreview": "main"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "main"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "selector": ".breadcrumb.repo-breadcrumb li a span",
+      "tagName": "repo-breadcrumb-text",
+      "description": "Repository breadcrumb navigation items including project name",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"tree-holder\"]/div[2]/div[1]/nav[1]/ol[1]/li[1]/a[1]/span[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"tree-holder\"]/div[2]/div[1]/nav[1]/ol[1]/li[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "reveal-text-wrap",
+          "id": "",
+          "textPreview": "a11y-syntax-highlighting"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "a11y-syntax-highlighting"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "selector": ".current-user a div",
+      "tagName": "current-user-display-name",
+      "description": "Current user's display name in dropdown menu",
+      "count": 1,
+      "element_ids": [
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/div[1]/ul[1]/li[1]/a[1]/div[1]"
+      ],
+      "element_info": {
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/div[1]/ul[1]/li[1]/a[1]/div[1]": {
+          "tagName": "div",
+          "className": "gl-font-weight-bold",
+          "id": "",
+          "textPreview": "Byte Blaze"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Byte Blaze"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "selector": ".header-user-dropdown-toggle",
+      "tagName": "user-avatar-alt",
+      "description": "User avatar alt text",
+      "count": 1,
+      "element_ids": [
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/a[1]"
+      ],
+      "element_info": {
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/a[1]": {
+          "tagName": "a",
+          "className": "header-user-dropdown-toggle",
+          "id": "",
+          "textPreview": ""
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(empty)"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "selector": "#dir_name",
+      "tagName": "new-directory-name-input",
+      "description": "Input field for new directory name",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"dir_name\"]"
+      ],
+      "element_info": {
+        "//*[@id=\"dir_name\"]": {
+          "tagName": "input",
+          "className": "form-control",
+          "id": "dir_name",
+          "textPreview": ""
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(empty)"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "selector": "#commit_message-fdaa2f8cd41c5492dea9357ed72450c6",
+      "tagName": "commit-message-input",
+      "description": "Commit message textarea input",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 25,
+      "selector": ".js-branch-name",
+      "tagName": "branch-name-input",
+      "description": "Branch name input field",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"branch_name\"]"
+      ],
+      "element_info": {
+        "//*[@id=\"branch_name\"]": {
+          "tagName": "input",
+          "className": "form-control gl-form-input js-branch-name ref-name",
+          "id": "branch_name",
+          "textPreview": ""
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(empty)"
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "selector": ".clone-options-dropdown .dropdown-menu-inner-content",
+      "tagName": "clone-url",
+      "description": "Repository clone URLs containing project path",
+      "count": 2,
+      "element_ids": [
+        "//*[@id=\"tree-holder\"]/div[2]/div[2]/div[2]/div[1]/ul[1]/li[1]/a[1]/span[1]",
+        "//*[@id=\"tree-holder\"]/div[2]/div[2]/div[2]/div[1]/ul[1]/li[2]/a[1]/span[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"tree-holder\"]/div[2]/div[2]/div[2]/div[1]/ul[1]/li[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "dropdown-menu-inner-content",
+          "id": "",
+          "textPreview": "ssh://git@ec2-3-133-61-102.us-east-2.compute.amazonaws.com:2222/byteblaze/a11y-syntax-highlighting.g"
+        },
+        "//*[@id=\"tree-holder\"]/div[2]/div[2]/div[2]/div[1]/ul[1]/li[2]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "dropdown-menu-inner-content",
+          "id": "",
+          "textPreview": "http://gitlab-vwa.com/byteblaze/a11y-syntax-highlighting.git"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "ssh://git@ec2-3-133-61-102.us-east-2.compute.amazonaws.com:2222/byteblaze/a11y-syntax-highlighting.g"
+        },
+        {
+          "index": 2,
+          "text_preview": "http://gitlab-vwa.com/byteblaze/a11y-syntax-highlighting.git"
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "selector": ".open-with-link .gl-dropdown-item-text-wrapper",
+      "tagName": "open-with-app-name",
+      "description": "Application names in open-with menu",
+      "count": 4,
+      "element_ids": [
+        "//*[@id=\"tree-holder\"]/div[2]/div[2]/div[1]/div[3]/div[1]/ul[1]/li[4]/a[1]/div[1]",
+        "//*[@id=\"tree-holder\"]/div[2]/div[2]/div[1]/div[3]/div[1]/ul[1]/li[4]/a[2]/div[1]",
+        "//*[@id=\"tree-holder\"]/div[2]/div[2]/div[1]/div[3]/div[1]/ul[1]/li[4]/a[3]/div[1]",
+        "//*[@id=\"tree-holder\"]/div[2]/div[2]/div[1]/div[3]/div[1]/ul[1]/li[4]/a[4]/div[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"tree-holder\"]/div[2]/div[2]/div[1]/div[3]/div[1]/ul[1]/li[4]/a[1]/div[1]": {
+          "tagName": "div",
+          "className": "gl-dropdown-item-text-wrapper",
+          "id": "",
+          "textPreview": "Visual Studio Code (SSH)"
+        },
+        "//*[@id=\"tree-holder\"]/div[2]/div[2]/div[1]/div[3]/div[1]/ul[1]/li[4]/a[2]/div[1]": {
+          "tagName": "div",
+          "className": "gl-dropdown-item-text-wrapper",
+          "id": "",
+          "textPreview": "Visual Studio Code (HTTPS)"
+        },
+        "//*[@id=\"tree-holder\"]/div[2]/div[2]/div[1]/div[3]/div[1]/ul[1]/li[4]/a[3]/div[1]": {
+          "tagName": "div",
+          "className": "gl-dropdown-item-text-wrapper",
+          "id": "",
+          "textPreview": "IntelliJ IDEA (SSH)"
+        },
+        "//*[@id=\"tree-holder\"]/div[2]/div[2]/div[1]/div[3]/div[1]/ul[1]/li[4]/a[4]/div[1]": {
+          "tagName": "div",
+          "className": "gl-dropdown-item-text-wrapper",
+          "id": "",
+          "textPreview": "IntelliJ IDEA (HTTPS)"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Visual Studio Code (SSH)"
+        },
+        {
+          "index": 2,
+          "text_preview": "Visual Studio Code (HTTPS)"
+        },
+        {
+          "index": 3,
+          "text_preview": "IntelliJ IDEA (SSH)"
+        },
+        {
+          "index": 4,
+          "text_preview": "IntelliJ IDEA (HTTPS)"
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "selector": ".commit-detail .commit-row-message span",
+      "tagName": "last-commit-message-span",
+      "description": "Last commit message displayed on project page",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"tree-holder\"]/div[1]/div[1]/div[1]/div[1]/a[1]/span[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"tree-holder\"]/div[1]/div[1]/div[1]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "reveal-text-wrap",
+          "id": "",
+          "textPreview": "Update README.md"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Update README.md"
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "selector": ".committer span",
+      "tagName": "committer-info",
+      "description": "Committer information text",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"tree-holder\"]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"tree-holder\"]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]": {
+          "tagName": "span",
+          "className": "reveal-text-wrap",
+          "id": "",
+          "textPreview": "Eric Bailey\n          \n          authored"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Eric Bailey\n          \n          authored"
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "selector": ".project-stat-value",
+      "tagName": "project-statistics",
+      "description": "Project statistics values that may include user content",
+      "count": 5,
+      "element_ids": [
+        "//*[@id=\"content-body\"]/div[2]/nav[1]/ul[1]/li[1]/a[1]/strong[1]",
+        "//*[@id=\"content-body\"]/div[2]/nav[1]/ul[1]/li[2]/a[1]/strong[1]",
+        "//*[@id=\"content-body\"]/div[2]/nav[1]/ul[1]/li[3]/a[1]/strong[1]",
+        "//*[@id=\"content-body\"]/div[2]/nav[1]/ul[1]/li[4]/a[1]/strong[1]",
+        "//*[@id=\"tree-holder\"]/div[3]/ul[1]/li[2]/a[1]/span[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"content-body\"]/div[2]/nav[1]/ul[1]/li[1]/a[1]/strong[1]": {
+          "tagName": "strong",
+          "className": "project-stat-value",
+          "id": "",
+          "textPreview": "48"
+        },
+        "//*[@id=\"content-body\"]/div[2]/nav[1]/ul[1]/li[2]/a[1]/strong[1]": {
+          "tagName": "strong",
+          "className": "project-stat-value",
+          "id": "",
+          "textPreview": "1"
+        },
+        "//*[@id=\"content-body\"]/div[2]/nav[1]/ul[1]/li[3]/a[1]/strong[1]": {
+          "tagName": "strong",
+          "className": "project-stat-value",
+          "id": "",
+          "textPreview": "0"
+        },
+        "//*[@id=\"content-body\"]/div[2]/nav[1]/ul[1]/li[4]/a[1]/strong[1]": {
+          "tagName": "strong",
+          "className": "project-stat-value",
+          "id": "",
+          "textPreview": "2 MB"
+        },
+        "//*[@id=\"tree-holder\"]/div[3]/ul[1]/li[2]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "project-stat-value",
+          "id": "",
+          "textPreview": "MIT License"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "48"
+        },
+        {
+          "index": 2,
+          "text_preview": "1"
+        },
+        {
+          "index": 3,
+          "text_preview": "0"
+        },
+        {
+          "index": 4,
+          "text_preview": "2 MB"
+        },
+        {
+          "index": 5,
+          "text_preview": "MIT License"
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "selector": ".file-holder .file-header-content a strong",
+      "tagName": "readme-filename",
+      "description": "README filename in file holder",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[1]/div[1]/a[1]/strong[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[1]/div[1]/a[1]/strong[1]": {
+          "tagName": "strong",
+          "className": "",
+          "id": "",
+          "textPreview": "README.md"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "README.md"
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "selector": ".avatar-container .avatar",
+      "tagName": "project-avatar-identicon",
+      "description": "Project avatar identicon text (single letter from project name)",
+      "count": 2,
+      "element_ids": [
+        "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[1]/span[1]",
+        "//*[@id=\"content-body\"]/div[2]/div[1]/div[1]/div[1]/span[1]"
+      ],
+      "element_info": {
+        "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[1]/span[1]": {
+          "tagName": "span",
+          "className": "avatar avatar-tile s32 identicon bg5",
+          "id": "",
+          "textPreview": "A"
+        },
+        "//*[@id=\"content-body\"]/div[2]/div[1]/div[1]/div[1]/span[1]": {
+          "tagName": "span",
+          "className": "avatar avatar-tile s64 identicon bg5",
+          "id": "",
+          "textPreview": "A"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "A"
+        },
+        {
+          "index": 2,
+          "text_preview": "A"
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "selector": ".home-panel-avatar .avatar",
+      "tagName": "home-panel-project-avatar",
+      "description": "Project avatar on home panel (contains first letter of project name)",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"content-body\"]/div[2]/div[1]/div[1]/div[1]/span[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"content-body\"]/div[2]/div[1]/div[1]/div[1]/span[1]": {
+          "tagName": "span",
+          "className": "avatar avatar-tile s64 identicon bg5",
+          "id": "",
+          "textPreview": "A"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "A"
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "selector": ".commit-detail .commit-content a",
+      "tagName": "commit-message-link",
+      "description": "Commit message as clickable link in commit detail",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"tree-holder\"]/div[1]/div[1]/div[1]/div[1]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"tree-holder\"]/div[1]/div[1]/div[1]/div[1]/a[1]": {
+          "tagName": "a",
+          "className": "gl-link commit-row-message item-title reveal-hidden",
+          "id": "",
+          "textPreview": "Update README.md"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Update README.md"
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "selector": "input#ssh_project_clone",
+      "tagName": "ssh-clone-url",
+      "description": "SSH clone URL containing project namespace and name",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"ssh_project_clone\"]"
+      ],
+      "element_info": {
+        "//*[@id=\"ssh_project_clone\"]": {
+          "tagName": "input",
+          "className": "js-select-on-focus form-control",
+          "id": "ssh_project_clone",
+          "textPreview": ""
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(empty)"
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "selector": "input#http_project_clone",
+      "tagName": "http-clone-url",
+      "description": "HTTP clone URL containing project namespace and name",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"http_project_clone\"]"
+      ],
+      "element_info": {
+        "//*[@id=\"http_project_clone\"]": {
+          "tagName": "input",
+          "className": "js-select-on-focus form-control",
+          "id": "http_project_clone",
+          "textPreview": ""
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(empty)"
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "selector": ".gl-font-monospace.gl-button span.gl-button-text",
+      "tagName": "commit-sha-display",
+      "description": "Commit SHA displayed in monospace font",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"tree-holder\"]/div[1]/div[1]/div[1]/div[3]/div[2]/span[1]/span[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"tree-holder\"]/div[1]/div[1]/div[1]/div[3]/div[2]/span[1]/span[1]": {
+          "tagName": "span",
+          "className": "gl-button-text",
+          "id": "",
+          "textPreview": "62820763"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "62820763"
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "selector": ".shortcuts-project span",
+      "tagName": "sidebar-project-link-text",
+      "description": "Project name link text in sidebar shortcuts",
+      "count": 4,
+      "element_ids": [
+        "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[1]",
+        "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[1]/span[1]",
+        "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[2]",
+        "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[2]/span[1]"
+      ],
+      "element_info": {
+        "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "avatar-container rect-avatar s32 project_avatar reveal-hidden",
+          "id": "",
+          "textPreview": "A"
+        },
+        "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[1]/span[1]": {
+          "tagName": "span",
+          "className": "avatar avatar-tile s32 identicon bg5",
+          "id": "",
+          "textPreview": "A"
+        },
+        "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[2]": {
+          "tagName": "span",
+          "className": "sidebar-context-title reveal-hidden",
+          "id": "",
+          "textPreview": "a11y-syntax-highlighting"
+        },
+        "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[2]/span[1]": {
+          "tagName": "span",
+          "className": "reveal-text-wrap",
+          "id": "",
+          "textPreview": "a11y-syntax-highlighting"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "A"
+        },
+        {
+          "index": 2,
+          "text_preview": "A"
+        },
+        {
+          "index": 3,
+          "text_preview": "a11y-syntax-highlighting"
+        },
+        {
+          "index": 4,
+          "text_preview": "a11y-syntax-highlighting"
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "selector": ".mobile-git-clone .clone.url-selector strong",
+      "tagName": "mobile-clone-url-label",
+      "description": "Clone URL labels on mobile view",
+      "count": 2,
+      "element_ids": [
+        "//*[@id=\"tree-holder\"]/div[2]/div[2]/div[2]/div[1]/ul[1]/li[1]/a[1]/strong[1]",
+        "//*[@id=\"tree-holder\"]/div[2]/div[2]/div[2]/div[1]/ul[1]/li[2]/a[1]/strong[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"tree-holder\"]/div[2]/div[2]/div[2]/div[1]/ul[1]/li[1]/a[1]/strong[1]": {
+          "tagName": "strong",
+          "className": "dropdown-menu-inner-title",
+          "id": "",
+          "textPreview": "Copy SSH clone URL"
+        },
+        "//*[@id=\"tree-holder\"]/div[2]/div[2]/div[2]/div[1]/ul[1]/li[2]/a[1]/strong[1]": {
+          "tagName": "strong",
+          "className": "dropdown-menu-inner-title",
+          "id": "",
+          "textPreview": "Copy HTTP clone URL"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Copy SSH clone URL"
+        },
+        {
+          "index": 2,
+          "text_preview": "Copy HTTP clone URL"
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "selector": ".mobile-git-clone .clone.url-selector span",
+      "tagName": "mobile-clone-url-value",
+      "description": "Clone URL values on mobile containing project path",
+      "count": 2,
+      "element_ids": [
+        "//*[@id=\"tree-holder\"]/div[2]/div[2]/div[2]/div[1]/ul[1]/li[1]/a[1]/span[1]",
+        "//*[@id=\"tree-holder\"]/div[2]/div[2]/div[2]/div[1]/ul[1]/li[2]/a[1]/span[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"tree-holder\"]/div[2]/div[2]/div[2]/div[1]/ul[1]/li[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "dropdown-menu-inner-content",
+          "id": "",
+          "textPreview": "ssh://git@ec2-3-133-61-102.us-east-2.compute.amazonaws.com:2222/byteblaze/a11y-syntax-highlighting.g"
+        },
+        "//*[@id=\"tree-holder\"]/div[2]/div[2]/div[2]/div[1]/ul[1]/li[2]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "dropdown-menu-inner-content",
+          "id": "",
+          "textPreview": "http://gitlab-vwa.com/byteblaze/a11y-syntax-highlighting.git"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "ssh://git@ec2-3-133-61-102.us-east-2.compute.amazonaws.com:2222/byteblaze/a11y-syntax-highlighting.g"
+        },
+        {
+          "index": 2,
+          "text_preview": "http://gitlab-vwa.com/byteblaze/a11y-syntax-highlighting.git"
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "selector": "#search",
+      "tagName": "search-input-placeholder",
+      "description": "Search input that may retain user search queries",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"search\"]"
+      ],
+      "element_info": {
+        "//*[@id=\"search\"]": {
+          "tagName": "input",
+          "className": "form-control gl-form-input gl-search-box-by-type-input",
+          "id": "search",
+          "textPreview": ""
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(empty)"
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "selector": ".file-content.md code",
+      "tagName": "readme-inline-code",
+      "description": "Inline code snippets in README markdown",
+      "count": 15,
+      "element_ids": [
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[5]/li[2]/code[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/code[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[2]/code[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[2]/code[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[2]/code[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[2]/code[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[2]/code[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[7]/td[2]/code[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[6]/li[2]/code[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[1]/td[2]/code[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[2]/td[2]/code[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[3]/td[2]/code[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[4]/td[2]/code[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[5]/td[2]/code[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[6]/td[2]/code[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[5]/li[2]/code[1]": {
+          "tagName": "code",
+          "className": "",
+          "id": "",
+          "textPreview": "#2b2b2b"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/code[1]": {
+          "tagName": "code",
+          "className": "",
+          "id": "",
+          "textPreview": "#00e0e0"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[2]/code[1]": {
+          "tagName": "code",
+          "className": "",
+          "id": "",
+          "textPreview": "#d4d0ab"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[2]/code[1]": {
+          "tagName": "code",
+          "className": "",
+          "id": "",
+          "textPreview": "#abe338"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[2]/code[1]": {
+          "tagName": "code",
+          "className": "",
+          "id": "",
+          "textPreview": "#ffd700"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[2]/code[1]": {
+          "tagName": "code",
+          "className": "",
+          "id": "",
+          "textPreview": "#dcc6e0"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[2]/code[1]": {
+          "tagName": "code",
+          "className": "",
+          "id": "",
+          "textPreview": "#f8f8f2"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[7]/td[2]/code[1]": {
+          "tagName": "code",
+          "className": "",
+          "id": "",
+          "textPreview": "#ffa07a"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/ul[6]/li[2]/code[1]": {
+          "tagName": "code",
+          "className": "",
+          "id": "",
+          "textPreview": "#fefefe"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[1]/td[2]/code[1]": {
+          "tagName": "code",
+          "className": "",
+          "id": "",
+          "textPreview": "#aa5d00"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[2]/td[2]/code[1]": {
+          "tagName": "code",
+          "className": "",
+          "id": "",
+          "textPreview": "#007299"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[3]/td[2]/code[1]": {
+          "tagName": "code",
+          "className": "",
+          "id": "",
+          "textPreview": "#696969"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[4]/td[2]/code[1]": {
+          "tagName": "code",
+          "className": "",
+          "id": "",
+          "textPreview": "#545454"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[5]/td[2]/code[1]": {
+          "tagName": "code",
+          "className": "",
+          "id": "",
+          "textPreview": "#008000"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]/table[2]/tbody[1]/tr[6]/td[2]/code[1]": {
+          "tagName": "code",
+          "className": "",
+          "id": "",
+          "textPreview": "#d91e18"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "#2b2b2b"
+        },
+        {
+          "index": 2,
+          "text_preview": "#00e0e0"
+        },
+        {
+          "index": 3,
+          "text_preview": "#d4d0ab"
+        },
+        {
+          "index": 4,
+          "text_preview": "#abe338"
+        },
+        {
+          "index": 5,
+          "text_preview": "#ffd700"
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "selector": "title",
+      "tagName": "page-title",
+      "description": "Browser page title containing project name",
+      "count": 1,
+      "element_ids": [
+        "/html/head[1]/title[1]"
+      ],
+      "element_info": {
+        "/html/head[1]/title[1]": {
+          "tagName": "title",
+          "className": "",
+          "id": "",
+          "textPreview": "Byte Blaze / a11y-syntax-highlighting \u00b7 GitLab"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Byte Blaze / a11y-syntax-highlighting \u00b7 GitLab"
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "selector": ".home-panel-metadata span",
+      "tagName": "project-metadata",
+      "description": "Project ID and metadata display",
+      "count": 2,
+      "element_ids": [
+        "//*[@id=\"content-body\"]/div[2]/div[1]/div[1]/div[2]/div[1]/span[1]",
+        "//*[@id=\"content-body\"]/div[2]/div[1]/div[1]/div[2]/div[1]/span[2]"
+      ],
+      "element_info": {
+        "//*[@id=\"content-body\"]/div[2]/div[1]/div[1]/div[2]/div[1]/span[1]": {
+          "tagName": "span",
+          "className": "gl-display-inline-block gl-vertical-align-middle",
+          "id": "",
+          "textPreview": "Project ID: 186"
+        },
+        "//*[@id=\"content-body\"]/div[2]/div[1]/div[1]/div[2]/div[1]/span[2]": {
+          "tagName": "span",
+          "className": "gl-ml-3 gl-mb-3",
+          "id": "",
+          "textPreview": ""
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Project ID: 186"
+        },
+        {
+          "index": 2,
+          "text_preview": "(empty)"
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "selector": "h1.title span",
+      "tagName": "issue-title",
+      "description": "Issue title text",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 46,
+      "selector": ".description .md",
+      "tagName": "issue-description",
+      "description": "Issue description content in markdown",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 47,
+      "selector": ".note-text.md",
+      "tagName": "comment-content",
+      "description": "Comment/note content in discussions",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 48,
+      "selector": ".note-header-author-name",
+      "tagName": "comment-author-name",
+      "description": "Display name of comment author",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 49,
+      "selector": ".author-username-link .note-headline-light",
+      "tagName": "comment-author-username",
+      "description": "Username of comment author",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 50,
+      "selector": ".breadcrumbs-links a span",
+      "tagName": "breadcrumb-text",
+      "description": "Breadcrumb navigation including project and namespace names",
+      "count": 2,
+      "element_ids": [
+        "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/span[1]",
+        "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/span[1]"
+      ],
+      "element_info": {
+        "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "reveal-text-wrap",
+          "id": "",
+          "textPreview": "Byte Blaze"
+        },
+        "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "breadcrumb-item-text js-breadcrumb-item-text",
+          "id": "",
+          "textPreview": "a11y-syntax-highlighting"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Byte Blaze"
+        },
+        {
+          "index": 2,
+          "text_preview": "a11y-syntax-highlighting"
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "selector": ".author-link .author",
+      "tagName": "issue-author-name",
+      "description": "Issue author display name",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 52,
+      "selector": ".user-profile-link",
+      "tagName": "user-profile-link",
+      "description": "User profile display name in header dropdown",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 53,
+      "selector": ".assignee-grid .gl-display-flex span",
+      "tagName": "assignee-name",
+      "description": "Assignee display name in sidebar",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 54,
+      "selector": ".participants-author img[alt]",
+      "tagName": "participant-avatar",
+      "description": "Participant avatar with alt text containing username",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 55,
+      "selector": ".system-note-message",
+      "tagName": "system-note-content",
+      "description": "System note messages that may contain user references",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 56,
+      "selector": ".note-body .md a",
+      "tagName": "comment-links",
+      "description": "Links within comment content",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 57,
+      "selector": ".description .md a",
+      "tagName": "description-links",
+      "description": "Links within issue description",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 58,
+      "selector": ".note-body .md p",
+      "tagName": "comment-paragraphs",
+      "description": "Paragraph content in comments",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 59,
+      "selector": ".description .md p",
+      "tagName": "description-paragraphs",
+      "description": "Paragraph content in issue description",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 60,
+      "selector": ".note-body .md code",
+      "tagName": "comment-inline-code",
+      "description": "Inline code snippets in comments",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 61,
+      "selector": ".description .md code",
+      "tagName": "description-inline-code",
+      "description": "Inline code snippets in issue description",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 62,
+      "selector": ".note-body .md ul",
+      "tagName": "comment-lists",
+      "description": "Lists in comment content",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 63,
+      "selector": ".description .md ul",
+      "tagName": "description-lists",
+      "description": "Lists in issue description",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 64,
+      "selector": ".note-body .md img[alt]",
+      "tagName": "comment-images",
+      "description": "Images with alt text in comments",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 65,
+      "selector": ".description .md img[alt]",
+      "tagName": "description-images",
+      "description": "Images with alt text in issue description",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 66,
+      "selector": ".gfm-project_member",
+      "tagName": "mentioned-user",
+      "description": "User mentions in markdown content",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 67,
+      "selector": ".note-header-author-name.gl-font-weight-bold",
+      "tagName": "comment-author-display-name",
+      "description": "Bold display name of comment authors in note headers",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 68,
+      "selector": ".author-name-link span",
+      "tagName": "author-name-span",
+      "description": "Author name spans in various contexts",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 69,
+      "selector": ".sidebar-collapsed-user .author span",
+      "tagName": "collapsed-assignee-name",
+      "description": "Assignee name in collapsed sidebar state",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 70,
+      "selector": ".header-user-avatar[alt]",
+      "tagName": "user-avatar-alt",
+      "description": "User avatar alt text in header",
+      "count": 1,
+      "element_ids": [
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/a[1]/img[1]"
+      ],
+      "element_info": {
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "gl-avatar gl-avatar-s24 header-user-avatar gl-avatar-circle",
+          "id": "",
+          "textPreview": ""
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(empty)"
+        }
+      ]
+    },
+    {
+      "index": 71,
+      "selector": ".current-user .fly-out-top-item-name",
+      "tagName": "current-user-name",
+      "description": "Current user display name in navigation",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 72,
+      "selector": "input[name='issue[note]']",
+      "tagName": "comment-input-field",
+      "description": "Comment textarea where users enter new comments",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 73,
+      "selector": ".collapse-truncated-title",
+      "tagName": "collapsed-sidebar-text",
+      "description": "Truncated text in collapsed sidebar (may include user-generated labels)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 74,
+      "selector": ".dropdown-menu-user .author",
+      "tagName": "user-dropdown-name",
+      "description": "User names in assignee/user dropdown menus",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 75,
+      "selector": ".avatar.identicon",
+      "tagName": "identicon-avatar",
+      "description": "Generated avatar icons with potential user initials",
+      "count": 2,
+      "element_ids": [
+        "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[1]/span[1]",
+        "//*[@id=\"content-body\"]/div[2]/div[1]/div[1]/div[1]/span[1]"
+      ],
+      "element_info": {
+        "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[1]/span[1]": {
+          "tagName": "span",
+          "className": "avatar avatar-tile s32 identicon bg5",
+          "id": "",
+          "textPreview": "A"
+        },
+        "//*[@id=\"content-body\"]/div[2]/div[1]/div[1]/div[1]/span[1]": {
+          "tagName": "span",
+          "className": "avatar avatar-tile s64 identicon bg5",
+          "id": "",
+          "textPreview": "A"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "A"
+        },
+        {
+          "index": 2,
+          "text_preview": "A"
+        }
+      ]
+    },
+    {
+      "index": 76,
+      "selector": "h1.cover-title span",
+      "tagName": "user-display-name",
+      "description": "User's display name on profile page",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 77,
+      "selector": ".profile-user-bio span",
+      "tagName": "user-bio",
+      "description": "User's biography/about text on profile page",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 78,
+      "selector": ".user-info .gl-mb-3.gl-display-inline-block.middle-dot-divider",
+      "tagName": "user-username-location-company",
+      "description": "Username, location, and company information in user profile",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 79,
+      "selector": "[itemprop='addressLocality']",
+      "tagName": "user-location",
+      "description": "User's location information",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 80,
+      "selector": "[itemprop='worksFor']",
+      "tagName": "user-company",
+      "description": "User's company/organization",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 81,
+      "selector": ".event-target-title",
+      "tagName": "activity-issue-title",
+      "description": "Issue/MR titles in activity feed",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 82,
+      "selector": ".event-note .md p",
+      "tagName": "activity-comment",
+      "description": "Comment content in activity feed",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 83,
+      "selector": ".commit-row-title",
+      "tagName": "commit-message",
+      "description": "Commit message in activity feed",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 84,
+      "selector": ".project-name span",
+      "tagName": "project-name",
+      "description": "Project name in project list",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 85,
+      "selector": ".namespace-name span",
+      "tagName": "namespace-name",
+      "description": "Namespace/user name in project list",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 86,
+      "selector": ".description p",
+      "tagName": "project-description",
+      "description": "Project description in project list",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 87,
+      "selector": ".event-user-info .author-name a",
+      "tagName": "activity-author-name",
+      "description": "Author display name in activity items",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 88,
+      "selector": ".event-user-info .username span",
+      "tagName": "activity-author-username",
+      "description": "Author username in activity items",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 89,
+      "selector": ".event-scope .namespace-name span",
+      "tagName": "activity-namespace",
+      "description": "Namespace in activity scope",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 90,
+      "selector": ".event-scope .project-name span",
+      "tagName": "activity-project",
+      "description": "Project name in activity scope",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 91,
+      "selector": ".current-user .gl-font-weight-bold",
+      "tagName": "dropdown-user-name",
+      "description": "User display name in dropdown menu",
+      "count": 1,
+      "element_ids": [
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/div[1]/ul[1]/li[1]/a[1]/div[1]"
+      ],
+      "element_info": {
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/div[1]/ul[1]/li[1]/a[1]/div[1]": {
+          "tagName": "div",
+          "className": "gl-font-weight-bold",
+          "id": "",
+          "textPreview": "Byte Blaze"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Byte Blaze"
+        }
+      ]
+    },
+    {
+      "index": 92,
+      "selector": ".ref-name span",
+      "tagName": "branch-name",
+      "description": "Branch/ref name in push activity",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 93,
+      "selector": ".current-user a[data-user]",
+      "tagName": "dropdown-user-username",
+      "description": "User username in dropdown menu (second line)",
+      "count": 1,
+      "element_ids": [
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/div[1]/ul[1]/li[1]/a[1]"
+      ],
+      "element_info": {
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/div[1]/ul[1]/li[1]/a[1]": {
+          "tagName": "a",
+          "className": "gl-line-height-20!",
+          "id": "",
+          "textPreview": "Byte Blaze\n\n@byteblaze"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Byte Blaze\n\n@byteblaze"
+        }
+      ]
+    },
+    {
+      "index": 94,
+      "selector": ".commit-sha",
+      "tagName": "commit-sha-link",
+      "description": "Commit SHA in activity feed (can be part of user-controlled repo)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 95,
+      "selector": ".header-user-dropdown-toggle img.header-user-avatar",
+      "tagName": "header-avatar",
+      "description": "User avatar image in header dropdown",
+      "count": 1,
+      "element_ids": [
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/a[1]/img[1]"
+      ],
+      "element_info": {
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "gl-avatar gl-avatar-s24 header-user-avatar gl-avatar-circle",
+          "id": "",
+          "textPreview": ""
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(empty)"
+        }
+      ]
+    },
+    {
+      "index": 96,
+      "selector": ".avatar-holder img",
+      "tagName": "profile-avatar",
+      "description": "User avatar image on profile page",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 97,
+      "selector": ".event-item .user-avatar img",
+      "tagName": "activity-avatar",
+      "description": "User avatar images in activity feed",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 98,
+      "selector": ".project-cell img.gl-avatar",
+      "tagName": "project-avatar",
+      "description": "Project avatar images in project list",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 99,
+      "selector": ".project-cell .gl-avatar-identicon",
+      "tagName": "project-identicon",
+      "description": "Project identicon (generated from project name)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    }
+  ]
+}

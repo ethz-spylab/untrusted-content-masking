@@ -1,0 +1,694 @@
+/* =====================================================================
+   JOB BOARD & APPLICATION TRACKER SPECIFIC STYLES
+   ===================================================================== */
+
+/* =====================================================================
+   PROMOTIONAL BANNER
+   ===================================================================== */
+
+   .promo-banner-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.promo-banner {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 1rem 1.5rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.promo-content {
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.promo-content strong {
+    font-weight: 600;
+}
+
+/* =====================================================================
+   HEADER & NAVIGATION
+   ===================================================================== */
+
+.header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.nav {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.nav-btn {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s;
+    position: relative;
+}
+
+.nav-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.nav-btn.active {
+    background: white;
+    color: #667eea;
+}
+
+.badge {
+    background: #f5576c;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    border-radius: 10px;
+    font-size: 0.75rem;
+    margin-left: 0.5rem;
+}
+
+/* =====================================================================
+   MAIN CONTAINER
+   ===================================================================== */
+
+.main-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    min-height: calc(100vh - 100px);
+}
+
+.view-content {
+    display: none;
+}
+
+.view-content.active {
+    display: block;
+}
+
+/* =====================================================================
+   JOBS VIEW
+   ===================================================================== */
+
+.jobs-container {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 2rem;
+}
+
+/* Filters Sidebar */
+.filters-sidebar {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    position: sticky;
+    top: 20px;
+    /* When sidebar content is taller than viewport, scroll within the sidebar
+       so all filters (incl. wrapped Experience Level buttons like Senior)
+       remain reachable. Without this, the sticky bottom gets clipped. */
+    max-height: calc(100vh - 40px);
+    overflow-y: auto;
+}
+
+.filters-sidebar h3 {
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 0.5rem;
+}
+
+.filter-group {
+    margin-bottom: 1.5rem;
+}
+
+.filter-group .form-label {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+.form-range {
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+#salary-display {
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    color: #667eea;
+    font-size: 1.1rem;
+}
+
+/* Jobs List */
+.jobs-list-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+.jobs-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.jobs-header h2 {
+    color: #2c3e50;
+}
+
+.jobs-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.no-results {
+    text-align: center;
+    padding: 3rem;
+    color: #7f8c8d;
+    font-size: 1.1rem;
+}
+
+/* =====================================================================
+   JOB CARDS
+   ===================================================================== */
+
+.job-card {
+    background: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: all 0.2s;
+}
+
+.job-card:hover {
+    border-color: #667eea;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.job-title {
+    color: #2c3e50;
+    margin-bottom: 0.25rem;
+    font-size: 1.3rem;
+}
+
+.job-company {
+    color: #667eea;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.save-btn {
+    background: none;
+    border: 2px solid #e0e0e0;
+    color: #7f8c8d;
+    font-size: 1.5rem;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.save-btn:hover {
+    border-color: #ffc107;
+    color: #ffc107;
+}
+
+.save-btn.saved {
+    background: #ffc107;
+    border-color: #ffc107;
+    color: white;
+}
+
+.job-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.job-meta span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.job-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.tag {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    background-color: #e8f0fe;
+    border: 1px solid #667eea;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    color: #2c3e50;
+}
+
+.job-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    border-top: 1px solid #e0e0e0;
+    font-size: 0.85rem;
+    color: #7f8c8d;
+}
+
+/* =====================================================================
+   APPLICATION TRACKER
+   ===================================================================== */
+
+.tracker-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+.tracker-container h2 {
+    color: #2c3e50;
+    margin-bottom: 2rem;
+}
+
+.tracker-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.stat-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.stat-number {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    font-size: 0.95rem;
+    opacity: 0.9;
+}
+
+.applications-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Application Cards */
+.application-card {
+    background: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: all 0.2s;
+}
+
+.application-card:hover {
+    border-color: #667eea;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.app-header h3 {
+    color: #2c3e50;
+    margin-bottom: 0.25rem;
+}
+
+.app-company {
+    color: #667eea;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.status-applied {
+    background-color: #e3f2fd;
+    color: #1976d2;
+}
+
+.status-phone-screen {
+    background-color: #fff3e0;
+    color: #f57c00;
+}
+
+.status-interview {
+    background-color: #fce4ec;
+    color: #c2185b;
+}
+
+.status-offer {
+    background-color: #e8f5e9;
+    color: #388e3c;
+}
+
+.status-rejected {
+    background-color: #ffebee;
+    color: #d32f2f;
+}
+
+.status-withdrawn {
+    background-color: #f5f5f5;
+    color: #616161;
+}
+
+.app-meta {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+/* =====================================================================
+   SAVED JOBS & PROFILE
+   ===================================================================== */
+
+.saved-container,
+.profile-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    max-width: 1200px;
+}
+
+.saved-container h2,
+.profile-container h2 {
+    color: #2c3e50;
+    margin-bottom: 2rem;
+}
+
+.saved-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.profile-container form {
+    max-width: 600px;
+}
+
+.form-help {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: #7f8c8d;
+}
+
+/* =====================================================================
+   MODALS - Job Board Specific
+   ===================================================================== */
+
+.modal-content h2 {
+    color: #667eea;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 0.75rem;
+}
+
+.modal-large {
+    max-width: 800px;
+}
+
+.job-detail-section,
+.app-detail-section,
+.review-section {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.job-detail-section:last-child,
+.app-detail-section:last-child,
+.review-section:last-child {
+    border-bottom: none;
+}
+
+.job-detail-section h4,
+.app-detail-section h4,
+.review-section h4 {
+    color: #2c3e50;
+    margin-bottom: 0.75rem;
+}
+
+.job-detail-section p,
+.app-detail-section p,
+.review-section p {
+    margin: 0.5rem 0;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* =====================================================================
+   APPLICATION FORM - Multi-step
+   ===================================================================== */
+
+.application-progress {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.progress-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    opacity: 0.4;
+    transition: all 0.3s;
+}
+
+.progress-step.active {
+    opacity: 1;
+}
+
+.step-number {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    color: #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    transition: all 0.3s;
+}
+
+.progress-step.active .step-number {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    box-shadow: 0 4px 8px rgba(102, 126, 234, 0.4);
+}
+
+.step-label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #666;
+}
+
+.progress-step.active .step-label {
+    color: #667eea;
+}
+
+.application-step {
+    display: none;
+}
+
+.application-step.active {
+    display: block;
+}
+
+.application-step h3 {
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+}
+
+/* =====================================================================
+   RESPONSIVE LAYOUT
+   ===================================================================== */
+
+@media (max-width: 1200px) {
+    .jobs-container {
+        grid-template-columns: 260px 1fr;
+    }
+}
+
+@media (max-width: 992px) {
+    .jobs-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .filters-sidebar {
+        position: static;
+    }
+    
+    .tracker-stats {
+        grid-template-columns: 1fr;
+    }
+    
+    .nav {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        padding: 1rem;
+    }
+    
+    .jobs-header {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+    }
+    
+    .job-header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .save-btn {
+        align-self: flex-end;
+    }
+    
+    .job-meta {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .job-footer {
+        flex-direction: column;
+        gap: 0.75rem;
+        align-items: flex-start;
+    }
+    
+    .app-header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .application-progress {
+        gap: 1rem;
+    }
+    
+    .step-number {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+    
+    .step-label {
+        font-size: 0.75rem;
+    }
+}
+
+/* Button-style filter groups — replaces native <select>/<input type=checkbox>
+   so filter clicks always fire real click events (reliable under CDP). */
+.filter-btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.25rem;
+}
+
+.filter-btn, .toggle-btn {
+    padding: 0.4rem 0.8rem;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: #333;
+    transition: all 0.15s;
+}
+
+.filter-btn:hover, .toggle-btn:hover {
+    background-color: #f3f4f6;
+}
+
+.filter-btn.active {
+    background-color: #6366f1;
+    color: white;
+    border-color: #6366f1;
+}
+
+.toggle-btn {
+    background-color: #f9fafb;
+    color: #6b7280;
+}
+
+.toggle-btn.active {
+    background-color: #6366f1;
+    color: white;
+    border-color: #6366f1;
+    font-weight: 500;
+}
+
+.toggle-btn.active::before {
+    content: "\2713\00a0";
+    font-weight: 700;
+}
+
+/**
+ * SUMMARY:
+ * - Uses common.css for: buttons, forms, modals, base styles
+ * - Job board specific: job cards, filters, application tracker
+ * - Professional color scheme: purple/blue gradient theme
+ * - Multi-step form with visual progress indicators
+ * - Status badges with color coding
+ * - Responsive design with mobile optimizations
+ */

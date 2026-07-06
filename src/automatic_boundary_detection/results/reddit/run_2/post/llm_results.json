@@ -1,0 +1,3156 @@
+{
+  "summary": {
+    "totalSelectors": 37,
+    "selectorsWithMatches": 28,
+    "totalElements": 352,
+    "uniqueElements": 154,
+    "url": "http://localhost:8001/llm_input_original_post.html",
+    "configFile": "llm_labels.json",
+    "configVersion": "sanitized",
+    "configGeneratedBy": "LLM analysis (claude-sonnet-4-5-20250929)"
+  },
+  "results": [
+    {
+      "index": 1,
+      "selector": ".thing .title a.title",
+      "tagName": "post-title",
+      "description": "Post/submission title text",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "selector": ".thing a.author",
+      "tagName": "username",
+      "description": "Username of post or comment author",
+      "count": 48,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[2]",
+        "//*[@id=\"thing_t1_ocf4d7p\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocf9si7\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfu7si\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocg3nto\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocg7z3t\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgblhy\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgr3we\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgrpzy\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocf9o9o\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_och41ih\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgk9b0\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfcis9\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocflna0\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfp5b5\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfu402\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgtbdy\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgccwi\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocggtzq\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgwgoz\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocflh4n\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgixa2\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgbtw2\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfuday\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgur0w\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfk5aa\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocght67\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgra3o\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgj9d9\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocg6rwm\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfslft\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgdjbv\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgqi36\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocguslh\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ochasci\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ochcb2i\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_och615c\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocf7jco\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocg5sam\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocg7mg0\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocg38s8\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgldqo\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgxdjw\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocganla\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgmixz\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgmqj3\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgti75\"]/div[2]/p[1]/a[2]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1q1jbnhq",
+          "id": "",
+          "textPreview": "r_retrohacking_mod2"
+        },
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1q1jbnhq",
+          "id": "",
+          "textPreview": "r_retrohacking_mod2"
+        },
+        "//*[@id=\"thing_t1_ocf4d7p\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_ibzwv",
+          "id": "",
+          "textPreview": "janisozaur"
+        },
+        "//*[@id=\"thing_t1_ocf9si7\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_ftf51",
+          "id": "",
+          "textPreview": "Norphesius"
+        },
+        "//*[@id=\"thing_t1_ocfu7si\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_52x2f",
+          "id": "",
+          "textPreview": "vytah"
+        },
+        "//*[@id=\"thing_t1_ocg3nto\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_379gd",
+          "id": "",
+          "textPreview": "jhaluska"
+        },
+        "//*[@id=\"thing_t1_ocg7z3t\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_6j25c6dm",
+          "id": "",
+          "textPreview": "Luke22_36"
+        },
+        "//*[@id=\"thing_t1_ocgblhy\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_4aaq1",
+          "id": "",
+          "textPreview": "gimpwiz"
+        },
+        "//*[@id=\"thing_t1_ocgr3we\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1ynyypvj",
+          "id": "",
+          "textPreview": "flatfinger"
+        },
+        "//*[@id=\"thing_t1_ocgrpzy\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_mbfe7da7",
+          "id": "",
+          "textPreview": "Asyncrosaurus"
+        },
+        "//*[@id=\"thing_t1_ocf9o9o\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_x9soxg2",
+          "id": "",
+          "textPreview": "WJMazepas"
+        },
+        "//*[@id=\"thing_t1_och41ih\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_4pdql",
+          "id": "",
+          "textPreview": "Sage2050"
+        },
+        "//*[@id=\"thing_t1_ocgk9b0\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1m5peuejy6",
+          "id": "",
+          "textPreview": "VictoryMotel"
+        },
+        "//*[@id=\"thing_t1_ocfcis9\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_ftf51",
+          "id": "",
+          "textPreview": "Norphesius"
+        },
+        "//*[@id=\"thing_t1_ocflna0\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_5ij2c",
+          "id": "",
+          "textPreview": "matthieum"
+        },
+        "//*[@id=\"thing_t1_ocfp5b5\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_15246q",
+          "id": "",
+          "textPreview": "vowelqueue"
+        },
+        "//*[@id=\"thing_t1_ocfu402\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_5ij2c",
+          "id": "",
+          "textPreview": "matthieum"
+        },
+        "//*[@id=\"thing_t1_ocgtbdy\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_52np03ys",
+          "id": "",
+          "textPreview": "YellowBunnyReddit"
+        },
+        "//*[@id=\"thing_t1_ocgccwi\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_4aaq1",
+          "id": "",
+          "textPreview": "gimpwiz"
+        },
+        "//*[@id=\"thing_t1_ocggtzq\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_ibq05",
+          "id": "",
+          "textPreview": "Anabaena_azollae"
+        },
+        "//*[@id=\"thing_t1_ocgwgoz\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_cd18ckdak",
+          "id": "",
+          "textPreview": "_I_AM_A_STRANGE_LOOP"
+        },
+        "//*[@id=\"thing_t1_ocflh4n\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_3dcvoeuf",
+          "id": "",
+          "textPreview": "BobBulldogBriscoe"
+        },
+        "//*[@id=\"thing_t1_ocgixa2\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1m9fncvxr2",
+          "id": "",
+          "textPreview": "LarstOfUs"
+        },
+        "//*[@id=\"thing_t1_ocgbtw2\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_c1oyp",
+          "id": "",
+          "textPreview": "WaitForItTheMongols"
+        },
+        "//*[@id=\"thing_t1_ocfuday\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_ig8yw9sc",
+          "id": "",
+          "textPreview": "wintrmt3"
+        },
+        "//*[@id=\"thing_t1_ocgur0w\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1038di",
+          "id": "",
+          "textPreview": "ShinyHappyREM"
+        },
+        "//*[@id=\"thing_t1_ocfk5aa\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_25714r5qos",
+          "id": "",
+          "textPreview": "albertopodesta"
+        },
+        "//*[@id=\"thing_t1_ocght67\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1m9fncvxr2",
+          "id": "",
+          "textPreview": "LarstOfUs"
+        },
+        "//*[@id=\"thing_t1_ocgra3o\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1038di",
+          "id": "",
+          "textPreview": "ShinyHappyREM"
+        },
+        "//*[@id=\"thing_t1_ocgj9d9\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_21bguwcab7",
+          "id": "",
+          "textPreview": "NeatRuin7406"
+        },
+        "//*[@id=\"thing_t1_ocg6rwm\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_m24q",
+          "id": "",
+          "textPreview": "floodyberry"
+        },
+        "//*[@id=\"thing_t1_ocfslft\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_46l6nh",
+          "id": "",
+          "textPreview": "Draconicrose_"
+        },
+        "//*[@id=\"thing_t1_ocgdjbv\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_gyuqi",
+          "id": "",
+          "textPreview": "Wodanaz_Odinn"
+        },
+        "//*[@id=\"thing_t1_ocgqi36\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1038di",
+          "id": "",
+          "textPreview": "ShinyHappyREM"
+        },
+        "//*[@id=\"thing_t1_ocguslh\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1ynyypvj",
+          "id": "",
+          "textPreview": "flatfinger"
+        },
+        "//*[@id=\"thing_t1_ochasci\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_4u1iu",
+          "id": "",
+          "textPreview": "KeytarVillain"
+        },
+        "//*[@id=\"thing_t1_ochcb2i\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_4u1iu",
+          "id": "",
+          "textPreview": "KeytarVillain"
+        },
+        "//*[@id=\"thing_t1_och615c\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_hc9le",
+          "id": "",
+          "textPreview": "glenrhodes"
+        },
+        "//*[@id=\"thing_t1_ocf7jco\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_16bijn",
+          "id": "",
+          "textPreview": "BlueGoliath"
+        },
+        "//*[@id=\"thing_t1_ocg5sam\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_h7v53",
+          "id": "",
+          "textPreview": "N546RV"
+        },
+        "//*[@id=\"thing_t1_ocg7mg0\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_16bijn",
+          "id": "",
+          "textPreview": "BlueGoliath"
+        },
+        "//*[@id=\"thing_t1_ocg38s8\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_m9srlau5o",
+          "id": "",
+          "textPreview": "who_am_i_to_say_so"
+        },
+        "//*[@id=\"thing_t1_ocgldqo\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1m5peuejy6",
+          "id": "",
+          "textPreview": "VictoryMotel"
+        },
+        "//*[@id=\"thing_t1_ocgxdjw\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_m9srlau5o",
+          "id": "",
+          "textPreview": "who_am_i_to_say_so"
+        },
+        "//*[@id=\"thing_t1_ocganla\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_16bijn",
+          "id": "",
+          "textPreview": "BlueGoliath"
+        },
+        "//*[@id=\"thing_t1_ocgmixz\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_kufh0",
+          "id": "",
+          "textPreview": "entropicdrift"
+        },
+        "//*[@id=\"thing_t1_ocgmqj3\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_16bijn",
+          "id": "",
+          "textPreview": "BlueGoliath"
+        },
+        "//*[@id=\"thing_t1_ocgti75\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_30zagjen",
+          "id": "",
+          "textPreview": "OMGItsCheezWTF"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "r_retrohacking_mod2"
+        },
+        {
+          "index": 2,
+          "text_preview": "r_retrohacking_mod2"
+        },
+        {
+          "index": 3,
+          "text_preview": "janisozaur"
+        },
+        {
+          "index": 4,
+          "text_preview": "Norphesius"
+        },
+        {
+          "index": 5,
+          "text_preview": "vytah"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "selector": ".thing .domain a",
+      "tagName": "external-domain",
+      "description": "External link domain name",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/span[1]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "larstofus.com"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "larstofus.com"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "selector": ".titlebox .usertext-body .md",
+      "tagName": "sidebar-description",
+      "description": "Subreddit sidebar description (markdown content)",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "/r/programming is a reddit for discussion and news about computer programming\n\n\n\nGuidelines\n\n\nPlease"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "/r/programming is a reddit for discussion and news about computer programming\n\n\n\nGuidelines\n\n\nPlease"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "selector": ".titlebox h1.redditname a",
+      "tagName": "subreddit-name-sidebar",
+      "description": "Subreddit name in sidebar title",
+      "count": 1,
+      "element_ids": [
+        "/html/body/div[2]/div[5]/div[1]/h1[1]/a[1]"
+      ],
+      "element_info": {
+        "/html/body/div[2]/div[5]/div[1]/h1[1]/a[1]": {
+          "tagName": "a",
+          "className": "hover",
+          "id": "",
+          "textPreview": "programming"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "programming"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "selector": ".pagename.redditname a",
+      "tagName": "subreddit-name-header",
+      "description": "Subreddit name in page header",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"header-bottom-left\"]/span[1]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"header-bottom-left\"]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "programming"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "programming"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "selector": ".thing .expando",
+      "tagName": "post-expando-content",
+      "description": "Expanded content area for self-posts and embedded content",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]": {
+          "tagName": "div",
+          "className": "expando",
+          "id": "",
+          "textPreview": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon63 points\u202219 comment"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon63 points\u202219 comment"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "selector": ".crosspost-badge",
+      "tagName": "crosspost-badge",
+      "description": "Crosspost indicator showing origin subreddit",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/span[2]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/span[2]": {
+          "tagName": "span",
+          "className": "crosspost-badge",
+          "id": "",
+          "textPreview": ""
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(empty)"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "selector": ".thing[data-domain]",
+      "tagName": "post-external-url",
+      "description": "External URL destination for link posts",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3fj4b\"]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3fj4b\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s3fj4b odd  link ",
+          "id": "thing_t3_1s3fj4b",
+          "textPreview": "175176177The gold standard of optimization: A look under the hood of RollerCoaster Tycoon (larstofus"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "175176177The gold standard of optimization: A look under the hood of RollerCoaster Tycoon (larstofus"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "selector": ".userattrs",
+      "tagName": "user-attributes",
+      "description": "User flair and special badges next to username",
+      "count": 48,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/span[4]",
+        "//*[@id=\"thing_t1_ocf4d7p\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocf9si7\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocfu7si\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocg3nto\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocg7z3t\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgblhy\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgr3we\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgrpzy\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocf9o9o\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_och41ih\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgk9b0\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocfcis9\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocflna0\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocfp5b5\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocfu402\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgtbdy\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgccwi\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocggtzq\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgwgoz\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocflh4n\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgixa2\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgbtw2\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocfuday\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgur0w\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocfk5aa\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocght67\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgra3o\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgj9d9\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocg6rwm\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocfslft\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgdjbv\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgqi36\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocguslh\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ochasci\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ochcb2i\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_och615c\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocf7jco\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocg5sam\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocg7mg0\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocg38s8\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgldqo\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgxdjw\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocganla\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgmixz\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgmqj3\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgti75\"]/div[2]/p[1]/span[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/span[4]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocf4d7p\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocf9si7\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocfu7si\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocg3nto\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocg7z3t\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgblhy\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgr3we\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgrpzy\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocf9o9o\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_och41ih\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgk9b0\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocfcis9\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocflna0\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocfp5b5\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocfu402\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgtbdy\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgccwi\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocggtzq\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgwgoz\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocflh4n\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgixa2\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgbtw2\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocfuday\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgur0w\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocfk5aa\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocght67\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgra3o\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgj9d9\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocg6rwm\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocfslft\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgdjbv\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgqi36\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocguslh\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ochasci\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ochcb2i\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_och615c\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocf7jco\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocg5sam\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocg7mg0\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocg38s8\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgldqo\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgxdjw\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocganla\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgmixz\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgmqj3\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgti75\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 2,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 3,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 4,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 5,
+          "text_preview": "(empty)"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "selector": ".thing .usertext-body .md",
+      "tagName": "self-post-body",
+      "description": "Self-post and comment body text (rendered markdown)",
+      "count": 46,
+      "element_ids": [
+        "//*[@id=\"form-t1_ocf4d7py07\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocf9si7g39\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfu7sinfg\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocg3ntoi2k\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocg7z3t07u\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgblhyzww\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgr3we0u8\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgrpzyuj5\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocf9o9o0eg\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_och41ih4pr\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgk9b0yvq\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfcis909s\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocflna0wlw\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfp5b5gm7\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfu402sfk\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgtbdya4c\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgccwi9i9\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocggtzq8p2\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgwgozbtz\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocflh4nfi8\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgixa2wu4\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgbtw2t5x\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfuday6k9\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgur0we6t\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfk5aa90q\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocght67m4w\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgra3o6ec\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgj9d9il1\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocg6rwm1zh\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfslftbbw\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgdjbvr00\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgqi366j7\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocguslh9m0\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ochasci6lm\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ochcb2ipyu\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_och615ca8z\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocf7jcoxqd\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocg5samfwh\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocg7mg03mw\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocg38s87av\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgldqou3i\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgxdjw8ej\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocganlalbz\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgmixz9zo\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgmqj3czx\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgti75r6p\"]/div[1]/div[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"form-t1_ocf4d7py07\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Hi, openrct2 developer here. \n\nNo amount of assembly saves you from writing bubble sorts or not cach"
+        },
+        "//*[@id=\"form-t1_ocf9si7g39\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Arguably, with modern compilers, you're probably more likely to get better optimized code writing C "
+        },
+        "//*[@id=\"form-t1_ocfu7sinfg\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "When handwriting assembly, you often make unoptimized choices for readability and maintenance reason"
+        },
+        "//*[@id=\"form-t1_ocg3ntoi2k\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "The last part is very true.  Early C compilers weren't doing profiling or even figuring out the best"
+        },
+        "//*[@id=\"form-t1_ocg7z3t07u\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "If the goal is hand-optimized assembly, then the best way to do it is start with writing C, see what"
+        },
+        "//*[@id=\"form-t1_ocgblhyzww\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "With modern compilers there are only three places I write any assembly: initialization, inner loops,"
+        },
+        "//*[@id=\"form-t1_ocgr3we0u8\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "When targeting the ARM Cortex-M0 or Cortex-M3, clang and gcc are both prone to perform \"optimizing\" "
+        },
+        "//*[@id=\"form-t1_ocgrpzyuj5\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Arguably, with modern compilers, you're probably more likely to get better optimized code writing C "
+        },
+        "//*[@id=\"form-t1_ocf9o9o0eg\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Wish people would remember this more \n\nNow im at the point I never take any discussion about this ga"
+        },
+        "//*[@id=\"form-t1_och41ih4pr\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Until just now when you said it I never heard anyone claim it was \"perofrmant\" because it was writte"
+        },
+        "//*[@id=\"form-t1_ocgk9b0yvq\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "It is true although the optimizations that do work are memory access based. Traditional linked lists"
+        },
+        "//*[@id=\"form-t1_ocfcis909s\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "RCT does this trick all the time, and even in its OpenRCT2 version, this syntax hasn\u2019t been changed,"
+        },
+        "//*[@id=\"form-t1_ocflna0wlw\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "They definitely do when one operand is constant, this is routine peephole optimization.\n\nAnd it can "
+        },
+        "//*[@id=\"form-t1_ocfp5b5gm7\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Divisions are even weirder, using reciprocals and wrapping multiplications to achieve the desired ef"
+        },
+        "//*[@id=\"form-t1_ocfu402sfk\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Yep.\n\nI could figure out that x << 2 + x is used to mean x * 5, but there's no way I could figure ou"
+        },
+        "//*[@id=\"form-t1_ocgtbdya4c\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "The main idea is to replace the division by 5 with a multiplication with 233/5 and then divide the r"
+        },
+        "//*[@id=\"form-t1_ocgccwi9i9\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "good lord."
+        },
+        "//*[@id=\"form-t1_ocggtzq8p2\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Those shifts and adds may look complicated, but they are exactly the long multiplication algorithm t"
+        },
+        "//*[@id=\"form-t1_ocgwgozbtz\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Delicious"
+        },
+        "//*[@id=\"form-t1_ocflh4nfi8\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "I'd be surprised if they weren't doing it back then. The knowledge of how to do this dates back long"
+        },
+        "//*[@id=\"form-t1_ocgixa2wu4\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Most do nowadays, but even when using modern compilers it's not guaranteed. There is a reason why Op"
+        },
+        "//*[@id=\"form-t1_ocgbtw2t5x\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Multiplication by constants is ALWAYS converted into bit shifts. Even if you are on GCC 2.6, and eve"
+        },
+        "//*[@id=\"form-t1_ocfuday6k9\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "That's just the second most clueless thing in the article, the first is this gem:\n\n\nBut besides the "
+        },
+        "//*[@id=\"form-t1_ocgur0we6t\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "That's just a rhetorical question, the answer is given in the next sentences:\n\n\nWe have something th"
+        },
+        "//*[@id=\"form-t1_ocfk5aa90q\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Yeap, compilers can totally do that. Check Matt Godbolts YouTube videos on compilers optimizations"
+        },
+        "//*[@id=\"form-t1_ocght67m4w\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Most modern compilers do, but it's not guaranteed even with those. I tried multiple ones via godbolt"
+        },
+        "//*[@id=\"form-t1_ocgra3o6ec\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "I'm fairly certain compilers can optimize some division/multiplication into bit shifting\n\n\nAnd much,"
+        },
+        "//*[@id=\"form-t1_ocgj9d9il1\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "the openrct2 dev nailing it above, but there's a layer on top of this worth adding.\n\nwhat made RCT r"
+        },
+        "//*[@id=\"form-t1_ocg6rwm1zh\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "the  article reads like it was written for someone who barely has any idea what programming is. usin"
+        },
+        "//*[@id=\"form-t1_ocfslftbbw\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Cool post. Imo, there seems to be a fixation with the technological aspect of the development when I"
+        },
+        "//*[@id=\"form-t1_ocgdjbvr00\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "This is a team culture issue. I have suggested to the team lead that we rewrite our react CRUD app i"
+        },
+        "//*[@id=\"form-t1_ocgqi366j7\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "RollerCoaster Tycoon and its sequel are often named as some of the best-optimized games out there, w"
+        },
+        "//*[@id=\"form-t1_ocguslh9m0\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "In addition to assembly language and \"portable\" C, another option for performance is to write code i"
+        },
+        "//*[@id=\"form-t1_ochasci6lm\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "(Note: I got a lot of notes and comments about this optimization being pointless, since modern compi"
+        },
+        "//*[@id=\"form-t1_ochcb2ipyu\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Note that this is one of the optimizations that has been removed in OpenRCT2, which changed all occu"
+        },
+        "//*[@id=\"form-t1_och615ca8z\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "RCT is the benchmark people pull out every time the \"just write clean code, performance will follow\""
+        },
+        "//*[@id=\"form-t1_ocf7jcoxqd\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Modern software developers could never."
+        },
+        "//*[@id=\"form-t1_ocg5samfwh\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "ThEy DoN't MaKe ThEm LiKe ThEy UsEd To"
+        },
+        "//*[@id=\"form-t1_ocg7mg03mw\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "This but unironically."
+        },
+        "//*[@id=\"form-t1_ocg38s87av\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "This modern developer almost always does"
+        },
+        "//*[@id=\"form-t1_ocgldqou3i\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "You almost always write in asm ? Your profile says you write about vibr coding."
+        },
+        "//*[@id=\"form-t1_ocgxdjw8ej\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "I adapt with the times, have a lot in my toolbox."
+        },
+        "//*[@id=\"form-t1_ocganlalbz\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "No, they don't. They might use a low level library that does, but most themselves do not."
+        },
+        "//*[@id=\"form-t1_ocgmixz9zo\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "The person you just replied to was speaking only of themselves. Note the \"This\" at the start of the "
+        },
+        "//*[@id=\"form-t1_ocgmqj3czx\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Thought it was a typo. My bad."
+        },
+        "//*[@id=\"form-t1_ocgti75r6p\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Then you get games like Factorio that can have vast mega factories across multiple planets simulated"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Hi, openrct2 developer here. \n\nNo amount of assembly saves you from writing bubble sorts or not cach"
+        },
+        {
+          "index": 2,
+          "text_preview": "Arguably, with modern compilers, you're probably more likely to get better optimized code writing C"
+        },
+        {
+          "index": 3,
+          "text_preview": "When handwriting assembly, you often make unoptimized choices for readability and maintenance reason"
+        },
+        {
+          "index": 4,
+          "text_preview": "The last part is very true.  Early C compilers weren't doing profiling or even figuring out the best"
+        },
+        {
+          "index": 5,
+          "text_preview": "If the goal is hand-optimized assembly, then the best way to do it is start with writing C, see what"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "selector": ".thing .linkflairlabel",
+      "tagName": "post-flair",
+      "description": "Post flair text set by moderators or users",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 13,
+      "selector": ".flair",
+      "tagName": "user-flair",
+      "description": "User flair text next to usernames",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 14,
+      "selector": ".thing[data-crosspost-root-title]::before",
+      "tagName": "crosspost-original-title",
+      "description": "Original post title in crosspost attribution",
+      "count": 0,
+      "element_ids": [],
+      "previews": [],
+      "error": "Locator.count: Unexpected token \":\" while parsing css selector \".thing[data-crosspost-root-title]::before\". Did you mean to CSS.escape it?"
+    },
+    {
+      "index": 15,
+      "selector": ".thing[data-crosspost-root-author]",
+      "tagName": "crosspost-original-author",
+      "description": "Original post author in crosspost data",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3fj4b\"]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3fj4b\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s3fj4b odd  link ",
+          "id": "thing_t3_1s3fj4b",
+          "textPreview": "175176177The gold standard of optimization: A look under the hood of RollerCoaster Tycoon (larstofus"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "175176177The gold standard of optimization: A look under the hood of RollerCoaster Tycoon (larstofus"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "selector": ".thing[data-crosspost-root-subreddit]",
+      "tagName": "crosspost-source-subreddit",
+      "description": "Source subreddit name in crosspost data",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3fj4b\"]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3fj4b\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s3fj4b odd  link ",
+          "id": "thing_t3_1s3fj4b",
+          "textPreview": "175176177The gold standard of optimization: A look under the hood of RollerCoaster Tycoon (larstofus"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "175176177The gold standard of optimization: A look under the hood of RollerCoaster Tycoon (larstofus"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "selector": ".thing.link .title > a.title",
+      "tagName": "post-title",
+      "description": "Submission/post title text",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "selector": ".thing.link .domain a",
+      "tagName": "external-domain",
+      "description": "External link domain name",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/span[1]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "larstofus.com"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "larstofus.com"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "selector": ".thing.comment .usertext-body .md",
+      "tagName": "comment-body",
+      "description": "Comment body text (rendered markdown)",
+      "count": 46,
+      "element_ids": [
+        "//*[@id=\"form-t1_ocf4d7py07\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocf9si7g39\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfu7sinfg\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocg3ntoi2k\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocg7z3t07u\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgblhyzww\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgr3we0u8\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgrpzyuj5\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocf9o9o0eg\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_och41ih4pr\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgk9b0yvq\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfcis909s\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocflna0wlw\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfp5b5gm7\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfu402sfk\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgtbdya4c\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgccwi9i9\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocggtzq8p2\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgwgozbtz\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocflh4nfi8\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgixa2wu4\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgbtw2t5x\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfuday6k9\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgur0we6t\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfk5aa90q\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocght67m4w\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgra3o6ec\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgj9d9il1\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocg6rwm1zh\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfslftbbw\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgdjbvr00\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgqi366j7\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocguslh9m0\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ochasci6lm\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ochcb2ipyu\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_och615ca8z\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocf7jcoxqd\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocg5samfwh\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocg7mg03mw\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocg38s87av\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgldqou3i\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgxdjw8ej\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocganlalbz\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgmixz9zo\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgmqj3czx\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgti75r6p\"]/div[1]/div[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"form-t1_ocf4d7py07\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Hi, openrct2 developer here. \n\nNo amount of assembly saves you from writing bubble sorts or not cach"
+        },
+        "//*[@id=\"form-t1_ocf9si7g39\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Arguably, with modern compilers, you're probably more likely to get better optimized code writing C "
+        },
+        "//*[@id=\"form-t1_ocfu7sinfg\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "When handwriting assembly, you often make unoptimized choices for readability and maintenance reason"
+        },
+        "//*[@id=\"form-t1_ocg3ntoi2k\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "The last part is very true.  Early C compilers weren't doing profiling or even figuring out the best"
+        },
+        "//*[@id=\"form-t1_ocg7z3t07u\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "If the goal is hand-optimized assembly, then the best way to do it is start with writing C, see what"
+        },
+        "//*[@id=\"form-t1_ocgblhyzww\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "With modern compilers there are only three places I write any assembly: initialization, inner loops,"
+        },
+        "//*[@id=\"form-t1_ocgr3we0u8\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "When targeting the ARM Cortex-M0 or Cortex-M3, clang and gcc are both prone to perform \"optimizing\" "
+        },
+        "//*[@id=\"form-t1_ocgrpzyuj5\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Arguably, with modern compilers, you're probably more likely to get better optimized code writing C "
+        },
+        "//*[@id=\"form-t1_ocf9o9o0eg\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Wish people would remember this more \n\nNow im at the point I never take any discussion about this ga"
+        },
+        "//*[@id=\"form-t1_och41ih4pr\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Until just now when you said it I never heard anyone claim it was \"perofrmant\" because it was writte"
+        },
+        "//*[@id=\"form-t1_ocgk9b0yvq\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "It is true although the optimizations that do work are memory access based. Traditional linked lists"
+        },
+        "//*[@id=\"form-t1_ocfcis909s\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "RCT does this trick all the time, and even in its OpenRCT2 version, this syntax hasn\u2019t been changed,"
+        },
+        "//*[@id=\"form-t1_ocflna0wlw\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "They definitely do when one operand is constant, this is routine peephole optimization.\n\nAnd it can "
+        },
+        "//*[@id=\"form-t1_ocfp5b5gm7\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Divisions are even weirder, using reciprocals and wrapping multiplications to achieve the desired ef"
+        },
+        "//*[@id=\"form-t1_ocfu402sfk\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Yep.\n\nI could figure out that x << 2 + x is used to mean x * 5, but there's no way I could figure ou"
+        },
+        "//*[@id=\"form-t1_ocgtbdya4c\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "The main idea is to replace the division by 5 with a multiplication with 233/5 and then divide the r"
+        },
+        "//*[@id=\"form-t1_ocgccwi9i9\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "good lord."
+        },
+        "//*[@id=\"form-t1_ocggtzq8p2\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Those shifts and adds may look complicated, but they are exactly the long multiplication algorithm t"
+        },
+        "//*[@id=\"form-t1_ocgwgozbtz\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Delicious"
+        },
+        "//*[@id=\"form-t1_ocflh4nfi8\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "I'd be surprised if they weren't doing it back then. The knowledge of how to do this dates back long"
+        },
+        "//*[@id=\"form-t1_ocgixa2wu4\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Most do nowadays, but even when using modern compilers it's not guaranteed. There is a reason why Op"
+        },
+        "//*[@id=\"form-t1_ocgbtw2t5x\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Multiplication by constants is ALWAYS converted into bit shifts. Even if you are on GCC 2.6, and eve"
+        },
+        "//*[@id=\"form-t1_ocfuday6k9\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "That's just the second most clueless thing in the article, the first is this gem:\n\n\nBut besides the "
+        },
+        "//*[@id=\"form-t1_ocgur0we6t\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "That's just a rhetorical question, the answer is given in the next sentences:\n\n\nWe have something th"
+        },
+        "//*[@id=\"form-t1_ocfk5aa90q\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Yeap, compilers can totally do that. Check Matt Godbolts YouTube videos on compilers optimizations"
+        },
+        "//*[@id=\"form-t1_ocght67m4w\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Most modern compilers do, but it's not guaranteed even with those. I tried multiple ones via godbolt"
+        },
+        "//*[@id=\"form-t1_ocgra3o6ec\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "I'm fairly certain compilers can optimize some division/multiplication into bit shifting\n\n\nAnd much,"
+        },
+        "//*[@id=\"form-t1_ocgj9d9il1\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "the openrct2 dev nailing it above, but there's a layer on top of this worth adding.\n\nwhat made RCT r"
+        },
+        "//*[@id=\"form-t1_ocg6rwm1zh\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "the  article reads like it was written for someone who barely has any idea what programming is. usin"
+        },
+        "//*[@id=\"form-t1_ocfslftbbw\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Cool post. Imo, there seems to be a fixation with the technological aspect of the development when I"
+        },
+        "//*[@id=\"form-t1_ocgdjbvr00\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "This is a team culture issue. I have suggested to the team lead that we rewrite our react CRUD app i"
+        },
+        "//*[@id=\"form-t1_ocgqi366j7\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "RollerCoaster Tycoon and its sequel are often named as some of the best-optimized games out there, w"
+        },
+        "//*[@id=\"form-t1_ocguslh9m0\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "In addition to assembly language and \"portable\" C, another option for performance is to write code i"
+        },
+        "//*[@id=\"form-t1_ochasci6lm\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "(Note: I got a lot of notes and comments about this optimization being pointless, since modern compi"
+        },
+        "//*[@id=\"form-t1_ochcb2ipyu\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Note that this is one of the optimizations that has been removed in OpenRCT2, which changed all occu"
+        },
+        "//*[@id=\"form-t1_och615ca8z\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "RCT is the benchmark people pull out every time the \"just write clean code, performance will follow\""
+        },
+        "//*[@id=\"form-t1_ocf7jcoxqd\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Modern software developers could never."
+        },
+        "//*[@id=\"form-t1_ocg5samfwh\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "ThEy DoN't MaKe ThEm LiKe ThEy UsEd To"
+        },
+        "//*[@id=\"form-t1_ocg7mg03mw\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "This but unironically."
+        },
+        "//*[@id=\"form-t1_ocg38s87av\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "This modern developer almost always does"
+        },
+        "//*[@id=\"form-t1_ocgldqou3i\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "You almost always write in asm ? Your profile says you write about vibr coding."
+        },
+        "//*[@id=\"form-t1_ocgxdjw8ej\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "I adapt with the times, have a lot in my toolbox."
+        },
+        "//*[@id=\"form-t1_ocganlalbz\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "No, they don't. They might use a low level library that does, but most themselves do not."
+        },
+        "//*[@id=\"form-t1_ocgmixz9zo\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "The person you just replied to was speaking only of themselves. Note the \"This\" at the start of the "
+        },
+        "//*[@id=\"form-t1_ocgmqj3czx\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Thought it was a typo. My bad."
+        },
+        "//*[@id=\"form-t1_ocgti75r6p\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Then you get games like Factorio that can have vast mega factories across multiple planets simulated"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Hi, openrct2 developer here. \n\nNo amount of assembly saves you from writing bubble sorts or not cach"
+        },
+        {
+          "index": 2,
+          "text_preview": "Arguably, with modern compilers, you're probably more likely to get better optimized code writing C"
+        },
+        {
+          "index": 3,
+          "text_preview": "When handwriting assembly, you often make unoptimized choices for readability and maintenance reason"
+        },
+        {
+          "index": 4,
+          "text_preview": "The last part is very true.  Early C compilers weren't doing profiling or even figuring out the best"
+        },
+        {
+          "index": 5,
+          "text_preview": "If the goal is hand-optimized assembly, then the best way to do it is start with writing C, see what"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "selector": "a.author",
+      "tagName": "username",
+      "description": "Username of post or comment author",
+      "count": 48,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[2]",
+        "//*[@id=\"thing_t1_ocf4d7p\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocf9si7\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfu7si\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocg3nto\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocg7z3t\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgblhy\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgr3we\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgrpzy\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocf9o9o\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_och41ih\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgk9b0\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfcis9\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocflna0\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfp5b5\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfu402\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgtbdy\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgccwi\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocggtzq\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgwgoz\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocflh4n\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgixa2\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgbtw2\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfuday\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgur0w\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfk5aa\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocght67\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgra3o\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgj9d9\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocg6rwm\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfslft\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgdjbv\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgqi36\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocguslh\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ochasci\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ochcb2i\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_och615c\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocf7jco\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocg5sam\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocg7mg0\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocg38s8\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgldqo\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgxdjw\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocganla\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgmixz\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgmqj3\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgti75\"]/div[2]/p[1]/a[2]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1q1jbnhq",
+          "id": "",
+          "textPreview": "r_retrohacking_mod2"
+        },
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1q1jbnhq",
+          "id": "",
+          "textPreview": "r_retrohacking_mod2"
+        },
+        "//*[@id=\"thing_t1_ocf4d7p\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_ibzwv",
+          "id": "",
+          "textPreview": "janisozaur"
+        },
+        "//*[@id=\"thing_t1_ocf9si7\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_ftf51",
+          "id": "",
+          "textPreview": "Norphesius"
+        },
+        "//*[@id=\"thing_t1_ocfu7si\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_52x2f",
+          "id": "",
+          "textPreview": "vytah"
+        },
+        "//*[@id=\"thing_t1_ocg3nto\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_379gd",
+          "id": "",
+          "textPreview": "jhaluska"
+        },
+        "//*[@id=\"thing_t1_ocg7z3t\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_6j25c6dm",
+          "id": "",
+          "textPreview": "Luke22_36"
+        },
+        "//*[@id=\"thing_t1_ocgblhy\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_4aaq1",
+          "id": "",
+          "textPreview": "gimpwiz"
+        },
+        "//*[@id=\"thing_t1_ocgr3we\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1ynyypvj",
+          "id": "",
+          "textPreview": "flatfinger"
+        },
+        "//*[@id=\"thing_t1_ocgrpzy\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_mbfe7da7",
+          "id": "",
+          "textPreview": "Asyncrosaurus"
+        },
+        "//*[@id=\"thing_t1_ocf9o9o\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_x9soxg2",
+          "id": "",
+          "textPreview": "WJMazepas"
+        },
+        "//*[@id=\"thing_t1_och41ih\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_4pdql",
+          "id": "",
+          "textPreview": "Sage2050"
+        },
+        "//*[@id=\"thing_t1_ocgk9b0\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1m5peuejy6",
+          "id": "",
+          "textPreview": "VictoryMotel"
+        },
+        "//*[@id=\"thing_t1_ocfcis9\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_ftf51",
+          "id": "",
+          "textPreview": "Norphesius"
+        },
+        "//*[@id=\"thing_t1_ocflna0\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_5ij2c",
+          "id": "",
+          "textPreview": "matthieum"
+        },
+        "//*[@id=\"thing_t1_ocfp5b5\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_15246q",
+          "id": "",
+          "textPreview": "vowelqueue"
+        },
+        "//*[@id=\"thing_t1_ocfu402\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_5ij2c",
+          "id": "",
+          "textPreview": "matthieum"
+        },
+        "//*[@id=\"thing_t1_ocgtbdy\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_52np03ys",
+          "id": "",
+          "textPreview": "YellowBunnyReddit"
+        },
+        "//*[@id=\"thing_t1_ocgccwi\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_4aaq1",
+          "id": "",
+          "textPreview": "gimpwiz"
+        },
+        "//*[@id=\"thing_t1_ocggtzq\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_ibq05",
+          "id": "",
+          "textPreview": "Anabaena_azollae"
+        },
+        "//*[@id=\"thing_t1_ocgwgoz\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_cd18ckdak",
+          "id": "",
+          "textPreview": "_I_AM_A_STRANGE_LOOP"
+        },
+        "//*[@id=\"thing_t1_ocflh4n\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_3dcvoeuf",
+          "id": "",
+          "textPreview": "BobBulldogBriscoe"
+        },
+        "//*[@id=\"thing_t1_ocgixa2\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1m9fncvxr2",
+          "id": "",
+          "textPreview": "LarstOfUs"
+        },
+        "//*[@id=\"thing_t1_ocgbtw2\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_c1oyp",
+          "id": "",
+          "textPreview": "WaitForItTheMongols"
+        },
+        "//*[@id=\"thing_t1_ocfuday\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_ig8yw9sc",
+          "id": "",
+          "textPreview": "wintrmt3"
+        },
+        "//*[@id=\"thing_t1_ocgur0w\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1038di",
+          "id": "",
+          "textPreview": "ShinyHappyREM"
+        },
+        "//*[@id=\"thing_t1_ocfk5aa\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_25714r5qos",
+          "id": "",
+          "textPreview": "albertopodesta"
+        },
+        "//*[@id=\"thing_t1_ocght67\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1m9fncvxr2",
+          "id": "",
+          "textPreview": "LarstOfUs"
+        },
+        "//*[@id=\"thing_t1_ocgra3o\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1038di",
+          "id": "",
+          "textPreview": "ShinyHappyREM"
+        },
+        "//*[@id=\"thing_t1_ocgj9d9\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_21bguwcab7",
+          "id": "",
+          "textPreview": "NeatRuin7406"
+        },
+        "//*[@id=\"thing_t1_ocg6rwm\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_m24q",
+          "id": "",
+          "textPreview": "floodyberry"
+        },
+        "//*[@id=\"thing_t1_ocfslft\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_46l6nh",
+          "id": "",
+          "textPreview": "Draconicrose_"
+        },
+        "//*[@id=\"thing_t1_ocgdjbv\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_gyuqi",
+          "id": "",
+          "textPreview": "Wodanaz_Odinn"
+        },
+        "//*[@id=\"thing_t1_ocgqi36\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1038di",
+          "id": "",
+          "textPreview": "ShinyHappyREM"
+        },
+        "//*[@id=\"thing_t1_ocguslh\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1ynyypvj",
+          "id": "",
+          "textPreview": "flatfinger"
+        },
+        "//*[@id=\"thing_t1_ochasci\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_4u1iu",
+          "id": "",
+          "textPreview": "KeytarVillain"
+        },
+        "//*[@id=\"thing_t1_ochcb2i\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_4u1iu",
+          "id": "",
+          "textPreview": "KeytarVillain"
+        },
+        "//*[@id=\"thing_t1_och615c\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_hc9le",
+          "id": "",
+          "textPreview": "glenrhodes"
+        },
+        "//*[@id=\"thing_t1_ocf7jco\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_16bijn",
+          "id": "",
+          "textPreview": "BlueGoliath"
+        },
+        "//*[@id=\"thing_t1_ocg5sam\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_h7v53",
+          "id": "",
+          "textPreview": "N546RV"
+        },
+        "//*[@id=\"thing_t1_ocg7mg0\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_16bijn",
+          "id": "",
+          "textPreview": "BlueGoliath"
+        },
+        "//*[@id=\"thing_t1_ocg38s8\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_m9srlau5o",
+          "id": "",
+          "textPreview": "who_am_i_to_say_so"
+        },
+        "//*[@id=\"thing_t1_ocgldqo\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1m5peuejy6",
+          "id": "",
+          "textPreview": "VictoryMotel"
+        },
+        "//*[@id=\"thing_t1_ocgxdjw\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_m9srlau5o",
+          "id": "",
+          "textPreview": "who_am_i_to_say_so"
+        },
+        "//*[@id=\"thing_t1_ocganla\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_16bijn",
+          "id": "",
+          "textPreview": "BlueGoliath"
+        },
+        "//*[@id=\"thing_t1_ocgmixz\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_kufh0",
+          "id": "",
+          "textPreview": "entropicdrift"
+        },
+        "//*[@id=\"thing_t1_ocgmqj3\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_16bijn",
+          "id": "",
+          "textPreview": "BlueGoliath"
+        },
+        "//*[@id=\"thing_t1_ocgti75\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_30zagjen",
+          "id": "",
+          "textPreview": "OMGItsCheezWTF"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "r_retrohacking_mod2"
+        },
+        {
+          "index": 2,
+          "text_preview": "r_retrohacking_mod2"
+        },
+        {
+          "index": 3,
+          "text_preview": "janisozaur"
+        },
+        {
+          "index": 4,
+          "text_preview": "Norphesius"
+        },
+        {
+          "index": 5,
+          "text_preview": "vytah"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "selector": ".crosspost-preview .title",
+      "tagName": "crosspost-title",
+      "description": "Title of crossposted submission",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/p[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "title",
+          "id": "",
+          "textPreview": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "selector": ".crosspost-preview-tagline a.subreddit",
+      "tagName": "crosspost-subreddit",
+      "description": "Subreddit name in crosspost attribution",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[3]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[3]": {
+          "tagName": "a",
+          "className": "subreddit hover may-blank",
+          "id": "",
+          "textPreview": "r/retrogamedev"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "r/retrogamedev"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "selector": ".crosspost-preview-tagline a.author",
+      "tagName": "crosspost-author",
+      "description": "Author name in crosspost attribution",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[2]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1q1jbnhq",
+          "id": "",
+          "textPreview": "r_retrohacking_mod2"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "r_retrohacking_mod2"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "selector": ".thing[data-subreddit] .tagline a.subreddit",
+      "tagName": "post-subreddit-attribution",
+      "description": "Subreddit name in post attribution line",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[3]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[3]": {
+          "tagName": "a",
+          "className": "subreddit hover may-blank",
+          "id": "",
+          "textPreview": "r/retrogamedev"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "r/retrogamedev"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "selector": ".titlebox h1.hover a",
+      "tagName": "subreddit-name-header",
+      "description": "Subreddit name in sidebar header (user-created)",
+      "count": 1,
+      "element_ids": [
+        "/html/body/div[2]/div[5]/div[1]/h1[1]/a[1]"
+      ],
+      "element_info": {
+        "/html/body/div[2]/div[5]/div[1]/h1[1]/a[1]": {
+          "tagName": "a",
+          "className": "hover",
+          "id": "",
+          "textPreview": "programming"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "programming"
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "selector": ".thing.link .linkflairlabel",
+      "tagName": "post-flair",
+      "description": "Post flair text (moderator or user-set)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 27,
+      "selector": "form.usertext .usertext-body .md",
+      "tagName": "self-post-body",
+      "description": "Self-post body text (rendered markdown)",
+      "count": 47,
+      "element_ids": [
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocf4d7py07\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocf9si7g39\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfu7sinfg\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocg3ntoi2k\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocg7z3t07u\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgblhyzww\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgr3we0u8\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgrpzyuj5\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocf9o9o0eg\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_och41ih4pr\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgk9b0yvq\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfcis909s\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocflna0wlw\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfp5b5gm7\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfu402sfk\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgtbdya4c\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgccwi9i9\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocggtzq8p2\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgwgozbtz\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocflh4nfi8\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgixa2wu4\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgbtw2t5x\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfuday6k9\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgur0we6t\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfk5aa90q\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocght67m4w\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgra3o6ec\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgj9d9il1\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocg6rwm1zh\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfslftbbw\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgdjbvr00\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgqi366j7\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocguslh9m0\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ochasci6lm\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ochcb2ipyu\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_och615ca8z\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocf7jcoxqd\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocg5samfwh\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocg7mg03mw\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocg38s87av\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgldqou3i\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgxdjw8ej\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocganlalbz\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgmixz9zo\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgmqj3czx\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgti75r6p\"]/div[1]/div[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "/r/programming is a reddit for discussion and news about computer programming\n\n\n\nGuidelines\n\n\nPlease"
+        },
+        "//*[@id=\"form-t1_ocf4d7py07\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Hi, openrct2 developer here. \n\nNo amount of assembly saves you from writing bubble sorts or not cach"
+        },
+        "//*[@id=\"form-t1_ocf9si7g39\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Arguably, with modern compilers, you're probably more likely to get better optimized code writing C "
+        },
+        "//*[@id=\"form-t1_ocfu7sinfg\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "When handwriting assembly, you often make unoptimized choices for readability and maintenance reason"
+        },
+        "//*[@id=\"form-t1_ocg3ntoi2k\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "The last part is very true.  Early C compilers weren't doing profiling or even figuring out the best"
+        },
+        "//*[@id=\"form-t1_ocg7z3t07u\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "If the goal is hand-optimized assembly, then the best way to do it is start with writing C, see what"
+        },
+        "//*[@id=\"form-t1_ocgblhyzww\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "With modern compilers there are only three places I write any assembly: initialization, inner loops,"
+        },
+        "//*[@id=\"form-t1_ocgr3we0u8\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "When targeting the ARM Cortex-M0 or Cortex-M3, clang and gcc are both prone to perform \"optimizing\" "
+        },
+        "//*[@id=\"form-t1_ocgrpzyuj5\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Arguably, with modern compilers, you're probably more likely to get better optimized code writing C "
+        },
+        "//*[@id=\"form-t1_ocf9o9o0eg\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Wish people would remember this more \n\nNow im at the point I never take any discussion about this ga"
+        },
+        "//*[@id=\"form-t1_och41ih4pr\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Until just now when you said it I never heard anyone claim it was \"perofrmant\" because it was writte"
+        },
+        "//*[@id=\"form-t1_ocgk9b0yvq\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "It is true although the optimizations that do work are memory access based. Traditional linked lists"
+        },
+        "//*[@id=\"form-t1_ocfcis909s\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "RCT does this trick all the time, and even in its OpenRCT2 version, this syntax hasn\u2019t been changed,"
+        },
+        "//*[@id=\"form-t1_ocflna0wlw\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "They definitely do when one operand is constant, this is routine peephole optimization.\n\nAnd it can "
+        },
+        "//*[@id=\"form-t1_ocfp5b5gm7\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Divisions are even weirder, using reciprocals and wrapping multiplications to achieve the desired ef"
+        },
+        "//*[@id=\"form-t1_ocfu402sfk\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Yep.\n\nI could figure out that x << 2 + x is used to mean x * 5, but there's no way I could figure ou"
+        },
+        "//*[@id=\"form-t1_ocgtbdya4c\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "The main idea is to replace the division by 5 with a multiplication with 233/5 and then divide the r"
+        },
+        "//*[@id=\"form-t1_ocgccwi9i9\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "good lord."
+        },
+        "//*[@id=\"form-t1_ocggtzq8p2\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Those shifts and adds may look complicated, but they are exactly the long multiplication algorithm t"
+        },
+        "//*[@id=\"form-t1_ocgwgozbtz\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Delicious"
+        },
+        "//*[@id=\"form-t1_ocflh4nfi8\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "I'd be surprised if they weren't doing it back then. The knowledge of how to do this dates back long"
+        },
+        "//*[@id=\"form-t1_ocgixa2wu4\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Most do nowadays, but even when using modern compilers it's not guaranteed. There is a reason why Op"
+        },
+        "//*[@id=\"form-t1_ocgbtw2t5x\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Multiplication by constants is ALWAYS converted into bit shifts. Even if you are on GCC 2.6, and eve"
+        },
+        "//*[@id=\"form-t1_ocfuday6k9\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "That's just the second most clueless thing in the article, the first is this gem:\n\n\nBut besides the "
+        },
+        "//*[@id=\"form-t1_ocgur0we6t\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "That's just a rhetorical question, the answer is given in the next sentences:\n\n\nWe have something th"
+        },
+        "//*[@id=\"form-t1_ocfk5aa90q\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Yeap, compilers can totally do that. Check Matt Godbolts YouTube videos on compilers optimizations"
+        },
+        "//*[@id=\"form-t1_ocght67m4w\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Most modern compilers do, but it's not guaranteed even with those. I tried multiple ones via godbolt"
+        },
+        "//*[@id=\"form-t1_ocgra3o6ec\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "I'm fairly certain compilers can optimize some division/multiplication into bit shifting\n\n\nAnd much,"
+        },
+        "//*[@id=\"form-t1_ocgj9d9il1\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "the openrct2 dev nailing it above, but there's a layer on top of this worth adding.\n\nwhat made RCT r"
+        },
+        "//*[@id=\"form-t1_ocg6rwm1zh\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "the  article reads like it was written for someone who barely has any idea what programming is. usin"
+        },
+        "//*[@id=\"form-t1_ocfslftbbw\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Cool post. Imo, there seems to be a fixation with the technological aspect of the development when I"
+        },
+        "//*[@id=\"form-t1_ocgdjbvr00\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "This is a team culture issue. I have suggested to the team lead that we rewrite our react CRUD app i"
+        },
+        "//*[@id=\"form-t1_ocgqi366j7\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "RollerCoaster Tycoon and its sequel are often named as some of the best-optimized games out there, w"
+        },
+        "//*[@id=\"form-t1_ocguslh9m0\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "In addition to assembly language and \"portable\" C, another option for performance is to write code i"
+        },
+        "//*[@id=\"form-t1_ochasci6lm\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "(Note: I got a lot of notes and comments about this optimization being pointless, since modern compi"
+        },
+        "//*[@id=\"form-t1_ochcb2ipyu\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Note that this is one of the optimizations that has been removed in OpenRCT2, which changed all occu"
+        },
+        "//*[@id=\"form-t1_och615ca8z\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "RCT is the benchmark people pull out every time the \"just write clean code, performance will follow\""
+        },
+        "//*[@id=\"form-t1_ocf7jcoxqd\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Modern software developers could never."
+        },
+        "//*[@id=\"form-t1_ocg5samfwh\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "ThEy DoN't MaKe ThEm LiKe ThEy UsEd To"
+        },
+        "//*[@id=\"form-t1_ocg7mg03mw\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "This but unironically."
+        },
+        "//*[@id=\"form-t1_ocg38s87av\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "This modern developer almost always does"
+        },
+        "//*[@id=\"form-t1_ocgldqou3i\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "You almost always write in asm ? Your profile says you write about vibr coding."
+        },
+        "//*[@id=\"form-t1_ocgxdjw8ej\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "I adapt with the times, have a lot in my toolbox."
+        },
+        "//*[@id=\"form-t1_ocganlalbz\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "No, they don't. They might use a low level library that does, but most themselves do not."
+        },
+        "//*[@id=\"form-t1_ocgmixz9zo\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "The person you just replied to was speaking only of themselves. Note the \"This\" at the start of the "
+        },
+        "//*[@id=\"form-t1_ocgmqj3czx\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Thought it was a typo. My bad."
+        },
+        "//*[@id=\"form-t1_ocgti75r6p\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Then you get games like Factorio that can have vast mega factories across multiple planets simulated"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "/r/programming is a reddit for discussion and news about computer programming\n\n\n\nGuidelines\n\n\nPlease"
+        },
+        {
+          "index": 2,
+          "text_preview": "Hi, openrct2 developer here. \n\nNo amount of assembly saves you from writing bubble sorts or not cach"
+        },
+        {
+          "index": 3,
+          "text_preview": "Arguably, with modern compilers, you're probably more likely to get better optimized code writing C"
+        },
+        {
+          "index": 4,
+          "text_preview": "When handwriting assembly, you often make unoptimized choices for readability and maintenance reason"
+        },
+        {
+          "index": 5,
+          "text_preview": "The last part is very true.  Early C compilers weren't doing profiling or even figuring out the best"
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "selector": ".thing.link .title a.title",
+      "tagName": "post-title",
+      "description": "Post/submission title text",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon"
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "selector": ".thing .author",
+      "tagName": "username",
+      "description": "Username of post or comment author",
+      "count": 48,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[2]",
+        "//*[@id=\"thing_t1_ocf4d7p\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocf9si7\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfu7si\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocg3nto\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocg7z3t\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgblhy\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgr3we\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgrpzy\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocf9o9o\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_och41ih\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgk9b0\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfcis9\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocflna0\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfp5b5\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfu402\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgtbdy\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgccwi\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocggtzq\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgwgoz\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocflh4n\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgixa2\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgbtw2\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfuday\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgur0w\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfk5aa\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocght67\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgra3o\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgj9d9\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocg6rwm\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfslft\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgdjbv\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgqi36\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocguslh\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ochasci\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ochcb2i\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_och615c\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocf7jco\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocg5sam\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocg7mg0\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocg38s8\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgldqo\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgxdjw\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocganla\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgmixz\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgmqj3\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgti75\"]/div[2]/p[1]/a[2]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1q1jbnhq",
+          "id": "",
+          "textPreview": "r_retrohacking_mod2"
+        },
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1q1jbnhq",
+          "id": "",
+          "textPreview": "r_retrohacking_mod2"
+        },
+        "//*[@id=\"thing_t1_ocf4d7p\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_ibzwv",
+          "id": "",
+          "textPreview": "janisozaur"
+        },
+        "//*[@id=\"thing_t1_ocf9si7\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_ftf51",
+          "id": "",
+          "textPreview": "Norphesius"
+        },
+        "//*[@id=\"thing_t1_ocfu7si\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_52x2f",
+          "id": "",
+          "textPreview": "vytah"
+        },
+        "//*[@id=\"thing_t1_ocg3nto\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_379gd",
+          "id": "",
+          "textPreview": "jhaluska"
+        },
+        "//*[@id=\"thing_t1_ocg7z3t\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_6j25c6dm",
+          "id": "",
+          "textPreview": "Luke22_36"
+        },
+        "//*[@id=\"thing_t1_ocgblhy\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_4aaq1",
+          "id": "",
+          "textPreview": "gimpwiz"
+        },
+        "//*[@id=\"thing_t1_ocgr3we\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1ynyypvj",
+          "id": "",
+          "textPreview": "flatfinger"
+        },
+        "//*[@id=\"thing_t1_ocgrpzy\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_mbfe7da7",
+          "id": "",
+          "textPreview": "Asyncrosaurus"
+        },
+        "//*[@id=\"thing_t1_ocf9o9o\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_x9soxg2",
+          "id": "",
+          "textPreview": "WJMazepas"
+        },
+        "//*[@id=\"thing_t1_och41ih\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_4pdql",
+          "id": "",
+          "textPreview": "Sage2050"
+        },
+        "//*[@id=\"thing_t1_ocgk9b0\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1m5peuejy6",
+          "id": "",
+          "textPreview": "VictoryMotel"
+        },
+        "//*[@id=\"thing_t1_ocfcis9\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_ftf51",
+          "id": "",
+          "textPreview": "Norphesius"
+        },
+        "//*[@id=\"thing_t1_ocflna0\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_5ij2c",
+          "id": "",
+          "textPreview": "matthieum"
+        },
+        "//*[@id=\"thing_t1_ocfp5b5\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_15246q",
+          "id": "",
+          "textPreview": "vowelqueue"
+        },
+        "//*[@id=\"thing_t1_ocfu402\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_5ij2c",
+          "id": "",
+          "textPreview": "matthieum"
+        },
+        "//*[@id=\"thing_t1_ocgtbdy\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_52np03ys",
+          "id": "",
+          "textPreview": "YellowBunnyReddit"
+        },
+        "//*[@id=\"thing_t1_ocgccwi\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_4aaq1",
+          "id": "",
+          "textPreview": "gimpwiz"
+        },
+        "//*[@id=\"thing_t1_ocggtzq\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_ibq05",
+          "id": "",
+          "textPreview": "Anabaena_azollae"
+        },
+        "//*[@id=\"thing_t1_ocgwgoz\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_cd18ckdak",
+          "id": "",
+          "textPreview": "_I_AM_A_STRANGE_LOOP"
+        },
+        "//*[@id=\"thing_t1_ocflh4n\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_3dcvoeuf",
+          "id": "",
+          "textPreview": "BobBulldogBriscoe"
+        },
+        "//*[@id=\"thing_t1_ocgixa2\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1m9fncvxr2",
+          "id": "",
+          "textPreview": "LarstOfUs"
+        },
+        "//*[@id=\"thing_t1_ocgbtw2\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_c1oyp",
+          "id": "",
+          "textPreview": "WaitForItTheMongols"
+        },
+        "//*[@id=\"thing_t1_ocfuday\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_ig8yw9sc",
+          "id": "",
+          "textPreview": "wintrmt3"
+        },
+        "//*[@id=\"thing_t1_ocgur0w\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1038di",
+          "id": "",
+          "textPreview": "ShinyHappyREM"
+        },
+        "//*[@id=\"thing_t1_ocfk5aa\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_25714r5qos",
+          "id": "",
+          "textPreview": "albertopodesta"
+        },
+        "//*[@id=\"thing_t1_ocght67\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1m9fncvxr2",
+          "id": "",
+          "textPreview": "LarstOfUs"
+        },
+        "//*[@id=\"thing_t1_ocgra3o\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1038di",
+          "id": "",
+          "textPreview": "ShinyHappyREM"
+        },
+        "//*[@id=\"thing_t1_ocgj9d9\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_21bguwcab7",
+          "id": "",
+          "textPreview": "NeatRuin7406"
+        },
+        "//*[@id=\"thing_t1_ocg6rwm\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_m24q",
+          "id": "",
+          "textPreview": "floodyberry"
+        },
+        "//*[@id=\"thing_t1_ocfslft\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_46l6nh",
+          "id": "",
+          "textPreview": "Draconicrose_"
+        },
+        "//*[@id=\"thing_t1_ocgdjbv\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_gyuqi",
+          "id": "",
+          "textPreview": "Wodanaz_Odinn"
+        },
+        "//*[@id=\"thing_t1_ocgqi36\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1038di",
+          "id": "",
+          "textPreview": "ShinyHappyREM"
+        },
+        "//*[@id=\"thing_t1_ocguslh\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1ynyypvj",
+          "id": "",
+          "textPreview": "flatfinger"
+        },
+        "//*[@id=\"thing_t1_ochasci\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_4u1iu",
+          "id": "",
+          "textPreview": "KeytarVillain"
+        },
+        "//*[@id=\"thing_t1_ochcb2i\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_4u1iu",
+          "id": "",
+          "textPreview": "KeytarVillain"
+        },
+        "//*[@id=\"thing_t1_och615c\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_hc9le",
+          "id": "",
+          "textPreview": "glenrhodes"
+        },
+        "//*[@id=\"thing_t1_ocf7jco\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_16bijn",
+          "id": "",
+          "textPreview": "BlueGoliath"
+        },
+        "//*[@id=\"thing_t1_ocg5sam\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_h7v53",
+          "id": "",
+          "textPreview": "N546RV"
+        },
+        "//*[@id=\"thing_t1_ocg7mg0\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_16bijn",
+          "id": "",
+          "textPreview": "BlueGoliath"
+        },
+        "//*[@id=\"thing_t1_ocg38s8\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_m9srlau5o",
+          "id": "",
+          "textPreview": "who_am_i_to_say_so"
+        },
+        "//*[@id=\"thing_t1_ocgldqo\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1m5peuejy6",
+          "id": "",
+          "textPreview": "VictoryMotel"
+        },
+        "//*[@id=\"thing_t1_ocgxdjw\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_m9srlau5o",
+          "id": "",
+          "textPreview": "who_am_i_to_say_so"
+        },
+        "//*[@id=\"thing_t1_ocganla\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_16bijn",
+          "id": "",
+          "textPreview": "BlueGoliath"
+        },
+        "//*[@id=\"thing_t1_ocgmixz\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_kufh0",
+          "id": "",
+          "textPreview": "entropicdrift"
+        },
+        "//*[@id=\"thing_t1_ocgmqj3\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_16bijn",
+          "id": "",
+          "textPreview": "BlueGoliath"
+        },
+        "//*[@id=\"thing_t1_ocgti75\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_30zagjen",
+          "id": "",
+          "textPreview": "OMGItsCheezWTF"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "r_retrohacking_mod2"
+        },
+        {
+          "index": 2,
+          "text_preview": "r_retrohacking_mod2"
+        },
+        {
+          "index": 3,
+          "text_preview": "janisozaur"
+        },
+        {
+          "index": 4,
+          "text_preview": "Norphesius"
+        },
+        {
+          "index": 5,
+          "text_preview": "vytah"
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "selector": ".thing .tagline .subreddit",
+      "tagName": "subreddit-name-in-post",
+      "description": "Subreddit name displayed within post/comment tagline context",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[3]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[3]": {
+          "tagName": "a",
+          "className": "subreddit hover may-blank",
+          "id": "",
+          "textPreview": "r/retrogamedev"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "r/retrogamedev"
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "selector": ".thing.comment p.parent a.title",
+      "tagName": "parent-post-title",
+      "description": "Title of parent post in comment context",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 32,
+      "selector": ".thing.comment p.parent a.subreddit",
+      "tagName": "parent-subreddit-name",
+      "description": "Subreddit name in comment parent context",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 33,
+      "selector": ".titlebox h1",
+      "tagName": "profile-username",
+      "description": "Username displayed in profile sidebar titlebox",
+      "count": 1,
+      "element_ids": [
+        "/html/body/div[2]/div[5]/div[1]/h1[1]"
+      ],
+      "element_info": {
+        "/html/body/div[2]/div[5]/div[1]/h1[1]": {
+          "tagName": "h1",
+          "className": "hover redditname",
+          "id": "",
+          "textPreview": "programming"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "programming"
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "selector": ".trophy-name",
+      "tagName": "trophy-name",
+      "description": "Trophy/badge name displayed on user profile",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 35,
+      "selector": ".trophy-description",
+      "tagName": "trophy-description",
+      "description": "Trophy/badge description text",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 36,
+      "selector": ".thing.link .linkflair",
+      "tagName": "post-flair",
+      "description": "Post flair text displayed on submissions",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 37,
+      "selector": ".titlebox .bottom .age time",
+      "tagName": "account-age-display",
+      "description": "Account creation date display text on profile",
+      "count": 1,
+      "element_ids": [
+        "/html/body/div[2]/div[5]/div[1]/div[1]/span[1]/time[1]"
+      ],
+      "element_info": {
+        "/html/body/div[2]/div[5]/div[1]/div[1]/span[1]/time[1]": {
+          "tagName": "time",
+          "className": "",
+          "id": "",
+          "textPreview": "20 years"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "20 years"
+        }
+      ]
+    }
+  ]
+}

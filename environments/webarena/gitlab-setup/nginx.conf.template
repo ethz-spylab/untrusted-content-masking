@@ -1,0 +1,255 @@
+# Nginx configuration template for VWA GitLab + reveal.js.
+# Proxies the GitLab CE instance running on AWS and injects reveal.js /
+# gitlab-marker.js for untrusted-content masking.
+#
+# The two ${...} placeholders are substituted at container start by
+# entrypoint.sh (envsubst), reading the values from the container's
+# environment (set by docker-compose.yaml from your .env file):
+#   ${GITLAB_BACKEND_HOST}  — host (IP or DNS) of the AWS EC2 instance.
+#   ${GITLAB_PUBLIC_HOST}   — FQDN GitLab generates its links with.
+# The :8023 GitLab port is baked into WebArena's pre-populated AMI (image
+# "gitlab-populated-final-port8023"), so it's hardcoded here.
+# Edit nginx.conf.template here for any further config changes; the
+# generated /etc/nginx/conf.d/default.conf is overwritten on every restart.
+
+server {
+    listen 80;
+    server_name gitlab.vwa localhost;
+
+    # Serve reveal.js static files
+    location ~ ^/(reveal\.css)$ {
+        root /usr/share/nginx/html;
+        add_header Cache-Control "no-cache, no-store, must-revalidate";
+        add_header Content-Type "text/css" always;
+    }
+    
+    location ~ ^/(reveal\.js|security-tracker\.js|gitlab-marker\.js|html-cache\.js|auto-login\.js)$ {
+        root /usr/share/nginx/html;
+        add_header Cache-Control "no-cache, no-store, must-revalidate";
+        add_header Content-Type "application/javascript" always;
+    }
+
+    # Save rendered HTML endpoint (POST)
+    location /save-rendered-html {
+        client_body_buffer_size 10M;
+        client_max_body_size 10M;
+        
+        content_by_lua_block {
+            ngx.req.read_body()
+            local html = ngx.req.get_body_data()
+            if html and #html > 1000 then
+                local file = io.open("/tmp/gitlab_rendered.html", "w")
+                if file then
+                    file:write(html)
+                    file:close()
+                    ngx.say("HTML cached successfully")
+                else
+                    ngx.status = 500
+                    ngx.say("ERROR: Could not save HTML")
+                end
+            else
+                ngx.status = 400
+                ngx.say("ERROR: Invalid or empty HTML")
+            end
+        }
+    }
+
+    # Save page state endpoint (POST): atomic URL+HTML snapshot for agent reads
+    location /save-page-state {
+        client_body_buffer_size 12M;
+        client_max_body_size 12M;
+
+        content_by_lua_block {
+            ngx.req.read_body()
+            local payload = ngx.req.get_body_data()
+            if payload and #payload > 50 then
+                local tmp_path = "/tmp/gitlab_page_state.json.tmp"
+                local final_path = "/tmp/gitlab_page_state.json"
+                local file = io.open(tmp_path, "w")
+                if file then
+                    file:write(payload)
+                    file:close()
+                    os.rename(tmp_path, final_path)
+                    ngx.say("Page state cached successfully")
+                else
+                    ngx.status = 500
+                    ngx.say("ERROR: Could not save page state")
+                end
+            else
+                ngx.status = 400
+                ngx.say("ERROR: Invalid page state payload")
+            end
+        }
+    }
+
+    # Get current URL endpoint (GET)
+    location /get-current-url {
+        content_by_lua_block {
+            local file = io.open("/tmp/gitlab_current_url.txt", "r")
+            if file then
+                local url = file:read("*all")
+                file:close()
+                ngx.header["Content-Type"] = "text/plain"
+                ngx.say(url)
+            else
+                ngx.status = 404
+                ngx.say("ERROR: No URL available")
+            end
+        }
+    }
+
+    # Get rendered HTML endpoint (GET)
+    location /get-rendered-html {
+        content_by_lua_block {
+            local file = io.open("/tmp/gitlab_rendered.html", "r")
+            if file then
+                local html = file:read("*all")
+                file:close()
+                ngx.header["Content-Type"] = "text/html"
+                ngx.say(html)
+            else
+                ngx.status = 404
+                ngx.say("ERROR: No cached HTML available")
+            end
+        }
+    }
+
+    # Get combined page state endpoint (GET)
+    location /get-page-state {
+        content_by_lua_block {
+            local file = io.open("/tmp/gitlab_page_state.json", "r")
+            if file then
+                local data = file:read("*all")
+                file:close()
+                ngx.header["Content-Type"] = "application/json"
+                ngx.say(data)
+            else
+                ngx.status = 404
+                ngx.say("ERROR: No cached page state available")
+            end
+        }
+    }
+
+    # Proxy static assets and API — rewrite backend URLs in responses
+    location ~ ^/(assets|uploads|api)/ {
+        proxy_pass http://${GITLAB_BACKEND_HOST}:8023;
+        proxy_set_header Host $http_host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_redirect http://${GITLAB_BACKEND_HOST}:8023/ http://$http_host/;
+        proxy_connect_timeout 120s;
+        proxy_read_timeout 120s;
+
+        proxy_set_header Accept-Encoding "";
+        sub_filter_types application/json text/html text/plain;
+        sub_filter_once off;
+        sub_filter 'http://${GITLAB_PUBLIC_HOST}:8023' 'http://gitlab-vwa.com';
+        sub_filter 'http://${GITLAB_BACKEND_HOST}:8023' 'http://gitlab-vwa.com';
+    }
+
+    # Logging endpoint for security tracker
+    location /logs/write {
+        client_body_buffer_size 1M;
+        client_max_body_size 1M;
+        
+        content_by_lua_block {
+            ngx.req.read_body()
+            local body = ngx.req.get_body_data()
+            
+            if body then
+                local file = io.open("/usr/share/nginx/html/logs/security.log", "a")
+                if file then
+                    file:write(body .. "\n")
+                    file:close()
+                    ngx.header["Content-Type"] = "text/plain"
+                    ngx.say("OK")
+                else
+                    ngx.status = 500
+                    ngx.header["Content-Type"] = "text/plain"
+                    ngx.say("ERROR: Could not write log file")
+                end
+            else
+                ngx.status = 400
+                ngx.header["Content-Type"] = "text/plain"
+                ngx.say("ERROR: No log data provided")
+            end
+        }
+    }
+
+    # Set the reveal mode for the entire run.
+    # The Python runner calls POST /set-reveal-mode?mode=all|trusted|none
+    # before navigating, and every HTML page gets the mode injected inline.
+    location /set-reveal-mode {
+        content_by_lua_block {
+            local mode = ngx.var.arg_mode or "none"
+            local file = io.open("/tmp/reveal_mode.txt", "w")
+            if file then
+                file:write(mode)
+                file:close()
+                ngx.say("reveal_mode=" .. mode)
+            else
+                ngx.status = 500
+                ngx.say("ERROR: Could not save reveal mode")
+            end
+        }
+    }
+
+    # Main proxy location - inject reveal.js into HTML pages
+    location / {
+        # Read the server-side reveal mode and build the inline script
+        set $reveal_inline "";
+        set_by_lua_block $reveal_inline {
+            local file = io.open("/tmp/reveal_mode.txt", "r")
+            if file then
+                local mode = file:read("*all")
+                file:close()
+                if mode == "all" then
+                    return '<script>localStorage.setItem("reveal_mode","all")</script><style>[data-untrusted="true"],[data-trusted="true"]{border-left:none !important}</style>'
+                elseif mode == "trusted" then
+                    return '<script>localStorage.setItem("reveal_mode","trusted")</script>'
+                end
+            end
+            return ""
+        }
+
+        proxy_pass http://${GITLAB_BACKEND_HOST}:8023;
+        proxy_set_header Host $http_host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+
+        # GitLab can be slow (especially after idle) — generous timeouts
+        proxy_connect_timeout 120s;
+        proxy_read_timeout 120s;
+        proxy_send_timeout 120s;
+        
+        # Rewrite GitLab redirect Location headers to use the caller's host
+        proxy_redirect http://${GITLAB_BACKEND_HOST}:8023/ http://$http_host/;
+        
+        # GitLab sometimes uses chunked transfer encoding - disable for sub_filter
+        proxy_set_header Accept-Encoding "";
+        
+        # Only apply sub_filter to HTML content
+        sub_filter_types text/html;
+        sub_filter_once off;
+        
+        # Rewrite the AWS backend hostname in HTML so all links stay
+        # on the proxy.  Must come BEFORE the </head> sub_filter because
+        # nginx applies sub_filter rules in order of appearance.
+        sub_filter 'http://${GITLAB_PUBLIC_HOST}:8023' 'http://gitlab-vwa.com';
+        sub_filter 'http://${GITLAB_BACKEND_HOST}:8023' 'http://gitlab-vwa.com';
+
+        # Inject reveal mode + scripts before </head>.
+        sub_filter '</head>' '$reveal_inline<style id="gitlab-prehide-css">.commit-row-message,.commit-title,.commits-row .item-title a,.commit-description,.commit-row-description,.readme-holder .md,.wiki .md,.file-content .md,.file-content .code,.blob-content,.file-content .file-content,.js-edit-blob-form .editor-ref,.js-edit-blob-form .file-editor.code,.file-editor.code,.tree-item .str-truncated,.tree-item-file-name,.file-row-name .gl-truncate,.diff-file-changes .file-row-name,.ide-file-list .file-row-name,.ide-tree-body .file-row-name,[data-testid="ide-tree-body"] .file-row-name,#ide.blob-viewer-container,.multi-file-edit-pane-content,.multi-file-tab,.ide-editor .monaco-editor .view-lines,.note-body .md,.timeline-entry .note-text,.detail-page-description .md,.issuable-details .description .md,.issue-title-text a,.merge-request-title a,.issuable-header-text a,.issue-title-text,.issuable-info .title,.avatar-cell,.avatar-container,.avatar-holder,.system-note-image.user-avatar,.issuable-reference,.user-info .user-name,.author-name,.commit-author-link,.author-link,.author,span.username,.event-feed .event-title,.event-feed .event-body,.snippet-title,.snippet-file-content .code,.diff-content .code,.release-block .release-body .md,.user-profile .cover-desc,.profile-user-bio,.namespace-name,.project-name,.project-description,.sidebar-context-title,h1.home-panel-title,.home-panel-description-markdown,.home-panel-description.text-break,a[data-qa-selector="forked_from_link"],.ref-name,.breadcrumb-item a,.repo-breadcrumb a,.breadcrumbs-list a,.breadcrumbs-links a,[data-qa-selector=\"branches_section\"] .gl-dropdown-item-text-primary,[data-testid=\"branches-section\"] .gl-dropdown-item-text-primary,.ref-selector button.gl-dropdown-toggle,.ref-selector .gl-dropdown-toggle-text,.ref-selector .gl-new-dropdown-toggle-text,.ref-selector .dropdown-toggle-text,.tree-ref-holder .dropdown-toggle-text,.js-source-project .dropdown-toggle-text,.js-target-project .dropdown-toggle-text,.js-source-branch .dropdown-toggle-text,.js-target-branch .dropdown-toggle-text,.project-row .avatar-container,.projects-list .avatar-container,.project-row .identicon,.projects-list .identicon{visibility:hidden !important;min-height:1.2em}</style><link rel="stylesheet" href="/reveal.css"><script src="/auto-login.js"></script><script src="/security-tracker.js"></script><script src="/gitlab-marker.js"></script><script src="/reveal.js"></script><script src="/html-cache.js"></script></head>';
+        
+        # Add reveal config to body
+        sub_filter '<body' '<body data-reveal-config="{\"autoObserve\":true,\"appName\":\"gitlab\",\"publishElementMap\":true}"';
+        
+        # Enable response buffering for sub_filter
+        proxy_buffering on;
+        proxy_buffer_size 128k;
+        proxy_buffers 4 256k;
+        proxy_busy_buffers_size 256k;
+    }
+}

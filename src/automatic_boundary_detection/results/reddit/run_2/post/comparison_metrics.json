@@ -1,0 +1,3988 @@
+{
+  "ground_truth_file": "hand_results.json",
+  "predicted_file": "llm_results.json",
+  "ground_truth_metadata": {
+    "totalSelectors": 17,
+    "selectorsWithMatches": 11,
+    "totalElements": 170,
+    "uniqueElements": 168,
+    "url": "http://localhost:8001/llm_input_original_post.html",
+    "configFile": "hand_labels.json",
+    "configVersion": "hand",
+    "configGeneratedBy": "Manual approximation from known old.reddit HTML structure"
+  },
+  "predicted_metadata": {
+    "totalSelectors": 37,
+    "selectorsWithMatches": 28,
+    "totalElements": 352,
+    "uniqueElements": 154,
+    "url": "http://localhost:8001/llm_input_original_post.html",
+    "configFile": "llm_labels.json",
+    "configVersion": "sanitized",
+    "configGeneratedBy": "LLM analysis (claude-sonnet-4-5-20250929)"
+  },
+  "metrics": {
+    "tp_count": 173,
+    "tp_exact_count": 147,
+    "tp_related_count": 26,
+    "fp_count": 2,
+    "fn_count": 0,
+    "precision": 0.9885714285714285,
+    "recall": 1.0,
+    "f1_score": 0.9942528735632185,
+    "accuracy": 0.9885714285714285,
+    "ground_truth_total": 168,
+    "predicted_total": 154
+  },
+  "signature_metrics": {
+    "tp_signature_count": 45,
+    "tp_exact_signature_count": 45,
+    "tp_related_signature_count": 0,
+    "fp_signature_count": 1,
+    "fn_signature_count": 0,
+    "ground_truth_signature_total": 45,
+    "predicted_signature_total": 46,
+    "tp_signatures": [
+      "a",
+      "a.author.id-t2_1038di.may-blank",
+      "a.author.id-t2_15246q.may-blank",
+      "a.author.id-t2_16bijn.may-blank",
+      "a.author.id-t2_1m5peuejy6.may-blank",
+      "a.author.id-t2_1m9fncvxr2.may-blank",
+      "a.author.id-t2_1q1jbnhq.may-blank",
+      "a.author.id-t2_1ynyypvj.may-blank",
+      "a.author.id-t2_21bguwcab7.may-blank",
+      "a.author.id-t2_25714r5qos.may-blank",
+      "a.author.id-t2_30zagjen.may-blank",
+      "a.author.id-t2_379gd.may-blank",
+      "a.author.id-t2_3dcvoeuf.may-blank",
+      "a.author.id-t2_46l6nh.may-blank",
+      "a.author.id-t2_4aaq1.may-blank",
+      "a.author.id-t2_4pdql.may-blank",
+      "a.author.id-t2_4u1iu.may-blank",
+      "a.author.id-t2_52np03ys.may-blank",
+      "a.author.id-t2_52x2f.may-blank",
+      "a.author.id-t2_5ij2c.may-blank",
+      "a.author.id-t2_6j25c6dm.may-blank",
+      "a.author.id-t2_c1oyp.may-blank",
+      "a.author.id-t2_cd18ckdak.may-blank",
+      "a.author.id-t2_ftf51.may-blank",
+      "a.author.id-t2_gyuqi.may-blank",
+      "a.author.id-t2_h7v53.may-blank",
+      "a.author.id-t2_hc9le.may-blank",
+      "a.author.id-t2_ibq05.may-blank",
+      "a.author.id-t2_ibzwv.may-blank",
+      "a.author.id-t2_ig8yw9sc.may-blank",
+      "a.author.id-t2_kufh0.may-blank",
+      "a.author.id-t2_m24q.may-blank",
+      "a.author.id-t2_m9srlau5o.may-blank",
+      "a.author.id-t2_mbfe7da7.may-blank",
+      "a.author.id-t2_x9soxg2.may-blank",
+      "a.hover",
+      "a.hover.may-blank.subreddit",
+      "a.may-blank.outbound.title",
+      "div.expando",
+      "div.id-t3_1s3fj4b.link.odd.thing",
+      "div.md",
+      "h1.hover.redditname",
+      "p.title",
+      "span.crosspost-badge",
+      "span.userattrs"
+    ],
+    "tp_exact_signatures": [
+      "a",
+      "a.author.id-t2_1038di.may-blank",
+      "a.author.id-t2_15246q.may-blank",
+      "a.author.id-t2_16bijn.may-blank",
+      "a.author.id-t2_1m5peuejy6.may-blank",
+      "a.author.id-t2_1m9fncvxr2.may-blank",
+      "a.author.id-t2_1q1jbnhq.may-blank",
+      "a.author.id-t2_1ynyypvj.may-blank",
+      "a.author.id-t2_21bguwcab7.may-blank",
+      "a.author.id-t2_25714r5qos.may-blank",
+      "a.author.id-t2_30zagjen.may-blank",
+      "a.author.id-t2_379gd.may-blank",
+      "a.author.id-t2_3dcvoeuf.may-blank",
+      "a.author.id-t2_46l6nh.may-blank",
+      "a.author.id-t2_4aaq1.may-blank",
+      "a.author.id-t2_4pdql.may-blank",
+      "a.author.id-t2_4u1iu.may-blank",
+      "a.author.id-t2_52np03ys.may-blank",
+      "a.author.id-t2_52x2f.may-blank",
+      "a.author.id-t2_5ij2c.may-blank",
+      "a.author.id-t2_6j25c6dm.may-blank",
+      "a.author.id-t2_c1oyp.may-blank",
+      "a.author.id-t2_cd18ckdak.may-blank",
+      "a.author.id-t2_ftf51.may-blank",
+      "a.author.id-t2_gyuqi.may-blank",
+      "a.author.id-t2_h7v53.may-blank",
+      "a.author.id-t2_hc9le.may-blank",
+      "a.author.id-t2_ibq05.may-blank",
+      "a.author.id-t2_ibzwv.may-blank",
+      "a.author.id-t2_ig8yw9sc.may-blank",
+      "a.author.id-t2_kufh0.may-blank",
+      "a.author.id-t2_m24q.may-blank",
+      "a.author.id-t2_m9srlau5o.may-blank",
+      "a.author.id-t2_mbfe7da7.may-blank",
+      "a.author.id-t2_x9soxg2.may-blank",
+      "a.hover",
+      "a.hover.may-blank.subreddit",
+      "a.may-blank.outbound.title",
+      "div.expando",
+      "div.id-t3_1s3fj4b.link.odd.thing",
+      "div.md",
+      "h1.hover.redditname",
+      "p.title",
+      "span.crosspost-badge",
+      "span.userattrs"
+    ],
+    "tp_related_signatures": [],
+    "fp_signatures": [
+      "time"
+    ],
+    "fn_signatures": [],
+    "precision": 0.9782608695652174,
+    "recall": 1.0,
+    "f1_score": 0.989010989010989,
+    "accuracy": 0.9782608695652174
+  },
+  "element_details": {
+    "tp": [
+      {
+        "xpath": "//*[@id=\"form-t1_ocf4d7py07\"]/div[1]/div[1]",
+        "preview": "Hi, openrct2 developer here. \n\nNo amount of assembly saves you from writing bubble sorts or not cach",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocf7jcoxqd\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocf9o9o0eg\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocf9si7g39\"]/div[1]/div[1]",
+        "preview": "Arguably, with modern compilers, you're probably more likely to get better optimized code writing C",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocfcis909s\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocfk5aa90q\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocflh4nfi8\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocflna0wlw\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocfp5b5gm7\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocfslftbbw\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocfu402sfk\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocfu7sinfg\"]/div[1]/div[1]",
+        "preview": "When handwriting assembly, you often make unoptimized choices for readability and maintenance reason",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocfuday6k9\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocg38s87av\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocg3ntoi2k\"]/div[1]/div[1]",
+        "preview": "The last part is very true.  Early C compilers weren't doing profiling or even figuring out the best",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocg5samfwh\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocg6rwm1zh\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocg7mg03mw\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocg7z3t07u\"]/div[1]/div[1]",
+        "preview": "If the goal is hand-optimized assembly, then the best way to do it is start with writing C, see what",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocganlalbz\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocgblhyzww\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocgbtw2t5x\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocgccwi9i9\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocgdjbvr00\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocggtzq8p2\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocght67m4w\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocgixa2wu4\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocgj9d9il1\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocgk9b0yvq\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocgldqou3i\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocgmixz9zo\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocgmqj3czx\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocgqi366j7\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocgr3we0u8\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocgra3o6ec\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocgrpzyuj5\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocgtbdya4c\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocgti75r6p\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocgur0we6t\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocguslh9m0\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocgwgozbtz\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocgxdjw8ej\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_och41ih4pr\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_och615ca8z\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ochasci6lm\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ochcb2ipyu\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]",
+        "preview": "/r/programming is a reddit for discussion and news about computer programming\n\n\n\nGuidelines\n\n\nPlease",
+        "selectors": [
+          ".titlebox .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".titlebox .usertext-body .md",
+          "form.usertext .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/p[1]/a[1]",
+        "preview": "/r/programming",
+        "selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "ground_truth_selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[2]/li[1]/a[1]",
+        "preview": "/r/learnprogramming",
+        "selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "ground_truth_selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[2]/li[1]/a[2]",
+        "preview": "/r/cscareerquestions",
+        "selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "ground_truth_selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[2]/li[2]/a[1]",
+        "preview": "/r/ProgrammerHumor/",
+        "selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "ground_truth_selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[2]/li[3]/a[1]",
+        "preview": "/r/forhire",
+        "selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "ground_truth_selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[2]/li[3]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "ground_truth_selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[10]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "ground_truth_selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[11]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "ground_truth_selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[12]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "ground_truth_selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[13]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "ground_truth_selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[14]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "ground_truth_selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[15]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "ground_truth_selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[1]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "ground_truth_selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[2]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "ground_truth_selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[3]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "ground_truth_selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[4]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "ground_truth_selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[5]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "ground_truth_selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[6]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "ground_truth_selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[7]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "ground_truth_selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[8]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "ground_truth_selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[9]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "ground_truth_selectors": [
+          ".titlebox .md a[href^=\"/r/\"]"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocf4d7p\"]/div[2]/p[1]/a[2]",
+        "preview": "janisozaur",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_ibzwv",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocf4d7p\"]/div[2]/p[1]/span[1]",
+        "preview": "(empty)",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocf7jco\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_16bijn",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocf7jco\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocf9o9o\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_x9soxg2",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocf9o9o\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocf9si7\"]/div[2]/p[1]/a[2]",
+        "preview": "Norphesius",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_ftf51",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocf9si7\"]/div[2]/p[1]/span[1]",
+        "preview": "(empty)",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfcis9\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_ftf51",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfcis9\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfk5aa\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_25714r5qos",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfk5aa\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocflh4n\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_3dcvoeuf",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocflh4n\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocflna0\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_5ij2c",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocflna0\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfp5b5\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_15246q",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfp5b5\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfslft\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_46l6nh",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfslft\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfu402\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_5ij2c",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfu402\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfu7si\"]/div[2]/p[1]/a[2]",
+        "preview": "vytah",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_52x2f",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfu7si\"]/div[2]/p[1]/span[1]",
+        "preview": "(empty)",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfuday\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_ig8yw9sc",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfuday\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocg38s8\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_m9srlau5o",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocg38s8\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocg3nto\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_379gd",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocg3nto\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocg5sam\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_h7v53",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocg5sam\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocg6rwm\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_m24q",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocg6rwm\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocg7mg0\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_16bijn",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocg7mg0\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocg7z3t\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_6j25c6dm",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocg7z3t\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocganla\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_16bijn",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocganla\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgblhy\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_4aaq1",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgblhy\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgbtw2\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_c1oyp",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgbtw2\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgccwi\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_4aaq1",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgccwi\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgdjbv\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_gyuqi",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgdjbv\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocggtzq\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_ibq05",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocggtzq\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocght67\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_1m9fncvxr2",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocght67\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgixa2\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_1m9fncvxr2",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgixa2\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgj9d9\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_21bguwcab7",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgj9d9\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgk9b0\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_1m5peuejy6",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgk9b0\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgldqo\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_1m5peuejy6",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgldqo\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgmixz\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_kufh0",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgmixz\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgmqj3\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_16bijn",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgmqj3\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgqi36\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_1038di",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgqi36\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgr3we\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_1ynyypvj",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgr3we\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgra3o\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_1038di",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgra3o\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgrpzy\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_mbfe7da7",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgrpzy\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgtbdy\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_52np03ys",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgtbdy\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgti75\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_30zagjen",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgti75\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgur0w\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_1038di",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgur0w\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocguslh\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_1ynyypvj",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocguslh\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgwgoz\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_cd18ckdak",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgwgoz\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgxdjw\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_m9srlau5o",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocgxdjw\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_och41ih\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_4pdql",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_och41ih\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_och615c\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_hc9le",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_och615c\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ochasci\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_4u1iu",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ochasci\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ochcb2i\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_4u1iu",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ochcb2i\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t3_1s3fj4b\"]",
+        "preview": "175176177The gold standard of optimization: A look under the hood of RollerCoaster Tycoon (larstofus",
+        "selectors": [
+          ".thing[data-crosspost-root-author]",
+          ".thing[data-crosspost-root-subreddit]",
+          ".thing[data-domain]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".thing[data-domain]",
+          ".thing[data-crosspost-root-author]",
+          ".thing[data-crosspost-root-subreddit]"
+        ],
+        "tagName": "div",
+        "className": " thing id-t3_1s3fj4b odd  link ",
+        "id": "thing_t3_1s3fj4b"
+      },
+      {
+        "xpath": "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/a[1]",
+        "preview": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon",
+        "selectors": [
+          ".thing .title a.title",
+          ".thing.link .title > a.title",
+          ".thing.link .title a.title",
+          "a.title"
+        ],
+        "ground_truth_selectors": [
+          "a.title"
+        ],
+        "predicted_selectors": [
+          ".thing .title a.title",
+          ".thing.link .title > a.title",
+          ".thing.link .title a.title"
+        ],
+        "tagName": "a",
+        "className": "title may-blank outbound",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "preview": "larstofus.com",
+        "selectors": [
+          ".domain a",
+          ".thing .domain a",
+          ".thing.link .domain a"
+        ],
+        "ground_truth_selectors": [
+          ".domain a"
+        ],
+        "predicted_selectors": [
+          ".thing .domain a",
+          ".thing.link .domain a"
+        ],
+        "tagName": "a",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/span[2]",
+        "preview": "(empty)",
+        "selectors": [
+          ".crosspost-badge"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".crosspost-badge"
+        ],
+        "tagName": "span",
+        "className": "crosspost-badge",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[2]/a[1]",
+        "preview": "r_retrohacking_mod2",
+        "selectors": [
+          ".author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_1q1jbnhq",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[2]/span[1]",
+        "preview": "(empty)",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]",
+        "preview": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon63 points\u202219 comment",
+        "selectors": [
+          ".thing .expando"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".thing .expando"
+        ],
+        "tagName": "div",
+        "className": "expando",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[2]",
+        "preview": "r_retrohacking_mod2",
+        "selectors": [
+          ".author",
+          ".crosspost-preview .author",
+          ".crosspost-preview-tagline a.author",
+          ".thing .author",
+          ".thing a.author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author",
+          ".crosspost-preview .author"
+        ],
+        "predicted_selectors": [
+          ".thing a.author",
+          "a.author",
+          ".crosspost-preview-tagline a.author",
+          ".thing .author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_1q1jbnhq",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[3]",
+        "preview": "r/retrogamedev",
+        "selectors": [
+          ".crosspost-preview .subreddit",
+          ".crosspost-preview-tagline a.subreddit",
+          ".thing .tagline .subreddit",
+          ".thing[data-subreddit] .tagline a.subreddit",
+          "a.subreddit"
+        ],
+        "ground_truth_selectors": [
+          ".crosspost-preview .subreddit",
+          "a.subreddit"
+        ],
+        "predicted_selectors": [
+          ".crosspost-preview-tagline a.subreddit",
+          ".thing[data-subreddit] .tagline a.subreddit",
+          ".thing .tagline .subreddit"
+        ],
+        "tagName": "a",
+        "className": "subreddit hover may-blank",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/span[4]",
+        "preview": "(empty)",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/p[1]",
+        "preview": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon",
+        "selectors": [
+          ".crosspost-preview .title"
+        ],
+        "ground_truth_selectors": [
+          ".crosspost-preview .title"
+        ],
+        "predicted_selectors": [
+          ".crosspost-preview .title"
+        ],
+        "tagName": "p",
+        "className": "title",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[5]/div[1]/h1[1]",
+        "preview": "programming",
+        "selectors": [
+          ".titlebox h1"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".titlebox h1"
+        ],
+        "tagName": "h1",
+        "className": "hover redditname",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[5]/div[1]/h1[1]/a[1]",
+        "preview": "programming",
+        "selectors": [
+          ".titlebox h1 a",
+          ".titlebox h1.hover a",
+          ".titlebox h1.redditname a"
+        ],
+        "ground_truth_selectors": [
+          ".titlebox h1 a"
+        ],
+        "predicted_selectors": [
+          ".titlebox h1.redditname a",
+          ".titlebox h1.hover a"
+        ],
+        "tagName": "a",
+        "className": "hover",
+        "id": ""
+      }
+    ],
+    "fp": [
+      {
+        "xpath": "//*[@id=\"header-bottom-left\"]/span[1]/a[1]",
+        "preview": "programming",
+        "selectors": [
+          ".pagename.redditname a"
+        ],
+        "tagName": "a",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[5]/div[1]/div[1]/span[1]/time[1]",
+        "preview": "20 years",
+        "selectors": [
+          ".titlebox .bottom .age time"
+        ],
+        "tagName": "time",
+        "className": "",
+        "id": ""
+      }
+    ],
+    "fn": []
+  },
+  "element_groups": {
+    "fp_by_signature": {
+      "time": 1
+    },
+    "fn_by_signature": {},
+    "fp_grouped_details": {
+      "time": [
+        {
+          "xpath": "/html/body/div[2]/div[5]/div[1]/div[1]/span[1]/time[1]",
+          "preview": "20 years"
+        }
+      ]
+    },
+    "fn_grouped_details": {}
+  },
+  "selector_breakdown": {
+    "ground_truth": {
+      "total_selectors": 17,
+      "selectors_with_matches": 11,
+      "selector_to_ids": {
+        "1": [
+          "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/a[1]"
+        ],
+        "2": [
+          "//*[@id=\"form-t1_ocgixa2wu4\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgmqj3czx\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgblhyzww\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgccwi9i9\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocg6rwm1zh\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocf9o9o0eg\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocf9si7g39\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfp5b5gm7\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfu7sinfg\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ochasci6lm\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocganlalbz\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgra3o6ec\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocguslh9m0\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgur0we6t\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ochcb2ipyu\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocg38s87av\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocg5samfwh\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgk9b0yvq\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgj9d9il1\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgdjbvr00\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfk5aa90q\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocg3ntoi2k\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfcis909s\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocflna0wlw\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocf7jcoxqd\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgldqou3i\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgtbdya4c\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_och41ih4pr\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocggtzq8p2\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgmixz9zo\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocg7z3t07u\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfu402sfk\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgwgozbtz\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocght67m4w\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgbtw2t5x\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfuday6k9\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_och615ca8z\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgr3we0u8\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgqi366j7\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocflh4nfi8\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgxdjw8ej\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgrpzyuj5\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocf4d7py07\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocg7mg03mw\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgti75r6p\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfslftbbw\"]/div[1]/div[1]"
+        ],
+        "3": [
+          "//*[@id=\"thing_t1_ocganla\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocguslh\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocg7z3t\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocg7mg0\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgtbdy\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_och615c\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocflna0\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgr3we\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgccwi\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgra3o\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocfu402\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgur0w\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ochcb2i\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgmqj3\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocght67\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocg6rwm\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ochasci\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgmixz\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocg5sam\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocfcis9\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocf4d7p\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocflh4n\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocfk5aa\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgwgoz\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgti75\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[2]/a[1]",
+          "//*[@id=\"thing_t1_ocfu7si\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgldqo\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocfuday\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgixa2\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgdjbv\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgrpzy\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocg38s8\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocf9o9o\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgj9d9\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocfslft\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgk9b0\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[2]",
+          "//*[@id=\"thing_t1_ocggtzq\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_och41ih\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgbtw2\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocf9si7\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgqi36\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocg3nto\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgblhy\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocf7jco\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgxdjw\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocfp5b5\"]/div[2]/p[1]/a[2]"
+        ],
+        "4": [],
+        "5": [],
+        "6": [
+          "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[2]/a[1]",
+          "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[14]/a[1]",
+          "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[2]/li[1]/a[1]",
+          "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[2]/li[1]/a[2]",
+          "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[4]/a[1]",
+          "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[1]/a[1]",
+          "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[6]/a[1]",
+          "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/p[1]/a[1]",
+          "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[9]/a[1]",
+          "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[2]/li[2]/a[1]",
+          "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[7]/a[1]",
+          "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[11]/a[1]",
+          "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[15]/a[1]",
+          "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[2]/li[3]/a[1]",
+          "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[3]/a[1]",
+          "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[12]/a[1]",
+          "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[2]/li[3]/a[2]",
+          "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[8]/a[1]",
+          "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[5]/a[1]",
+          "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[10]/a[1]",
+          "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[13]/a[1]"
+        ],
+        "7": [],
+        "8": [
+          "/html/body/div[2]/div[5]/div[1]/h1[1]/a[1]"
+        ],
+        "9": [
+          "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/span[1]/a[1]"
+        ],
+        "10": [],
+        "11": [],
+        "12": [
+          "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/p[1]"
+        ],
+        "13": [
+          "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[2]"
+        ],
+        "14": [
+          "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[3]"
+        ],
+        "15": [
+          "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[3]"
+        ],
+        "16": [],
+        "17": [
+          "//*[@id=\"thing_t1_ocfp5b5\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocg5sam\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocf9si7\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgixa2\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgti75\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgur0w\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgtbdy\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocganla\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgxdjw\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocfu402\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocflh4n\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_och615c\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgbtw2\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocght67\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocfk5aa\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[2]/span[1]",
+          "//*[@id=\"thing_t1_ocgdjbv\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocg7z3t\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocggtzq\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocf4d7p\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgj9d9\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgrpzy\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocflna0\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgr3we\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocf7jco\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocg38s8\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgwgoz\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ochcb2i\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocfslft\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgldqo\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocfu7si\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocg3nto\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocfcis9\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocf9o9o\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/span[4]",
+          "//*[@id=\"thing_t1_ocfuday\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ochasci\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgccwi\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgmixz\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgqi36\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgblhy\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocg6rwm\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocg7mg0\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocguslh\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgra3o\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgk9b0\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgmqj3\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_och41ih\"]/div[2]/p[1]/span[1]"
+        ]
+      }
+    },
+    "predicted": {
+      "total_selectors": 37,
+      "selectors_with_matches": 28,
+      "selector_to_ids": {
+        "1": [
+          "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/a[1]"
+        ],
+        "2": [
+          "//*[@id=\"thing_t1_ocganla\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocguslh\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocg7z3t\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocg7mg0\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgtbdy\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_och615c\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocflna0\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgr3we\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgccwi\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgra3o\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocfu402\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgur0w\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ochcb2i\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgmqj3\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocght67\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocg6rwm\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ochasci\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgmixz\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocg5sam\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocfcis9\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocf4d7p\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocflh4n\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocfk5aa\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgwgoz\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgti75\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[2]/a[1]",
+          "//*[@id=\"thing_t1_ocfu7si\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgldqo\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocfuday\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgixa2\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgdjbv\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgrpzy\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocg38s8\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocf9o9o\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgj9d9\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocfslft\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgk9b0\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[2]",
+          "//*[@id=\"thing_t1_ocggtzq\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_och41ih\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgbtw2\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocf9si7\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgqi36\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocg3nto\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgblhy\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocf7jco\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgxdjw\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocfp5b5\"]/div[2]/p[1]/a[2]"
+        ],
+        "3": [
+          "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/span[1]/a[1]"
+        ],
+        "4": [
+          "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]"
+        ],
+        "5": [
+          "/html/body/div[2]/div[5]/div[1]/h1[1]/a[1]"
+        ],
+        "6": [
+          "//*[@id=\"header-bottom-left\"]/span[1]/a[1]"
+        ],
+        "7": [
+          "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]"
+        ],
+        "8": [
+          "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/span[2]"
+        ],
+        "9": [
+          "//*[@id=\"thing_t3_1s3fj4b\"]"
+        ],
+        "10": [
+          "//*[@id=\"thing_t1_ocfp5b5\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocg5sam\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocf9si7\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgixa2\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgti75\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgur0w\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgtbdy\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocganla\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgxdjw\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocfu402\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocflh4n\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_och615c\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgbtw2\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocght67\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocfk5aa\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[2]/span[1]",
+          "//*[@id=\"thing_t1_ocgdjbv\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocg7z3t\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocggtzq\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocf4d7p\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgj9d9\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgrpzy\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocflna0\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgr3we\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocf7jco\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocg38s8\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgwgoz\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ochcb2i\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocfslft\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgldqo\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocfu7si\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocg3nto\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocfcis9\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocf9o9o\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/span[4]",
+          "//*[@id=\"thing_t1_ocfuday\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ochasci\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgccwi\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgmixz\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgqi36\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgblhy\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocg6rwm\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocg7mg0\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocguslh\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgra3o\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgk9b0\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocgmqj3\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_och41ih\"]/div[2]/p[1]/span[1]"
+        ],
+        "11": [
+          "//*[@id=\"form-t1_ocgixa2wu4\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgmqj3czx\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgblhyzww\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgccwi9i9\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocg6rwm1zh\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocf9o9o0eg\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocf9si7g39\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfp5b5gm7\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfu7sinfg\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ochasci6lm\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocganlalbz\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgra3o6ec\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocguslh9m0\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgur0we6t\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ochcb2ipyu\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocg38s87av\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocg5samfwh\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgk9b0yvq\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgj9d9il1\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgdjbvr00\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfk5aa90q\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocg3ntoi2k\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfcis909s\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocflna0wlw\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocf7jcoxqd\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgldqou3i\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgtbdya4c\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_och41ih4pr\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocggtzq8p2\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgmixz9zo\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocg7z3t07u\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfu402sfk\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgwgozbtz\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocght67m4w\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgbtw2t5x\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfuday6k9\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_och615ca8z\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgr3we0u8\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgqi366j7\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocflh4nfi8\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgxdjw8ej\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgrpzyuj5\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocf4d7py07\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocg7mg03mw\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgti75r6p\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfslftbbw\"]/div[1]/div[1]"
+        ],
+        "12": [],
+        "13": [],
+        "14": [],
+        "15": [
+          "//*[@id=\"thing_t3_1s3fj4b\"]"
+        ],
+        "16": [
+          "//*[@id=\"thing_t3_1s3fj4b\"]"
+        ],
+        "17": [
+          "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/a[1]"
+        ],
+        "18": [
+          "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/span[1]/a[1]"
+        ],
+        "19": [
+          "//*[@id=\"form-t1_ocgixa2wu4\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgmqj3czx\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgblhyzww\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgccwi9i9\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocg6rwm1zh\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocf9o9o0eg\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocf9si7g39\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfp5b5gm7\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfu7sinfg\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ochasci6lm\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocganlalbz\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgra3o6ec\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocguslh9m0\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgur0we6t\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ochcb2ipyu\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocg38s87av\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocg5samfwh\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgk9b0yvq\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgj9d9il1\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgdjbvr00\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfk5aa90q\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocg3ntoi2k\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfcis909s\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocflna0wlw\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocf7jcoxqd\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgldqou3i\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgtbdya4c\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_och41ih4pr\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocggtzq8p2\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgmixz9zo\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocg7z3t07u\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfu402sfk\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgwgozbtz\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocght67m4w\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgbtw2t5x\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfuday6k9\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_och615ca8z\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgr3we0u8\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgqi366j7\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocflh4nfi8\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgxdjw8ej\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgrpzyuj5\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocf4d7py07\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocg7mg03mw\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgti75r6p\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfslftbbw\"]/div[1]/div[1]"
+        ],
+        "20": [
+          "//*[@id=\"thing_t1_ocganla\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocguslh\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocg7z3t\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocg7mg0\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgtbdy\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_och615c\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocflna0\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgr3we\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgccwi\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgra3o\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocfu402\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgur0w\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ochcb2i\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgmqj3\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocght67\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocg6rwm\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ochasci\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgmixz\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocg5sam\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocfcis9\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocf4d7p\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocflh4n\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocfk5aa\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgwgoz\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgti75\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[2]/a[1]",
+          "//*[@id=\"thing_t1_ocfu7si\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgldqo\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocfuday\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgixa2\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgdjbv\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgrpzy\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocg38s8\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocf9o9o\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgj9d9\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocfslft\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgk9b0\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[2]",
+          "//*[@id=\"thing_t1_ocggtzq\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_och41ih\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgbtw2\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocf9si7\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgqi36\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocg3nto\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgblhy\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocf7jco\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgxdjw\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocfp5b5\"]/div[2]/p[1]/a[2]"
+        ],
+        "21": [
+          "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/p[1]"
+        ],
+        "22": [
+          "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[3]"
+        ],
+        "23": [
+          "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[2]"
+        ],
+        "24": [
+          "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[3]"
+        ],
+        "25": [
+          "/html/body/div[2]/div[5]/div[1]/h1[1]/a[1]"
+        ],
+        "26": [],
+        "27": [
+          "//*[@id=\"form-t1_ocgixa2wu4\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgmqj3czx\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgblhyzww\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgccwi9i9\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocg6rwm1zh\"]/div[1]/div[1]",
+          "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocf9o9o0eg\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocf9si7g39\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfp5b5gm7\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfu7sinfg\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ochasci6lm\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocganlalbz\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgra3o6ec\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocguslh9m0\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgur0we6t\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ochcb2ipyu\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocg38s87av\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocg5samfwh\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgk9b0yvq\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgj9d9il1\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgdjbvr00\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfk5aa90q\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocg3ntoi2k\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfcis909s\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocflna0wlw\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocf7jcoxqd\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgldqou3i\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgtbdya4c\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_och41ih4pr\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocggtzq8p2\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgmixz9zo\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocg7z3t07u\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfu402sfk\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgwgozbtz\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocght67m4w\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgbtw2t5x\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfuday6k9\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_och615ca8z\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgr3we0u8\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgqi366j7\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocflh4nfi8\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgxdjw8ej\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgrpzyuj5\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocf4d7py07\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocg7mg03mw\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocgti75r6p\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfslftbbw\"]/div[1]/div[1]"
+        ],
+        "28": [
+          "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/a[1]"
+        ],
+        "29": [
+          "//*[@id=\"thing_t1_ocganla\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocguslh\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocg7z3t\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocg7mg0\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgtbdy\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_och615c\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocflna0\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgr3we\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgccwi\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgra3o\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocfu402\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgur0w\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ochcb2i\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgmqj3\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocght67\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocg6rwm\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ochasci\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgmixz\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocg5sam\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocfcis9\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocf4d7p\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocflh4n\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocfk5aa\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgwgoz\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgti75\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[2]/a[1]",
+          "//*[@id=\"thing_t1_ocfu7si\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgldqo\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocfuday\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgixa2\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgdjbv\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgrpzy\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocg38s8\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocf9o9o\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgj9d9\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocfslft\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgk9b0\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[2]",
+          "//*[@id=\"thing_t1_ocggtzq\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_och41ih\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgbtw2\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocf9si7\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgqi36\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocg3nto\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgblhy\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocf7jco\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocgxdjw\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocfp5b5\"]/div[2]/p[1]/a[2]"
+        ],
+        "30": [
+          "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[3]"
+        ],
+        "31": [],
+        "32": [],
+        "33": [
+          "/html/body/div[2]/div[5]/div[1]/h1[1]"
+        ],
+        "34": [],
+        "35": [],
+        "36": [],
+        "37": [
+          "/html/body/div[2]/div[5]/div[1]/div[1]/span[1]/time[1]"
+        ]
+      }
+    }
+  }
+}

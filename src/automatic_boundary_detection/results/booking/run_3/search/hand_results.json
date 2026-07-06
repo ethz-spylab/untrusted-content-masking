@@ -1,0 +1,921 @@
+{
+  "summary": {
+    "totalSelectors": 25,
+    "selectorsWithMatches": 6,
+    "totalElements": 81,
+    "uniqueElements": 81,
+    "url": "http://localhost:8001/llm_input_original_search.html",
+    "configFile": "hand_labels.json",
+    "configVersion": "hand",
+    "configGeneratedBy": "Manual analysis of Booking.com HTML structure"
+  },
+  "results": [
+    {
+      "index": 1,
+      "selector": "[data-testid='property-card'] [data-testid='title']",
+      "tagName": "property-name-search",
+      "description": "Hotel/property name in search results cards (set by property owner)",
+      "count": 25,
+      "element_ids": [
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[5]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[6]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[7]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[9]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[10]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[11]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[14]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[15]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[18]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[22]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[24]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[25]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[27]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[29]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[30]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[31]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[33]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[34]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[36]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[37]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[38]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[40]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[41]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]": {
+          "tagName": "div",
+          "className": "b87c397a13 a3e0b4ffd1",
+          "id": "",
+          "textPreview": "Bradford Elys\u00c3\u00a9es - Astotel"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[5]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]": {
+          "tagName": "div",
+          "className": "b87c397a13 a3e0b4ffd1",
+          "id": "",
+          "textPreview": "Moxy Paris Bastille"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[6]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]": {
+          "tagName": "div",
+          "className": "b87c397a13 a3e0b4ffd1",
+          "id": "",
+          "textPreview": "H\u00c3\u00b4tel Botaniste"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[7]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]": {
+          "tagName": "div",
+          "className": "b87c397a13 a3e0b4ffd1",
+          "id": "",
+          "textPreview": "Hotel Meslay Republique"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[9]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]": {
+          "tagName": "div",
+          "className": "b87c397a13 a3e0b4ffd1",
+          "id": "",
+          "textPreview": "Le Charme Alsacien"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[10]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]": {
+          "tagName": "div",
+          "className": "b87c397a13 a3e0b4ffd1",
+          "id": "",
+          "textPreview": "JOIVY Premium flats in the heart of the 9th arr, near Moulin Rouge"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[11]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]": {
+          "tagName": "div",
+          "className": "b87c397a13 a3e0b4ffd1",
+          "id": "",
+          "textPreview": "Prince Albert Lyon Bercy"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]": {
+          "tagName": "div",
+          "className": "b87c397a13 a3e0b4ffd1",
+          "id": "",
+          "textPreview": "Hilton Paris Opera"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[14]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]": {
+          "tagName": "div",
+          "className": "b87c397a13 a3e0b4ffd1",
+          "id": "",
+          "textPreview": "PARIS RIVOLI NOTRE DAME Chambre d'H\u00c3\u00b4tes Studio Private"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[15]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]": {
+          "tagName": "div",
+          "className": "b87c397a13 a3e0b4ffd1",
+          "id": "",
+          "textPreview": "Ibis Styles Paris Batignolles"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[18]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]": {
+          "tagName": "div",
+          "className": "b87c397a13 a3e0b4ffd1",
+          "id": "",
+          "textPreview": "Novotel Paris 14 Porte d'Orl\u00c3\u00a9ans"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[22]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]": {
+          "tagName": "div",
+          "className": "b87c397a13 a3e0b4ffd1",
+          "id": "",
+          "textPreview": "Pullman Paris Tour Eiffel"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[24]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]": {
+          "tagName": "div",
+          "className": "b87c397a13 a3e0b4ffd1",
+          "id": "",
+          "textPreview": "voco Paris Montparnasse by IHG"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[25]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]": {
+          "tagName": "div",
+          "className": "b87c397a13 a3e0b4ffd1",
+          "id": "",
+          "textPreview": "Hotel Joke - Astotel"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[27]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]": {
+          "tagName": "div",
+          "className": "b87c397a13 a3e0b4ffd1",
+          "id": "",
+          "textPreview": "Villa M"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[29]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]": {
+          "tagName": "div",
+          "className": "b87c397a13 a3e0b4ffd1",
+          "id": "",
+          "textPreview": "Hotel Abbatial Saint Germain"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[30]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]": {
+          "tagName": "div",
+          "className": "b87c397a13 a3e0b4ffd1",
+          "id": "",
+          "textPreview": "ibis budget Paris Porte De Montmartre"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[31]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]": {
+          "tagName": "div",
+          "className": "b87c397a13 a3e0b4ffd1",
+          "id": "",
+          "textPreview": "Petit Studio \u00c3\u00a9tudiant sur la canal de l'Ourcq"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[33]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]": {
+          "tagName": "div",
+          "className": "b87c397a13 a3e0b4ffd1",
+          "id": "",
+          "textPreview": "The People - Paris Marais"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[34]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]": {
+          "tagName": "div",
+          "className": "b87c397a13 a3e0b4ffd1",
+          "id": "",
+          "textPreview": "Hotel Op\u00c3\u00a9ra Marigny"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[36]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]": {
+          "tagName": "div",
+          "className": "b87c397a13 a3e0b4ffd1",
+          "id": "",
+          "textPreview": "Crowne Plaza Paris - Republique by IHG"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[37]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]": {
+          "tagName": "div",
+          "className": "b87c397a13 a3e0b4ffd1",
+          "id": "",
+          "textPreview": "H\u00c3\u00b4tel Le Beaugency"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[38]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]": {
+          "tagName": "div",
+          "className": "b87c397a13 a3e0b4ffd1",
+          "id": "",
+          "textPreview": "Hotel Bastille Speria"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[40]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]": {
+          "tagName": "div",
+          "className": "b87c397a13 a3e0b4ffd1",
+          "id": "",
+          "textPreview": "Hyatt Regency Paris Etoile"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[41]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]": {
+          "tagName": "div",
+          "className": "b87c397a13 a3e0b4ffd1",
+          "id": "",
+          "textPreview": "Hotel Au Coeur du Haut Marais"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Bradford Elys\u00c3\u00a9es - Astotel"
+        },
+        {
+          "index": 2,
+          "text_preview": "Moxy Paris Bastille"
+        },
+        {
+          "index": 3,
+          "text_preview": "H\u00c3\u00b4tel Botaniste"
+        },
+        {
+          "index": 4,
+          "text_preview": "Hotel Meslay Republique"
+        },
+        {
+          "index": 5,
+          "text_preview": "Le Charme Alsacien"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "selector": "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])",
+      "tagName": "property-description-search",
+      "description": "Hotel description text in search results cards (written by property manager) \u2014 excludes address, review count, and badges",
+      "count": 28,
+      "element_ids": [
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[5]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[6]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[7]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[9]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[9]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[10]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[11]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[14]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[14]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[15]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[18]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[22]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[24]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[25]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[27]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[29]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[30]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[31]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[31]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[33]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[34]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[36]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[37]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[38]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[40]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[41]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]"
+      ],
+      "element_info": {
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]": {
+          "tagName": "div",
+          "className": "fff1944c52",
+          "id": "",
+          "textPreview": "The 4-star Bradford Elys\u00c3\u00a9es is set in a Haussmannian building, near the famous Champs Elys\u00c3\u00a9es in c"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[5]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]": {
+          "tagName": "div",
+          "className": "fff1944c52",
+          "id": "",
+          "textPreview": "Moxy Paris Bastille is a hotel located between the Bastille and Le Marais neighborhoods, It offers g"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[6]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]": {
+          "tagName": "div",
+          "className": "fff1944c52",
+          "id": "",
+          "textPreview": "Located in Paris and with Parc des Princes reachable within a 14-minute walk, H\u00c3\u00b4tel Botaniste provi"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[7]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]": {
+          "tagName": "div",
+          "className": "fff1944c52",
+          "id": "",
+          "textPreview": "Featuring free WiFi throughout the property, Hotel Meslay Republique is set in Paris, 328 feet from "
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[9]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]": {
+          "tagName": "div",
+          "className": "fff1944c52",
+          "id": "",
+          "textPreview": "Managed by a private host"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[9]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]": {
+          "tagName": "div",
+          "className": "fff1944c52",
+          "id": "",
+          "textPreview": "Le Charme Alsacien offers accommodations in Paris, 1.5 miles from Orsay Museum and 1.6 miles from Ei"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[10]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]": {
+          "tagName": "div",
+          "className": "fff1944c52",
+          "id": "",
+          "textPreview": "A 3-minute walk from Pigalle Metro Station in Paris, JOIVY Premium flats in the heart of the 9th arr"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[11]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]": {
+          "tagName": "div",
+          "className": "fff1944c52",
+          "id": "",
+          "textPreview": "Hotel Prince Albert is in the 12th district of Paris, just over a quarter mile from the Gare de Lyon"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]": {
+          "tagName": "div",
+          "className": "fff1944c52",
+          "id": "",
+          "textPreview": "Hilton Paris Opera is a luxurious hotel located in the heart of Paris, just 2625 feet from the Op\u00c3\u00a9r"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[14]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]": {
+          "tagName": "div",
+          "className": "fff1944c52",
+          "id": "",
+          "textPreview": "Managed by a private host"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[14]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]": {
+          "tagName": "div",
+          "className": "fff1944c52",
+          "id": "",
+          "textPreview": "PARIS RIVOLI NOTRE DAME Chambre d'H\u00c3\u00b4tes Studio Private is located in Paris, just 1.4 miles from Gar"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[15]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]": {
+          "tagName": "div",
+          "className": "fff1944c52",
+          "id": "",
+          "textPreview": "This hotel is just a 1-minute walk from Brochant Metro Station and 2789 feet from the lively Place d"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[18]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]": {
+          "tagName": "div",
+          "className": "fff1944c52",
+          "id": "",
+          "textPreview": "Located in south Paris, this 4-star Novotel is just 2 minutes\u00e2\u20ac\u2122 walk to Porte d\u00e2\u20ac\u2122Orleans Metro Sta"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[22]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]": {
+          "tagName": "div",
+          "className": "fff1944c52",
+          "id": "",
+          "textPreview": "Ideally located at the foot of the Eiffel Tower and just steps from the Trocad\u00c3\u00a9ro,the Pullman Paris"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[24]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]": {
+          "tagName": "div",
+          "className": "fff1944c52",
+          "id": "",
+          "textPreview": "voco Paris Montparnasse is located in Paris\u00e2\u20ac\u2122s 14th arrondissement just in front of Ga\u00c3\u00aet\u00c3\u00a9 Metro s"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[25]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]": {
+          "tagName": "div",
+          "className": "fff1944c52",
+          "id": "",
+          "textPreview": "Hotel Joke - Astotel is offering accommodations in Paris. This 3-star hotel offers a 24-hour front d"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[27]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]": {
+          "tagName": "div",
+          "className": "fff1944c52",
+          "id": "",
+          "textPreview": "Located in Paris, 1.1 miles from Rodin Museum, Villa M provides accommodations with a fitness center"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[29]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]": {
+          "tagName": "div",
+          "className": "fff1944c52",
+          "id": "",
+          "textPreview": "Located in the Parisian Latin Quarter, Hotel Abbatial offers ensuite accommodations. It is just 1640"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[30]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]": {
+          "tagName": "div",
+          "className": "fff1944c52",
+          "id": "",
+          "textPreview": "Located in the north of Paris near Boulevard P\u00c3\u00a9riph\u00c3\u00a9rique, ibis Budget Paris Porte De Montmartre i"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[31]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]": {
+          "tagName": "div",
+          "className": "fff1944c52",
+          "id": "",
+          "textPreview": "Managed by a private host"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[31]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]": {
+          "tagName": "div",
+          "className": "fff1944c52",
+          "id": "",
+          "textPreview": "Petit Studio \u00c3\u00a9tudiant sur la canal de l'Ourcq offers accommodations in Paris, 2.4 miles from Gare d"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[33]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]": {
+          "tagName": "div",
+          "className": "fff1944c52",
+          "id": "",
+          "textPreview": "The People - Paris Marais features a shared lounge, terrace, a restaurant and bar in Paris."
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[34]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]": {
+          "tagName": "div",
+          "className": "fff1944c52",
+          "id": "",
+          "textPreview": "Op\u00c3\u00a9ra Marigny is located in the 8th arrondissement in Paris, between the famous Op\u00c3\u00a9ra Garnier and "
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[36]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]": {
+          "tagName": "div",
+          "className": "fff1944c52",
+          "id": "",
+          "textPreview": "This 19th-century building with its striking fa\u00c3\u00a7ade is the home of the Crowne Plaza Paris R\u00c3\u00a9publiq"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[37]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]": {
+          "tagName": "div",
+          "className": "fff1944c52",
+          "id": "",
+          "textPreview": "Set in the 7th district in Paris, H\u00c3\u00b4tel Le Beaugency is located just 0.6 mi from the Eiffel Tower a"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[38]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]": {
+          "tagName": "div",
+          "className": "fff1944c52",
+          "id": "",
+          "textPreview": "The Speria Hotel is located in the trendy Marais district, between Bastille and the Vosges Squares. "
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[40]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]": {
+          "tagName": "div",
+          "className": "fff1944c52",
+          "id": "",
+          "textPreview": "Hyatt Regency Paris Etoile, formerly the Hotel Concorde La Fayette, is 0.9 mi from both the Arc de T"
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[41]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]": {
+          "tagName": "div",
+          "className": "fff1944c52",
+          "id": "",
+          "textPreview": "Hotel Au Coeur du Haut Marais is offering accommodations in Paris. With free WiFi, this 3-star hotel"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "The 4-star Bradford Elys\u00c3\u00a9es is set in a Haussmannian building, near the famous Champs Elys\u00c3\u00a9es in c"
+        },
+        {
+          "index": 2,
+          "text_preview": "Moxy Paris Bastille is a hotel located between the Bastille and Le Marais neighborhoods, It offers g"
+        },
+        {
+          "index": 3,
+          "text_preview": "Located in Paris and with Parc des Princes reachable within a 14-minute walk, H\u00c3\u00b4tel Botaniste provi"
+        },
+        {
+          "index": 4,
+          "text_preview": "Featuring free WiFi throughout the property, Hotel Meslay Republique is set in Paris, 328 feet from"
+        },
+        {
+          "index": 5,
+          "text_preview": "Managed by a private host"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "selector": "[data-testid='property-card'] [data-testid='image']",
+      "tagName": "search-listing-image",
+      "description": "Property photos in search result cards (property-uploaded images)",
+      "count": 25,
+      "element_ids": [
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[5]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[6]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[7]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[9]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[10]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[11]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[13]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[14]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[15]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[18]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[22]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[24]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[25]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[27]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[29]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[30]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[31]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[33]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[34]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[36]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[37]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[38]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[40]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[41]/div[1]/div[1]/div[1]/a[1]/img[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "eedb7a060f",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[5]/div[1]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "eedb7a060f",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[6]/div[1]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "eedb7a060f",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[7]/div[1]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "eedb7a060f",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[9]/div[1]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "eedb7a060f",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[10]/div[1]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "eedb7a060f",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[11]/div[1]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "eedb7a060f",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[13]/div[1]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "eedb7a060f",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[14]/div[1]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "eedb7a060f",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[15]/div[1]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "eedb7a060f",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[18]/div[1]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "eedb7a060f",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[22]/div[1]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "eedb7a060f",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[24]/div[1]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "eedb7a060f",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[25]/div[1]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "eedb7a060f",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[27]/div[1]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "eedb7a060f",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[29]/div[1]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "eedb7a060f",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[30]/div[1]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "eedb7a060f",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[31]/div[1]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "eedb7a060f",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[33]/div[1]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "eedb7a060f",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[34]/div[1]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "eedb7a060f",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[36]/div[1]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "eedb7a060f",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[37]/div[1]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "eedb7a060f",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[38]/div[1]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "eedb7a060f",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[40]/div[1]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "eedb7a060f",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[41]/div[1]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "eedb7a060f",
+          "id": "",
+          "textPreview": ""
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 2,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 3,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 4,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 5,
+          "text_preview": "(empty)"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "selector": "h2.pp-header__title",
+      "tagName": "hotel-name",
+      "description": "Main hotel name heading on detail page (set by property owner)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 5,
+      "selector": "[data-testid='property-description']",
+      "tagName": "hotel-description",
+      "description": "Hotel description text (written by property manager)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 6,
+      "selector": "[data-testid='featuredreview-text']",
+      "tagName": "featured-review-text",
+      "description": "Featured guest review quotes on hotel page (user-generated review text)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 7,
+      "selector": "[data-testid='rt-name-link'] .b08850ce41",
+      "tagName": "room-name",
+      "description": "Room type names in booking table (property-defined, e.g., 'Deluxe King Room - Balcony with Eiffel Tower View')",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 8,
+      "selector": "[data-testid='featuredreview'] div.b08850ce41.f546354b44",
+      "tagName": "reviewer-name",
+      "description": "Reviewer display names in featured reviews (user profile data, e.g., 'Sim', 'Teilica')",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 9,
+      "selector": "[data-testid='brand-name']",
+      "tagName": "hotel-chain-name",
+      "description": "Hotel chain/brand name ('Pullman Hotels and Resorts')",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 10,
+      "selector": "[data-testid='matchmaking-questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49",
+      "tagName": "qa-question-text",
+      "description": "Short FAQ question text in 'Travelers are asking' accordion (e.g., 'Do they serve breakfast?')",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 11,
+      "selector": "h3[data-testid='question']",
+      "tagName": "faq-question",
+      "description": "Structured FAQ question headings (e.g., 'What kind of breakfast is served at...?')",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 12,
+      "selector": "[data-testid='answer'][itemprop='text']",
+      "tagName": "faq-answer",
+      "description": "Structured FAQ answer text (property-provided info about breakfast, parking, etc.)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 13,
+      "selector": "[data-testid='poi-block-list'] .d1bc97eb82",
+      "tagName": "nearby-poi-name",
+      "description": "Nearby POI names in 'Hotel area info' section (e.g., 'Eiffel Tower', 'Restaurant \u00b7 Frame')",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 14,
+      "selector": "div[aria-label='Certification name']",
+      "tagName": "certification-name",
+      "description": "Sustainability certification name (e.g., 'Green Globe Certification')",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 15,
+      "selector": "[data-testid='featuredreviewcard-text'] .b99b6ef58f.d14152e7c3.e01adb21c0",
+      "tagName": "review-card-quote",
+      "description": "Review quote text in review cards (e.g., 'The hotel is close by to everywhere. Very convenient.')",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 16,
+      "selector": "[data-testid='featuredreviewcard-avatar'] .b08850ce41.f546354b44, [data-testid='featuredreviewcard-avatar'] .a787c7cca4",
+      "tagName": "review-card-author",
+      "description": "Reviewer name in review cards (e.g., 'Sim')",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 17,
+      "selector": "[data-testid='featuredreviewcard-avatar'] .d838fb5f41.aea5eccb71",
+      "tagName": "review-card-country",
+      "description": "Reviewer country in review cards (e.g., 'United States')",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 18,
+      "selector": "[data-testid='GalleryUnifiedDesktop-wrapper'] img",
+      "tagName": "hotel-gallery-photo",
+      "description": "Hotel property photos in gallery (property-uploaded images with alt text containing hotel name)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 19,
+      "selector": "[data-testid='PropertyBrandInfo-wrapper'] img",
+      "tagName": "brand-logo-image",
+      "description": "Hotel brand logo image (e.g., Pullman Hotels and Resorts logo)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 20,
+      "selector": "[data-testid='web-core-property-card'] [data-testid='webcore-carousel-image'] img",
+      "tagName": "homepage-listing-image",
+      "description": "Property photos in homepage recommendation carousels (scoped to property cards, excludes browse-by-type category images)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 21,
+      "selector": "[data-testid='web-core-property-card'] h3",
+      "tagName": "homepage-listing-name",
+      "description": "Hotel/property names in homepage recommendation cards (e.g., 'Hotel Allegro Einsiedeln', 'Ch\u00e2teau G\u00fctsch')",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 22,
+      "selector": "[data-testid='promotional-banner-content-caption']",
+      "tagName": "offer-caption",
+      "description": "Offer caption text in Offers section (e.g., 'Escape for less with our Getaway Deals', 'Early 2026 Deals')",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 23,
+      "selector": "[data-testid='promotional-banner-content-title']",
+      "tagName": "offer-title",
+      "description": "Offer title in Offers section (e.g., 'No catch. Just getaways.', 'At least 15% off')",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[16]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[16]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]": {
+          "tagName": "h3",
+          "className": "b87c397a13 fb2f406ff9",
+          "id": "",
+          "textPreview": "Looking for a space of your own?"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Looking for a space of your own?"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "selector": "[data-testid='promotional-banner-content-subtitle']",
+      "tagName": "offer-subtitle",
+      "description": "Offer subtitle in Offers section (e.g., 'At least 15% off select stays worldwide \u2013 just book and go.')",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[16]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[16]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "b99b6ef58f f9b1b69a8a",
+          "id": "",
+          "textPreview": "Find privacy and peace of mind with an entire home or apartment to yourself"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Find privacy and peace of mind with an entire home or apartment to yourself"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "selector": "[data-testid='promotional-banner-partial-image'] img",
+      "tagName": "offer-image",
+      "description": "Promotional offer images in Offers section",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[16]/div[1]/div[1]/div[1]/div[2]/div[1]/picture[1]/img[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[16]/div[1]/div[1]/div[1]/div[2]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8 c09abd8a52 ca3dad4476",
+          "id": "",
+          "textPreview": ""
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(empty)"
+        }
+      ]
+    }
+  ]
+}

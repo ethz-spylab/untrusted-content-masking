@@ -1,0 +1,27 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+.DS_Store
+
+logs/
+
+# Results and analysis output
+/results/
+/results_*/
+analysis_output/
+
+# Boundary detection: cached HTML inputs.
+src/automatic_boundary_detection/sites/*/llm_input_original_*.html
+src/automatic_boundary_detection/sites/*/llm_input_sanitized_*.html
+
+# Screenshots and PDF plots inside results/ are large and regeneratable via run_pipeline.sh
+src/automatic_boundary_detection/results/**/*.png
+src/automatic_boundary_detection/results/**/*.pdf

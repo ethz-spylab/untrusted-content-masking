@@ -1,0 +1,3762 @@
+{
+  "ground_truth_file": "hand_results.json",
+  "predicted_file": "llm_results.json",
+  "ground_truth_metadata": {
+    "totalSelectors": 73,
+    "selectorsWithMatches": 11,
+    "totalElements": 73,
+    "uniqueElements": 71,
+    "url": "http://localhost:8103/byteblaze/a11y-syntax-highlighting/-/issues/1",
+    "configFile": "hand_labels.json",
+    "configVersion": "hand",
+    "configGeneratedBy": "Generated from gitlab-marker.js"
+  },
+  "predicted_metadata": {
+    "totalSelectors": 102,
+    "selectorsWithMatches": 40,
+    "totalElements": 201,
+    "uniqueElements": 181,
+    "url": "http://localhost:8103/byteblaze/a11y-syntax-highlighting/-/issues/1",
+    "configFile": "llm_labels.json",
+    "configVersion": "sanitized",
+    "configGeneratedBy": "LLM analysis (claude-sonnet-4-5-20250929)"
+  },
+  "metrics": {
+    "tp_count": 185,
+    "tp_exact_count": 42,
+    "tp_related_count": 143,
+    "fp_count": 23,
+    "fn_count": 2,
+    "precision": 0.8894230769230769,
+    "recall": 0.9893048128342246,
+    "f1_score": 0.9367088607594937,
+    "accuracy": 0.8809523809523809,
+    "ground_truth_total": 71,
+    "predicted_total": 181
+  },
+  "signature_metrics": {
+    "tp_signature_count": 43,
+    "tp_exact_signature_count": 43,
+    "tp_related_signature_count": 0,
+    "fp_signature_count": 5,
+    "fn_signature_count": 2,
+    "ground_truth_signature_total": 45,
+    "predicted_signature_total": 48,
+    "tp_signatures": [
+      "a",
+      "a.author-link.d-inline.d-sm-none.js-user-link.reveal-hidden",
+      "a.author-link.d-none.d-sm-inline.js-user-link.reveal-hidden",
+      "a.author-link.gl-hover-text-decoration-underline.reveal-hidden",
+      "a.author-link.reveal-hidden",
+      "a.author-name-link.js-user-link.reveal-hidden",
+      "a.current-user.gfm.gfm-project_member.js-user-link",
+      "a.current-user.gfm.gfm-project_member.js-user-link.reveal-hidden",
+      "a.dashboard-shortcuts-issues.js-prefetch-document",
+      "a.gfm.no-attachment-icon",
+      "a.gl-display-inline-block.gl-link.gl-word-break-word.js-user-link.reveal-hidden",
+      "a.gl-line-height-20!",
+      "a.gl-link.rspec-project-link.shortcuts-project",
+      "a.reveal-hidden",
+      "body.gl-browser-generic.gl-platform-mac.page-initialised.reveal-hiding-active.tab-width-8.ui-indigo",
+      "code",
+      "div.gl-font-weight-bold",
+      "div.md.note-text.reveal-hidden",
+      "div.md.reveal-hidden",
+      "em",
+      "h1.gl-font-size-h-display.reveal-hidden.title",
+      "img.avatar.avatar-inline.js-lazy-loaded.s24",
+      "img.avatar.avatar-inline.m-0.s24",
+      "img.gl-avatar.gl-avatar-circle.gl-avatar-s24.gl-mr-0!",
+      "img.gl-avatar.gl-avatar-circle.gl-avatar-s24.header-user-avatar",
+      "li",
+      "li.dropdown-header",
+      "p",
+      "span",
+      "span.author",
+      "span.author-username.reveal-hidden.text-nowrap",
+      "span.avatar-container.project_avatar.rect-avatar.reveal-hidden.s32",
+      "span.avatar.avatar-tile.bg5.identicon.s32",
+      "span.badge.badge-info.badge-pill.gl-badge.gl-ml-n2.js-todos-count.sm",
+      "span.badge.badge-neutral.badge-pill.gl-badge.gl-ml-auto.js-assigned-mr-count.sm",
+      "span.badge.badge-neutral.badge-pill.gl-badge.gl-ml-auto.js-reviewer-mr-count.sm",
+      "span.badge.badge-pill.badge-success.gl-badge.gl-ml-n2.sm",
+      "span.badge.badge-pill.badge-warning.gl-badge.gl-ml-n2.js-merge-requests-count.sm",
+      "span.breadcrumb-item-text.js-breadcrumb-item-text",
+      "span.gl-font-weight-bold.note-header-author-name",
+      "span.note-headline-light",
+      "span.reveal-hidden.sidebar-context-title",
+      "span.reveal-text-wrap"
+    ],
+    "tp_exact_signatures": [
+      "a",
+      "a.author-link.d-inline.d-sm-none.js-user-link.reveal-hidden",
+      "a.author-link.d-none.d-sm-inline.js-user-link.reveal-hidden",
+      "a.author-link.gl-hover-text-decoration-underline.reveal-hidden",
+      "a.author-link.reveal-hidden",
+      "a.author-name-link.js-user-link.reveal-hidden",
+      "a.current-user.gfm.gfm-project_member.js-user-link",
+      "a.current-user.gfm.gfm-project_member.js-user-link.reveal-hidden",
+      "a.dashboard-shortcuts-issues.js-prefetch-document",
+      "a.gfm.no-attachment-icon",
+      "a.gl-display-inline-block.gl-link.gl-word-break-word.js-user-link.reveal-hidden",
+      "a.gl-line-height-20!",
+      "a.gl-link.rspec-project-link.shortcuts-project",
+      "a.reveal-hidden",
+      "body.gl-browser-generic.gl-platform-mac.page-initialised.reveal-hiding-active.tab-width-8.ui-indigo",
+      "code",
+      "div.gl-font-weight-bold",
+      "div.md.note-text.reveal-hidden",
+      "div.md.reveal-hidden",
+      "em",
+      "h1.gl-font-size-h-display.reveal-hidden.title",
+      "img.avatar.avatar-inline.js-lazy-loaded.s24",
+      "img.avatar.avatar-inline.m-0.s24",
+      "img.gl-avatar.gl-avatar-circle.gl-avatar-s24.gl-mr-0!",
+      "img.gl-avatar.gl-avatar-circle.gl-avatar-s24.header-user-avatar",
+      "li",
+      "li.dropdown-header",
+      "p",
+      "span",
+      "span.author",
+      "span.author-username.reveal-hidden.text-nowrap",
+      "span.avatar-container.project_avatar.rect-avatar.reveal-hidden.s32",
+      "span.avatar.avatar-tile.bg5.identicon.s32",
+      "span.badge.badge-info.badge-pill.gl-badge.gl-ml-n2.js-todos-count.sm",
+      "span.badge.badge-neutral.badge-pill.gl-badge.gl-ml-auto.js-assigned-mr-count.sm",
+      "span.badge.badge-neutral.badge-pill.gl-badge.gl-ml-auto.js-reviewer-mr-count.sm",
+      "span.badge.badge-pill.badge-success.gl-badge.gl-ml-n2.sm",
+      "span.badge.badge-pill.badge-warning.gl-badge.gl-ml-n2.js-merge-requests-count.sm",
+      "span.breadcrumb-item-text.js-breadcrumb-item-text",
+      "span.gl-font-weight-bold.note-header-author-name",
+      "span.note-headline-light",
+      "span.reveal-hidden.sidebar-context-title",
+      "span.reveal-text-wrap"
+    ],
+    "tp_related_signatures": [],
+    "fp_signatures": [
+      "header.dropdown-header",
+      "span.collapse-truncated-title.gl-font-sm.gl-pt-2.gl-px-3",
+      "span.collapse-truncated-title.gl-font-sm.gl-pt-2.gl-px-3.no-value",
+      "span.d-none.d-sm-inline",
+      "title"
+    ],
+    "fn_signatures": [
+      "span.author.reveal-hidden",
+      "span.gl-overflow-hidden.gl-text-overflow-ellipsis.gl-white-space-nowrap"
+    ],
+    "precision": 0.8958333333333334,
+    "recall": 0.9555555555555556,
+    "f1_score": 0.924731182795699,
+    "accuracy": 0.86
+  },
+  "element_details": {
+    "tp": [
+      {
+        "xpath": "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "gl-link gl-display-inline-block js-user-link gl-word-break-word reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/span[1]/img[1]",
+        "preview": "(empty)",
+        "selectors": [
+          ".assignee-grid img[alt]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".assignee-grid img[alt]"
+        ],
+        "tagName": "img",
+        "className": "avatar avatar-inline m-0 s24",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[9]/div[3]/div[1]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "author-link reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[9]/div[3]/div[1]/a[1]/span[1]/img[1]",
+        "preview": "(empty)",
+        "selectors": [
+          ".participants-author img[alt]",
+          "a.author-link img[alt]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".participants-author img[alt]",
+          "a.author-link img[alt]"
+        ],
+        "tagName": "img",
+        "className": "gl-avatar gl-avatar-circle gl-avatar-s24 gl-mr-0!",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[9]/div[3]/div[2]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "author-link reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[9]/div[3]/div[2]/a[1]/span[1]/img[1]",
+        "preview": "(empty)",
+        "selectors": [
+          ".participants-author img[alt]",
+          "a.author-link img[alt]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".participants-author img[alt]",
+          "a.author-link img[alt]"
+        ],
+        "tagName": "img",
+        "className": "gl-avatar gl-avatar-circle gl-avatar-s24 gl-mr-0!",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[9]/div[3]/div[3]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "author-link reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[9]/div[3]/div[3]/a[1]/span[1]/img[1]",
+        "preview": "(empty)",
+        "selectors": [
+          ".participants-author img[alt]",
+          "a.author-link img[alt]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".participants-author img[alt]",
+          "a.author-link img[alt]"
+        ],
+        "tagName": "img",
+        "className": "gl-avatar gl-avatar-circle gl-avatar-s24 gl-mr-0!",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-body\"]/div[2]/div[1]/strong[1]/a[1]",
+        "preview": "earle",
+        "selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details",
+          "a[data-name]",
+          "a[data-username]"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "predicted_selectors": [
+          "a[data-username]",
+          "a[data-name]"
+        ],
+        "tagName": "a",
+        "className": "author-link js-user-link d-none d-sm-inline reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-body\"]/div[2]/div[1]/strong[1]/a[1]/img[1]",
+        "preview": "(empty)",
+        "selectors": [
+          "a.author-link img[alt]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          "a.author-link img[alt]"
+        ],
+        "tagName": "img",
+        "className": "avatar avatar-inline s24 js-lazy-loaded",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-body\"]/div[2]/div[1]/strong[1]/a[1]/span[1]",
+        "preview": "earle",
+        "selectors": [
+          ".author-link .author",
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "predicted_selectors": [
+          ".author-link .author"
+        ],
+        "tagName": "span",
+        "className": "author",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-body\"]/div[2]/div[1]/strong[1]/a[2]",
+        "preview": "@earlev4",
+        "selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details",
+          "a[data-name]",
+          "a[data-username]"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "predicted_selectors": [
+          "a[data-username]",
+          "a[data-name]"
+        ],
+        "tagName": "a",
+        "className": "author-link js-user-link d-inline d-sm-none reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-body\"]/div[2]/div[1]/strong[1]/a[2]/span[1]",
+        "preview": "@earlev4",
+        "selectors": [
+          ".author-link .author",
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "predicted_selectors": [
+          ".author-link .author"
+        ],
+        "tagName": "span",
+        "className": "author",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[1]/h1[1]",
+        "preview": "Tm Theme Editor",
+        "selectors": [
+          ".issue-title-text a, .merge-request-title a, .issuable-header-text a, h1[data-qa-selector=\"title_content\"], .title-container h1.title"
+        ],
+        "ground_truth_selectors": [
+          ".issue-title-text a, .merge-request-title a, .issuable-header-text a, h1[data-qa-selector=\"title_content\"], .title-container h1.title"
+        ],
+        "predicted_selectors": [],
+        "tagName": "h1",
+        "className": "title gl-font-size-h-display reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[1]/h1[1]/span[1]",
+        "preview": "Tm Theme Editor",
+        "selectors": [
+          "h1.title span"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          "h1.title span"
+        ],
+        "tagName": "span",
+        "className": "reveal-text-wrap",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]",
+        "preview": "Hi!\nGood day to you! I greatly appreciate the efforts and work going into the a11y-syntax-highlighti",
+        "selectors": [
+          ".description .md",
+          ".detail-page-description .md, .issuable-details .description .md"
+        ],
+        "ground_truth_selectors": [
+          ".detail-page-description .md, .issuable-details .description .md"
+        ],
+        "predicted_selectors": [
+          ".description .md"
+        ],
+        "tagName": "div",
+        "className": "md reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/p[1]",
+        "preview": "Hi!",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/p[2]",
+        "preview": "Good day to you! I greatly appreciate the efforts and work going into the a11y-syntax-highlighting p",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/p[3]",
+        "preview": "https://tmtheme-editor.herokuapp.com/#!/editor/theme/Monokai",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/p[3]/a[1]",
+        "preview": "https://tmtheme-editor.herokuapp.com/#!/editor/theme/Monokai",
+        "selectors": [
+          ".md a"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md a"
+        ],
+        "tagName": "a",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/p[4]",
+        "preview": "I would be happy to assist to build one but would need to know all of the possible scope names and a",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/p[5]",
+        "preview": "Thanks so much!",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/small[1]/a[1]",
+        "preview": "Byte Blaze",
+        "selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "author-link gl-hover-text-decoration-underline reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/small[1]/a[1]/span[1]",
+        "preview": "Byte Blaze",
+        "selectors": [
+          ".edited-text a span"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".edited-text a span"
+        ],
+        "tagName": "span",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306757\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+        "preview": "Byte Blaze",
+        "selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details",
+          "a[data-username]"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "predicted_selectors": [
+          "a[data-username]"
+        ],
+        "tagName": "a",
+        "className": "author-name-link js-user-link reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306757\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "preview": "Byte Blaze",
+        "selectors": [
+          ".note-header-author-name"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".note-header-author-name"
+        ],
+        "tagName": "span",
+        "className": "note-header-author-name gl-font-weight-bold",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306757\"]/div[1]/div[2]/div[1]/div[1]/span[1]",
+        "preview": "@byteblaze",
+        "selectors": [
+          ".user-info .user-username, .author-username, span.username"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-username, .author-username, span.username"
+        ],
+        "predicted_selectors": [],
+        "tagName": "span",
+        "className": "text-nowrap author-username reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306757\"]/div[1]/div[2]/div[1]/div[1]/span[1]/a[1]/span[1]",
+        "preview": "@byteblaze",
+        "selectors": [
+          ".author-username-link .note-headline-light"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".author-username-link .note-headline-light"
+        ],
+        "tagName": "span",
+        "className": "note-headline-light",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306757\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+        "preview": "@alamodey Great idea! I'll start chipping away at it.",
+        "selectors": [
+          ".note-body .md, .timeline-entry .note-text",
+          ".note-text.md"
+        ],
+        "ground_truth_selectors": [
+          ".note-body .md, .timeline-entry .note-text"
+        ],
+        "predicted_selectors": [
+          ".note-text.md"
+        ],
+        "tagName": "div",
+        "className": "note-text md reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306757\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+        "preview": "",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306758\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details",
+          "a[data-username]"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "predicted_selectors": [
+          "a[data-username]"
+        ],
+        "tagName": "a",
+        "className": "author-name-link js-user-link reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306758\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "preview": "Byte Blaze",
+        "selectors": [
+          ".note-header-author-name"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".note-header-author-name"
+        ],
+        "tagName": "span",
+        "className": "note-header-author-name gl-font-weight-bold",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306758\"]/div[1]/div[2]/div[1]/div[1]/span[1]",
+        "preview": "@byteblaze",
+        "selectors": [
+          ".user-info .user-username, .author-username, span.username"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-username, .author-username, span.username"
+        ],
+        "predicted_selectors": [],
+        "tagName": "span",
+        "className": "text-nowrap author-username reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306758\"]/div[1]/div[2]/div[1]/div[1]/span[1]/a[1]/span[1]",
+        "preview": "@byteblaze",
+        "selectors": [
+          ".author-username-link .note-headline-light"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".author-username-link .note-headline-light"
+        ],
+        "tagName": "span",
+        "className": "note-headline-light",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306758\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+        "preview": "@alamodey I added a dark mode theme for Xcode: https://github.com/ericwbailey/a11y-syntax-highlighti",
+        "selectors": [
+          ".note-body .md, .timeline-entry .note-text",
+          ".note-text.md"
+        ],
+        "ground_truth_selectors": [
+          ".note-body .md, .timeline-entry .note-text"
+        ],
+        "predicted_selectors": [
+          ".note-text.md"
+        ],
+        "tagName": "div",
+        "className": "note-text md reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306758\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+        "preview": "",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306758\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/a[1]",
+        "preview": "https://github.com/ericwbailey/a11y-syntax-highlighting/tree/main/dist/xcode",
+        "selectors": [
+          ".md a"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md a"
+        ],
+        "tagName": "a",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306758\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]",
+        "preview": "",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306759\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details",
+          "a[data-username]"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "predicted_selectors": [
+          "a[data-username]"
+        ],
+        "tagName": "a",
+        "className": "author-name-link js-user-link reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306759\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".note-header-author-name"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".note-header-author-name"
+        ],
+        "tagName": "span",
+        "className": "note-header-author-name gl-font-weight-bold",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306759\"]/div[1]/div[2]/div[1]/div[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".user-info .user-username, .author-username, span.username"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-username, .author-username, span.username"
+        ],
+        "predicted_selectors": [],
+        "tagName": "span",
+        "className": "text-nowrap author-username reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306759\"]/div[1]/div[2]/div[1]/div[1]/span[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".author-username-link .note-headline-light"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".author-username-link .note-headline-light"
+        ],
+        "tagName": "span",
+        "className": "note-headline-light",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306759\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".note-body .md, .timeline-entry .note-text",
+          ".note-text.md"
+        ],
+        "ground_truth_selectors": [
+          ".note-body .md, .timeline-entry .note-text"
+        ],
+        "predicted_selectors": [
+          ".note-text.md"
+        ],
+        "tagName": "div",
+        "className": "note-text md reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306759\"]/div[1]/div[2]/div[2]/div[1]/div[1]/a[1]",
+        "preview": "(empty)",
+        "selectors": [
+          ".md a"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md a"
+        ],
+        "tagName": "a",
+        "className": "no-attachment-icon gfm",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306759\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+        "preview": "",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306760\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details",
+          "a[data-username]"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "predicted_selectors": [
+          "a[data-username]"
+        ],
+        "tagName": "a",
+        "className": "author-name-link js-user-link reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306760\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".note-header-author-name"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".note-header-author-name"
+        ],
+        "tagName": "span",
+        "className": "note-header-author-name gl-font-weight-bold",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306760\"]/div[1]/div[2]/div[1]/div[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".user-info .user-username, .author-username, span.username"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-username, .author-username, span.username"
+        ],
+        "predicted_selectors": [],
+        "tagName": "span",
+        "className": "text-nowrap author-username reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306760\"]/div[1]/div[2]/div[1]/div[1]/span[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".author-username-link .note-headline-light"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".author-username-link .note-headline-light"
+        ],
+        "tagName": "span",
+        "className": "note-headline-light",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".note-body .md, .timeline-entry .note-text",
+          ".note-text.md"
+        ],
+        "ground_truth_selectors": [
+          ".note-body .md, .timeline-entry .note-text"
+        ],
+        "predicted_selectors": [
+          ".note-text.md"
+        ],
+        "tagName": "div",
+        "className": "note-text md reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+        "preview": "",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]",
+        "preview": "",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[3]",
+        "preview": "",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[1]",
+        "preview": "Background: #2B2B2B",
+        "selectors": [
+          ".md li"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md li"
+        ],
+        "tagName": "li",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[1]/code[1]",
+        "preview": "#2B2B2B",
+        "selectors": [
+          ".md code"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md code"
+        ],
+        "tagName": "code",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[2]",
+        "preview": "Current Line: #000000",
+        "selectors": [
+          ".md li"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md li"
+        ],
+        "tagName": "li",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[2]/code[1]",
+        "preview": "#000000",
+        "selectors": [
+          ".md code"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md code"
+        ],
+        "tagName": "code",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[3]",
+        "preview": "Selection: #000000",
+        "selectors": [
+          ".md li"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md li"
+        ],
+        "tagName": "li",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[3]/code[1]",
+        "preview": "#000000",
+        "selectors": [
+          ".md code"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md code"
+        ],
+        "tagName": "code",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[4]",
+        "preview": "Cursor: #FFFFFF",
+        "selectors": [
+          ".md li"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md li"
+        ],
+        "tagName": "li",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[4]/code[1]",
+        "preview": "#FFFFFF",
+        "selectors": [
+          ".md code"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md code"
+        ],
+        "tagName": "code",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[5]",
+        "preview": "Invisibles: #565655",
+        "selectors": [
+          ".md li"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md li"
+        ],
+        "tagName": "li",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[5]/code[1]",
+        "preview": "#565655",
+        "selectors": [
+          ".md code"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md code"
+        ],
+        "tagName": "code",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306761\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+        "preview": "Byte Blaze",
+        "selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details",
+          "a[data-username]"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "predicted_selectors": [
+          "a[data-username]"
+        ],
+        "tagName": "a",
+        "className": "author-name-link js-user-link reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306761\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "preview": "Byte Blaze",
+        "selectors": [
+          ".note-header-author-name"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".note-header-author-name"
+        ],
+        "tagName": "span",
+        "className": "note-header-author-name gl-font-weight-bold",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306761\"]/div[1]/div[2]/div[1]/div[1]/span[1]",
+        "preview": "@byteblaze",
+        "selectors": [
+          ".user-info .user-username, .author-username, span.username"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-username, .author-username, span.username"
+        ],
+        "predicted_selectors": [],
+        "tagName": "span",
+        "className": "text-nowrap author-username reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306761\"]/div[1]/div[2]/div[1]/div[1]/span[1]/a[1]/span[1]",
+        "preview": "@byteblaze",
+        "selectors": [
+          ".author-username-link .note-headline-light"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".author-username-link .note-headline-light"
+        ],
+        "tagName": "span",
+        "className": "note-headline-light",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306761\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+        "preview": "Hey there! Thank you for the kind words, it means a lot to me.\nI've got color names and values liste",
+        "selectors": [
+          ".note-body .md, .timeline-entry .note-text",
+          ".note-text.md"
+        ],
+        "ground_truth_selectors": [
+          ".note-body .md, .timeline-entry .note-text"
+        ],
+        "predicted_selectors": [
+          ".note-text.md"
+        ],
+        "tagName": "div",
+        "className": "note-text md reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306761\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+        "preview": "",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306761\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]",
+        "preview": "",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306761\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]/a[1]",
+        "preview": "color names and values listed in the README",
+        "selectors": [
+          ".md a"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md a"
+        ],
+        "tagName": "a",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306761\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[3]",
+        "preview": "",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306762\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details",
+          "a[data-username]"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "predicted_selectors": [
+          "a[data-username]"
+        ],
+        "tagName": "a",
+        "className": "author-name-link js-user-link reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306762\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".note-header-author-name"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".note-header-author-name"
+        ],
+        "tagName": "span",
+        "className": "note-header-author-name gl-font-weight-bold",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306762\"]/div[1]/div[2]/div[1]/div[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".user-info .user-username, .author-username, span.username"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-username, .author-username, span.username"
+        ],
+        "predicted_selectors": [],
+        "tagName": "span",
+        "className": "text-nowrap author-username reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306762\"]/div[1]/div[2]/div[1]/div[1]/span[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".author-username-link .note-headline-light"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".author-username-link .note-headline-light"
+        ],
+        "tagName": "span",
+        "className": "note-headline-light",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306762\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".note-body .md, .timeline-entry .note-text",
+          ".note-text.md"
+        ],
+        "ground_truth_selectors": [
+          ".note-body .md, .timeline-entry .note-text"
+        ],
+        "predicted_selectors": [
+          ".note-text.md"
+        ],
+        "tagName": "div",
+        "className": "note-text md reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306762\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+        "preview": "",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306762\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/code[1]",
+        "preview": "",
+        "selectors": [
+          ".md code"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md code"
+        ],
+        "tagName": "code",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306763\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details",
+          "a[data-username]"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "predicted_selectors": [
+          "a[data-username]"
+        ],
+        "tagName": "a",
+        "className": "author-name-link js-user-link reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306763\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".note-header-author-name"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".note-header-author-name"
+        ],
+        "tagName": "span",
+        "className": "note-header-author-name gl-font-weight-bold",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306763\"]/div[1]/div[2]/div[1]/div[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".user-info .user-username, .author-username, span.username"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-username, .author-username, span.username"
+        ],
+        "predicted_selectors": [],
+        "tagName": "span",
+        "className": "text-nowrap author-username reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306763\"]/div[1]/div[2]/div[1]/div[1]/span[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".author-username-link .note-headline-light"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".author-username-link .note-headline-light"
+        ],
+        "tagName": "span",
+        "className": "note-headline-light",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306763\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".note-body .md, .timeline-entry .note-text",
+          ".note-text.md"
+        ],
+        "ground_truth_selectors": [
+          ".note-body .md, .timeline-entry .note-text"
+        ],
+        "predicted_selectors": [
+          ".note-text.md"
+        ],
+        "tagName": "div",
+        "className": "note-text md reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306763\"]/div[1]/div[2]/div[2]/div[1]/div[1]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".md a"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md a"
+        ],
+        "tagName": "a",
+        "className": "no-attachment-icon gfm",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306763\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+        "preview": "",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306763\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/em[1]",
+        "preview": "Created by: alamodey",
+        "selectors": [
+          ".md em"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md em"
+        ],
+        "tagName": "em",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306764\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details",
+          "a[data-username]"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "predicted_selectors": [
+          "a[data-username]"
+        ],
+        "tagName": "a",
+        "className": "author-name-link js-user-link reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306764\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "preview": "Administrator",
+        "selectors": [
+          ".note-header-author-name"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".note-header-author-name"
+        ],
+        "tagName": "span",
+        "className": "note-header-author-name gl-font-weight-bold",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306764\"]/div[1]/div[2]/div[1]/div[1]/span[1]",
+        "preview": "@root",
+        "selectors": [
+          ".user-info .user-username, .author-username, span.username"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-username, .author-username, span.username"
+        ],
+        "predicted_selectors": [],
+        "tagName": "span",
+        "className": "text-nowrap author-username reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306764\"]/div[1]/div[2]/div[1]/div[1]/span[1]/a[1]/span[1]",
+        "preview": "@root",
+        "selectors": [
+          ".author-username-link .note-headline-light"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".author-username-link .note-headline-light"
+        ],
+        "tagName": "span",
+        "className": "note-headline-light",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306764\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+        "preview": "Created by: alamodey\n\nIt looks a bit different to what I expected",
+        "selectors": [
+          ".note-body .md, .timeline-entry .note-text",
+          ".note-text.md"
+        ],
+        "ground_truth_selectors": [
+          ".note-body .md, .timeline-entry .note-text"
+        ],
+        "predicted_selectors": [
+          ".note-text.md"
+        ],
+        "tagName": "div",
+        "className": "note-text md reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306764\"]/div[1]/div[2]/div[2]/div[1]/div[1]/a[1]",
+        "preview": "(empty)",
+        "selectors": [
+          ".md a"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md a"
+        ],
+        "tagName": "a",
+        "className": "no-attachment-icon gfm",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306764\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+        "preview": "",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306764\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/em[1]",
+        "preview": "Created by: alamodey",
+        "selectors": [
+          ".md em"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md em"
+        ],
+        "tagName": "em",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306765\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details",
+          "a[data-username]"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "predicted_selectors": [
+          "a[data-username]"
+        ],
+        "tagName": "a",
+        "className": "author-name-link js-user-link reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306765\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".note-header-author-name"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".note-header-author-name"
+        ],
+        "tagName": "span",
+        "className": "note-header-author-name gl-font-weight-bold",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306765\"]/div[1]/div[2]/div[1]/div[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".user-info .user-username, .author-username, span.username"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-username, .author-username, span.username"
+        ],
+        "predicted_selectors": [],
+        "tagName": "span",
+        "className": "text-nowrap author-username reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306765\"]/div[1]/div[2]/div[1]/div[1]/span[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".author-username-link .note-headline-light"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".author-username-link .note-headline-light"
+        ],
+        "tagName": "span",
+        "className": "note-headline-light",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306765\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".note-body .md, .timeline-entry .note-text",
+          ".note-text.md"
+        ],
+        "ground_truth_selectors": [
+          ".note-body .md, .timeline-entry .note-text"
+        ],
+        "predicted_selectors": [
+          ".note-text.md"
+        ],
+        "tagName": "div",
+        "className": "note-text md reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306765\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+        "preview": "",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306765\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/em[1]",
+        "preview": "Created by: alamodey",
+        "selectors": [
+          ".md em"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md em"
+        ],
+        "tagName": "em",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306765\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]",
+        "preview": "",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306766\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details",
+          "a[data-username]"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "predicted_selectors": [
+          "a[data-username]"
+        ],
+        "tagName": "a",
+        "className": "author-name-link js-user-link reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306766\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".note-header-author-name"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".note-header-author-name"
+        ],
+        "tagName": "span",
+        "className": "note-header-author-name gl-font-weight-bold",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306766\"]/div[1]/div[2]/div[1]/div[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".user-info .user-username, .author-username, span.username"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-username, .author-username, span.username"
+        ],
+        "predicted_selectors": [],
+        "tagName": "span",
+        "className": "text-nowrap author-username reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306766\"]/div[1]/div[2]/div[1]/div[1]/span[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".author-username-link .note-headline-light"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".author-username-link .note-headline-light"
+        ],
+        "tagName": "span",
+        "className": "note-headline-light",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306766\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".note-body .md, .timeline-entry .note-text",
+          ".note-text.md"
+        ],
+        "ground_truth_selectors": [
+          ".note-body .md, .timeline-entry .note-text"
+        ],
+        "predicted_selectors": [
+          ".note-text.md"
+        ],
+        "tagName": "div",
+        "className": "note-text md reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306766\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+        "preview": "",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306766\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/em[1]",
+        "preview": "Created by: alamodey",
+        "selectors": [
+          ".md em"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md em"
+        ],
+        "tagName": "em",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306766\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]",
+        "preview": "",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306766\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[3]",
+        "preview": "",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306767\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details",
+          "a[data-username]"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "predicted_selectors": [
+          "a[data-username]"
+        ],
+        "tagName": "a",
+        "className": "author-name-link js-user-link reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306767\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".note-header-author-name"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".note-header-author-name"
+        ],
+        "tagName": "span",
+        "className": "note-header-author-name gl-font-weight-bold",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306767\"]/div[1]/div[2]/div[1]/div[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".user-info .user-username, .author-username, span.username"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-username, .author-username, span.username"
+        ],
+        "predicted_selectors": [],
+        "tagName": "span",
+        "className": "text-nowrap author-username reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306767\"]/div[1]/div[2]/div[1]/div[1]/span[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".author-username-link .note-headline-light"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".author-username-link .note-headline-light"
+        ],
+        "tagName": "span",
+        "className": "note-headline-light",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306767\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".note-body .md, .timeline-entry .note-text",
+          ".note-text.md"
+        ],
+        "ground_truth_selectors": [
+          ".note-body .md, .timeline-entry .note-text"
+        ],
+        "predicted_selectors": [
+          ".note-text.md"
+        ],
+        "tagName": "div",
+        "className": "note-text md reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306767\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+        "preview": "",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306768\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details",
+          "a[data-username]"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "predicted_selectors": [
+          "a[data-username]"
+        ],
+        "tagName": "a",
+        "className": "author-name-link js-user-link reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306768\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".note-header-author-name"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".note-header-author-name"
+        ],
+        "tagName": "span",
+        "className": "note-header-author-name gl-font-weight-bold",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306768\"]/div[1]/div[2]/div[1]/div[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".user-info .user-username, .author-username, span.username"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-username, .author-username, span.username"
+        ],
+        "predicted_selectors": [],
+        "tagName": "span",
+        "className": "text-nowrap author-username reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306768\"]/div[1]/div[2]/div[1]/div[1]/span[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".author-username-link .note-headline-light"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".author-username-link .note-headline-light"
+        ],
+        "tagName": "span",
+        "className": "note-headline-light",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306768\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".note-body .md, .timeline-entry .note-text",
+          ".note-text.md"
+        ],
+        "ground_truth_selectors": [
+          ".note-body .md, .timeline-entry .note-text"
+        ],
+        "predicted_selectors": [
+          ".note-text.md"
+        ],
+        "tagName": "div",
+        "className": "note-text md reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306768\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+        "preview": "",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306768\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/em[1]",
+        "preview": "",
+        "selectors": [
+          ".md em"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md em"
+        ],
+        "tagName": "em",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306768\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]",
+        "preview": "",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306768\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".md a"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md a"
+        ],
+        "tagName": "a",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306768\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[3]",
+        "preview": "",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306769\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details",
+          "a[data-username]"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "predicted_selectors": [
+          "a[data-username]"
+        ],
+        "tagName": "a",
+        "className": "author-name-link js-user-link reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306769\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".note-header-author-name"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".note-header-author-name"
+        ],
+        "tagName": "span",
+        "className": "note-header-author-name gl-font-weight-bold",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306769\"]/div[1]/div[2]/div[1]/div[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".user-info .user-username, .author-username, span.username"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-username, .author-username, span.username"
+        ],
+        "predicted_selectors": [],
+        "tagName": "span",
+        "className": "text-nowrap author-username reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306769\"]/div[1]/div[2]/div[1]/div[1]/span[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".author-username-link .note-headline-light"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".author-username-link .note-headline-light"
+        ],
+        "tagName": "span",
+        "className": "note-headline-light",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306769\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".note-body .md, .timeline-entry .note-text",
+          ".note-text.md"
+        ],
+        "ground_truth_selectors": [
+          ".note-body .md, .timeline-entry .note-text"
+        ],
+        "predicted_selectors": [
+          ".note-text.md"
+        ],
+        "tagName": "div",
+        "className": "note-text md reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306769\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+        "preview": "",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306769\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/code[1]",
+        "preview": "",
+        "selectors": [
+          ".md code"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md code"
+        ],
+        "tagName": "code",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306769\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/code[2]",
+        "preview": "",
+        "selectors": [
+          ".md code"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md code"
+        ],
+        "tagName": "code",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306769\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]",
+        "preview": "",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306773\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+        "preview": "Administrator",
+        "selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details",
+          "a[data-username]"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "predicted_selectors": [
+          "a[data-username]"
+        ],
+        "tagName": "a",
+        "className": "author-name-link js-user-link reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306773\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "preview": "Administrator",
+        "selectors": [
+          ".note-header-author-name"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".note-header-author-name"
+        ],
+        "tagName": "span",
+        "className": "note-header-author-name gl-font-weight-bold",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306773\"]/div[1]/div[2]/div[1]/div[1]/span[1]",
+        "preview": "@root",
+        "selectors": [
+          ".user-info .user-username, .author-username, span.username"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-username, .author-username, span.username"
+        ],
+        "predicted_selectors": [],
+        "tagName": "span",
+        "className": "text-nowrap author-username reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306773\"]/div[1]/div[2]/div[1]/div[1]/span[1]/a[1]/span[1]",
+        "preview": "@root",
+        "selectors": [
+          ".author-username-link .note-headline-light"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".author-username-link .note-headline-light"
+        ],
+        "tagName": "span",
+        "className": "note-headline-light",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306773\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+        "preview": "Created by: alamodey\ncan you make a theme for Xcode as well?",
+        "selectors": [
+          ".note-body .md, .timeline-entry .note-text",
+          ".note-text.md"
+        ],
+        "ground_truth_selectors": [
+          ".note-body .md, .timeline-entry .note-text"
+        ],
+        "predicted_selectors": [
+          ".note-text.md"
+        ],
+        "tagName": "div",
+        "className": "note-text md reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306773\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+        "preview": "",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306773\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/em[1]",
+        "preview": "Created by: alamodey",
+        "selectors": [
+          ".md em"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md em"
+        ],
+        "tagName": "em",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306773\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]",
+        "preview": "",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_310813\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details",
+          "a[data-username]"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "predicted_selectors": [
+          "a[data-username]"
+        ],
+        "tagName": "a",
+        "className": "author-name-link js-user-link reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_310813\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".note-header-author-name"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".note-header-author-name"
+        ],
+        "tagName": "span",
+        "className": "note-header-author-name gl-font-weight-bold",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_310813\"]/div[1]/div[2]/div[2]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".note-body .md, .timeline-entry .note-text",
+          ".note-text.md"
+        ],
+        "ground_truth_selectors": [
+          ".note-body .md, .timeline-entry .note-text"
+        ],
+        "predicted_selectors": [
+          ".note-text.md"
+        ],
+        "tagName": "div",
+        "className": "note-text md reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_310813\"]/div[1]/div[2]/div[2]/div[1]/p[1]",
+        "preview": "",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_310814\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details",
+          "a[data-username]"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "predicted_selectors": [
+          "a[data-username]"
+        ],
+        "tagName": "a",
+        "className": "author-name-link js-user-link reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_310814\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".note-header-author-name"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".note-header-author-name"
+        ],
+        "tagName": "span",
+        "className": "note-header-author-name gl-font-weight-bold",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_310814\"]/div[1]/div[2]/div[2]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".note-body .md, .timeline-entry .note-text",
+          ".note-text.md"
+        ],
+        "ground_truth_selectors": [
+          ".note-body .md, .timeline-entry .note-text"
+        ],
+        "predicted_selectors": [
+          ".note-text.md"
+        ],
+        "tagName": "div",
+        "className": "note-text md reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_310814\"]/div[1]/div[2]/div[2]/div[1]/p[1]",
+        "preview": "",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_310815\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details",
+          "a[data-username]"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "predicted_selectors": [
+          "a[data-username]"
+        ],
+        "tagName": "a",
+        "className": "author-name-link js-user-link reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_310815\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".note-header-author-name"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".note-header-author-name"
+        ],
+        "tagName": "span",
+        "className": "note-header-author-name gl-font-weight-bold",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_310815\"]/div[1]/div[2]/div[1]/div[1]/span[1]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".system-note-message span"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".system-note-message span"
+        ],
+        "tagName": "span",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_310815\"]/div[1]/div[2]/div[1]/div[1]/span[1]/span[1]/span[1]/a[1]",
+        "preview": "@ericwbailey",
+        "selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details",
+          "[data-user]"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details",
+          "[data-user]"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "gfm gfm-project_member js-user-link current-user reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_310815\"]/div[1]/div[2]/div[1]/div[1]/span[1]/span[1]/span[1]/a[1]/span[1]",
+        "preview": "@ericwbailey",
+        "selectors": [
+          ".gfm-project_member span",
+          ".system-note-message span"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".system-note-message span",
+          ".gfm-project_member span"
+        ],
+        "tagName": "span",
+        "className": "reveal-text-wrap",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_310815\"]/div[1]/div[2]/div[2]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".note-body .md, .timeline-entry .note-text",
+          ".note-text.md"
+        ],
+        "ground_truth_selectors": [
+          ".note-body .md, .timeline-entry .note-text"
+        ],
+        "predicted_selectors": [
+          ".note-text.md"
+        ],
+        "tagName": "div",
+        "className": "note-text md reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_310815\"]/div[1]/div[2]/div[2]/div[1]/p[1]",
+        "preview": "",
+        "selectors": [
+          ".md p"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".md p"
+        ],
+        "tagName": "p",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_310815\"]/div[1]/div[2]/div[2]/div[1]/p[1]/a[1]",
+        "preview": "@ericwbailey",
+        "selectors": [
+          ".md a",
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details",
+          "[data-user]"
+        ],
+        "ground_truth_selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details",
+          "[data-user]"
+        ],
+        "predicted_selectors": [
+          ".md a"
+        ],
+        "tagName": "a",
+        "className": "gfm gfm-project_member js-user-link current-user",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body",
+        "preview": "//<![CDATA[\ngl = window.gl || {};\ngl.GfmAutoComplete = gl.GfmAutoComplete || {};\ngl.GfmAutoComplete.",
+        "selectors": [
+          "[data-project]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          "[data-project]"
+        ],
+        "tagName": "body",
+        "className": "ui-indigo tab-width-8 gl-browser-generic gl-platform-mac reveal-hiding-active page-initialised",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]",
+        "preview": "A\n\n\na11y-syntax-highlighting",
+        "selectors": [
+          ".shortcuts-project"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".shortcuts-project"
+        ],
+        "tagName": "a",
+        "className": "shortcuts-project rspec-project-link gl-link",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[1]",
+        "preview": "A",
+        "selectors": [
+          ".avatar-cell, .avatar-container, .js-avatar-container, .avatar-holder, .system-note-image.user-avatar, .gl-card-body > img.gl-avatar, .todo-avatar, .well-segment img.gl-avatar"
+        ],
+        "ground_truth_selectors": [
+          ".avatar-cell, .avatar-container, .js-avatar-container, .avatar-holder, .system-note-image.user-avatar, .gl-card-body > img.gl-avatar, .todo-avatar, .well-segment img.gl-avatar"
+        ],
+        "predicted_selectors": [],
+        "tagName": "span",
+        "className": "avatar-container rect-avatar s32 project_avatar reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[1]/span[1]",
+        "preview": "A",
+        "selectors": [
+          ".avatar-container .identicon"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".avatar-container .identicon"
+        ],
+        "tagName": "span",
+        "className": "avatar avatar-tile s32 identicon bg5",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[2]",
+        "preview": "a11y-syntax-highlighting",
+        "selectors": [
+          ".sidebar-context-title"
+        ],
+        "ground_truth_selectors": [
+          ".sidebar-context-title"
+        ],
+        "predicted_selectors": [],
+        "tagName": "span",
+        "className": "sidebar-context-title reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[2]/span[1]",
+        "preview": "a11y-syntax-highlighting",
+        "selectors": [
+          ".context-header .sidebar-context-title span",
+          ".sidebar-context-title span"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".context-header .sidebar-context-title span",
+          ".sidebar-context-title span"
+        ],
+        "tagName": "span",
+        "className": "reveal-text-wrap",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[1]/a[1]",
+        "preview": "Byte Blaze",
+        "selectors": [
+          ".breadcrumb-item a, .repo-breadcrumb a, .breadcrumbs-sub-title a, .breadcrumbs-list a:not(.dropdown-item), .breadcrumbs-links a:not(.dropdown-item)"
+        ],
+        "ground_truth_selectors": [
+          ".breadcrumb-item a, .repo-breadcrumb a, .breadcrumbs-sub-title a, .breadcrumbs-list a:not(.dropdown-item), .breadcrumbs-links a:not(.dropdown-item)"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/span[1]",
+        "preview": "Byte Blaze",
+        "selectors": [
+          ".breadcrumbs-links a span",
+          "[data-testid='breadcrumb-links'] a span",
+          "nav.breadcrumbs a span"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          "nav.breadcrumbs a span",
+          "[data-testid='breadcrumb-links'] a span",
+          ".breadcrumbs-links a span"
+        ],
+        "tagName": "span",
+        "className": "reveal-text-wrap",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[2]/a[1]",
+        "preview": "a11y-syntax-highlighting",
+        "selectors": [
+          ".breadcrumb-item a, .repo-breadcrumb a, .breadcrumbs-sub-title a, .breadcrumbs-list a:not(.dropdown-item), .breadcrumbs-links a:not(.dropdown-item)"
+        ],
+        "ground_truth_selectors": [
+          ".breadcrumb-item a, .repo-breadcrumb a, .breadcrumbs-sub-title a, .breadcrumbs-list a:not(.dropdown-item), .breadcrumbs-links a:not(.dropdown-item)"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/span[1]",
+        "preview": "a11y-syntax-highlighting",
+        "selectors": [
+          ".breadcrumbs-links .breadcrumb-item-text",
+          ".breadcrumbs-links a span",
+          "[data-testid='breadcrumb-links'] a span",
+          "nav.breadcrumbs a span"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".breadcrumbs-links .breadcrumb-item-text",
+          "nav.breadcrumbs a span",
+          "[data-testid='breadcrumb-links'] a span",
+          ".breadcrumbs-links a span"
+        ],
+        "tagName": "span",
+        "className": "breadcrumb-item-text js-breadcrumb-item-text",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[3]/a[1]",
+        "preview": "Issues",
+        "selectors": [
+          ".breadcrumb-item a, .repo-breadcrumb a, .breadcrumbs-sub-title a, .breadcrumbs-list a:not(.dropdown-item), .breadcrumbs-links a:not(.dropdown-item)"
+        ],
+        "ground_truth_selectors": [
+          ".breadcrumb-item a, .repo-breadcrumb a, .breadcrumbs-sub-title a, .breadcrumbs-list a:not(.dropdown-item), .breadcrumbs-links a:not(.dropdown-item)"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/span[1]",
+        "preview": "Issues",
+        "selectors": [
+          ".breadcrumbs-links a span",
+          "[data-testid='breadcrumb-links'] a span",
+          "nav.breadcrumbs a span"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          "nav.breadcrumbs a span",
+          "[data-testid='breadcrumb-links'] a span",
+          ".breadcrumbs-links a span"
+        ],
+        "tagName": "span",
+        "className": "reveal-text-wrap",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[4]/a[1]",
+        "preview": "#1",
+        "selectors": [
+          ".breadcrumb-item a, .repo-breadcrumb a, .breadcrumbs-sub-title a, .breadcrumbs-list a:not(.dropdown-item), .breadcrumbs-links a:not(.dropdown-item)"
+        ],
+        "ground_truth_selectors": [
+          ".breadcrumb-item a, .repo-breadcrumb a, .breadcrumbs-sub-title a, .breadcrumbs-list a:not(.dropdown-item), .breadcrumbs-links a:not(.dropdown-item)"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "reveal-hidden",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[4]/a[1]/span[1]",
+        "preview": "#1",
+        "selectors": [
+          ".breadcrumbs-links a span",
+          "[data-testid='breadcrumb-links'] a span",
+          "nav.breadcrumbs a span"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          "nav.breadcrumbs a span",
+          "[data-testid='breadcrumb-links'] a span",
+          ".breadcrumbs-links a span"
+        ],
+        "tagName": "span",
+        "className": "reveal-text-wrap",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[2]/a[1]",
+        "preview": "13",
+        "selectors": [
+          ".navbar-nav .user-counter a[href*='issues']"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".navbar-nav .user-counter a[href*='issues']"
+        ],
+        "tagName": "a",
+        "className": "dashboard-shortcuts-issues js-prefetch-document",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[2]/a[1]/span[1]",
+        "preview": "13",
+        "selectors": [
+          ".user-counter .gl-badge"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".user-counter .gl-badge"
+        ],
+        "tagName": "span",
+        "className": "gl-badge badge badge-pill badge-success sm gl-ml-n2 ",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[3]/a[1]/span[1]",
+        "preview": "8",
+        "selectors": [
+          ".user-counter .gl-badge"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".user-counter .gl-badge"
+        ],
+        "tagName": "span",
+        "className": "gl-badge badge badge-pill badge-warning sm js-merge-requests-count gl-ml-n2 ",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[3]/div[1]/ul[1]/li[1]",
+        "preview": "Merge requests",
+        "selectors": [
+          ".dropdown-header"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".dropdown-header"
+        ],
+        "tagName": "li",
+        "className": "dropdown-header",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[3]/div[1]/ul[1]/li[2]/a[1]/span[1]",
+        "preview": "3",
+        "selectors": [
+          ".user-counter .gl-badge"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".user-counter .gl-badge"
+        ],
+        "tagName": "span",
+        "className": "gl-badge badge badge-pill badge-neutral sm js-assigned-mr-count gl-ml-auto",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[3]/div[1]/ul[1]/li[3]/a[1]/span[1]",
+        "preview": "5",
+        "selectors": [
+          ".user-counter .gl-badge"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".user-counter .gl-badge"
+        ],
+        "tagName": "span",
+        "className": "gl-badge badge badge-pill badge-neutral sm js-reviewer-mr-count gl-ml-auto",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[4]/a[1]/span[1]",
+        "preview": "5",
+        "selectors": [
+          ".user-counter .gl-badge"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".user-counter .gl-badge"
+        ],
+        "tagName": "span",
+        "className": "gl-badge badge badge-pill badge-info sm js-todos-count gl-ml-n2 ",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/a[1]/img[1]",
+        "preview": "(empty)",
+        "selectors": [
+          ".header-user-avatar[alt]",
+          ".header-user-dropdown-toggle img[alt]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".header-user-dropdown-toggle img[alt]",
+          ".header-user-avatar[alt]"
+        ],
+        "tagName": "img",
+        "className": "gl-avatar gl-avatar-s24 header-user-avatar gl-avatar-circle",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/div[1]/ul[1]/li[1]/a[1]",
+        "preview": "Byte Blaze\n\n@byteblaze",
+        "selectors": [
+          ".current-user a[data-testid='user-profile-link']",
+          ".current-user a[data-user]",
+          "[data-testid='user-profile-link']",
+          "[data-user='byteblaze']",
+          "[data-user]"
+        ],
+        "ground_truth_selectors": [
+          "[data-user]"
+        ],
+        "predicted_selectors": [
+          ".current-user a[data-user]",
+          "[data-testid='user-profile-link']",
+          "[data-user='byteblaze']",
+          ".current-user a[data-testid='user-profile-link']"
+        ],
+        "tagName": "a",
+        "className": "gl-line-height-20!",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/div[1]/ul[1]/li[1]/a[1]/div[1]",
+        "preview": "Byte Blaze",
+        "selectors": [
+          ".current-user .gl-font-weight-bold"
+        ],
+        "ground_truth_selectors": [
+          ".current-user .gl-font-weight-bold"
+        ],
+        "predicted_selectors": [
+          ".current-user .gl-font-weight-bold"
+        ],
+        "tagName": "div",
+        "className": "gl-font-weight-bold",
+        "id": ""
+      }
+    ],
+    "fp": [
+      {
+        "xpath": "//*[@id=\"__BVID__1064\"]/ul[1]/div[1]/div[1]/li[1]/header[1]",
+        "preview": "This project",
+        "selectors": [
+          ".dropdown-header"
+        ],
+        "tagName": "header",
+        "className": "dropdown-header",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"__BVID__1064\"]/ul[1]/div[1]/div[1]/li[7]/header[1]",
+        "preview": "GitLab",
+        "selectors": [
+          ".dropdown-header"
+        ],
+        "tagName": "header",
+        "className": "dropdown-header",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[2]/div[1]/div[2]/div[1]/div[1]/span[1]",
+        "preview": "0",
+        "selectors": [
+          ".collapse-truncated-title"
+        ],
+        "tagName": "span",
+        "className": "collapse-truncated-title gl-pt-2 gl-px-3 gl-font-sm",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[2]/div[1]/div[3]/div[1]/div[1]/span[1]",
+        "preview": "0",
+        "selectors": [
+          ".collapse-truncated-title"
+        ],
+        "tagName": "span",
+        "className": "collapse-truncated-title gl-pt-2 gl-px-3 gl-font-sm",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[3]/div[1]/div[2]/div[1]/span[1]",
+        "preview": "No milestone",
+        "selectors": [
+          ".collapse-truncated-title"
+        ],
+        "tagName": "span",
+        "className": "collapse-truncated-title gl-pt-2 gl-px-3 gl-font-sm",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[5]/div[1]/div[1]/div[1]/div[1]/span[1]",
+        "preview": "None",
+        "selectors": [
+          ".collapse-truncated-title"
+        ],
+        "tagName": "span",
+        "className": "no-value collapse-truncated-title gl-pt-2 gl-px-3 gl-font-sm",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306757\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/span[1]",
+        "preview": "\u00b7",
+        "selectors": [
+          ".system-note-message span"
+        ],
+        "tagName": "span",
+        "className": "d-none d-sm-inline",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306758\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/span[1]",
+        "preview": "\u00b7",
+        "selectors": [
+          ".system-note-message span"
+        ],
+        "tagName": "span",
+        "className": "d-none d-sm-inline",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306759\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".system-note-message span"
+        ],
+        "tagName": "span",
+        "className": "d-none d-sm-inline",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306760\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".system-note-message span"
+        ],
+        "tagName": "span",
+        "className": "d-none d-sm-inline",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306761\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/span[1]",
+        "preview": "\u00b7",
+        "selectors": [
+          ".system-note-message span"
+        ],
+        "tagName": "span",
+        "className": "d-none d-sm-inline",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306762\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".system-note-message span"
+        ],
+        "tagName": "span",
+        "className": "d-none d-sm-inline",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306763\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".system-note-message span"
+        ],
+        "tagName": "span",
+        "className": "d-none d-sm-inline",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306764\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/span[1]",
+        "preview": "\u00b7",
+        "selectors": [
+          ".system-note-message span"
+        ],
+        "tagName": "span",
+        "className": "d-none d-sm-inline",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306765\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".system-note-message span"
+        ],
+        "tagName": "span",
+        "className": "d-none d-sm-inline",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306766\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".system-note-message span"
+        ],
+        "tagName": "span",
+        "className": "d-none d-sm-inline",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306767\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".system-note-message span"
+        ],
+        "tagName": "span",
+        "className": "d-none d-sm-inline",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306768\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".system-note-message span"
+        ],
+        "tagName": "span",
+        "className": "d-none d-sm-inline",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306769\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".system-note-message span"
+        ],
+        "tagName": "span",
+        "className": "d-none d-sm-inline",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_306773\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/span[1]",
+        "preview": "\u00b7",
+        "selectors": [
+          ".system-note-message span"
+        ],
+        "tagName": "span",
+        "className": "d-none d-sm-inline",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_310813\"]/div[1]/div[2]/div[1]/div[1]/span[1]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".system-note-message span"
+        ],
+        "tagName": "span",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"note_310814\"]/div[1]/div[2]/div[1]/div[1]/span[1]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".system-note-message span"
+        ],
+        "tagName": "span",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "/html/head[1]/title[1]",
+        "preview": "Tm Theme Editor (#1) \u00b7 Issues \u00b7 Byte Blaze / a11y-syntax-highlighting \u00b7 GitLab",
+        "selectors": [
+          "title"
+        ],
+        "tagName": "title",
+        "className": "",
+        "id": ""
+      }
+    ],
+    "fn": [
+      {
+        "xpath": "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[10]/div[1]/div[1]/span[1]",
+        "preview": "Reference: byteblaze/a11y-syntax-highlighting#1",
+        "selectors": [
+          ".block .gl-overflow-hidden.gl-text-overflow-ellipsis[title*='/']"
+        ],
+        "tagName": "span",
+        "className": "gl-overflow-hidden gl-text-overflow-ellipsis gl-white-space-nowrap",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[1]/div[1]/div[2]/div[1]/button[1]/span[2]",
+        "preview": "",
+        "selectors": [
+          ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details"
+        ],
+        "tagName": "span",
+        "className": "author reveal-hidden",
+        "id": ""
+      }
+    ]
+  },
+  "element_groups": {
+    "fp_by_signature": {
+      "header.dropdown-header": 2,
+      "span.collapse-truncated-title.gl-font-sm.gl-pt-2.gl-px-3": 3,
+      "span.collapse-truncated-title.gl-font-sm.gl-pt-2.gl-px-3.no-value": 1,
+      "span.d-none.d-sm-inline": 14,
+      "title": 1
+    },
+    "fn_by_signature": {
+      "span.gl-overflow-hidden.gl-text-overflow-ellipsis.gl-white-space-nowrap": 1,
+      "span.author.reveal-hidden": 1
+    },
+    "fp_grouped_details": {
+      "header.dropdown-header": [
+        {
+          "xpath": "//*[@id=\"__BVID__1064\"]/ul[1]/div[1]/div[1]/li[1]/header[1]",
+          "preview": "This project"
+        },
+        {
+          "xpath": "//*[@id=\"__BVID__1064\"]/ul[1]/div[1]/div[1]/li[7]/header[1]",
+          "preview": "GitLab"
+        }
+      ],
+      "span.collapse-truncated-title.gl-font-sm.gl-pt-2.gl-px-3": [
+        {
+          "xpath": "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[2]/div[1]/div[2]/div[1]/div[1]/span[1]",
+          "preview": "0"
+        },
+        {
+          "xpath": "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[2]/div[1]/div[3]/div[1]/div[1]/span[1]",
+          "preview": "0"
+        },
+        {
+          "xpath": "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[3]/div[1]/div[2]/div[1]/span[1]",
+          "preview": "No milestone"
+        }
+      ],
+      "span.collapse-truncated-title.gl-font-sm.gl-pt-2.gl-px-3.no-value": [
+        {
+          "xpath": "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[5]/div[1]/div[1]/div[1]/div[1]/span[1]",
+          "preview": "None"
+        }
+      ],
+      "span.d-none.d-sm-inline": [
+        {
+          "xpath": "//*[@id=\"note_306757\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/span[1]",
+          "preview": "\u00b7"
+        },
+        {
+          "xpath": "//*[@id=\"note_306758\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/span[1]",
+          "preview": "\u00b7"
+        },
+        {
+          "xpath": "//*[@id=\"note_306759\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/span[1]",
+          "preview": ""
+        }
+      ],
+      "title": [
+        {
+          "xpath": "/html/head[1]/title[1]",
+          "preview": "Tm Theme Editor (#1) \u00b7 Issues \u00b7 Byte Blaze / a11y-syntax-highlighting \u00b7 GitLab"
+        }
+      ]
+    },
+    "fn_grouped_details": {
+      "span.gl-overflow-hidden.gl-text-overflow-ellipsis.gl-white-space-nowrap": [
+        {
+          "xpath": "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[10]/div[1]/div[1]/span[1]",
+          "preview": "Reference: byteblaze/a11y-syntax-highlighting#1"
+        }
+      ],
+      "span.author.reveal-hidden": [
+        {
+          "xpath": "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[1]/div[1]/div[2]/div[1]/button[1]/span[2]",
+          "preview": ""
+        }
+      ]
+    }
+  },
+  "selector_breakdown": {
+    "ground_truth": {
+      "total_selectors": 73,
+      "selectors_with_matches": 11,
+      "selector_to_ids": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [
+          "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[4]/a[1]",
+          "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[2]/a[1]",
+          "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[1]/a[1]",
+          "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[3]/a[1]"
+        ],
+        "9": [
+          "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[2]"
+        ],
+        "10": [],
+        "11": [],
+        "12": [],
+        "13": [],
+        "14": [],
+        "15": [],
+        "16": [],
+        "17": [],
+        "18": [],
+        "19": [],
+        "20": [],
+        "21": [],
+        "22": [],
+        "23": [],
+        "24": [],
+        "25": [],
+        "26": [],
+        "27": [],
+        "28": [],
+        "29": [],
+        "30": [],
+        "31": [],
+        "32": [],
+        "33": [],
+        "34": [
+          "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[1]/h1[1]"
+        ],
+        "35": [],
+        "36": [],
+        "37": [],
+        "38": [],
+        "39": [
+          "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]"
+        ],
+        "40": [
+          "//*[@id=\"note_306762\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+          "//*[@id=\"note_306766\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+          "//*[@id=\"note_310814\"]/div[1]/div[2]/div[2]/div[1]",
+          "//*[@id=\"note_306765\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+          "//*[@id=\"note_306768\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+          "//*[@id=\"note_306761\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+          "//*[@id=\"note_306773\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+          "//*[@id=\"note_306763\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+          "//*[@id=\"note_306767\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+          "//*[@id=\"note_306769\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+          "//*[@id=\"note_310815\"]/div[1]/div[2]/div[2]/div[1]",
+          "//*[@id=\"note_306759\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+          "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+          "//*[@id=\"note_306764\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+          "//*[@id=\"note_310813\"]/div[1]/div[2]/div[2]/div[1]",
+          "//*[@id=\"note_306758\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+          "//*[@id=\"note_306757\"]/div[1]/div[2]/div[2]/div[1]/div[1]"
+        ],
+        "41": [
+          "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[1]"
+        ],
+        "42": [],
+        "43": [
+          "//*[@id=\"note_306773\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[1]/div[1]/div[2]/div[1]/button[1]/span[2]",
+          "//*[@id=\"note_306766\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"content-body\"]/div[2]/div[1]/strong[1]/a[2]",
+          "//*[@id=\"note_306762\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[9]/div[3]/div[3]/a[1]",
+          "//*[@id=\"note_306760\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"note_306769\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"note_306768\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"note_310815\"]/div[1]/div[2]/div[1]/div[1]/span[1]/span[1]/span[1]/a[1]",
+          "//*[@id=\"note_306761\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[9]/div[3]/div[2]/a[1]",
+          "//*[@id=\"note_306764\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"note_306759\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"note_310815\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"note_310813\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"note_306758\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"content-body\"]/div[2]/div[1]/strong[1]/a[2]/span[1]",
+          "//*[@id=\"note_310815\"]/div[1]/div[2]/div[2]/div[1]/p[1]/a[1]",
+          "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/a[1]",
+          "//*[@id=\"note_306763\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[9]/div[3]/div[1]/a[1]",
+          "//*[@id=\"content-body\"]/div[2]/div[1]/strong[1]/a[1]/span[1]",
+          "//*[@id=\"note_310814\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"note_306767\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"note_306757\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/small[1]/a[1]",
+          "//*[@id=\"content-body\"]/div[2]/div[1]/strong[1]/a[1]",
+          "//*[@id=\"note_306765\"]/div[1]/div[2]/div[1]/div[1]/a[1]"
+        ],
+        "44": [
+          "//*[@id=\"note_306767\"]/div[1]/div[2]/div[1]/div[1]/span[1]",
+          "//*[@id=\"note_306762\"]/div[1]/div[2]/div[1]/div[1]/span[1]",
+          "//*[@id=\"note_306758\"]/div[1]/div[2]/div[1]/div[1]/span[1]",
+          "//*[@id=\"note_306759\"]/div[1]/div[2]/div[1]/div[1]/span[1]",
+          "//*[@id=\"note_306764\"]/div[1]/div[2]/div[1]/div[1]/span[1]",
+          "//*[@id=\"note_306760\"]/div[1]/div[2]/div[1]/div[1]/span[1]",
+          "//*[@id=\"note_306769\"]/div[1]/div[2]/div[1]/div[1]/span[1]",
+          "//*[@id=\"note_306757\"]/div[1]/div[2]/div[1]/div[1]/span[1]",
+          "//*[@id=\"note_306773\"]/div[1]/div[2]/div[1]/div[1]/span[1]",
+          "//*[@id=\"note_306766\"]/div[1]/div[2]/div[1]/div[1]/span[1]",
+          "//*[@id=\"note_306765\"]/div[1]/div[2]/div[1]/div[1]/span[1]",
+          "//*[@id=\"note_306768\"]/div[1]/div[2]/div[1]/div[1]/span[1]",
+          "//*[@id=\"note_306763\"]/div[1]/div[2]/div[1]/div[1]/span[1]",
+          "//*[@id=\"note_306761\"]/div[1]/div[2]/div[1]/div[1]/span[1]"
+        ],
+        "45": [],
+        "46": [],
+        "47": [],
+        "48": [],
+        "49": [],
+        "50": [],
+        "51": [],
+        "52": [],
+        "53": [],
+        "54": [],
+        "55": [],
+        "56": [],
+        "57": [],
+        "58": [],
+        "59": [
+          "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/div[1]/ul[1]/li[1]/a[1]/div[1]"
+        ],
+        "60": [
+          "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/div[1]/ul[1]/li[1]/a[1]",
+          "//*[@id=\"note_310815\"]/div[1]/div[2]/div[2]/div[1]/p[1]/a[1]",
+          "//*[@id=\"note_310815\"]/div[1]/div[2]/div[1]/div[1]/span[1]/span[1]/span[1]/a[1]"
+        ],
+        "61": [],
+        "62": [],
+        "63": [],
+        "64": [],
+        "65": [],
+        "66": [],
+        "67": [],
+        "68": [],
+        "69": [],
+        "70": [],
+        "71": [],
+        "72": [],
+        "73": [
+          "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[10]/div[1]/div[1]/span[1]"
+        ]
+      }
+    },
+    "predicted": {
+      "total_selectors": 102,
+      "selectors_with_matches": 40,
+      "selector_to_ids": {
+        "1": [
+          "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/span[1]"
+        ],
+        "2": [
+          "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[2]/span[1]"
+        ],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": [],
+        "10": [],
+        "11": [],
+        "12": [],
+        "13": [],
+        "14": [],
+        "15": [],
+        "16": [],
+        "17": [
+          "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/div[1]/ul[1]/li[1]/a[1]/div[1]"
+        ],
+        "18": [
+          "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[3]/div[1]/ul[1]/li[3]/a[1]/span[1]",
+          "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[4]/a[1]/span[1]",
+          "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[3]/div[1]/ul[1]/li[2]/a[1]/span[1]",
+          "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[2]/a[1]/span[1]",
+          "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[3]/a[1]/span[1]"
+        ],
+        "19": [],
+        "20": [],
+        "21": [],
+        "22": [],
+        "23": [],
+        "24": [],
+        "25": [],
+        "26": [],
+        "27": [],
+        "28": [],
+        "29": [],
+        "30": [],
+        "31": [
+          "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/div[1]/ul[1]/li[1]/a[1]"
+        ],
+        "32": [],
+        "33": [
+          "/html/head[1]/title[1]"
+        ],
+        "34": [
+          "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[1]/span[1]"
+        ],
+        "35": [],
+        "36": [],
+        "37": [
+          "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]"
+        ],
+        "38": [
+          "/html/body"
+        ],
+        "39": [
+          "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/span[1]",
+          "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/span[1]",
+          "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[4]/a[1]/span[1]",
+          "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/span[1]"
+        ],
+        "40": [],
+        "41": [],
+        "42": [],
+        "43": [],
+        "44": [],
+        "45": [
+          "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/a[1]/img[1]"
+        ],
+        "46": [],
+        "47": [],
+        "48": [],
+        "49": [
+          "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/div[1]/ul[1]/li[1]/a[1]"
+        ],
+        "50": [],
+        "51": [],
+        "52": [
+          "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/span[1]",
+          "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/span[1]",
+          "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[4]/a[1]/span[1]",
+          "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/span[1]"
+        ],
+        "53": [],
+        "54": [],
+        "55": [],
+        "56": [
+          "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[2]/span[1]"
+        ],
+        "57": [],
+        "58": [
+          "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[1]/h1[1]/span[1]"
+        ],
+        "59": [
+          "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]"
+        ],
+        "60": [
+          "//*[@id=\"note_306762\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+          "//*[@id=\"note_306766\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+          "//*[@id=\"note_310814\"]/div[1]/div[2]/div[2]/div[1]",
+          "//*[@id=\"note_306765\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+          "//*[@id=\"note_306768\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+          "//*[@id=\"note_306761\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+          "//*[@id=\"note_306773\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+          "//*[@id=\"note_306763\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+          "//*[@id=\"note_306767\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+          "//*[@id=\"note_306769\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+          "//*[@id=\"note_310815\"]/div[1]/div[2]/div[2]/div[1]",
+          "//*[@id=\"note_306759\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+          "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+          "//*[@id=\"note_306764\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+          "//*[@id=\"note_310813\"]/div[1]/div[2]/div[2]/div[1]",
+          "//*[@id=\"note_306758\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+          "//*[@id=\"note_306757\"]/div[1]/div[2]/div[2]/div[1]/div[1]"
+        ],
+        "61": [
+          "//*[@id=\"note_306767\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+          "//*[@id=\"note_306760\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+          "//*[@id=\"note_306757\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+          "//*[@id=\"note_306765\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+          "//*[@id=\"note_306763\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+          "//*[@id=\"note_306766\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+          "//*[@id=\"note_306768\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+          "//*[@id=\"note_306758\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+          "//*[@id=\"note_306762\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+          "//*[@id=\"note_310814\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+          "//*[@id=\"note_306769\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+          "//*[@id=\"note_306773\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+          "//*[@id=\"note_310813\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+          "//*[@id=\"note_310815\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+          "//*[@id=\"note_306764\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+          "//*[@id=\"note_306761\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+          "//*[@id=\"note_306759\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]"
+        ],
+        "62": [
+          "//*[@id=\"note_306764\"]/div[1]/div[2]/div[1]/div[1]/span[1]/a[1]/span[1]",
+          "//*[@id=\"note_306757\"]/div[1]/div[2]/div[1]/div[1]/span[1]/a[1]/span[1]",
+          "//*[@id=\"note_306763\"]/div[1]/div[2]/div[1]/div[1]/span[1]/a[1]/span[1]",
+          "//*[@id=\"note_306758\"]/div[1]/div[2]/div[1]/div[1]/span[1]/a[1]/span[1]",
+          "//*[@id=\"note_306773\"]/div[1]/div[2]/div[1]/div[1]/span[1]/a[1]/span[1]",
+          "//*[@id=\"note_306768\"]/div[1]/div[2]/div[1]/div[1]/span[1]/a[1]/span[1]",
+          "//*[@id=\"note_306767\"]/div[1]/div[2]/div[1]/div[1]/span[1]/a[1]/span[1]",
+          "//*[@id=\"note_306766\"]/div[1]/div[2]/div[1]/div[1]/span[1]/a[1]/span[1]",
+          "//*[@id=\"note_306761\"]/div[1]/div[2]/div[1]/div[1]/span[1]/a[1]/span[1]",
+          "//*[@id=\"note_306759\"]/div[1]/div[2]/div[1]/div[1]/span[1]/a[1]/span[1]",
+          "//*[@id=\"note_306765\"]/div[1]/div[2]/div[1]/div[1]/span[1]/a[1]/span[1]",
+          "//*[@id=\"note_306769\"]/div[1]/div[2]/div[1]/div[1]/span[1]/a[1]/span[1]",
+          "//*[@id=\"note_306760\"]/div[1]/div[2]/div[1]/div[1]/span[1]/a[1]/span[1]",
+          "//*[@id=\"note_306762\"]/div[1]/div[2]/div[1]/div[1]/span[1]/a[1]/span[1]"
+        ],
+        "63": [
+          "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/span[1]",
+          "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/span[1]",
+          "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[4]/a[1]/span[1]",
+          "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/span[1]"
+        ],
+        "64": [
+          "//*[@id=\"note_306760\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/span[1]",
+          "//*[@id=\"note_306768\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/span[1]",
+          "//*[@id=\"note_306764\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/span[1]",
+          "//*[@id=\"note_310815\"]/div[1]/div[2]/div[1]/div[1]/span[1]/span[1]/span[1]/a[1]/span[1]",
+          "//*[@id=\"note_306759\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/span[1]",
+          "//*[@id=\"note_310813\"]/div[1]/div[2]/div[1]/div[1]/span[1]/span[1]/span[1]",
+          "//*[@id=\"note_306761\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/span[1]",
+          "//*[@id=\"note_306757\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/span[1]",
+          "//*[@id=\"note_310814\"]/div[1]/div[2]/div[1]/div[1]/span[1]/span[1]/span[1]",
+          "//*[@id=\"note_310815\"]/div[1]/div[2]/div[1]/div[1]/span[1]/span[1]/span[1]",
+          "//*[@id=\"note_306766\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/span[1]",
+          "//*[@id=\"note_306762\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/span[1]",
+          "//*[@id=\"note_306758\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/span[1]",
+          "//*[@id=\"note_306763\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/span[1]",
+          "//*[@id=\"note_306769\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/span[1]",
+          "//*[@id=\"note_306767\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/span[1]",
+          "//*[@id=\"note_306773\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/span[1]",
+          "//*[@id=\"note_306765\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]/span[1]"
+        ],
+        "65": [
+          "//*[@id=\"content-body\"]/div[2]/div[1]/strong[1]/a[1]/span[1]",
+          "//*[@id=\"content-body\"]/div[2]/div[1]/strong[1]/a[2]/span[1]"
+        ],
+        "66": [],
+        "67": [
+          "//*[@id=\"note_310815\"]/div[1]/div[2]/div[1]/div[1]/span[1]/span[1]/span[1]/a[1]/span[1]"
+        ],
+        "68": [
+          "//*[@id=\"note_306766\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+          "//*[@id=\"note_306758\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+          "//*[@id=\"note_306765\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]",
+          "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]",
+          "//*[@id=\"note_306768\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+          "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/p[3]",
+          "//*[@id=\"note_310815\"]/div[1]/div[2]/div[2]/div[1]/p[1]",
+          "//*[@id=\"note_306764\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+          "//*[@id=\"note_306773\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]",
+          "//*[@id=\"note_306763\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+          "//*[@id=\"note_306759\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+          "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+          "//*[@id=\"note_310813\"]/div[1]/div[2]/div[2]/div[1]/p[1]",
+          "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/p[4]",
+          "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/p[2]",
+          "//*[@id=\"note_306766\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[3]",
+          "//*[@id=\"note_306768\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[3]",
+          "//*[@id=\"note_306762\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+          "//*[@id=\"note_306761\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[3]",
+          "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[3]",
+          "//*[@id=\"note_306767\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+          "//*[@id=\"note_306765\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+          "//*[@id=\"note_306761\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]",
+          "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/p[1]",
+          "//*[@id=\"note_306769\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+          "//*[@id=\"note_306766\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]",
+          "//*[@id=\"note_310814\"]/div[1]/div[2]/div[2]/div[1]/p[1]",
+          "//*[@id=\"note_306769\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]",
+          "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/p[5]",
+          "//*[@id=\"note_306757\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+          "//*[@id=\"note_306758\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]",
+          "//*[@id=\"note_306768\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]",
+          "//*[@id=\"note_306773\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+          "//*[@id=\"note_306761\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]"
+        ],
+        "69": [
+          "//*[@id=\"note_306761\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]/a[1]",
+          "//*[@id=\"note_306764\"]/div[1]/div[2]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/p[3]/a[1]",
+          "//*[@id=\"note_306758\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/a[1]",
+          "//*[@id=\"note_306759\"]/div[1]/div[2]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"note_306768\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]/a[1]",
+          "//*[@id=\"note_310815\"]/div[1]/div[2]/div[2]/div[1]/p[1]/a[1]",
+          "//*[@id=\"note_306763\"]/div[1]/div[2]/div[2]/div[1]/div[1]/a[1]"
+        ],
+        "70": [
+          "//*[@id=\"note_306769\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/code[1]",
+          "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[4]/code[1]",
+          "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[3]/code[1]",
+          "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[2]/code[1]",
+          "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[5]/code[1]",
+          "//*[@id=\"note_306762\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/code[1]",
+          "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[1]/code[1]",
+          "//*[@id=\"note_306769\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/code[2]"
+        ],
+        "71": [
+          "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[5]",
+          "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[4]",
+          "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[3]",
+          "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[1]",
+          "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[2]"
+        ],
+        "72": [
+          "//*[@id=\"note_306763\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/em[1]",
+          "//*[@id=\"note_306768\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/em[1]",
+          "//*[@id=\"note_306766\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/em[1]",
+          "//*[@id=\"note_306764\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/em[1]",
+          "//*[@id=\"note_306773\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/em[1]",
+          "//*[@id=\"note_306765\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/em[1]"
+        ],
+        "73": [
+          "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[3]/div[1]/div[2]/div[1]/span[1]",
+          "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[2]/div[1]/div[2]/div[1]/div[1]/span[1]",
+          "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[5]/div[1]/div[1]/div[1]/div[1]/span[1]",
+          "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[2]/div[1]/div[3]/div[1]/div[1]/span[1]"
+        ],
+        "74": [
+          "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/small[1]/a[1]/span[1]"
+        ],
+        "75": [
+          "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[3]/div[1]/ul[1]/li[1]",
+          "//*[@id=\"__BVID__1064\"]/ul[1]/div[1]/div[1]/li[7]/header[1]",
+          "//*[@id=\"__BVID__1064\"]/ul[1]/div[1]/div[1]/li[1]/header[1]"
+        ],
+        "76": [
+          "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[9]/div[3]/div[2]/a[1]/span[1]/img[1]",
+          "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[9]/div[3]/div[1]/a[1]/span[1]/img[1]",
+          "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[9]/div[3]/div[3]/a[1]/span[1]/img[1]"
+        ],
+        "77": [
+          "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/a[1]/img[1]"
+        ],
+        "78": [
+          "//*[@id=\"content-body\"]/div[2]/div[1]/strong[1]/a[1]/img[1]",
+          "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[9]/div[3]/div[2]/a[1]/span[1]/img[1]",
+          "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[9]/div[3]/div[1]/a[1]/span[1]/img[1]",
+          "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[9]/div[3]/div[3]/a[1]/span[1]/img[1]"
+        ],
+        "79": [
+          "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/span[1]/img[1]"
+        ],
+        "80": [],
+        "81": [
+          "//*[@id=\"note_306773\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"note_306766\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"content-body\"]/div[2]/div[1]/strong[1]/a[2]",
+          "//*[@id=\"note_306762\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"note_306760\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"note_306769\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"note_306768\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"note_306761\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"note_306764\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"note_306759\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"note_310815\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"note_310813\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"note_306758\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"note_306763\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"note_310814\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"note_306767\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"note_306757\"]/div[1]/div[2]/div[1]/div[1]/a[1]",
+          "//*[@id=\"content-body\"]/div[2]/div[1]/strong[1]/a[1]",
+          "//*[@id=\"note_306765\"]/div[1]/div[2]/div[1]/div[1]/a[1]"
+        ],
+        "82": [
+          "//*[@id=\"content-body\"]/div[2]/div[1]/strong[1]/a[1]",
+          "//*[@id=\"content-body\"]/div[2]/div[1]/strong[1]/a[2]"
+        ],
+        "83": [],
+        "84": [],
+        "85": [],
+        "86": [],
+        "87": [],
+        "88": [],
+        "89": [],
+        "90": [],
+        "91": [],
+        "92": [],
+        "93": [],
+        "94": [],
+        "95": [],
+        "96": [],
+        "97": [],
+        "98": [
+          "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/div[1]/ul[1]/li[1]/a[1]"
+        ],
+        "99": [
+          "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/div[1]/ul[1]/li[1]/a[1]"
+        ],
+        "100": [],
+        "101": [],
+        "102": [
+          "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[2]/a[1]"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1224 @@
+{
+  "summary": {
+    "totalSelectors": 73,
+    "selectorsWithMatches": 15,
+    "totalElements": 45,
+    "uniqueElements": 45,
+    "url": "http://localhost:8103/byteblaze/a11y-syntax-highlighting",
+    "configFile": "hand_labels.json",
+    "configVersion": "hand",
+    "configGeneratedBy": "Generated from gitlab-marker.js"
+  },
+  "results": [
+    {
+      "index": 1,
+      "selector": ".project-row .project-name, .projects-list .project-name, a.project",
+      "tagName": "project-link",
+      "description": "Project link in list (contains avatar + name)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 2,
+      "selector": ".namespace-name",
+      "tagName": "owner-name",
+      "description": "Project owner/username prefix in list (e.g. \"Byte Blaze /\")",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 3,
+      "selector": ".project-row .avatar-container, .projects-list .avatar-container, .project-row .identicon, .projects-list .identicon",
+      "tagName": "project-icon",
+      "description": "Project avatar/icon in list (shows first letter or custom image)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 4,
+      "selector": "span.project-name",
+      "tagName": "project-name",
+      "description": "Project/repo name text (in notifications, headers, etc.)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 5,
+      "selector": ".project-row .description, .project-description, .projects-list .description",
+      "tagName": "project-description",
+      "description": "Project description in list",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 6,
+      "selector": ".ref-name, a.ref-name, a.gl-font-monospace.gl-bg-blue-50, span.label-branch, .system-note-message code",
+      "tagName": "branch-name",
+      "description": "Branch/ref name in notifications and links",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"branch_name\"]"
+      ],
+      "element_info": {
+        "//*[@id=\"branch_name\"]": {
+          "tagName": "input",
+          "className": "form-control gl-form-input js-branch-name ref-name",
+          "id": "branch_name",
+          "textPreview": ""
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(empty)"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "selector": ".ref-selector .gl-dropdown-item-text-primary, [data-qa-selector=\"branches_section\"] .gl-dropdown-item-text-primary, [data-testid=\"branches-section\"] .gl-dropdown-item-text-primary, [data-qa-selector=\"tags_section\"] .gl-dropdown-item-text-primary, [data-testid=\"tags-section\"] .gl-dropdown-item-text-primary, .compare-revision-cards .gl-dropdown-item-text-primary",
+      "tagName": "branch-name",
+      "description": "Branch/tag name in ref-selector and compare dropdown items",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"__BVID__47\"]/ul[1]/div[1]/div[2]/div[1]/li[2]/button[1]/div[1]/p[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"__BVID__47\"]/ul[1]/div[1]/div[2]/div[1]/li[2]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary reveal-hidden",
+          "id": "",
+          "textPreview": "main   default"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "main   default"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "selector": ".breadcrumb-item a, .repo-breadcrumb a, .breadcrumbs-sub-title a, .breadcrumbs-list a:not(.dropdown-item), .breadcrumbs-links a:not(.dropdown-item)",
+      "tagName": "breadcrumb",
+      "description": "Breadcrumb link (user/group name, repo name)",
+      "count": 8,
+      "element_ids": [
+        "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[1]/a[1]",
+        "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[2]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[2]/div[1]/nav[1]/ol[1]/li[1]/a[1]",
+        "//*[@id=\"__BVID__58\"]/ul[1]/div[1]/div[1]/li[2]/a[1]",
+        "//*[@id=\"__BVID__58\"]/ul[1]/div[1]/div[1]/li[3]/a[1]",
+        "//*[@id=\"__BVID__58\"]/ul[1]/div[1]/div[1]/li[4]/a[1]",
+        "//*[@id=\"__BVID__58\"]/ul[1]/div[1]/div[1]/li[7]/a[1]",
+        "//*[@id=\"__BVID__58\"]/ul[1]/div[1]/div[1]/li[8]/a[1]"
+      ],
+      "element_info": {
+        "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[1]/a[1]": {
+          "tagName": "a",
+          "className": "reveal-hidden",
+          "id": "",
+          "textPreview": "Byte Blaze"
+        },
+        "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[2]/a[1]": {
+          "tagName": "a",
+          "className": "reveal-hidden",
+          "id": "",
+          "textPreview": "a11y-syntax-highlighting"
+        },
+        "//*[@id=\"tree-holder\"]/div[2]/div[1]/nav[1]/ol[1]/li[1]/a[1]": {
+          "tagName": "a",
+          "className": "reveal-hidden",
+          "id": "",
+          "textPreview": "a11y-syntax-highlighting"
+        },
+        "//*[@id=\"__BVID__58\"]/ul[1]/div[1]/div[1]/li[2]/a[1]": {
+          "tagName": "a",
+          "className": "dropdown-item reveal-hidden",
+          "id": "",
+          "textPreview": "New file"
+        },
+        "//*[@id=\"__BVID__58\"]/ul[1]/div[1]/div[1]/li[3]/a[1]": {
+          "tagName": "a",
+          "className": "dropdown-item reveal-hidden",
+          "id": "",
+          "textPreview": "Upload file"
+        },
+        "//*[@id=\"__BVID__58\"]/ul[1]/div[1]/div[1]/li[4]/a[1]": {
+          "tagName": "a",
+          "className": "dropdown-item reveal-hidden",
+          "id": "",
+          "textPreview": "New directory"
+        },
+        "//*[@id=\"__BVID__58\"]/ul[1]/div[1]/div[1]/li[7]/a[1]": {
+          "tagName": "a",
+          "className": "dropdown-item reveal-hidden",
+          "id": "",
+          "textPreview": "New branch"
+        },
+        "//*[@id=\"__BVID__58\"]/ul[1]/div[1]/div[1]/li[8]/a[1]": {
+          "tagName": "a",
+          "className": "dropdown-item reveal-hidden",
+          "id": "",
+          "textPreview": "New tag"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Byte Blaze"
+        },
+        {
+          "index": 2,
+          "text_preview": "a11y-syntax-highlighting"
+        },
+        {
+          "index": 3,
+          "text_preview": "a11y-syntax-highlighting"
+        },
+        {
+          "index": 4,
+          "text_preview": "New file"
+        },
+        {
+          "index": 5,
+          "text_preview": "Upload file"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "selector": ".sidebar-context-title",
+      "tagName": "project-name",
+      "description": "Project/repo name in sidebar",
+      "count": 1,
+      "element_ids": [
+        "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[2]"
+      ],
+      "element_info": {
+        "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[2]": {
+          "tagName": "span",
+          "className": "sidebar-context-title reveal-hidden",
+          "id": "",
+          "textPreview": "a11y-syntax-highlighting"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "a11y-syntax-highlighting"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "selector": "h1.home-panel-title",
+      "tagName": "project-name",
+      "description": "Project name on project overview page",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"content-body\"]/div[2]/div[1]/div[1]/div[2]/h1[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"content-body\"]/div[2]/div[1]/div[1]/div[2]/h1[1]": {
+          "tagName": "h1",
+          "className": "home-panel-title gl-font-size-h1 gl-mt-3 gl-mb-2 gl-display-flex reveal-hidden",
+          "id": "",
+          "textPreview": "a11y-syntax-highlighting"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "a11y-syntax-highlighting"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "selector": ".home-panel-description-markdown, .home-panel-description.text-break",
+      "tagName": "project-description",
+      "description": "Project description and forked-from on overview page",
+      "count": 2,
+      "element_ids": [
+        "//*[@id=\"content-body\"]/div[2]/div[3]/div[1]",
+        "//*[@id=\"content-body\"]/div[2]/div[3]/div[1]/div[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"content-body\"]/div[2]/div[3]/div[1]": {
+          "tagName": "div",
+          "className": "home-panel-description text-break reveal-hidden",
+          "id": "",
+          "textPreview": "\ud83d\udc84 Accessible light and dark syntax highlighting themes\n\n\nRead more"
+        },
+        "//*[@id=\"content-body\"]/div[2]/div[3]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "home-panel-description-markdown read-more-container",
+          "id": "",
+          "textPreview": "\ud83d\udc84 Accessible light and dark syntax highlighting themes"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "\ud83d\udc84 Accessible light and dark syntax highlighting themes\n\n\nRead more"
+        },
+        {
+          "index": 2,
+          "text_preview": "\ud83d\udc84 Accessible light and dark syntax highlighting themes"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "selector": "a[data-qa-selector=\"forked_from_link\"]",
+      "tagName": "forked-from",
+      "description": "Forked-from link on project overview page",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 13,
+      "selector": ".ref-selector button.gl-dropdown-toggle, .ref-selector .gl-dropdown-toggle-text, .ref-selector .gl-new-dropdown-toggle-text, .ref-selector .dropdown-toggle-text, .project-refs-form .dropdown-toggle-text, .tree-ref-holder .dropdown-toggle-text",
+      "tagName": "branch-name",
+      "description": "Selected branch name in ref selector button",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"__BVID__47__BV_toggle_\"]"
+      ],
+      "element_info": {
+        "//*[@id=\"__BVID__47__BV_toggle_\"]": {
+          "tagName": "button",
+          "className": "btn dropdown-toggle btn-default btn-md gl-font-monospace gl-button gl-dropdown-toggle reveal-hidden",
+          "id": "__BVID__47__BV_toggle_",
+          "textPreview": "main"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "main"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "selector": ".project-item-select-holder .project-item-select",
+      "tagName": "repo-breadcrumb",
+      "description": "Project selector in header",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 15,
+      "selector": ".readme-holder .md, .wiki .md, .file-content .md, .file-content.md",
+      "tagName": "markdown-content",
+      "description": "Rendered markdown content (README, wiki, etc.)",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"tree-holder\"]/div[4]/article[1]/div[2]/div[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "file-content md reveal-hidden",
+          "id": "",
+          "textPreview": "a11y-syntax-highlighting\nAccessible light and dark syntax highlighting themes.\n\nSupport\n\nLibraries\n\n"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "a11y-syntax-highlighting\nAccessible light and dark syntax highlighting themes.\n\nSupport\n\nLibraries"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "selector": ".file-content .code, .blob-content, .file-content .file-content",
+      "tagName": "code-content",
+      "description": "Source code file content",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 17,
+      "selector": ".js-edit-blob-form .editor-ref",
+      "tagName": "branch-name",
+      "description": "Branch name text on edit file page (inside clickable dropdown)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 18,
+      "selector": ".js-edit-blob-form .file-editor.code, .file-editor.code",
+      "tagName": "code-content",
+      "description": "Source code in inline editor",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 19,
+      "selector": ".tree-item .str-truncated, .tree-item-file-name, .file-name a, strong.file-title-name, [data-qa-selector=\"file_title_content\"]",
+      "tagName": "file-name",
+      "description": "File name in repository tree",
+      "count": 14,
+      "element_ids": [
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[1]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[1]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[1]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[1]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[1]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[7]/td[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[7]/td[1]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]": {
+          "tagName": "td",
+          "className": "tree-item-file-name cursor-default position-relative reveal-hidden",
+          "id": "",
+          "textPreview": "dist"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/a[1]": {
+          "tagName": "a",
+          "className": "tree-item-link str-truncated",
+          "id": "",
+          "textPreview": "dist"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[1]": {
+          "tagName": "td",
+          "className": "tree-item-file-name cursor-default position-relative reveal-hidden",
+          "id": "",
+          "textPreview": "images"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[1]/a[1]": {
+          "tagName": "a",
+          "className": "tree-item-link str-truncated",
+          "id": "",
+          "textPreview": "images"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[1]": {
+          "tagName": "td",
+          "className": "tree-item-file-name cursor-default position-relative reveal-hidden",
+          "id": "",
+          "textPreview": "test"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[1]/a[1]": {
+          "tagName": "a",
+          "className": "tree-item-link str-truncated",
+          "id": "",
+          "textPreview": "test"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[1]": {
+          "tagName": "td",
+          "className": "tree-item-file-name cursor-default position-relative reveal-hidden",
+          "id": "",
+          "textPreview": ".npmignore"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[1]/a[1]": {
+          "tagName": "a",
+          "className": "tree-item-link str-truncated",
+          "id": "",
+          "textPreview": ".npmignore"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[1]": {
+          "tagName": "td",
+          "className": "tree-item-file-name cursor-default position-relative reveal-hidden",
+          "id": "",
+          "textPreview": "LICENSE"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[1]/a[1]": {
+          "tagName": "a",
+          "className": "tree-item-link str-truncated",
+          "id": "",
+          "textPreview": "LICENSE"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[1]": {
+          "tagName": "td",
+          "className": "tree-item-file-name cursor-default position-relative reveal-hidden",
+          "id": "",
+          "textPreview": "README.md"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[1]/a[1]": {
+          "tagName": "a",
+          "className": "tree-item-link str-truncated",
+          "id": "",
+          "textPreview": "README.md"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[7]/td[1]": {
+          "tagName": "td",
+          "className": "tree-item-file-name cursor-default position-relative reveal-hidden",
+          "id": "",
+          "textPreview": "package.json"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[7]/td[1]/a[1]": {
+          "tagName": "a",
+          "className": "tree-item-link str-truncated",
+          "id": "",
+          "textPreview": "package.json"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "dist"
+        },
+        {
+          "index": 2,
+          "text_preview": "dist"
+        },
+        {
+          "index": 3,
+          "text_preview": "images"
+        },
+        {
+          "index": 4,
+          "text_preview": "images"
+        },
+        {
+          "index": 5,
+          "text_preview": "test"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "selector": ".file-row-name .gl-truncate, .diff-file-changes .file-row-name, [data-qa-selector=\"file_name_content\"]",
+      "tagName": "file-name-diff",
+      "description": "File name in MR diff / changes file tree (clickable via role=button parent)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 21,
+      "selector": ".ide-file-list .file-row-name, .ide-tree-body .file-row-name, [data-testid=\"ide-tree-body\"] .file-row-name",
+      "tagName": "file-name",
+      "description": "File name in WebIDE file tree",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 22,
+      "selector": "#ide.blob-viewer-container, .multi-file-edit-pane-content, .ide-editor .monaco-editor .view-lines, .ide-editor .editor-mounted, .ide-editor .modified-diff-viewer",
+      "tagName": "code-content",
+      "description": "File content in WebIDE editor",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 23,
+      "selector": ".multi-file-tab",
+      "tagName": "file-name",
+      "description": "File tab name in WebIDE tab bar",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 24,
+      "selector": ".ide-status-bar .ide-status-branch, .ide-sidebar-branch-title, .ide-review-sub-header .branch-name, .ide-merge-requests .dropdown-content a, .ide-merge-requests .dropdown-content .btn-link, a[href*=\"/-/ide/project/\"].btn-link, [data-testid=\"ide-nav-dropdown\"] .flex-fill.text-truncate",
+      "tagName": "branch-name",
+      "description": "Branch name in WebIDE (status bar, sidebar, nav button, dropdown)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 25,
+      "selector": ".commit-row-message, .commit-title, .commits-row .item-title a, a.tree-commit-link",
+      "tagName": "commit-message",
+      "description": "Commit message",
+      "count": 8,
+      "element_ids": [
+        "//*[@id=\"tree-holder\"]/div[1]/div[1]/div[1]/div[1]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[2]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[2]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[2]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[2]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[2]/a[1]",
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[7]/td[2]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"tree-holder\"]/div[1]/div[1]/div[1]/div[1]/a[1]": {
+          "tagName": "a",
+          "className": "gl-link commit-row-message item-title reveal-hidden",
+          "id": "",
+          "textPreview": "Update README.md"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]": {
+          "tagName": "a",
+          "className": "gl-link str-truncated-100 tree-commit-link gl-text-secondary reveal-hidden",
+          "id": "",
+          "textPreview": "Add support for Vi/Vim"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[2]/a[1]": {
+          "tagName": "a",
+          "className": "gl-link str-truncated-100 tree-commit-link gl-text-secondary reveal-hidden",
+          "id": "",
+          "textPreview": "Added images"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[3]/td[2]/a[1]": {
+          "tagName": "a",
+          "className": "gl-link str-truncated-100 tree-commit-link gl-text-secondary reveal-hidden",
+          "id": "",
+          "textPreview": "Fix name of theme"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[4]/td[2]/a[1]": {
+          "tagName": "a",
+          "className": "gl-link str-truncated-100 tree-commit-link gl-text-secondary reveal-hidden",
+          "id": "",
+          "textPreview": "Add package.json and .npmignore"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[5]/td[2]/a[1]": {
+          "tagName": "a",
+          "className": "gl-link str-truncated-100 tree-commit-link gl-text-secondary reveal-hidden",
+          "id": "",
+          "textPreview": "Added MIT License"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[2]/a[1]": {
+          "tagName": "a",
+          "className": "gl-link str-truncated-100 tree-commit-link gl-text-secondary reveal-hidden",
+          "id": "",
+          "textPreview": "Update README.md"
+        },
+        "//*[@id=\"tree-holder\"]/div[4]/div[1]/div[1]/table[1]/tbody[1]/tr[7]/td[2]/a[1]": {
+          "tagName": "a",
+          "className": "gl-link str-truncated-100 tree-commit-link gl-text-secondary reveal-hidden",
+          "id": "",
+          "textPreview": "Minor version bump"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Update README.md"
+        },
+        {
+          "index": 2,
+          "text_preview": "Add support for Vi/Vim"
+        },
+        {
+          "index": 3,
+          "text_preview": "Added images"
+        },
+        {
+          "index": 4,
+          "text_preview": "Fix name of theme"
+        },
+        {
+          "index": 5,
+          "text_preview": "Add package.json and .npmignore"
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "selector": ".commit-description, .commit-row-description",
+      "tagName": "commit-body",
+      "description": "Commit message body / extended description",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 27,
+      "selector": ".committer",
+      "tagName": "commit-author",
+      "description": "Commit author info (name + authored date)",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"tree-holder\"]/div[1]/div[1]/div[1]/div[1]/div[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"tree-holder\"]/div[1]/div[1]/div[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "committer reveal-hidden",
+          "id": "",
+          "textPreview": "Eric Bailey\n          \n          authored\n          3 years ago"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Eric Bailey\n          \n          authored\n          3 years ago"
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "selector": ".contributors-charts .row h4, .contributors-charts .row p",
+      "tagName": "contributor-info",
+      "description": "Contributor name and email on contributors page",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 29,
+      "selector": ".network-graph, .project-network .controls",
+      "tagName": "network-graph",
+      "description": "Network graph (commits, avatars, branch names)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 30,
+      "selector": ".js-source-project .dropdown-toggle-text, .js-target-project .dropdown-toggle-text",
+      "tagName": "repo-selector",
+      "description": "Selected repo/project name in compare/MR project dropdown",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 31,
+      "selector": ".js-source-branch .dropdown-toggle-text, .js-target-branch .dropdown-toggle-text, .compare-revision-cards span.gl-dropdown-button-text, .ref-selector span.gl-dropdown-button-text",
+      "tagName": "branch-selector",
+      "description": "Selected branch name in compare/MR branch dropdown",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"__BVID__47__BV_toggle_\"]/span[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"__BVID__47__BV_toggle_\"]/span[1]": {
+          "tagName": "span",
+          "className": "gl-dropdown-button-text",
+          "id": "",
+          "textPreview": "main"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "main"
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "selector": ".dropdown-source-project .dropdown-content a, .dropdown-target-project .dropdown-content a",
+      "tagName": "repo-option",
+      "description": "Repo/project dropdown items on compare/MR pages",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 33,
+      "selector": ".js-source-branch-dropdown .dropdown-content a, .js-target-branch-dropdown .dropdown-content a, .git-revision-dropdown .dropdown-content a",
+      "tagName": "branch-option",
+      "description": "Branch dropdown items on compare/MR pages",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 34,
+      "selector": ".issue-title-text a, .merge-request-title a, .issuable-header-text a, h1[data-qa-selector=\"title_content\"], .title-container h1.title",
+      "tagName": "issue-title",
+      "description": "Issue or merge request title",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 35,
+      "selector": ".issue-title-text, .issuable-info .title",
+      "tagName": "issue-title-list",
+      "description": "Issue title in list view",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 36,
+      "selector": ".search-results a[data-track-property=\"search_result\"] span.term, .search-results .str-truncated.gl-font-weight-bold",
+      "tagName": "search-result-title",
+      "description": "Issue/MR/etc. title in search results",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 37,
+      "selector": ".search-results .description.term",
+      "tagName": "search-result-description",
+      "description": "Description snippet in search results",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 38,
+      "selector": ".search-results .gl-text-gray-500.gl-my-3",
+      "tagName": "search-result-meta",
+      "description": "Project/issue reference line in search results",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 39,
+      "selector": ".detail-page-description .md, .issuable-details .description .md",
+      "tagName": "issue-body",
+      "description": "Issue/MR description",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 40,
+      "selector": ".note-body .md, .timeline-entry .note-text",
+      "tagName": "comment-content",
+      "description": "Comment (note) content on issues/MRs",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 41,
+      "selector": ".avatar-cell, .avatar-container, .js-avatar-container, .avatar-holder, .system-note-image.user-avatar, .gl-card-body > img.gl-avatar, .todo-avatar, .well-segment img.gl-avatar",
+      "tagName": "user-avatar",
+      "description": "User/commit author avatar container",
+      "count": 3,
+      "element_ids": [
+        "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[1]",
+        "//*[@id=\"content-body\"]/div[2]/div[1]/div[1]/div[1]",
+        "//*[@id=\"tree-holder\"]/div[1]/div[1]/span[1]/span[1]/img[1]"
+      ],
+      "element_info": {
+        "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "avatar-container rect-avatar s32 project_avatar reveal-hidden",
+          "id": "",
+          "textPreview": "A"
+        },
+        "//*[@id=\"content-body\"]/div[2]/div[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "avatar-container rect-avatar s64 home-panel-avatar gl-flex-shrink-0 gl-w-11 gl-h-11 gl-mr-3! float-none reveal-hidden",
+          "id": "",
+          "textPreview": "A"
+        },
+        "//*[@id=\"tree-holder\"]/div[1]/div[1]/span[1]/span[1]/img[1]": {
+          "tagName": "img",
+          "className": "gl-avatar gl-avatar-circle gl-avatar-s32",
+          "id": "",
+          "textPreview": ""
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "A"
+        },
+        {
+          "index": 2,
+          "text_preview": "A"
+        },
+        {
+          "index": 3,
+          "text_preview": "(empty)"
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "selector": ".issuable-reference",
+      "tagName": "issue-reference",
+      "description": "Issue/MR reference (e.g. namespace/project#123)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 43,
+      "selector": ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details",
+      "tagName": "user-name",
+      "description": "User display name",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 44,
+      "selector": ".user-info .user-username, .author-username, span.username",
+      "tagName": "user-username",
+      "description": "User username",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 45,
+      "selector": "[data-testid=\"user-popover\"], .gl-popover .user-popover, .popover .user-popover",
+      "tagName": "user-popover",
+      "description": "User profile hover popover (name, bio, avatar, location)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 46,
+      "selector": ".user-profile .cover-title",
+      "tagName": "profile-name",
+      "description": "User profile display name",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 47,
+      "selector": ".user-info .gl-text-gray-900",
+      "tagName": "profile-info",
+      "description": "User profile info rows (location, org, website, followers)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 48,
+      "selector": ".user-profile .cover-desc, .profile-user-bio",
+      "tagName": "user-bio",
+      "description": "User biography on profile",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 49,
+      "selector": ".snippet-title, .snippet-header .title",
+      "tagName": "snippet-title",
+      "description": "Snippet title",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 50,
+      "selector": ".snippet-file-content .code, .snippet-file-content .blob-content",
+      "tagName": "snippet-content",
+      "description": "Snippet code content",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 51,
+      "selector": ".diff-content .code, .diff-file .code",
+      "tagName": "diff-content",
+      "description": "Diff / code changes",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 52,
+      "selector": ".issuable-show-labels .label, .gl-label-text",
+      "tagName": "label",
+      "description": "Issue/MR labels",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 53,
+      "selector": ".event-feed .event-title, .event-item .event-title",
+      "tagName": "activity-title",
+      "description": "Activity feed event title",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 54,
+      "selector": ".event-feed .event-body, .event-item .event-body",
+      "tagName": "activity-body",
+      "description": "Activity feed event body",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 55,
+      "selector": "span.todo-target-title",
+      "tagName": "todo-title",
+      "description": "To-Do item title (MR/issue name)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 56,
+      "selector": "strong.dropdown-menu-user-full-name, .dropdown-menu-user-full-name",
+      "tagName": "user-name",
+      "description": "User full name in dropdown menus",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 57,
+      "selector": "span.dropdown-menu-user-username, .dropdown-menu-user-username",
+      "tagName": "user-username",
+      "description": "Username in dropdown menus",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 58,
+      "selector": ".dropdown-menu-user-link > span.gl-relative",
+      "tagName": "user-avatar",
+      "description": "User avatar container in dropdown menus",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 59,
+      "selector": ".current-user .gl-font-weight-bold",
+      "tagName": "user-name",
+      "description": "User display name in current-user dropdown menu",
+      "count": 1,
+      "element_ids": [
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/div[1]/ul[1]/li[1]/a[1]/div[1]"
+      ],
+      "element_info": {
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/div[1]/ul[1]/li[1]/a[1]/div[1]": {
+          "tagName": "div",
+          "className": "gl-font-weight-bold",
+          "id": "",
+          "textPreview": "Byte Blaze"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Byte Blaze"
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "selector": "[data-user]",
+      "tagName": "user-name",
+      "description": "User name/username link via data-user attribute",
+      "count": 1,
+      "element_ids": [
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/div[1]/ul[1]/li[1]/a[1]"
+      ],
+      "element_info": {
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/div[1]/ul[1]/li[1]/a[1]": {
+          "tagName": "a",
+          "className": "gl-line-height-20!",
+          "id": "",
+          "textPreview": "Byte Blaze\n\n@byteblaze"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Byte Blaze\n\n@byteblaze"
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "selector": ".js-visual-token .value-container, .filtered-search-token .value-container",
+      "tagName": "filter-value",
+      "description": "Filter token value (user/project name in search bar)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 62,
+      "selector": "#js-dropdown-label span.label-title, #js-dropdown-label .dropdown-label-box, .filter-dropdown-item span.label-title, .filter-dropdown-item .dropdown-label-box, .gl-filtered-search-suggestion-list .label-title, .gl-filtered-search-suggestion-list .dropdown-label-box, .gl-filtered-search-suggestion-list .gl-label-text, .gl-filtered-search-suggestion-list .dropdown-label-box + span, .gl-filtered-search-suggestion-list .dropdown-label-box ~ span",
+      "tagName": "label-name",
+      "description": "Label name and color in filter dropdown",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 63,
+      "selector": ".dropdown-menu-project .dropdown-content li > a, .dropdown-menu-group .dropdown-content li > a",
+      "tagName": "dropdown-project",
+      "description": "Project/group names in filter dropdowns",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 64,
+      "selector": ".deploy-tokens .token-name, .deploy-keys .title",
+      "tagName": "deploy-token-name",
+      "description": "Deploy token or key name",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 65,
+      "selector": ".wiki-page-content .md, .wiki .md",
+      "tagName": "wiki-content",
+      "description": "Wiki page content",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 66,
+      "selector": ".release-block .release-header a, .release-block-title",
+      "tagName": "release-title",
+      "description": "Release title",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 67,
+      "selector": ".release-block .release-body .md",
+      "tagName": "release-content",
+      "description": "Release description/notes",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 68,
+      "selector": ".member .user-info, .members-list .member-name",
+      "tagName": "member-name",
+      "description": "Project member name",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 69,
+      "selector": "td.col-meta a[href*=\"/\"]",
+      "tagName": "user-name",
+      "description": "User name link in members table metadata (e.g. \"by Byte Blaze\")",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 70,
+      "selector": ".gl-avatar-labeled-label",
+      "tagName": "user-name",
+      "description": "User display name in avatar-labeled dropdowns (invite, autocomplete)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 71,
+      "selector": ".gl-avatar-labeled-sublabel",
+      "tagName": "username",
+      "description": "Username in avatar-labeled dropdowns (invite, autocomplete)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 72,
+      "selector": ".gl-avatar-labeled .gl-avatar",
+      "tagName": "user-avatar",
+      "description": "User avatar in avatar-labeled dropdowns (invite, autocomplete)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 73,
+      "selector": ".block .gl-overflow-hidden.gl-text-overflow-ellipsis[title*='/']",
+      "tagName": "issue-reference",
+      "description": "Issue/MR reference string in sidebar (e.g., 'namespace/project#1')",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    }
+  ]
+}

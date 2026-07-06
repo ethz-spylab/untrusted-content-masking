@@ -1,0 +1,1174 @@
+{
+  "summary": {
+    "totalSelectors": 17,
+    "selectorsWithMatches": 7,
+    "totalElements": 123,
+    "uniqueElements": 123,
+    "url": "http://localhost:8001/llm_input_original_subreddit.html",
+    "configFile": "hand_labels.json",
+    "configVersion": "hand",
+    "configGeneratedBy": "Manual approximation from known old.reddit HTML structure"
+  },
+  "results": [
+    {
+      "index": 1,
+      "selector": "a.title",
+      "tagName": "post-title",
+      "description": "Post/submission title links",
+      "count": 25,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[1]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank ",
+          "id": "",
+          "textPreview": "State of the Subreddit (January 2027): Mods applications and rules updates"
+        },
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon"
+        },
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "The goal of platform engineering is to make the right thing the easy thing. You don't enforce compli"
+        },
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Mojo's not (yet) Python"
+        },
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "How the TeamPCP attack exploited CI/CD pipelines and trusted releases to release infected Trivy and "
+        },
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Litellm 1.82.7 and 1.82.8 on PyPI are compromised, do not update!"
+        },
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Convert Once, Consume Many: SDF for Cacheable, Typed Semantic Extraction from Web Pages"
+        },
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "LiteLLM supply chain attack - complete analysis and what it says about trust in dependencies"
+        },
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Malicious litellm 1.82.8: Credential Theft and Persistent Backdoor"
+        },
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Designing a Python Language Server: Lessons from Pyre that Shaped Pyrefly"
+        },
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Paper: What if independently deployable functions shared memory instead of serializing data between "
+        },
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Developer Experience 2026: DX Is the Competitive Moat | RuneHub"
+        },
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Why Raft can\u2019t safely commit old-term entries \u2014 from an implementation/debugging perspective"
+        },
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Software dev job postings are up 15% since mid 2025"
+        },
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Handheld NES on a ESP32"
+        },
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Debug, visualize and test embedded C/C++ through instrumentation"
+        },
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "A table was all that was needed to fix Python autocomplete"
+        },
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Open source isn't a tip jar \u2013 it's time to charge for access"
+        },
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Announcing TypeScript 6.0"
+        },
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Is waterfall making a quiet comeback? (sort of)"
+        },
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "T-shirt Driven Development"
+        },
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Generators in lone lisp"
+        },
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Don't Count Java out Yet"
+        },
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Qt 6.11 released"
+        },
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Let's see Paul Allen's SIMD CSV parser"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "State of the Subreddit (January 2027): Mods applications and rules updates"
+        },
+        {
+          "index": 2,
+          "text_preview": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon"
+        },
+        {
+          "index": 3,
+          "text_preview": "The goal of platform engineering is to make the right thing the easy thing. You don't enforce compli"
+        },
+        {
+          "index": 4,
+          "text_preview": "Mojo's not (yet) Python"
+        },
+        {
+          "index": 5,
+          "text_preview": "How the TeamPCP attack exploited CI/CD pipelines and trusted releases to release infected Trivy and"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "selector": ".thing .usertext-body .md",
+      "tagName": "post-body-comment",
+      "description": "Self-post text and comment body (excludes sidebar description)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 3,
+      "selector": ".author",
+      "tagName": "username",
+      "description": "Username links throughout the site",
+      "count": 25,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[2]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author moderator may-blank id-t2_nn0q",
+          "id": "",
+          "textPreview": "ketralnis"
+        },
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1q1jbnhq",
+          "id": "",
+          "textPreview": "r_retrohacking_mod2"
+        },
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_180wn7uz34",
+          "id": "",
+          "textPreview": "Low-Trust2491"
+        },
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_knt9w",
+          "id": "",
+          "textPreview": "eatonphil"
+        },
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_48blmj42",
+          "id": "",
+          "textPreview": "raptorhunter22"
+        },
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_4hfcm",
+          "id": "",
+          "textPreview": "ddp26"
+        },
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_a3pe1y9a",
+          "id": "",
+          "textPreview": "PlayfulLingonberry73"
+        },
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_48blmj42",
+          "id": "",
+          "textPreview": "raptorhunter22"
+        },
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1nhc0tyito",
+          "id": "",
+          "textPreview": "No_Plan_3442"
+        },
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_13i16q",
+          "id": "",
+          "textPreview": "BeamMeUpBiscotti"
+        },
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_a3pe1y9a",
+          "id": "",
+          "textPreview": "PlayfulLingonberry73"
+        },
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_180wn7uz34",
+          "id": "",
+          "textPreview": "Low-Trust2491"
+        },
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_155j4yes",
+          "id": "",
+          "textPreview": "am0123"
+        },
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_21ctbse53d",
+          "id": "",
+          "textPreview": "IdeasInProcess"
+        },
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_16bijn",
+          "id": "",
+          "textPreview": "BlueGoliath"
+        },
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_t6xoar79",
+          "id": "",
+          "textPreview": "pylessard"
+        },
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_sxld1h40",
+          "id": "",
+          "textPreview": "matan-h"
+        },
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_387qc",
+          "id": "",
+          "textPreview": "henk53"
+        },
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_432e5",
+          "id": "",
+          "textPreview": "DanielRosenwasser"
+        },
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_crkuw",
+          "id": "",
+          "textPreview": "ludovicianul"
+        },
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_mwy6r93",
+          "id": "",
+          "textPreview": "boodleboodle"
+        },
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_8lmya",
+          "id": "",
+          "textPreview": "matheusmoreira"
+        },
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1tb0c",
+          "id": "",
+          "textPreview": "scottedwards2000"
+        },
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_5nqcmcmb",
+          "id": "",
+          "textPreview": "jlpcsl"
+        },
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_29i35v8gm8",
+          "id": "",
+          "textPreview": "NosePersonal326"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "ketralnis"
+        },
+        {
+          "index": 2,
+          "text_preview": "r_retrohacking_mod2"
+        },
+        {
+          "index": 3,
+          "text_preview": "Low-Trust2491"
+        },
+        {
+          "index": 4,
+          "text_preview": "eatonphil"
+        },
+        {
+          "index": 5,
+          "text_preview": "raptorhunter22"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "selector": ".flair",
+      "tagName": "user-flair",
+      "description": "User flair text (user-chosen label)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 5,
+      "selector": ".linkflair-text",
+      "tagName": "link-flair",
+      "description": "Post flair/category label",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 6,
+      "selector": ".titlebox .md a[href^=\"/r/\"]",
+      "tagName": "related-subreddit-link",
+      "description": "Individual subreddit name links in sidebar (can have malicious names)",
+      "count": 21,
+      "element_ids": [
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/p[1]/a[1]",
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[2]/li[1]/a[1]",
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[2]/li[1]/a[2]",
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[2]/li[2]/a[1]",
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[2]/li[3]/a[1]",
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[2]/li[3]/a[2]",
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[3]/li[1]/a[1]",
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[3]/li[2]/a[1]",
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[3]/li[3]/a[1]",
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[3]/li[4]/a[1]",
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[3]/li[5]/a[1]",
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[3]/li[6]/a[1]",
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[3]/li[7]/a[1]",
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[3]/li[8]/a[1]",
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[3]/li[9]/a[1]",
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[3]/li[10]/a[1]",
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[3]/li[11]/a[1]",
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[3]/li[12]/a[1]",
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[3]/li[13]/a[1]",
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[3]/li[14]/a[1]",
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[3]/li[15]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/programming"
+        },
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[2]/li[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/learnprogramming"
+        },
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[2]/li[1]/a[2]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/cscareerquestions"
+        },
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[2]/li[2]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/ProgrammerHumor/"
+        },
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[2]/li[3]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/forhire"
+        },
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[2]/li[3]/a[2]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/jobbit"
+        },
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[3]/li[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/technology"
+        },
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[3]/li[2]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/ProgrammerTIL"
+        },
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[3]/li[3]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/learnprogramming"
+        },
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[3]/li[4]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/askprogramming"
+        },
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[3]/li[5]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/coding"
+        },
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[3]/li[6]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/compsci"
+        },
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[3]/li[7]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/dailyprogrammer"
+        },
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[3]/li[8]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/netsec"
+        },
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[3]/li[9]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/webdev"
+        },
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[3]/li[10]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/web_design"
+        },
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[3]/li[11]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/gamedev"
+        },
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[3]/li[12]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/cscareerquestions"
+        },
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[3]/li[13]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/reverseengineering"
+        },
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[3]/li[14]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/startups"
+        },
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]/ul[3]/li[15]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/techsupport"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "/r/programming"
+        },
+        {
+          "index": 2,
+          "text_preview": "/r/learnprogramming"
+        },
+        {
+          "index": 3,
+          "text_preview": "/r/cscareerquestions"
+        },
+        {
+          "index": 4,
+          "text_preview": "/r/ProgrammerHumor/"
+        },
+        {
+          "index": 5,
+          "text_preview": "/r/forhire"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "selector": ".profile-page .titlebox h1",
+      "tagName": "profile-username",
+      "description": "Username displayed in profile page header (bare text, not an <a> tag)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 8,
+      "selector": ".titlebox h1 a",
+      "tagName": "subreddit-name",
+      "description": "Subreddit display name",
+      "count": 1,
+      "element_ids": [
+        "/html/body/div[2]/div[4]/div[1]/h1[1]/a[1]"
+      ],
+      "element_info": {
+        "/html/body/div[2]/div[4]/div[1]/h1[1]/a[1]": {
+          "tagName": "a",
+          "className": "hover",
+          "id": "",
+          "textPreview": "programming"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "programming"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "selector": ".domain a",
+      "tagName": "link-domain",
+      "description": "Source domain of linked post",
+      "count": 25,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[1]/span[1]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "self.programming"
+        },
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "larstofus.com"
+        },
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "rune.codes"
+        },
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "theconsensus.dev"
+        },
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "thecybersecguru.com"
+        },
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "futuresearch.ai"
+        },
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "zenodo.org"
+        },
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "thecybersecguru.com"
+        },
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "safedep.io"
+        },
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "pyrefly.org"
+        },
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "doi.org"
+        },
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "rune.codes"
+        },
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "abdellani.dev"
+        },
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "fred.stlouisfed.org"
+        },
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "youtube.com"
+        },
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "embeddedrelated.com"
+        },
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "matan-h.com"
+        },
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "theregister.com"
+        },
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "devblogs.microsoft.com"
+        },
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "blog.dochia.dev"
+        },
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "seongminpark.com"
+        },
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "matheusmoreira.com"
+        },
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "infoworld.com"
+        },
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "qt.io"
+        },
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "chunkofcoal.com"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "self.programming"
+        },
+        {
+          "index": 2,
+          "text_preview": "larstofus.com"
+        },
+        {
+          "index": 3,
+          "text_preview": "rune.codes"
+        },
+        {
+          "index": 4,
+          "text_preview": "theconsensus.dev"
+        },
+        {
+          "index": 5,
+          "text_preview": "thecybersecguru.com"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "selector": ".trophy-name",
+      "tagName": "trophy-name",
+      "description": "Trophy/badge names on user profile",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 11,
+      "selector": ".trophy-description",
+      "tagName": "trophy-description",
+      "description": "Trophy descriptions on user profile",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 12,
+      "selector": ".crosspost-preview .title",
+      "tagName": "crosspost-title",
+      "description": "Crosspost original post title",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 13,
+      "selector": ".crosspost-preview .author",
+      "tagName": "crosspost-username",
+      "description": "Crosspost original poster username",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 14,
+      "selector": ".crosspost-preview .subreddit",
+      "tagName": "crosspost-subreddit",
+      "description": "Crosspost source subreddit name",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 15,
+      "selector": "a.subreddit",
+      "tagName": "subreddit-link",
+      "description": "Subreddit name links in post listings (e.g. 'in redditstock')",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 16,
+      "selector": ".stickied-tagline",
+      "tagName": "stickied-tag",
+      "description": "Moderator-applied stickied/announcement tag",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[2]/span[2]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[2]/span[2]": {
+          "tagName": "span",
+          "className": "stickied-tagline",
+          "id": "",
+          "textPreview": "announcement"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "announcement"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "selector": ".userattrs",
+      "tagName": "user-attributes",
+      "description": "User attribute badges like [S] submitter, [M] mod, [A] admin",
+      "count": 25,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[2]/span[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": "[M]"
+        },
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "[M]"
+        },
+        {
+          "index": 2,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 3,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 4,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 5,
+          "text_preview": "(empty)"
+        }
+      ]
+    }
+  ]
+}

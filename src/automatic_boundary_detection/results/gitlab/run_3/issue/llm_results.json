@@ -1,0 +1,3073 @@
+{
+  "summary": {
+    "totalSelectors": 86,
+    "selectorsWithMatches": 34,
+    "totalElements": 243,
+    "uniqueElements": 235,
+    "url": "http://localhost:8103/byteblaze/a11y-syntax-highlighting/-/issues/1",
+    "configFile": "llm_labels.json",
+    "configVersion": "sanitized",
+    "configGeneratedBy": "LLM analysis (claude-sonnet-4-5-20250929)"
+  },
+  "results": [
+    {
+      "index": 1,
+      "selector": "h1.home-panel-title span",
+      "tagName": "project-name",
+      "description": "Project name displayed in the project header",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 2,
+      "selector": ".home-panel-description-markdown",
+      "tagName": "project-description",
+      "description": "Project description in markdown format",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 3,
+      "selector": ".breadcrumbs-links .breadcrumb-item-text",
+      "tagName": "project-name-breadcrumb",
+      "description": "Project name in breadcrumb navigation",
+      "count": 1,
+      "element_ids": [
+        "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/span[1]"
+      ],
+      "element_info": {
+        "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "breadcrumb-item-text js-breadcrumb-item-text",
+          "id": "",
+          "textPreview": "a11y-syntax-highlighting"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "a11y-syntax-highlighting"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "selector": ".context-header .sidebar-context-title span",
+      "tagName": "project-name-sidebar",
+      "description": "Project name in the sidebar context header",
+      "count": 1,
+      "element_ids": [
+        "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[2]/span[1]"
+      ],
+      "element_info": {
+        "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[2]/span[1]": {
+          "tagName": "span",
+          "className": "reveal-text-wrap",
+          "id": "",
+          "textPreview": "a11y-syntax-highlighting"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "a11y-syntax-highlighting"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "selector": ".commit-detail .commit-row-message",
+      "tagName": "commit-message",
+      "description": "Commit message in the last commit section",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 6,
+      "selector": ".tree-item-file-name .position-relative",
+      "tagName": "file-folder-name",
+      "description": "File and folder names in the repository tree",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 7,
+      "selector": ".tree-commit .str-truncated-100",
+      "tagName": "tree-commit-message",
+      "description": "Commit messages in the file tree view",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 8,
+      "selector": ".file-content.md",
+      "tagName": "readme-content",
+      "description": "README file content rendered as markdown",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 9,
+      "selector": ".file-content.md h1",
+      "tagName": "readme-heading-h1",
+      "description": "H1 headings in README markdown content",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 10,
+      "selector": ".file-content.md h2",
+      "tagName": "readme-heading-h2",
+      "description": "H2 headings in README markdown content",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 11,
+      "selector": ".file-content.md h3",
+      "tagName": "readme-heading-h3",
+      "description": "H3 headings in README markdown content",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 12,
+      "selector": ".file-content.md p",
+      "tagName": "readme-paragraph",
+      "description": "Paragraph content in README markdown",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 13,
+      "selector": ".file-content.md a",
+      "tagName": "readme-link",
+      "description": "Links in README markdown content",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 14,
+      "selector": ".file-content.md li",
+      "tagName": "readme-list-item",
+      "description": "List items in README markdown content",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 15,
+      "selector": ".file-content.md td",
+      "tagName": "readme-table-cell",
+      "description": "Table cells in README markdown content",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 16,
+      "selector": ".file-content.md code",
+      "tagName": "readme-inline-code",
+      "description": "Inline code in README markdown content",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 17,
+      "selector": ".user-counter .gl-badge",
+      "tagName": "user-counter-badge",
+      "description": "Counter badges showing user-specific counts",
+      "count": 5,
+      "element_ids": [
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[2]/a[1]/span[1]",
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[3]/a[1]/span[1]",
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[3]/div[1]/ul[1]/li[2]/a[1]/span[1]",
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[3]/div[1]/ul[1]/li[3]/a[1]/span[1]",
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[4]/a[1]/span[1]"
+      ],
+      "element_info": {
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[2]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "gl-badge badge badge-pill badge-success sm gl-ml-n2 ",
+          "id": "",
+          "textPreview": "13"
+        },
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[3]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "gl-badge badge badge-pill badge-warning sm js-merge-requests-count gl-ml-n2 ",
+          "id": "",
+          "textPreview": "8"
+        },
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[3]/div[1]/ul[1]/li[2]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "gl-badge badge badge-pill badge-neutral sm js-assigned-mr-count gl-ml-auto",
+          "id": "",
+          "textPreview": "3"
+        },
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[3]/div[1]/ul[1]/li[3]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "gl-badge badge badge-pill badge-neutral sm js-reviewer-mr-count gl-ml-auto",
+          "id": "",
+          "textPreview": "5"
+        },
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[4]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "gl-badge badge badge-pill badge-info sm js-todos-count gl-ml-n2 ",
+          "id": "",
+          "textPreview": "5"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "13"
+        },
+        {
+          "index": 2,
+          "text_preview": "8"
+        },
+        {
+          "index": 3,
+          "text_preview": "3"
+        },
+        {
+          "index": 4,
+          "text_preview": "5"
+        },
+        {
+          "index": 5,
+          "text_preview": "5"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "selector": ".current-user .gl-font-weight-bold",
+      "tagName": "current-user-name",
+      "description": "Current user's display name in dropdown",
+      "count": 1,
+      "element_ids": [
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/div[1]/ul[1]/li[1]/a[1]/div[1]"
+      ],
+      "element_info": {
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/div[1]/ul[1]/li[1]/a[1]/div[1]": {
+          "tagName": "div",
+          "className": "gl-font-weight-bold",
+          "id": "",
+          "textPreview": "Byte Blaze"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Byte Blaze"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "selector": ".js-file-title .file-header-content a strong",
+      "tagName": "readme-filename",
+      "description": "README filename in file header",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 20,
+      "selector": ".clone-options-dropdown .dropdown-menu-inner-content",
+      "tagName": "clone-url",
+      "description": "Git clone URLs containing project namespace and name",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 21,
+      "selector": "input#ssh_project_clone",
+      "tagName": "ssh-clone-input",
+      "description": "SSH clone URL input containing project path",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 22,
+      "selector": "input#http_project_clone",
+      "tagName": "http-clone-input",
+      "description": "HTTP clone URL input containing project path",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 23,
+      "selector": ".ref-selector .gl-dropdown-button-text",
+      "tagName": "branch-tag-name",
+      "description": "Branch or tag name in the ref selector",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 24,
+      "selector": ".breadcrumb.repo-breadcrumb li a span",
+      "tagName": "repo-breadcrumb-name",
+      "description": "Repository name in file browser breadcrumb",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 25,
+      "selector": ".committer span",
+      "tagName": "commit-author-info",
+      "description": "Commit author name and timestamp information",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 26,
+      "selector": ".js-commit-sha-group .gl-font-monospace",
+      "tagName": "commit-sha",
+      "description": "Commit SHA identifier",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 27,
+      "selector": ".open-with-link .gl-dropdown-item-text-wrapper",
+      "tagName": "open-with-app-name",
+      "description": "Application names in open-with menu",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 28,
+      "selector": ".mobile-git-clone .url-selector strong",
+      "tagName": "mobile-clone-label",
+      "description": "Clone method labels on mobile",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 29,
+      "selector": ".mobile-git-clone .url-selector .dropdown-menu-inner-content",
+      "tagName": "mobile-clone-url",
+      "description": "Clone URLs on mobile containing project path",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 30,
+      "selector": ".navbar-nav .current-user a",
+      "tagName": "user-profile-link-text",
+      "description": "Username displayed in the user dropdown menu",
+      "count": 1,
+      "element_ids": [
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/div[1]/ul[1]/li[1]/a[1]"
+      ],
+      "element_info": {
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/div[1]/ul[1]/li[1]/a[1]": {
+          "tagName": "a",
+          "className": "gl-line-height-20!",
+          "id": "",
+          "textPreview": "Byte Blaze\n\n@byteblaze"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Byte Blaze\n\n@byteblaze"
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "selector": ".breadcrumbs-links li a span",
+      "tagName": "namespace-breadcrumb",
+      "description": "User/namespace name in breadcrumb navigation",
+      "count": 4,
+      "element_ids": [
+        "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/span[1]",
+        "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/span[1]",
+        "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/span[1]",
+        "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[4]/a[1]/span[1]"
+      ],
+      "element_info": {
+        "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "reveal-text-wrap",
+          "id": "",
+          "textPreview": "Byte Blaze"
+        },
+        "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[2]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "breadcrumb-item-text js-breadcrumb-item-text",
+          "id": "",
+          "textPreview": "a11y-syntax-highlighting"
+        },
+        "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[3]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "reveal-text-wrap",
+          "id": "",
+          "textPreview": "Issues"
+        },
+        "/html/body/div[3]/div[1]/div[2]/nav[1]/div[1]/div[1]/ul[1]/li[4]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "reveal-text-wrap",
+          "id": "",
+          "textPreview": "#1"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Byte Blaze"
+        },
+        {
+          "index": 2,
+          "text_preview": "a11y-syntax-highlighting"
+        },
+        {
+          "index": 3,
+          "text_preview": "Issues"
+        },
+        {
+          "index": 4,
+          "text_preview": "#1"
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "selector": ".avatar-container .identicon",
+      "tagName": "project-avatar-letter",
+      "description": "Project avatar letter identifier",
+      "count": 1,
+      "element_ids": [
+        "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[1]/span[1]"
+      ],
+      "element_info": {
+        "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[1]/span[1]": {
+          "tagName": "span",
+          "className": "avatar avatar-tile s32 identicon bg5",
+          "id": "",
+          "textPreview": "A"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "A"
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "selector": ".home-panel-metadata",
+      "tagName": "project-metadata",
+      "description": "Project ID and metadata information",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 34,
+      "selector": "title",
+      "tagName": "page-title",
+      "description": "Browser page title containing project and namespace names",
+      "count": 1,
+      "element_ids": [
+        "/html/head[1]/title[1]"
+      ],
+      "element_info": {
+        "/html/head[1]/title[1]": {
+          "tagName": "title",
+          "className": "",
+          "id": "",
+          "textPreview": "Tm Theme Editor (#1) \u00b7 Issues \u00b7 Byte Blaze / a11y-syntax-highlighting \u00b7 GitLab"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Tm Theme Editor (#1) \u00b7 Issues \u00b7 Byte Blaze / a11y-syntax-highlighting \u00b7 GitLab"
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "selector": ".project-stats .stat-link strong",
+      "tagName": "project-stat-values",
+      "description": "Project statistics values (commits, branches, tags counts)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 36,
+      "selector": ".shortcuts-project span span",
+      "tagName": "sidebar-project-name",
+      "description": "Project name in sidebar navigation context",
+      "count": 2,
+      "element_ids": [
+        "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[1]/span[1]",
+        "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[2]/span[1]"
+      ],
+      "element_info": {
+        "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[1]/span[1]": {
+          "tagName": "span",
+          "className": "avatar avatar-tile s32 identicon bg5",
+          "id": "",
+          "textPreview": "A"
+        },
+        "/html/body/div[3]/aside[1]/div[1]/ul[1]/li[1]/a[1]/span[2]/span[1]": {
+          "tagName": "span",
+          "className": "reveal-text-wrap",
+          "id": "",
+          "textPreview": "a11y-syntax-highlighting"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "A"
+        },
+        {
+          "index": 2,
+          "text_preview": "a11y-syntax-highlighting"
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "selector": ".nav-link[itemprop='license'] .project-stat-value",
+      "tagName": "license-name",
+      "description": "License name chosen by project owner",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 38,
+      "selector": ".repository-languages-bar",
+      "tagName": "language-bar",
+      "description": "Programming language distribution bar with language names",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 39,
+      "selector": ".gpg-status-box",
+      "tagName": "gpg-signature-status",
+      "description": "GPG signature information for commits",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 40,
+      "selector": ".title h1.title span",
+      "tagName": "issue-title",
+      "description": "Issue title text",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 41,
+      "selector": ".description .md",
+      "tagName": "issue-description",
+      "description": "Issue description content rendered as markdown",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]": {
+          "tagName": "div",
+          "className": "md reveal-hidden",
+          "id": "",
+          "textPreview": "Hi!\nGood day to you! I greatly appreciate the efforts and work going into the a11y-syntax-highlighti"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Hi!\nGood day to you! I greatly appreciate the efforts and work going into the a11y-syntax-highlighti"
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "selector": ".note-body .note-text.md",
+      "tagName": "comment-content",
+      "description": "Comment/note content on issues",
+      "count": 17,
+      "element_ids": [
+        "//*[@id=\"note_306761\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+        "//*[@id=\"note_306773\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+        "//*[@id=\"note_306757\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+        "//*[@id=\"note_306758\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+        "//*[@id=\"note_306764\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+        "//*[@id=\"note_306759\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+        "//*[@id=\"note_306763\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+        "//*[@id=\"note_306765\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+        "//*[@id=\"note_306766\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+        "//*[@id=\"note_306767\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+        "//*[@id=\"note_306769\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+        "//*[@id=\"note_306768\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+        "//*[@id=\"note_306762\"]/div[1]/div[2]/div[2]/div[1]/div[1]",
+        "//*[@id=\"note_310813\"]/div[1]/div[2]/div[2]/div[1]",
+        "//*[@id=\"note_310814\"]/div[1]/div[2]/div[2]/div[1]",
+        "//*[@id=\"note_310815\"]/div[1]/div[2]/div[2]/div[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"note_306761\"]/div[1]/div[2]/div[2]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "note-text md reveal-hidden",
+          "id": "",
+          "textPreview": "Hey there! Thank you for the kind words, it means a lot to me.\nI've got color names and values liste"
+        },
+        "//*[@id=\"note_306773\"]/div[1]/div[2]/div[2]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "note-text md reveal-hidden",
+          "id": "",
+          "textPreview": "Created by: alamodey\ncan you make a theme for Xcode as well?"
+        },
+        "//*[@id=\"note_306757\"]/div[1]/div[2]/div[2]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "note-text md reveal-hidden",
+          "id": "",
+          "textPreview": "@alamodey Great idea! I'll start chipping away at it."
+        },
+        "//*[@id=\"note_306758\"]/div[1]/div[2]/div[2]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "note-text md reveal-hidden",
+          "id": "",
+          "textPreview": "@alamodey I added a dark mode theme for Xcode: https://github.com/ericwbailey/a11y-syntax-highlighti"
+        },
+        "//*[@id=\"note_306764\"]/div[1]/div[2]/div[2]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "note-text md reveal-hidden",
+          "id": "",
+          "textPreview": "Created by: alamodey\n\nIt looks a bit different to what I expected"
+        },
+        "//*[@id=\"note_306759\"]/div[1]/div[2]/div[2]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "note-text md reveal-hidden",
+          "id": "",
+          "textPreview": "Are you sure the correct theme is highlighted? This is how the preview looks on my end of things:"
+        },
+        "//*[@id=\"note_306763\"]/div[1]/div[2]/div[2]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "note-text md reveal-hidden",
+          "id": "",
+          "textPreview": "Created by: alamodey"
+        },
+        "//*[@id=\"note_306765\"]/div[1]/div[2]/div[2]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "note-text md reveal-hidden",
+          "id": "",
+          "textPreview": "Created by: alamodey\nIs it because I'm in dark mode?"
+        },
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "note-text md reveal-hidden",
+          "id": "",
+          "textPreview": "Oh, I think I got it!\nSet your colors to the following:\n\nBackground: #2B2B2B\n\nCurrent Line: #000000\n"
+        },
+        "//*[@id=\"note_306766\"]/div[1]/div[2]/div[2]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "note-text md reveal-hidden",
+          "id": "",
+          "textPreview": "Created by: alamodey\nThere must be a way to include it in the theme data because all the other theme"
+        },
+        "//*[@id=\"note_306767\"]/div[1]/div[2]/div[2]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "note-text md reveal-hidden",
+          "id": "",
+          "textPreview": "Yeah, I'll investigate. So weird."
+        },
+        "//*[@id=\"note_306769\"]/div[1]/div[2]/div[2]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "note-text md reveal-hidden",
+          "id": "",
+          "textPreview": "So, I tried toggling dark mode on and off and the background, current line color, etc. persist. I'm "
+        },
+        "//*[@id=\"note_306768\"]/div[1]/div[2]/div[2]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "note-text md reveal-hidden",
+          "id": "",
+          "textPreview": "Created by: alamodey\nI am not familiar with creating themes but what if you went to the github of an"
+        },
+        "//*[@id=\"note_306762\"]/div[1]/div[2]/div[2]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "note-text md reveal-hidden",
+          "id": "",
+          "textPreview": "I just ran through and manually compared those key definitions with what I have. Weirdly, I have mor"
+        },
+        "//*[@id=\"note_310813\"]/div[1]/div[2]/div[2]/div[1]": {
+          "tagName": "div",
+          "className": "note-text md reveal-hidden",
+          "id": "",
+          "textPreview": "changed the description"
+        },
+        "//*[@id=\"note_310814\"]/div[1]/div[2]/div[2]/div[1]": {
+          "tagName": "div",
+          "className": "note-text md reveal-hidden",
+          "id": "",
+          "textPreview": "removed time estimate"
+        },
+        "//*[@id=\"note_310815\"]/div[1]/div[2]/div[2]/div[1]": {
+          "tagName": "div",
+          "className": "note-text md reveal-hidden",
+          "id": "",
+          "textPreview": "assigned to @ericwbailey"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Hey there! Thank you for the kind words, it means a lot to me.\nI've got color names and values liste"
+        },
+        {
+          "index": 2,
+          "text_preview": "Created by: alamodey\ncan you make a theme for Xcode as well?"
+        },
+        {
+          "index": 3,
+          "text_preview": "@alamodey Great idea! I'll start chipping away at it."
+        },
+        {
+          "index": 4,
+          "text_preview": "@alamodey I added a dark mode theme for Xcode: https://github.com/ericwbailey/a11y-syntax-highlighti"
+        },
+        {
+          "index": 5,
+          "text_preview": "Created by: alamodey\n\nIt looks a bit different to what I expected"
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "selector": ".note-header-author-name",
+      "tagName": "comment-author-name",
+      "description": "Display name of comment author",
+      "count": 17,
+      "element_ids": [
+        "//*[@id=\"note_306761\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "//*[@id=\"note_306773\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "//*[@id=\"note_306757\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "//*[@id=\"note_306758\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "//*[@id=\"note_306764\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "//*[@id=\"note_306759\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "//*[@id=\"note_306763\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "//*[@id=\"note_306765\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "//*[@id=\"note_306766\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "//*[@id=\"note_306767\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "//*[@id=\"note_306769\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "//*[@id=\"note_306768\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "//*[@id=\"note_306762\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "//*[@id=\"note_310813\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "//*[@id=\"note_310814\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]",
+        "//*[@id=\"note_310815\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"note_306761\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "note-header-author-name gl-font-weight-bold",
+          "id": "",
+          "textPreview": "Byte Blaze"
+        },
+        "//*[@id=\"note_306773\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "note-header-author-name gl-font-weight-bold",
+          "id": "",
+          "textPreview": "Administrator"
+        },
+        "//*[@id=\"note_306757\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "note-header-author-name gl-font-weight-bold",
+          "id": "",
+          "textPreview": "Byte Blaze"
+        },
+        "//*[@id=\"note_306758\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "note-header-author-name gl-font-weight-bold",
+          "id": "",
+          "textPreview": "Byte Blaze"
+        },
+        "//*[@id=\"note_306764\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "note-header-author-name gl-font-weight-bold",
+          "id": "",
+          "textPreview": "Administrator"
+        },
+        "//*[@id=\"note_306759\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "note-header-author-name gl-font-weight-bold",
+          "id": "",
+          "textPreview": "Byte Blaze"
+        },
+        "//*[@id=\"note_306763\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "note-header-author-name gl-font-weight-bold",
+          "id": "",
+          "textPreview": "Administrator"
+        },
+        "//*[@id=\"note_306765\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "note-header-author-name gl-font-weight-bold",
+          "id": "",
+          "textPreview": "Administrator"
+        },
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "note-header-author-name gl-font-weight-bold",
+          "id": "",
+          "textPreview": "Byte Blaze"
+        },
+        "//*[@id=\"note_306766\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "note-header-author-name gl-font-weight-bold",
+          "id": "",
+          "textPreview": "Administrator"
+        },
+        "//*[@id=\"note_306767\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "note-header-author-name gl-font-weight-bold",
+          "id": "",
+          "textPreview": "Byte Blaze"
+        },
+        "//*[@id=\"note_306769\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "note-header-author-name gl-font-weight-bold",
+          "id": "",
+          "textPreview": "Byte Blaze"
+        },
+        "//*[@id=\"note_306768\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "note-header-author-name gl-font-weight-bold",
+          "id": "",
+          "textPreview": "Administrator"
+        },
+        "//*[@id=\"note_306762\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "note-header-author-name gl-font-weight-bold",
+          "id": "",
+          "textPreview": "Byte Blaze"
+        },
+        "//*[@id=\"note_310813\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "note-header-author-name gl-font-weight-bold",
+          "id": "",
+          "textPreview": "Byte Blaze"
+        },
+        "//*[@id=\"note_310814\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "note-header-author-name gl-font-weight-bold",
+          "id": "",
+          "textPreview": "Byte Blaze"
+        },
+        "//*[@id=\"note_310815\"]/div[1]/div[2]/div[1]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "note-header-author-name gl-font-weight-bold",
+          "id": "",
+          "textPreview": "Byte Blaze"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Byte Blaze"
+        },
+        {
+          "index": 2,
+          "text_preview": "Administrator"
+        },
+        {
+          "index": 3,
+          "text_preview": "Byte Blaze"
+        },
+        {
+          "index": 4,
+          "text_preview": "Byte Blaze"
+        },
+        {
+          "index": 5,
+          "text_preview": "Administrator"
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "selector": ".note-headline-light .author-username-link .note-headline-light",
+      "tagName": "comment-author-username",
+      "description": "Username of comment author",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 45,
+      "selector": ".author-link .author",
+      "tagName": "issue-author-name",
+      "description": "Display name of issue author",
+      "count": 2,
+      "element_ids": [
+        "//*[@id=\"content-body\"]/div[2]/div[1]/strong[1]/a[1]/span[1]",
+        "//*[@id=\"content-body\"]/div[2]/div[1]/strong[1]/a[2]/span[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"content-body\"]/div[2]/div[1]/strong[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "author",
+          "id": "",
+          "textPreview": "earle"
+        },
+        "//*[@id=\"content-body\"]/div[2]/div[1]/strong[1]/a[2]/span[1]": {
+          "tagName": "span",
+          "className": "author",
+          "id": "",
+          "textPreview": "@earlev4"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "earle"
+        },
+        {
+          "index": 2,
+          "text_preview": "@earlev4"
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "selector": ".detail-page-header-body .author-link span.author",
+      "tagName": "issue-author-username",
+      "description": "Username of issue author in header",
+      "count": 2,
+      "element_ids": [
+        "//*[@id=\"content-body\"]/div[2]/div[1]/strong[1]/a[1]/span[1]",
+        "//*[@id=\"content-body\"]/div[2]/div[1]/strong[1]/a[2]/span[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"content-body\"]/div[2]/div[1]/strong[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "author",
+          "id": "",
+          "textPreview": "earle"
+        },
+        "//*[@id=\"content-body\"]/div[2]/div[1]/strong[1]/a[2]/span[1]": {
+          "tagName": "span",
+          "className": "author",
+          "id": "",
+          "textPreview": "@earlev4"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "earle"
+        },
+        {
+          "index": 2,
+          "text_preview": "@earlev4"
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "selector": ".system-note-message",
+      "tagName": "system-note-message",
+      "description": "System-generated note messages that may contain user references",
+      "count": 17,
+      "element_ids": [
+        "//*[@id=\"note_306761\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]",
+        "//*[@id=\"note_306773\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]",
+        "//*[@id=\"note_306757\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]",
+        "//*[@id=\"note_306758\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]",
+        "//*[@id=\"note_306764\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]",
+        "//*[@id=\"note_306759\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]",
+        "//*[@id=\"note_306763\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]",
+        "//*[@id=\"note_306765\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]",
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]",
+        "//*[@id=\"note_306766\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]",
+        "//*[@id=\"note_306767\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]",
+        "//*[@id=\"note_306769\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]",
+        "//*[@id=\"note_306768\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]",
+        "//*[@id=\"note_306762\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]",
+        "//*[@id=\"note_310813\"]/div[1]/div[2]/div[1]/div[1]/span[1]/span[1]",
+        "//*[@id=\"note_310814\"]/div[1]/div[2]/div[1]/div[1]/span[1]/span[1]",
+        "//*[@id=\"note_310815\"]/div[1]/div[2]/div[1]/div[1]/span[1]/span[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"note_306761\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]": {
+          "tagName": "span",
+          "className": "system-note-message",
+          "id": "",
+          "textPreview": "\u00b7"
+        },
+        "//*[@id=\"note_306773\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]": {
+          "tagName": "span",
+          "className": "system-note-message",
+          "id": "",
+          "textPreview": "\u00b7"
+        },
+        "//*[@id=\"note_306757\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]": {
+          "tagName": "span",
+          "className": "system-note-message",
+          "id": "",
+          "textPreview": "\u00b7"
+        },
+        "//*[@id=\"note_306758\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]": {
+          "tagName": "span",
+          "className": "system-note-message",
+          "id": "",
+          "textPreview": "\u00b7"
+        },
+        "//*[@id=\"note_306764\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]": {
+          "tagName": "span",
+          "className": "system-note-message",
+          "id": "",
+          "textPreview": "\u00b7"
+        },
+        "//*[@id=\"note_306759\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]": {
+          "tagName": "span",
+          "className": "system-note-message",
+          "id": "",
+          "textPreview": "\u00b7"
+        },
+        "//*[@id=\"note_306763\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]": {
+          "tagName": "span",
+          "className": "system-note-message",
+          "id": "",
+          "textPreview": "\u00b7"
+        },
+        "//*[@id=\"note_306765\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]": {
+          "tagName": "span",
+          "className": "system-note-message",
+          "id": "",
+          "textPreview": "\u00b7"
+        },
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]": {
+          "tagName": "span",
+          "className": "system-note-message",
+          "id": "",
+          "textPreview": "\u00b7"
+        },
+        "//*[@id=\"note_306766\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]": {
+          "tagName": "span",
+          "className": "system-note-message",
+          "id": "",
+          "textPreview": "\u00b7"
+        },
+        "//*[@id=\"note_306767\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]": {
+          "tagName": "span",
+          "className": "system-note-message",
+          "id": "",
+          "textPreview": "\u00b7"
+        },
+        "//*[@id=\"note_306769\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]": {
+          "tagName": "span",
+          "className": "system-note-message",
+          "id": "",
+          "textPreview": "\u00b7"
+        },
+        "//*[@id=\"note_306768\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]": {
+          "tagName": "span",
+          "className": "system-note-message",
+          "id": "",
+          "textPreview": "\u00b7"
+        },
+        "//*[@id=\"note_306762\"]/div[1]/div[2]/div[1]/div[1]/span[2]/span[1]": {
+          "tagName": "span",
+          "className": "system-note-message",
+          "id": "",
+          "textPreview": "\u00b7"
+        },
+        "//*[@id=\"note_310813\"]/div[1]/div[2]/div[1]/div[1]/span[1]/span[1]": {
+          "tagName": "span",
+          "className": "system-note-message",
+          "id": "",
+          "textPreview": "changed the description"
+        },
+        "//*[@id=\"note_310814\"]/div[1]/div[2]/div[1]/div[1]/span[1]/span[1]": {
+          "tagName": "span",
+          "className": "system-note-message",
+          "id": "",
+          "textPreview": "removed time estimate"
+        },
+        "//*[@id=\"note_310815\"]/div[1]/div[2]/div[1]/div[1]/span[1]/span[1]": {
+          "tagName": "span",
+          "className": "system-note-message",
+          "id": "",
+          "textPreview": "assigned to @ericwbailey"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "\u00b7"
+        },
+        {
+          "index": 2,
+          "text_preview": "\u00b7"
+        },
+        {
+          "index": 3,
+          "text_preview": "\u00b7"
+        },
+        {
+          "index": 4,
+          "text_preview": "\u00b7"
+        },
+        {
+          "index": 5,
+          "text_preview": "\u00b7"
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "selector": ".header-user-dropdown-toggle .header-user-avatar",
+      "tagName": "user-avatar-header",
+      "description": "User avatar in header dropdown",
+      "count": 1,
+      "element_ids": [
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/a[1]/img[1]"
+      ],
+      "element_info": {
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "gl-avatar gl-avatar-s24 header-user-avatar gl-avatar-circle",
+          "id": "",
+          "textPreview": ""
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(empty)"
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "selector": ".dropdown-menu .current-user a[data-user]",
+      "tagName": "current-user-name",
+      "description": "Current user's display name and username",
+      "count": 1,
+      "element_ids": [
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/div[1]/ul[1]/li[1]/a[1]"
+      ],
+      "element_info": {
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/div[1]/ul[1]/li[1]/a[1]": {
+          "tagName": "a",
+          "className": "gl-line-height-20!",
+          "id": "",
+          "textPreview": "Byte Blaze\n\n@byteblaze"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Byte Blaze\n\n@byteblaze"
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "selector": ".edited-text .author-link span",
+      "tagName": "editor-name",
+      "description": "Name of user who edited content",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/small[1]/a[1]/span[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/small[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "",
+          "id": "",
+          "textPreview": "Byte Blaze"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Byte Blaze"
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "selector": ".assignee-grid .gl-link span",
+      "tagName": "assignee-name",
+      "description": "Assignee display name",
+      "count": 3,
+      "element_ids": [
+        "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]",
+        "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/span[1]",
+        "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/span[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "gl-display-flex",
+          "id": "",
+          "textPreview": "Byte Blaze"
+        },
+        "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/span[1]": {
+          "tagName": "span",
+          "className": "position-relative",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/span[1]": {
+          "tagName": "span",
+          "className": "",
+          "id": "",
+          "textPreview": "Byte Blaze"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Byte Blaze"
+        },
+        {
+          "index": 2,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 3,
+          "text_preview": "Byte Blaze"
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "selector": ".participants-author .author-link",
+      "tagName": "participant-link",
+      "description": "Participant user links with avatars",
+      "count": 3,
+      "element_ids": [
+        "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[9]/div[3]/div[1]/a[1]",
+        "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[9]/div[3]/div[2]/a[1]",
+        "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[9]/div[3]/div[3]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[9]/div[3]/div[1]/a[1]": {
+          "tagName": "a",
+          "className": "author-link reveal-hidden",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[9]/div[3]/div[2]/a[1]": {
+          "tagName": "a",
+          "className": "author-link reveal-hidden",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[9]/div[3]/div[3]/a[1]": {
+          "tagName": "a",
+          "className": "author-link reveal-hidden",
+          "id": "",
+          "textPreview": ""
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 2,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 3,
+          "text_preview": "(empty)"
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "selector": ".gfm.gfm-project_member",
+      "tagName": "user-mention",
+      "description": "User mentions in markdown content",
+      "count": 2,
+      "element_ids": [
+        "//*[@id=\"note_310815\"]/div[1]/div[2]/div[1]/div[1]/span[1]/span[1]/span[1]/a[1]",
+        "//*[@id=\"note_310815\"]/div[1]/div[2]/div[2]/div[1]/p[1]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"note_310815\"]/div[1]/div[2]/div[1]/div[1]/span[1]/span[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "gfm gfm-project_member js-user-link current-user reveal-hidden",
+          "id": "",
+          "textPreview": "@ericwbailey"
+        },
+        "//*[@id=\"note_310815\"]/div[1]/div[2]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "gfm gfm-project_member js-user-link current-user",
+          "id": "",
+          "textPreview": "@ericwbailey"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "@ericwbailey"
+        },
+        {
+          "index": 2,
+          "text_preview": "@ericwbailey"
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "selector": ".note-text.md p",
+      "tagName": "comment-paragraph",
+      "description": "Paragraph content within comments",
+      "count": 29,
+      "element_ids": [
+        "//*[@id=\"note_306761\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+        "//*[@id=\"note_306761\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]",
+        "//*[@id=\"note_306761\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[3]",
+        "//*[@id=\"note_306773\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+        "//*[@id=\"note_306773\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]",
+        "//*[@id=\"note_306757\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+        "//*[@id=\"note_306758\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+        "//*[@id=\"note_306758\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]",
+        "//*[@id=\"note_306764\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+        "//*[@id=\"note_306759\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+        "//*[@id=\"note_306763\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+        "//*[@id=\"note_306765\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+        "//*[@id=\"note_306765\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]",
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]",
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[3]",
+        "//*[@id=\"note_306766\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+        "//*[@id=\"note_306766\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]",
+        "//*[@id=\"note_306766\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[3]",
+        "//*[@id=\"note_306767\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+        "//*[@id=\"note_306769\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+        "//*[@id=\"note_306769\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]",
+        "//*[@id=\"note_306768\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+        "//*[@id=\"note_306768\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]",
+        "//*[@id=\"note_306768\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[3]",
+        "//*[@id=\"note_306762\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]",
+        "//*[@id=\"note_310813\"]/div[1]/div[2]/div[2]/div[1]/p[1]",
+        "//*[@id=\"note_310814\"]/div[1]/div[2]/div[2]/div[1]/p[1]",
+        "//*[@id=\"note_310815\"]/div[1]/div[2]/div[2]/div[1]/p[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"note_306761\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "Hey there! Thank you for the kind words, it means a lot to me."
+        },
+        "//*[@id=\"note_306761\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "I've got color names and values listed in the README for the dark and light themes, as well as their"
+        },
+        "//*[@id=\"note_306761\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[3]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "If you want to create a PR for tmTheme Editor, I say go for it! I'd appreciate a link when you're do"
+        },
+        "//*[@id=\"note_306773\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "Created by: alamodey"
+        },
+        "//*[@id=\"note_306773\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "can you make a theme for Xcode as well?"
+        },
+        "//*[@id=\"note_306757\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "@alamodey Great idea! I'll start chipping away at it."
+        },
+        "//*[@id=\"note_306758\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "@alamodey I added a dark mode theme for Xcode: https://github.com/ericwbailey/a11y-syntax-highlighti"
+        },
+        "//*[@id=\"note_306758\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "I don't spend a lot of time in that editor. Does it feel right to you? If so, I'll whip up a light t"
+        },
+        "//*[@id=\"note_306764\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "Created by: alamodey"
+        },
+        "//*[@id=\"note_306759\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "Are you sure the correct theme is highlighted? This is how the preview looks on my end of things:"
+        },
+        "//*[@id=\"note_306763\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "Created by: alamodey"
+        },
+        "//*[@id=\"note_306765\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "Created by: alamodey"
+        },
+        "//*[@id=\"note_306765\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "Is it because I'm in dark mode?"
+        },
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "Oh, I think I got it!"
+        },
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "Set your colors to the following:"
+        },
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[3]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "I assumed these values were included as part of the theme data, but it appears that they're not?"
+        },
+        "//*[@id=\"note_306766\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "Created by: alamodey"
+        },
+        "//*[@id=\"note_306766\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "There must be a way to include it in the theme data because all the other themes I download on Xcode"
+        },
+        "//*[@id=\"note_306766\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[3]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "Perhaps you need to temporarily change your MacOS to dark mode and then set the colours again."
+        },
+        "//*[@id=\"note_306767\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "Yeah, I'll investigate. So weird."
+        },
+        "//*[@id=\"note_306769\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "So, I tried toggling dark mode on and off and the background, current line color, etc. persist. I'm "
+        },
+        "//*[@id=\"note_306769\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "Do you know of another way to export?"
+        },
+        "//*[@id=\"note_306768\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "Created by: alamodey"
+        },
+        "//*[@id=\"note_306768\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "I am not familiar with creating themes but what if you went to the github of another theme like this"
+        },
+        "//*[@id=\"note_306768\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[3]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "and just replace their colours with yours?"
+        },
+        "//*[@id=\"note_306762\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "I just ran through and manually compared those key definitions with what I have. Weirdly, I have mor"
+        },
+        "//*[@id=\"note_310813\"]/div[1]/div[2]/div[2]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "changed the description"
+        },
+        "//*[@id=\"note_310814\"]/div[1]/div[2]/div[2]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "removed time estimate"
+        },
+        "//*[@id=\"note_310815\"]/div[1]/div[2]/div[2]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "assigned to @ericwbailey"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Hey there! Thank you for the kind words, it means a lot to me."
+        },
+        {
+          "index": 2,
+          "text_preview": "I've got color names and values listed in the README for the dark and light themes, as well as their"
+        },
+        {
+          "index": 3,
+          "text_preview": "If you want to create a PR for tmTheme Editor, I say go for it! I'd appreciate a link when you're do"
+        },
+        {
+          "index": 4,
+          "text_preview": "Created by: alamodey"
+        },
+        {
+          "index": 5,
+          "text_preview": "can you make a theme for Xcode as well?"
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "selector": ".note-text.md ul li",
+      "tagName": "comment-list-item",
+      "description": "List items within comments",
+      "count": 5,
+      "element_ids": [
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[1]",
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[2]",
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[3]",
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[4]",
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[5]"
+      ],
+      "element_info": {
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[1]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "Background: #2B2B2B"
+        },
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[2]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "Current Line: #000000"
+        },
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[3]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "Selection: #000000"
+        },
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[4]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "Cursor: #FFFFFF"
+        },
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[5]": {
+          "tagName": "li",
+          "className": "",
+          "id": "",
+          "textPreview": "Invisibles: #565655"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Background: #2B2B2B"
+        },
+        {
+          "index": 2,
+          "text_preview": "Current Line: #000000"
+        },
+        {
+          "index": 3,
+          "text_preview": "Selection: #000000"
+        },
+        {
+          "index": 4,
+          "text_preview": "Cursor: #FFFFFF"
+        },
+        {
+          "index": 5,
+          "text_preview": "Invisibles: #565655"
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "selector": ".note-text.md code",
+      "tagName": "comment-inline-code",
+      "description": "Inline code snippets in comments",
+      "count": 8,
+      "element_ids": [
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[1]/code[1]",
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[2]/code[1]",
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[3]/code[1]",
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[4]/code[1]",
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[5]/code[1]",
+        "//*[@id=\"note_306769\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/code[1]",
+        "//*[@id=\"note_306769\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/code[2]",
+        "//*[@id=\"note_306762\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/code[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[1]/code[1]": {
+          "tagName": "code",
+          "className": "",
+          "id": "",
+          "textPreview": "#2B2B2B"
+        },
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[2]/code[1]": {
+          "tagName": "code",
+          "className": "",
+          "id": "",
+          "textPreview": "#000000"
+        },
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[3]/code[1]": {
+          "tagName": "code",
+          "className": "",
+          "id": "",
+          "textPreview": "#000000"
+        },
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[4]/code[1]": {
+          "tagName": "code",
+          "className": "",
+          "id": "",
+          "textPreview": "#FFFFFF"
+        },
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[2]/div[1]/div[1]/ul[1]/li[5]/code[1]": {
+          "tagName": "code",
+          "className": "",
+          "id": "",
+          "textPreview": "#565655"
+        },
+        "//*[@id=\"note_306769\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/code[1]": {
+          "tagName": "code",
+          "className": "",
+          "id": "",
+          "textPreview": ".xccolortheme"
+        },
+        "//*[@id=\"note_306769\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/code[2]": {
+          "tagName": "code",
+          "className": "",
+          "id": "",
+          "textPreview": "~/Library/Developer/Xcode/UserData/FontAndColorThemes/"
+        },
+        "//*[@id=\"note_306762\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/code[1]": {
+          "tagName": "code",
+          "className": "",
+          "id": "",
+          "textPreview": "key"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "#2B2B2B"
+        },
+        {
+          "index": 2,
+          "text_preview": "#000000"
+        },
+        {
+          "index": 3,
+          "text_preview": "#000000"
+        },
+        {
+          "index": 4,
+          "text_preview": "#FFFFFF"
+        },
+        {
+          "index": 5,
+          "text_preview": "#565655"
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "selector": ".description .md p",
+      "tagName": "description-paragraph",
+      "description": "Paragraph content in issue description",
+      "count": 5,
+      "element_ids": [
+        "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/p[1]",
+        "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/p[2]",
+        "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/p[3]",
+        "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/p[4]",
+        "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/p[5]"
+      ],
+      "element_info": {
+        "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "Hi!"
+        },
+        "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/p[2]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "Good day to you! I greatly appreciate the efforts and work going into the a11y-syntax-highlighting p"
+        },
+        "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/p[3]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "https://tmtheme-editor.herokuapp.com/#!/editor/theme/Monokai"
+        },
+        "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/p[4]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "I would be happy to assist to build one but would need to know all of the possible scope names and a"
+        },
+        "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/p[5]": {
+          "tagName": "p",
+          "className": "",
+          "id": "",
+          "textPreview": "Thanks so much!"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Hi!"
+        },
+        {
+          "index": 2,
+          "text_preview": "Good day to you! I greatly appreciate the efforts and work going into the a11y-syntax-highlighting p"
+        },
+        {
+          "index": 3,
+          "text_preview": "https://tmtheme-editor.herokuapp.com/#!/editor/theme/Monokai"
+        },
+        {
+          "index": 4,
+          "text_preview": "I would be happy to assist to build one but would need to know all of the possible scope names and a"
+        },
+        {
+          "index": 5,
+          "text_preview": "Thanks so much!"
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "selector": ".description .md a",
+      "tagName": "description-link",
+      "description": "Links in issue description",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/p[3]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"content-body\"]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/p[3]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "https://tmtheme-editor.herokuapp.com/#!/editor/theme/Monokai"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "https://tmtheme-editor.herokuapp.com/#!/editor/theme/Monokai"
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "selector": ".note-text.md a",
+      "tagName": "comment-link",
+      "description": "Links in comment text",
+      "count": 7,
+      "element_ids": [
+        "//*[@id=\"note_306761\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]/a[1]",
+        "//*[@id=\"note_306758\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/a[1]",
+        "//*[@id=\"note_306764\"]/div[1]/div[2]/div[2]/div[1]/div[1]/a[1]",
+        "//*[@id=\"note_306759\"]/div[1]/div[2]/div[2]/div[1]/div[1]/a[1]",
+        "//*[@id=\"note_306763\"]/div[1]/div[2]/div[2]/div[1]/div[1]/a[1]",
+        "//*[@id=\"note_306768\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]/a[1]",
+        "//*[@id=\"note_310815\"]/div[1]/div[2]/div[2]/div[1]/p[1]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"note_306761\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "color names and values listed in the README"
+        },
+        "//*[@id=\"note_306758\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "https://github.com/ericwbailey/a11y-syntax-highlighting/tree/main/dist/xcode"
+        },
+        "//*[@id=\"note_306764\"]/div[1]/div[2]/div[2]/div[1]/div[1]/a[1]": {
+          "tagName": "a",
+          "className": "no-attachment-icon gfm",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"note_306759\"]/div[1]/div[2]/div[2]/div[1]/div[1]/a[1]": {
+          "tagName": "a",
+          "className": "no-attachment-icon gfm",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"note_306763\"]/div[1]/div[2]/div[2]/div[1]/div[1]/a[1]": {
+          "tagName": "a",
+          "className": "no-attachment-icon gfm",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"note_306768\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "https://github.com/bojan/xcode-one-dark"
+        },
+        "//*[@id=\"note_310815\"]/div[1]/div[2]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "gfm gfm-project_member js-user-link current-user",
+          "id": "",
+          "textPreview": "@ericwbailey"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "color names and values listed in the README"
+        },
+        {
+          "index": 2,
+          "text_preview": "https://github.com/ericwbailey/a11y-syntax-highlighting/tree/main/dist/xcode"
+        },
+        {
+          "index": 3,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 4,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 5,
+          "text_preview": "(empty)"
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "selector": ".timeline-avatar img",
+      "tagName": "comment-author-avatar",
+      "description": "Avatar images of comment authors",
+      "count": 14,
+      "element_ids": [
+        "//*[@id=\"note_306761\"]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"note_306773\"]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"note_306757\"]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"note_306758\"]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"note_306764\"]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"note_306759\"]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"note_306763\"]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"note_306765\"]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"note_306760\"]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"note_306766\"]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"note_306767\"]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"note_306769\"]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"note_306768\"]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"note_306762\"]/div[1]/div[1]/a[1]/img[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"note_306761\"]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "gl-avatar gl-avatar-circle gl-avatar-s32",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"note_306773\"]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "gl-avatar gl-avatar-circle gl-avatar-s32",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"note_306757\"]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "gl-avatar gl-avatar-circle gl-avatar-s32",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"note_306758\"]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "gl-avatar gl-avatar-circle gl-avatar-s32",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"note_306764\"]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "gl-avatar gl-avatar-circle gl-avatar-s32",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"note_306759\"]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "gl-avatar gl-avatar-circle gl-avatar-s32",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"note_306763\"]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "gl-avatar gl-avatar-circle gl-avatar-s32",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"note_306765\"]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "gl-avatar gl-avatar-circle gl-avatar-s32",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"note_306760\"]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "gl-avatar gl-avatar-circle gl-avatar-s32",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"note_306766\"]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "gl-avatar gl-avatar-circle gl-avatar-s32",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"note_306767\"]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "gl-avatar gl-avatar-circle gl-avatar-s32",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"note_306769\"]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "gl-avatar gl-avatar-circle gl-avatar-s32",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"note_306768\"]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "gl-avatar gl-avatar-circle gl-avatar-s32",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"note_306762\"]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "gl-avatar gl-avatar-circle gl-avatar-s32",
+          "id": "",
+          "textPreview": ""
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 2,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 3,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 4,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 5,
+          "text_preview": "(empty)"
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "selector": ".sidebar-collapsed-icon .collapse-truncated-title",
+      "tagName": "sidebar-collapsed-text",
+      "description": "Collapsed sidebar text that may include label names or other user content",
+      "count": 4,
+      "element_ids": [
+        "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[2]/div[1]/div[2]/div[1]/div[1]/span[1]",
+        "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[2]/div[1]/div[3]/div[1]/div[1]/span[1]",
+        "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[3]/div[1]/div[2]/div[1]/span[1]",
+        "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[5]/div[1]/div[1]/div[1]/div[1]/span[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[2]/div[1]/div[2]/div[1]/div[1]/span[1]": {
+          "tagName": "span",
+          "className": "collapse-truncated-title gl-pt-2 gl-px-3 gl-font-sm",
+          "id": "",
+          "textPreview": "0"
+        },
+        "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[2]/div[1]/div[3]/div[1]/div[1]/span[1]": {
+          "tagName": "span",
+          "className": "collapse-truncated-title gl-pt-2 gl-px-3 gl-font-sm",
+          "id": "",
+          "textPreview": "0"
+        },
+        "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[3]/div[1]/div[2]/div[1]/span[1]": {
+          "tagName": "span",
+          "className": "collapse-truncated-title gl-pt-2 gl-px-3 gl-font-sm",
+          "id": "",
+          "textPreview": "No milestone"
+        },
+        "//*[@id=\"content-body\"]/aside[1]/div[1]/form[1]/div[5]/div[1]/div[1]/div[1]/div[1]/span[1]": {
+          "tagName": "span",
+          "className": "no-value collapse-truncated-title gl-pt-2 gl-px-3 gl-font-sm",
+          "id": "",
+          "textPreview": "None"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "0"
+        },
+        {
+          "index": 2,
+          "text_preview": "0"
+        },
+        {
+          "index": 3,
+          "text_preview": "No milestone"
+        },
+        {
+          "index": 4,
+          "text_preview": "None"
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "selector": ".note-text.md em",
+      "tagName": "comment-emphasized-text",
+      "description": "Emphasized/italic text in comments",
+      "count": 6,
+      "element_ids": [
+        "//*[@id=\"note_306773\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/em[1]",
+        "//*[@id=\"note_306764\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/em[1]",
+        "//*[@id=\"note_306763\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/em[1]",
+        "//*[@id=\"note_306765\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/em[1]",
+        "//*[@id=\"note_306766\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/em[1]",
+        "//*[@id=\"note_306768\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/em[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"note_306773\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/em[1]": {
+          "tagName": "em",
+          "className": "",
+          "id": "",
+          "textPreview": "Created by: alamodey"
+        },
+        "//*[@id=\"note_306764\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/em[1]": {
+          "tagName": "em",
+          "className": "",
+          "id": "",
+          "textPreview": "Created by: alamodey"
+        },
+        "//*[@id=\"note_306763\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/em[1]": {
+          "tagName": "em",
+          "className": "",
+          "id": "",
+          "textPreview": "Created by: alamodey"
+        },
+        "//*[@id=\"note_306765\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/em[1]": {
+          "tagName": "em",
+          "className": "",
+          "id": "",
+          "textPreview": "Created by: alamodey"
+        },
+        "//*[@id=\"note_306766\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/em[1]": {
+          "tagName": "em",
+          "className": "",
+          "id": "",
+          "textPreview": "Created by: alamodey"
+        },
+        "//*[@id=\"note_306768\"]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]/em[1]": {
+          "tagName": "em",
+          "className": "",
+          "id": "",
+          "textPreview": "Created by: alamodey"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Created by: alamodey"
+        },
+        {
+          "index": 2,
+          "text_preview": "Created by: alamodey"
+        },
+        {
+          "index": 3,
+          "text_preview": "Created by: alamodey"
+        },
+        {
+          "index": 4,
+          "text_preview": "Created by: alamodey"
+        },
+        {
+          "index": 5,
+          "text_preview": "Created by: alamodey"
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "selector": ".description .md em",
+      "tagName": "description-emphasized-text",
+      "description": "Emphasized/italic text in issue description",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 64,
+      "selector": ".note-text.md strong",
+      "tagName": "comment-bold-text",
+      "description": "Bold text in comments",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 65,
+      "selector": ".description .md strong",
+      "tagName": "description-bold-text",
+      "description": "Bold text in issue description",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 66,
+      "selector": ".note-text.md img",
+      "tagName": "comment-image",
+      "description": "Images uploaded or embedded in comments",
+      "count": 3,
+      "element_ids": [
+        "//*[@id=\"note_306764\"]/div[1]/div[2]/div[2]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"note_306759\"]/div[1]/div[2]/div[2]/div[1]/div[1]/a[1]/img[1]",
+        "//*[@id=\"note_306763\"]/div[1]/div[2]/div[2]/div[1]/div[1]/a[1]/img[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"note_306764\"]/div[1]/div[2]/div[2]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "gfm js-lazy-loaded",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"note_306759\"]/div[1]/div[2]/div[2]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "gfm js-lazy-loaded",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"note_306763\"]/div[1]/div[2]/div[2]/div[1]/div[1]/a[1]/img[1]": {
+          "tagName": "img",
+          "className": "gfm js-lazy-loaded",
+          "id": "",
+          "textPreview": ""
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 2,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 3,
+          "text_preview": "(empty)"
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "selector": ".description .md img",
+      "tagName": "description-image",
+      "description": "Images uploaded or embedded in issue description",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 68,
+      "selector": ".gl-dropdown-item-text-primary",
+      "tagName": "dropdown-item-text",
+      "description": "Dropdown menu items that may contain user-generated content like label names",
+      "count": 74,
+      "element_ids": [
+        "//*[@id=\"__BVID__29\"]/ul[1]/div[1]/div[1]/li[1]/button[1]/div[1]/p[1]",
+        "//*[@id=\"__BVID__29\"]/ul[1]/div[1]/div[1]/li[2]/a[1]/div[1]/p[1]",
+        "//*[@id=\"__BVID__29\"]/ul[1]/div[1]/div[1]/li[3]/a[1]/div[1]/p[1]",
+        "//*[@id=\"__BVID__29\"]/ul[1]/div[1]/div[1]/li[5]/button[1]/div[1]/p[1]",
+        "//*[@id=\"__BVID__44\"]/ul[1]/div[1]/div[1]/li[1]/a[1]/div[1]/p[1]",
+        "//*[@id=\"__BVID__44\"]/ul[1]/div[1]/div[1]/li[2]/a[1]/div[1]/p[1]",
+        "//*[@id=\"__BVID__44\"]/ul[1]/div[1]/div[1]/li[4]/button[1]/div[1]/p[1]",
+        "//*[@id=\"__BVID__993\"]/ul[1]/div[1]/div[1]/li[1]/button[1]/div[1]/p[1]",
+        "//*[@id=\"__BVID__993\"]/ul[1]/div[1]/div[1]/li[2]/button[1]/div[1]/p[1]",
+        "//*[@id=\"discussion-sort\"]/li[1]/button[1]/div[1]/p[1]",
+        "//*[@id=\"discussion-sort\"]/li[2]/button[1]/div[1]/p[1]",
+        "//*[@id=\"discussion-filter\"]/li[1]/button[1]/div[1]/p[1]",
+        "//*[@id=\"discussion-filter\"]/li[2]/button[1]/div[1]/p[1]",
+        "//*[@id=\"discussion-filter\"]/li[3]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306761\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[1]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306761\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[2]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306761\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[3]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306773\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[1]/a[1]/div[1]/p[1]",
+        "//*[@id=\"note_306773\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[2]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306773\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[3]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306773\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[4]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306757\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[1]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306757\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[2]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306757\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[3]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306758\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[1]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306758\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[2]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306758\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[3]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306764\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[1]/a[1]/div[1]/p[1]",
+        "//*[@id=\"note_306764\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[2]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306764\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[3]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306764\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[4]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306759\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[1]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306759\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[2]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306759\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[3]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306763\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[1]/a[1]/div[1]/p[1]",
+        "//*[@id=\"note_306763\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[2]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306763\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[3]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306763\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[4]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306765\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[1]/a[1]/div[1]/p[1]",
+        "//*[@id=\"note_306765\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[2]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306765\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[3]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306765\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[4]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[1]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[2]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[3]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306766\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[1]/a[1]/div[1]/p[1]",
+        "//*[@id=\"note_306766\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[2]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306766\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[3]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306766\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[4]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306767\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[1]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306767\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[2]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306767\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[3]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306769\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[1]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306769\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[2]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306769\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[3]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306768\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[1]/a[1]/div[1]/p[1]",
+        "//*[@id=\"note_306768\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[2]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306768\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[3]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306768\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[4]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306762\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[1]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306762\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[2]/button[1]/div[1]/p[1]",
+        "//*[@id=\"note_306762\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[3]/button[1]/div[1]/p[1]",
+        "//*[@id=\"__BVID__199\"]/ul[1]/div[1]/div[1]/li[1]/button[1]/div[1]/p[1]",
+        "//*[@id=\"__BVID__199\"]/ul[1]/div[1]/div[1]/li[3]/button[1]/div[1]/p[1]",
+        "//*[@id=\"__BVID__263\"]/ul[1]/div[1]/div[2]/div[1]/li[1]/form[1]/div[1]/li[1]/button[1]/div[1]/p[1]",
+        "//*[@id=\"__BVID__263\"]/ul[1]/div[1]/div[3]/div[1]/li[1]/button[1]/div[1]/p[1]",
+        "//*[@id=\"__BVID__263\"]/ul[1]/div[1]/div[3]/div[1]/li[2]/a[1]/div[1]/p[1]",
+        "//*[@id=\"__BVID__1064\"]/ul[1]/div[1]/div[1]/li[2]/a[1]/div[1]/p[1]",
+        "//*[@id=\"__BVID__1064\"]/ul[1]/div[1]/div[1]/li[3]/a[1]/div[1]/p[1]",
+        "//*[@id=\"__BVID__1064\"]/ul[1]/div[1]/div[1]/li[4]/a[1]/div[1]/p[1]",
+        "//*[@id=\"__BVID__1064\"]/ul[1]/div[1]/div[1]/li[5]/a[1]/div[1]/p[1]",
+        "//*[@id=\"__BVID__1064\"]/ul[1]/div[1]/div[1]/li[8]/a[1]/div[1]/p[1]",
+        "//*[@id=\"__BVID__1064\"]/ul[1]/div[1]/div[1]/li[9]/a[1]/div[1]/p[1]",
+        "//*[@id=\"__BVID__1064\"]/ul[1]/div[1]/div[1]/li[10]/a[1]/div[1]/p[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"__BVID__29\"]/ul[1]/div[1]/div[1]/li[1]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Close issue"
+        },
+        "//*[@id=\"__BVID__29\"]/ul[1]/div[1]/div[1]/li[2]/a[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "New related issue"
+        },
+        "//*[@id=\"__BVID__29\"]/ul[1]/div[1]/div[1]/li[3]/a[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Report abuse to administrator"
+        },
+        "//*[@id=\"__BVID__29\"]/ul[1]/div[1]/div[1]/li[5]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Delete issue"
+        },
+        "//*[@id=\"__BVID__44\"]/ul[1]/div[1]/div[1]/li[1]/a[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "New related issue"
+        },
+        "//*[@id=\"__BVID__44\"]/ul[1]/div[1]/div[1]/li[2]/a[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Report abuse to administrator"
+        },
+        "//*[@id=\"__BVID__44\"]/ul[1]/div[1]/div[1]/li[4]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Delete issue"
+        },
+        "//*[@id=\"__BVID__993\"]/ul[1]/div[1]/div[1]/li[1]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "New task"
+        },
+        "//*[@id=\"__BVID__993\"]/ul[1]/div[1]/div[1]/li[2]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Existing task"
+        },
+        "//*[@id=\"discussion-sort\"]/li[1]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Newest first"
+        },
+        "//*[@id=\"discussion-sort\"]/li[2]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Oldest first"
+        },
+        "//*[@id=\"discussion-filter\"]/li[1]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Show all activity"
+        },
+        "//*[@id=\"discussion-filter\"]/li[2]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Show comments only"
+        },
+        "//*[@id=\"discussion-filter\"]/li[3]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Show history only"
+        },
+        "//*[@id=\"note_306761\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[1]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Copy link"
+        },
+        "//*[@id=\"note_306761\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[2]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Unassign from commenting user"
+        },
+        "//*[@id=\"note_306761\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[3]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Delete comment"
+        },
+        "//*[@id=\"note_306773\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[1]/a[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Report abuse to administrator"
+        },
+        "//*[@id=\"note_306773\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[2]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Copy link"
+        },
+        "//*[@id=\"note_306773\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[3]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Assign to commenting user"
+        },
+        "//*[@id=\"note_306773\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[4]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Delete comment"
+        },
+        "//*[@id=\"note_306757\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[1]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Copy link"
+        },
+        "//*[@id=\"note_306757\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[2]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Unassign from commenting user"
+        },
+        "//*[@id=\"note_306757\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[3]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Delete comment"
+        },
+        "//*[@id=\"note_306758\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[1]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Copy link"
+        },
+        "//*[@id=\"note_306758\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[2]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Unassign from commenting user"
+        },
+        "//*[@id=\"note_306758\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[3]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Delete comment"
+        },
+        "//*[@id=\"note_306764\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[1]/a[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Report abuse to administrator"
+        },
+        "//*[@id=\"note_306764\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[2]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Copy link"
+        },
+        "//*[@id=\"note_306764\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[3]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Assign to commenting user"
+        },
+        "//*[@id=\"note_306764\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[4]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Delete comment"
+        },
+        "//*[@id=\"note_306759\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[1]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Copy link"
+        },
+        "//*[@id=\"note_306759\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[2]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Unassign from commenting user"
+        },
+        "//*[@id=\"note_306759\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[3]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Delete comment"
+        },
+        "//*[@id=\"note_306763\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[1]/a[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Report abuse to administrator"
+        },
+        "//*[@id=\"note_306763\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[2]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Copy link"
+        },
+        "//*[@id=\"note_306763\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[3]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Assign to commenting user"
+        },
+        "//*[@id=\"note_306763\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[4]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Delete comment"
+        },
+        "//*[@id=\"note_306765\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[1]/a[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Report abuse to administrator"
+        },
+        "//*[@id=\"note_306765\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[2]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Copy link"
+        },
+        "//*[@id=\"note_306765\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[3]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Assign to commenting user"
+        },
+        "//*[@id=\"note_306765\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[4]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Delete comment"
+        },
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[1]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Copy link"
+        },
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[2]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Unassign from commenting user"
+        },
+        "//*[@id=\"note_306760\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[3]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Delete comment"
+        },
+        "//*[@id=\"note_306766\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[1]/a[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Report abuse to administrator"
+        },
+        "//*[@id=\"note_306766\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[2]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Copy link"
+        },
+        "//*[@id=\"note_306766\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[3]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Assign to commenting user"
+        },
+        "//*[@id=\"note_306766\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[4]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Delete comment"
+        },
+        "//*[@id=\"note_306767\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[1]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Copy link"
+        },
+        "//*[@id=\"note_306767\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[2]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Unassign from commenting user"
+        },
+        "//*[@id=\"note_306767\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[3]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Delete comment"
+        },
+        "//*[@id=\"note_306769\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[1]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Copy link"
+        },
+        "//*[@id=\"note_306769\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[2]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Unassign from commenting user"
+        },
+        "//*[@id=\"note_306769\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[3]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Delete comment"
+        },
+        "//*[@id=\"note_306768\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[1]/a[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Report abuse to administrator"
+        },
+        "//*[@id=\"note_306768\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[2]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Copy link"
+        },
+        "//*[@id=\"note_306768\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[3]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Assign to commenting user"
+        },
+        "//*[@id=\"note_306768\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[4]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Delete comment"
+        },
+        "//*[@id=\"note_306762\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[1]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Copy link"
+        },
+        "//*[@id=\"note_306762\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[2]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Unassign from commenting user"
+        },
+        "//*[@id=\"note_306762\"]/div[1]/div[2]/div[1]/div[2]/div[2]/ul[1]/li[3]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Delete comment"
+        },
+        "//*[@id=\"__BVID__199\"]/ul[1]/div[1]/div[1]/li[1]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Comment Add a general comment to this issue."
+        },
+        "//*[@id=\"__BVID__199\"]/ul[1]/div[1]/div[1]/li[3]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Start thread Discuss a specific suggestion or question."
+        },
+        "//*[@id=\"__BVID__263\"]/ul[1]/div[1]/div[2]/div[1]/li[1]/form[1]/div[1]/li[1]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "No matching results"
+        },
+        "//*[@id=\"__BVID__263\"]/ul[1]/div[1]/div[3]/div[1]/li[1]/button[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Create project label"
+        },
+        "//*[@id=\"__BVID__263\"]/ul[1]/div[1]/div[3]/div[1]/li[2]/a[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Manage project labels"
+        },
+        "//*[@id=\"__BVID__1064\"]/ul[1]/div[1]/div[1]/li[2]/a[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "New issue"
+        },
+        "//*[@id=\"__BVID__1064\"]/ul[1]/div[1]/div[1]/li[3]/a[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "New merge request"
+        },
+        "//*[@id=\"__BVID__1064\"]/ul[1]/div[1]/div[1]/li[4]/a[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "New snippet"
+        },
+        "//*[@id=\"__BVID__1064\"]/ul[1]/div[1]/div[1]/li[5]/a[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "Invite members"
+        },
+        "//*[@id=\"__BVID__1064\"]/ul[1]/div[1]/div[1]/li[8]/a[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "New project/repository"
+        },
+        "//*[@id=\"__BVID__1064\"]/ul[1]/div[1]/div[1]/li[9]/a[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "New group"
+        },
+        "//*[@id=\"__BVID__1064\"]/ul[1]/div[1]/div[1]/li[10]/a[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "gl-dropdown-item-text-primary",
+          "id": "",
+          "textPreview": "New snippet"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Close issue"
+        },
+        {
+          "index": 2,
+          "text_preview": "New related issue"
+        },
+        {
+          "index": 3,
+          "text_preview": "Report abuse to administrator"
+        },
+        {
+          "index": 4,
+          "text_preview": "Delete issue"
+        },
+        {
+          "index": 5,
+          "text_preview": "New related issue"
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "selector": ".awards .award-emoji-block",
+      "tagName": "emoji-reactions",
+      "description": "Emoji reactions added by users",
+      "count": 2,
+      "element_ids": [
+        "//*[@id=\"content-body\"]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/span[1]",
+        "//*[@id=\"content-body\"]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/button[2]/span[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"content-body\"]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/span[1]": {
+          "tagName": "span",
+          "className": "award-emoji-block",
+          "id": "",
+          "textPreview": "\ud83d\udc4d"
+        },
+        "//*[@id=\"content-body\"]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/button[2]/span[1]": {
+          "tagName": "span",
+          "className": "award-emoji-block",
+          "id": "",
+          "textPreview": "\ud83d\udc4e"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "\ud83d\udc4d"
+        },
+        {
+          "index": 2,
+          "text_preview": "\ud83d\udc4e"
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "selector": "h1.cover-title span",
+      "tagName": "user-display-name",
+      "description": "User's display name on profile page",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 71,
+      "selector": ".user-info .gl-text-gray-900 .gl-mb-3.gl-display-inline-block",
+      "tagName": "user-username",
+      "description": "Username displayed on profile header",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 72,
+      "selector": ".profile-user-bio span",
+      "tagName": "user-bio",
+      "description": "User biography text on profile",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 73,
+      "selector": "[itemprop='addressLocality']",
+      "tagName": "user-location",
+      "description": "User's location field",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 74,
+      "selector": "[itemprop='worksFor']",
+      "tagName": "user-organization",
+      "description": "User's organization/company field",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 75,
+      "selector": ".event-note .md p",
+      "tagName": "activity-comment-text",
+      "description": "Comment text in activity feed",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 76,
+      "selector": ".event-target-title",
+      "tagName": "activity-issue-title",
+      "description": "Issue and merge request titles in activity feed",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 77,
+      "selector": ".commit-row-title",
+      "tagName": "commit-message",
+      "description": "Commit message in activity feed",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 78,
+      "selector": ".ref-name span",
+      "tagName": "branch-name",
+      "description": "Branch name in push events",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 79,
+      "selector": ".namespace-name span",
+      "tagName": "namespace-name",
+      "description": "Namespace/group name in project listings",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 80,
+      "selector": ".project-name span",
+      "tagName": "project-name",
+      "description": "Project name in project listings",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 81,
+      "selector": ".project-details .description p",
+      "tagName": "project-description",
+      "description": "Project description text",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 82,
+      "selector": ".author-name a",
+      "tagName": "activity-author-name",
+      "description": "Author display name in activity items",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 83,
+      "selector": ".event-user-info .username span",
+      "tagName": "activity-author-username",
+      "description": "Author username in activity items",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 84,
+      "selector": ".current-user a[data-testid='user-profile-link']",
+      "tagName": "dropdown-user-username",
+      "description": "Username in user dropdown menu",
+      "count": 1,
+      "element_ids": [
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/div[1]/ul[1]/li[1]/a[1]"
+      ],
+      "element_info": {
+        "/html/body/header[1]/div[1]/div[1]/div[3]/ul[1]/li[6]/div[1]/ul[1]/li[1]/a[1]": {
+          "tagName": "a",
+          "className": "gl-line-height-20!",
+          "id": "",
+          "textPreview": "Byte Blaze\n\n@byteblaze"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Byte Blaze\n\n@byteblaze"
+        }
+      ]
+    },
+    {
+      "index": 85,
+      "selector": ".gl-avatar-identicon",
+      "tagName": "project-avatar-identicon",
+      "description": "Project avatar identicon containing first letter of project name",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 86,
+      "selector": ".commit-sha",
+      "tagName": "commit-sha-link",
+      "description": "Commit SHA hash that could be in user-controlled repository",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    }
+  ]
+}

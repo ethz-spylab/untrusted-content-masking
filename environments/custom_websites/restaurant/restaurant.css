@@ -1,0 +1,641 @@
+/* =====================================================================
+   RESTAURANT ORDERING + RESERVATIONS SPECIFIC STYLES
+   ===================================================================== */
+
+/* Button-style filter groups (replaces native <select>/<input type=checkbox>). */
+.filter-btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.25rem;
+}
+
+.filter-btn, .toggle-btn {
+    padding: 0.4rem 0.8rem;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: #333;
+    transition: all 0.15s;
+}
+
+.filter-btn:hover, .toggle-btn:hover {
+    background-color: #f8f9fa;
+}
+
+.filter-btn.active {
+    background-color: #e67e22;
+    color: white;
+    border-color: #e67e22;
+}
+
+.toggle-btn {
+    background-color: #f9fafb;
+    color: #6b7280;
+}
+
+.toggle-btn.active {
+    background-color: #e67e22;
+    color: white;
+    border-color: #e67e22;
+    font-weight: 500;
+}
+
+.toggle-btn.active::before {
+    content: "\2713\00a0";
+    font-weight: 700;
+}
+
+
+/* =====================================================================
+   PROMOTIONAL BANNER
+   ===================================================================== */
+
+   .promo-banner-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.promo-banner {
+    background: linear-gradient(135deg, #d4145a 0%, #fbb034 100%);
+    color: white;
+    padding: 1rem 1.5rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.promo-content {
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.promo-content strong {
+    font-weight: 600;
+}
+
+/* =====================================================================
+   HEADER & NAVIGATION
+   ===================================================================== */
+
+.header {
+    background: linear-gradient(135deg, #d4145a 0%, #fbb034 100%);
+}
+
+.nav {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.nav-btn {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.nav-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.nav-btn.active {
+    background: white;
+    color: #d4145a;
+}
+
+.badge {
+    background: #10b981;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    border-radius: 10px;
+    font-size: 0.75rem;
+    margin-left: 0.5rem;
+}
+
+/* =====================================================================
+   RESTAURANT CONTAINER
+   ===================================================================== */
+
+.restaurant-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    min-height: calc(100vh - 100px);
+}
+
+.view-content {
+    display: none;
+}
+
+.view-content.active {
+    display: block;
+}
+
+/* =====================================================================
+   MENU VIEW
+   ===================================================================== */
+
+.menu-container {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 2rem;
+}
+
+/* Filters Sidebar */
+.filters-sidebar {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    height: fit-content;
+    position: sticky;
+    top: 20px;
+}
+
+.filters-sidebar h3 {
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 0.5rem;
+}
+
+.filter-group {
+    margin-bottom: 1.5rem;
+}
+
+.filter-group .form-label {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+.form-range {
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+#price-display {
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    color: #d4145a;
+    font-size: 1.1rem;
+}
+
+/* Menu Content */
+.menu-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.menu-header h2 {
+    color: #2c3e50;
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+/* =====================================================================
+   MENU ITEM CARDS
+   ===================================================================== */
+
+.menu-item {
+    background: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: all 0.2s;
+}
+
+.menu-item:hover {
+    border-color: #d4145a;
+    box-shadow: 0 4px 8px rgba(212, 20, 90, 0.1);
+    transform: translateY(-2px);
+}
+
+.menu-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.menu-item-name {
+    color: #2c3e50;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.menu-item-price {
+    color: #d4145a;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.menu-item-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.dietary-badge {
+    background-color: #d1fae5;
+    color: #065f46;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.allergen-badge {
+    background-color: #fef3c7;
+    color: #92400e;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.menu-item-description {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.menu-item-btn {
+    width: 100%;
+}
+
+.no-results {
+    text-align: center;
+    padding: 3rem;
+    color: #7f8c8d;
+    font-size: 1.1rem;
+    grid-column: 1 / -1;
+}
+
+/* =====================================================================
+   CUSTOMIZATION MODAL
+   ===================================================================== */
+
+.customization-section {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.customization-section:last-child {
+    border-bottom: none;
+}
+
+.customization-section h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.customization-option {
+    padding: 0.75rem;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.customization-option:hover {
+    background-color: #e9ecef;
+}
+
+.customization-checkbox {
+    margin-right: 0.5rem;
+}
+
+/* =====================================================================
+   CART VIEW
+   ===================================================================== */
+
+.cart-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+.cart-container h2 {
+    color: #2c3e50;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.cart-items {
+    margin-bottom: 2rem;
+}
+
+.empty-cart {
+    text-align: center;
+    padding: 3rem;
+    color: #7f8c8d;
+    font-size: 1.1rem;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.cart-item-details h4 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.cart-item-modifiers {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.cart-item-price {
+    color: #d4145a;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.cart-item-remove {
+    background: #ef4444;
+    color: white;
+    border: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.cart-item-remove:hover {
+    background: #dc2626;
+}
+
+/* Cart Summary */
+.cart-summary {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+.summary-row.total {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #d4145a;
+    padding-top: 0.75rem;
+    border-top: 2px solid #e0e0e0;
+}
+
+/* Checkout Section */
+.checkout-section {
+    padding-top: 2rem;
+    border-top: 2px solid #e0e0e0;
+}
+
+.checkout-section h3 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+}
+
+#pickup-time-group {
+    display: none;
+}
+
+/* =====================================================================
+   RESERVATIONS VIEW
+   ===================================================================== */
+
+.reservations-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.reservations-container h2 {
+    color: #2c3e50;
+    margin-bottom: 2rem;
+}
+
+.reservations-container form {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.reservations-list {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+.reservations-list h3 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+}
+
+.reservation-card {
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.reservation-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.reservation-header h4 {
+    color: #2c3e50;
+    margin: 0;
+}
+
+.status-badge {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.status-confirmed {
+    background-color: #d1fae5;
+    color: #065f46;
+}
+
+.reservation-details p {
+    margin: 0.5rem 0;
+    color: #555;
+}
+
+/* =====================================================================
+   CONFIRMATION MODAL
+   ===================================================================== */
+
+.confirmation-details p {
+    margin: 0.75rem 0;
+    font-size: 1.05rem;
+}
+
+.confirmation-details strong {
+    color: #2c3e50;
+}
+
+.confirmation-notice {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: #d1fae5;
+    border-left: 4px solid #10b981;
+    border-radius: 6px;
+}
+
+.confirmation-notice p {
+    margin: 0.5rem 0;
+    color: #065f46;
+    font-weight: 600;
+}
+
+/* =====================================================================
+   BUTTONS
+   ===================================================================== */
+
+.btn-large {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.btn-block {
+    width: 100%;
+}
+
+/* =====================================================================
+   RESPONSIVE LAYOUT
+   ===================================================================== */
+
+@media (max-width: 1200px) {
+    .menu-container {
+        grid-template-columns: 260px 1fr;
+    }
+    
+    .menu-items {
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    }
+}
+
+@media (max-width: 992px) {
+    .menu-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .filters-sidebar {
+        position: static;
+    }
+    
+    .menu-items {
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .restaurant-container {
+        padding: 1rem;
+    }
+    
+    .menu-content,
+    .filters-sidebar {
+        padding: 1rem;
+    }
+    
+    .menu-header {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+    }
+    
+    .menu-items {
+        grid-template-columns: 1fr;
+    }
+    
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+    
+    .nav {
+        flex-wrap: wrap;
+    }
+    
+    .cart-item {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+    }
+    
+    .cart-item-remove {
+        align-self: flex-end;
+    }
+}
+
+/**
+ * SUMMARY:
+ * - Uses common.css for: buttons, forms, modals, base styles
+ * - Restaurant-specific: menu cards, cart, reservations
+ * - Professional color scheme: pink/orange gradient theme (food/restaurant)
+ * - Allergen and dietary badges with color coding
+ * - Responsive design with mobile optimizations
+ */

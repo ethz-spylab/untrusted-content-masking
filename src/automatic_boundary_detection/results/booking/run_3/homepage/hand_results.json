@@ -1,0 +1,928 @@
+{
+  "summary": {
+    "totalSelectors": 25,
+    "selectorsWithMatches": 6,
+    "totalElements": 82,
+    "uniqueElements": 82,
+    "url": "http://localhost:8001/llm_input_original_homepage.html",
+    "configFile": "hand_labels.json",
+    "configVersion": "hand",
+    "configGeneratedBy": "Manual analysis of Booking.com HTML structure"
+  },
+  "results": [
+    {
+      "index": 1,
+      "selector": "[data-testid='property-card'] [data-testid='title']",
+      "tagName": "property-name-search",
+      "description": "Hotel/property name in search results cards (set by property owner)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 2,
+      "selector": "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])",
+      "tagName": "property-description-search",
+      "description": "Hotel description text in search results cards (written by property manager) \u2014 excludes address, review count, and badges",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 3,
+      "selector": "[data-testid='property-card'] [data-testid='image']",
+      "tagName": "search-listing-image",
+      "description": "Property photos in search result cards (property-uploaded images)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 4,
+      "selector": "h2.pp-header__title",
+      "tagName": "hotel-name",
+      "description": "Main hotel name heading on detail page (set by property owner)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 5,
+      "selector": "[data-testid='property-description']",
+      "tagName": "hotel-description",
+      "description": "Hotel description text (written by property manager)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 6,
+      "selector": "[data-testid='featuredreview-text']",
+      "tagName": "featured-review-text",
+      "description": "Featured guest review quotes on hotel page (user-generated review text)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 7,
+      "selector": "[data-testid='rt-name-link'] .b08850ce41",
+      "tagName": "room-name",
+      "description": "Room type names in booking table (property-defined, e.g., 'Deluxe King Room - Balcony with Eiffel Tower View')",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 8,
+      "selector": "[data-testid='featuredreview'] div.b08850ce41.f546354b44",
+      "tagName": "reviewer-name",
+      "description": "Reviewer display names in featured reviews (user profile data, e.g., 'Sim', 'Teilica')",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 9,
+      "selector": "[data-testid='brand-name']",
+      "tagName": "hotel-chain-name",
+      "description": "Hotel chain/brand name ('Pullman Hotels and Resorts')",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 10,
+      "selector": "[data-testid='matchmaking-questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49",
+      "tagName": "qa-question-text",
+      "description": "Short FAQ question text in 'Travelers are asking' accordion (e.g., 'Do they serve breakfast?')",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 11,
+      "selector": "h3[data-testid='question']",
+      "tagName": "faq-question",
+      "description": "Structured FAQ question headings (e.g., 'What kind of breakfast is served at...?')",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 12,
+      "selector": "[data-testid='answer'][itemprop='text']",
+      "tagName": "faq-answer",
+      "description": "Structured FAQ answer text (property-provided info about breakfast, parking, etc.)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 13,
+      "selector": "[data-testid='poi-block-list'] .d1bc97eb82",
+      "tagName": "nearby-poi-name",
+      "description": "Nearby POI names in 'Hotel area info' section (e.g., 'Eiffel Tower', 'Restaurant \u00b7 Frame')",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 14,
+      "selector": "div[aria-label='Certification name']",
+      "tagName": "certification-name",
+      "description": "Sustainability certification name (e.g., 'Green Globe Certification')",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 15,
+      "selector": "[data-testid='featuredreviewcard-text'] .b99b6ef58f.d14152e7c3.e01adb21c0",
+      "tagName": "review-card-quote",
+      "description": "Review quote text in review cards (e.g., 'The hotel is close by to everywhere. Very convenient.')",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 16,
+      "selector": "[data-testid='featuredreviewcard-avatar'] .b08850ce41.f546354b44, [data-testid='featuredreviewcard-avatar'] .a787c7cca4",
+      "tagName": "review-card-author",
+      "description": "Reviewer name in review cards (e.g., 'Sim')",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 17,
+      "selector": "[data-testid='featuredreviewcard-avatar'] .d838fb5f41.aea5eccb71",
+      "tagName": "review-card-country",
+      "description": "Reviewer country in review cards (e.g., 'United States')",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 18,
+      "selector": "[data-testid='GalleryUnifiedDesktop-wrapper'] img",
+      "tagName": "hotel-gallery-photo",
+      "description": "Hotel property photos in gallery (property-uploaded images with alt text containing hotel name)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 19,
+      "selector": "[data-testid='PropertyBrandInfo-wrapper'] img",
+      "tagName": "brand-logo-image",
+      "description": "Hotel brand logo image (e.g., Pullman Hotels and Resorts logo)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 20,
+      "selector": "[data-testid='web-core-property-card'] [data-testid='webcore-carousel-image'] img",
+      "tagName": "homepage-listing-image",
+      "description": "Property photos in homepage recommendation carousels (scoped to property cards, excludes browse-by-type category images)",
+      "count": 37,
+      "element_ids": [
+        "//*[@id=\":r1u:\"]/div[1]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r1u:\"]/div[2]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r1u:\"]/div[3]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r1u:\"]/div[4]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r1u:\"]/div[5]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r1u:\"]/div[6]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r1u:\"]/div[7]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r1u:\"]/div[8]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r1u:\"]/div[9]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r1u:\"]/div[10]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r1u:\"]/div[11]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r1u:\"]/div[12]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r1u:\"]/div[13]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r1u:\"]/div[14]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r1u:\"]/div[15]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r50:\"]/div[1]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r50:\"]/div[2]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r50:\"]/div[3]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r50:\"]/div[4]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r50:\"]/div[5]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r50:\"]/div[6]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r50:\"]/div[7]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r50:\"]/div[8]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r50:\"]/div[9]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r50:\"]/div[10]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r50:\"]/div[11]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r50:\"]/div[12]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r7:\"]/div[1]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r7:\"]/div[2]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r7:\"]/div[3]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r7:\"]/div[4]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r7:\"]/div[5]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r7:\"]/div[6]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r7:\"]/div[7]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r7:\"]/div[8]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r7:\"]/div[9]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":r7:\"]/div[10]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]"
+      ],
+      "element_info": {
+        "//*[@id=\":r1u:\"]/div[1]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r1u:\"]/div[2]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r1u:\"]/div[3]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r1u:\"]/div[4]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r1u:\"]/div[5]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r1u:\"]/div[6]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r1u:\"]/div[7]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r1u:\"]/div[8]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r1u:\"]/div[9]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r1u:\"]/div[10]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r1u:\"]/div[11]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r1u:\"]/div[12]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r1u:\"]/div[13]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r1u:\"]/div[14]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r1u:\"]/div[15]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r50:\"]/div[1]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r50:\"]/div[2]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r50:\"]/div[3]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r50:\"]/div[4]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r50:\"]/div[5]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r50:\"]/div[6]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r50:\"]/div[7]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r50:\"]/div[8]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r50:\"]/div[9]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r50:\"]/div[10]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r50:\"]/div[11]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r50:\"]/div[12]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r7:\"]/div[1]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r7:\"]/div[2]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r7:\"]/div[3]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r7:\"]/div[4]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r7:\"]/div[5]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r7:\"]/div[6]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r7:\"]/div[7]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r7:\"]/div[8]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r7:\"]/div[9]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":r7:\"]/div[10]/div[1]/a[1]/div[1]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8",
+          "id": "",
+          "textPreview": ""
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 2,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 3,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 4,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 5,
+          "text_preview": "(empty)"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "selector": "[data-testid='web-core-property-card'] h3",
+      "tagName": "homepage-listing-name",
+      "description": "Hotel/property names in homepage recommendation cards (e.g., 'Hotel Allegro Einsiedeln', 'Ch\u00e2teau G\u00fctsch')",
+      "count": 37,
+      "element_ids": [
+        "//*[@id=\":r1u:\"]/div[1]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]",
+        "//*[@id=\":r1u:\"]/div[2]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]",
+        "//*[@id=\":r1u:\"]/div[3]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]",
+        "//*[@id=\":r1u:\"]/div[4]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]",
+        "//*[@id=\":r1u:\"]/div[5]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]",
+        "//*[@id=\":r1u:\"]/div[6]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]",
+        "//*[@id=\":r1u:\"]/div[7]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]",
+        "//*[@id=\":r1u:\"]/div[8]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]",
+        "//*[@id=\":r1u:\"]/div[9]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]",
+        "//*[@id=\":r1u:\"]/div[10]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]",
+        "//*[@id=\":r1u:\"]/div[11]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]",
+        "//*[@id=\":r1u:\"]/div[12]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]",
+        "//*[@id=\":r1u:\"]/div[13]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]",
+        "//*[@id=\":r1u:\"]/div[14]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]",
+        "//*[@id=\":r1u:\"]/div[15]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]",
+        "//*[@id=\":r50:\"]/div[1]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]",
+        "//*[@id=\":r50:\"]/div[2]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]",
+        "//*[@id=\":r50:\"]/div[3]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]",
+        "//*[@id=\":r50:\"]/div[4]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]",
+        "//*[@id=\":r50:\"]/div[5]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]",
+        "//*[@id=\":r50:\"]/div[6]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]",
+        "//*[@id=\":r50:\"]/div[7]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]",
+        "//*[@id=\":r50:\"]/div[8]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]",
+        "//*[@id=\":r50:\"]/div[9]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]",
+        "//*[@id=\":r50:\"]/div[10]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]",
+        "//*[@id=\":r50:\"]/div[11]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]",
+        "//*[@id=\":r50:\"]/div[12]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]",
+        "//*[@id=\":r7:\"]/div[1]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[1]/h3[1]",
+        "//*[@id=\":r7:\"]/div[2]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[1]/h3[1]",
+        "//*[@id=\":r7:\"]/div[3]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[1]/h3[1]",
+        "//*[@id=\":r7:\"]/div[4]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[1]/h3[1]",
+        "//*[@id=\":r7:\"]/div[5]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[1]/h3[1]",
+        "//*[@id=\":r7:\"]/div[6]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[1]/h3[1]",
+        "//*[@id=\":r7:\"]/div[7]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[1]/h3[1]",
+        "//*[@id=\":r7:\"]/div[8]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[1]/h3[1]",
+        "//*[@id=\":r7:\"]/div[9]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[1]/h3[1]",
+        "//*[@id=\":r7:\"]/div[10]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[1]/h3[1]"
+      ],
+      "element_info": {
+        "//*[@id=\":r1u:\"]/div[1]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "Hotel Allegro Einsiedeln"
+        },
+        "//*[@id=\":r1u:\"]/div[2]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "Ch\u00e2teau G\u00fctsch"
+        },
+        "//*[@id=\":r1u:\"]/div[3]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "Swiss Diamond Hotel & Spa"
+        },
+        "//*[@id=\":r1u:\"]/div[4]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "HYPERION Hotel Basel"
+        },
+        "//*[@id=\":r1u:\"]/div[5]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "Hotel Stern Chur"
+        },
+        "//*[@id=\":r1u:\"]/div[6]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "The Cambrian"
+        },
+        "//*[@id=\":r1u:\"]/div[7]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "Trafo Hotel Baden"
+        },
+        "//*[@id=\":r1u:\"]/div[8]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "The Dolder Grand - City and Spa Resort Zurich"
+        },
+        "//*[@id=\":r1u:\"]/div[9]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "Gast - und Kulturhaus Der Teufelhof Basel"
+        },
+        "//*[@id=\":r1u:\"]/div[10]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "H\u00f4tel des Bains de Saillon"
+        },
+        "//*[@id=\":r1u:\"]/div[11]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "Grand Resort Bad Ragaz"
+        },
+        "//*[@id=\":r1u:\"]/div[12]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "Victoria Jungfrau Grand Hotel & Spa"
+        },
+        "//*[@id=\":r1u:\"]/div[13]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "Boutique Hotel Glacier"
+        },
+        "//*[@id=\":r1u:\"]/div[14]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "H\u00f4tel de Gruy\u00e8res"
+        },
+        "//*[@id=\":r1u:\"]/div[15]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "ibis Bulle - La Gruy\u00e8re Swiss Bike Hotel"
+        },
+        "//*[@id=\":r50:\"]/div[1]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "City Pop 2Night Z\u00fcrich City - Self check-in"
+        },
+        "//*[@id=\":r50:\"]/div[2]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "Hotel Crivi's"
+        },
+        "//*[@id=\":r50:\"]/div[3]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "Marmont Hotel"
+        },
+        "//*[@id=\":r50:\"]/div[4]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "Hotel Krone Unterstrass"
+        },
+        "//*[@id=\":r50:\"]/div[5]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "Grand Visconti Palace"
+        },
+        "//*[@id=\":r50:\"]/div[6]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "Warwick Geneva"
+        },
+        "//*[@id=\":r50:\"]/div[7]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "SWAS by Livingdowntown"
+        },
+        "//*[@id=\":r50:\"]/div[8]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "Well-located Campus Rooms Near City Park"
+        },
+        "//*[@id=\":r50:\"]/div[9]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "B&B HOTEL Geneva Airport"
+        },
+        "//*[@id=\":r50:\"]/div[10]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "Gl\u00e4rnischhof by TRINITY"
+        },
+        "//*[@id=\":r50:\"]/div[11]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "Le Suite del Corso The Smart Boutique Aparthotel By OSPITAMI"
+        },
+        "//*[@id=\":r50:\"]/div[12]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[2]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "Hotel Rousseau"
+        },
+        "//*[@id=\":r7:\"]/div[1]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[1]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "Aparthotel Stare Miasto"
+        },
+        "//*[@id=\":r7:\"]/div[2]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[1]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "7Seasons Apartments Budapest"
+        },
+        "//*[@id=\":r7:\"]/div[3]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[1]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "Numa Florence Vita"
+        },
+        "//*[@id=\":r7:\"]/div[4]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[1]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "Leman Locke"
+        },
+        "//*[@id=\":r7:\"]/div[5]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[1]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "Cheval Three Quays at The Tower of London"
+        },
+        "//*[@id=\":r7:\"]/div[6]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[1]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "The Apartments by The Sloane Club"
+        },
+        "//*[@id=\":r7:\"]/div[7]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[1]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "New Sugar Loft Apartments"
+        },
+        "//*[@id=\":r7:\"]/div[8]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[1]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "Casa Portuguesa Prata"
+        },
+        "//*[@id=\":r7:\"]/div[9]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[1]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "Oriente Palace Apartments"
+        },
+        "//*[@id=\":r7:\"]/div[10]/div[1]/a[1]/div[1]/div[2]/div[1]/div[1]/div[1]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e f546354b44 cc045b173b ec849dfa65",
+          "id": "",
+          "textPreview": "Flora Chiado Apartments"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Hotel Allegro Einsiedeln"
+        },
+        {
+          "index": 2,
+          "text_preview": "Ch\u00e2teau G\u00fctsch"
+        },
+        {
+          "index": 3,
+          "text_preview": "Swiss Diamond Hotel & Spa"
+        },
+        {
+          "index": 4,
+          "text_preview": "HYPERION Hotel Basel"
+        },
+        {
+          "index": 5,
+          "text_preview": "Hotel Stern Chur"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "selector": "[data-testid='promotional-banner-content-caption']",
+      "tagName": "offer-caption",
+      "description": "Offer caption text in Offers section (e.g., 'Escape for less with our Getaway Deals', 'Early 2026 Deals')",
+      "count": 2,
+      "element_ids": [
+        "//*[@id=\":R4pjb5:\"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+        "//*[@id=\":R4pjb5:\"]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+      ],
+      "element_info": {
+        "//*[@id=\":R4pjb5:\"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "fff1944c52 b70a68a30f",
+          "id": "",
+          "textPreview": "Escape for less with our Getaway Deals"
+        },
+        "//*[@id=\":R4pjb5:\"]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "fff1944c52 b70a68a30f",
+          "id": "",
+          "textPreview": "Early 2026 Deals"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Escape for less with our Getaway Deals"
+        },
+        {
+          "index": 2,
+          "text_preview": "Early 2026 Deals"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "selector": "[data-testid='promotional-banner-content-title']",
+      "tagName": "offer-title",
+      "description": "Offer title in Offers section (e.g., 'No catch. Just getaways.', 'At least 15% off')",
+      "count": 2,
+      "element_ids": [
+        "//*[@id=\":R4pjb5:\"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]",
+        "//*[@id=\":R4pjb5:\"]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+      ],
+      "element_info": {
+        "//*[@id=\":R4pjb5:\"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]": {
+          "tagName": "h3",
+          "className": "b87c397a13 fb2f406ff9",
+          "id": "",
+          "textPreview": "No catch. Just getaways."
+        },
+        "//*[@id=\":R4pjb5:\"]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]": {
+          "tagName": "h3",
+          "className": "b87c397a13 fb2f406ff9",
+          "id": "",
+          "textPreview": "At least 15% off"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "No catch. Just getaways."
+        },
+        {
+          "index": 2,
+          "text_preview": "At least 15% off"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "selector": "[data-testid='promotional-banner-content-subtitle']",
+      "tagName": "offer-subtitle",
+      "description": "Offer subtitle in Offers section (e.g., 'At least 15% off select stays worldwide \u2013 just book and go.')",
+      "count": 2,
+      "element_ids": [
+        "//*[@id=\":R4pjb5:\"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+        "//*[@id=\":R4pjb5:\"]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"
+      ],
+      "element_info": {
+        "//*[@id=\":R4pjb5:\"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]": {
+          "tagName": "div",
+          "className": "b99b6ef58f f9b1b69a8a",
+          "id": "",
+          "textPreview": "At least 15% off select stays worldwide \u2013 just book and go."
+        },
+        "//*[@id=\":R4pjb5:\"]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]": {
+          "tagName": "div",
+          "className": "b99b6ef58f f9b1b69a8a",
+          "id": "",
+          "textPreview": "Save on your next stay with Early 2026 Deals. Book now, stay until April 1, 2026."
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "At least 15% off select stays worldwide \u2013 just book and go."
+        },
+        {
+          "index": 2,
+          "text_preview": "Save on your next stay with Early 2026 Deals. Book now, stay until April 1, 2026."
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "selector": "[data-testid='promotional-banner-partial-image'] img",
+      "tagName": "offer-image",
+      "description": "Promotional offer images in Offers section",
+      "count": 2,
+      "element_ids": [
+        "//*[@id=\":R4pjb5:\"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/picture[1]/img[1]",
+        "//*[@id=\":R4pjb5:\"]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/picture[1]/img[1]"
+      ],
+      "element_info": {
+        "//*[@id=\":R4pjb5:\"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8 c09abd8a52 ca3dad4476",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\":R4pjb5:\"]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8 c09abd8a52 ca3dad4476",
+          "id": "",
+          "textPreview": ""
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 2,
+          "text_preview": "(empty)"
+        }
+      ]
+    }
+  ]
+}

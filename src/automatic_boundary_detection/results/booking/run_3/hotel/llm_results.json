@@ -1,0 +1,1605 @@
+{
+  "summary": {
+    "totalSelectors": 29,
+    "selectorsWithMatches": 19,
+    "totalElements": 136,
+    "uniqueElements": 133,
+    "url": "http://localhost:8001/llm_input_original_hotel.html",
+    "configFile": "llm_labels.json",
+    "configVersion": "sanitized",
+    "configGeneratedBy": "LLM analysis (claude-sonnet-4-5-20250929)"
+  },
+  "results": [
+    {
+      "index": 1,
+      "selector": "[data-testid='title']",
+      "tagName": "property-name",
+      "description": "Property name heading entered by property owner",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 2,
+      "selector": "[data-testid='property-card'] .fff1944c52:not([data-testid='filters-group-label-container']):not([data-testid='address-link']):not([data-testid='distance']):not([role='button'])",
+      "tagName": "property-description-blurb",
+      "description": "Owner-written property description text in search result cards",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 3,
+      "selector": "[data-testid='promotional-banner-content-title']",
+      "tagName": "promotional-banner-title",
+      "description": "Title text in promotional banner that may embed property-specific content",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 4,
+      "selector": "[data-testid='promotional-banner-content-subtitle']",
+      "tagName": "promotional-banner-subtitle",
+      "description": "Subtitle text in promotional banner that may embed property-specific content",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 5,
+      "selector": "[data-testid='property-card'] img[src]:not([alt=''])",
+      "tagName": "property-image",
+      "description": "Property photos uploaded by property owners in search result cards",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 6,
+      "selector": "[data-testid='promotional-banner-partial-image'] img",
+      "tagName": "promotional-banner-image",
+      "description": "Image content in promotional banner that may be property-owner uploaded",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 7,
+      "selector": "[data-testid='PropertyBadges-wrapper'] h2.ddb12f4f86",
+      "tagName": "property-name",
+      "description": "Property name heading uploaded by the owner",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 8,
+      "selector": "[data-testid='GalleryUnifiedDesktop-wrapper'] img",
+      "tagName": "property-gallery-images",
+      "description": "Property gallery photos uploaded by the owner",
+      "count": 8,
+      "element_ids": [
+        "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/picture[1]/img[1]",
+        "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/button[1]/picture[1]/img[1]",
+        "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/button[1]/picture[1]/img[1]",
+        "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[2]/div[1]/button[1]/picture[1]/img[1]",
+        "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[2]/div[2]/button[1]/picture[1]/img[1]",
+        "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[2]/div[3]/button[1]/picture[1]/img[1]",
+        "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[2]/div[4]/button[1]/picture[1]/img[1]",
+        "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[2]/div[5]/button[1]/picture[1]/img[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8 c09abd8a52 ca3dad4476",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/button[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8 c09abd8a52 ca3dad4476",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/button[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8 c09abd8a52 ca3dad4476",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[2]/div[1]/button[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8 c09abd8a52 ca3dad4476",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[2]/div[2]/button[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8 c09abd8a52 ca3dad4476",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[2]/div[3]/button[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8 c09abd8a52 ca3dad4476",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[2]/div[4]/button[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8 c09abd8a52 ca3dad4476",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"photo_wrapper\"]/div[1]/div[1]/div[1]/div[2]/div[5]/button[1]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb c0e44985a8 c09abd8a52 ca3dad4476",
+          "id": "",
+          "textPreview": ""
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 2,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 3,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 4,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 5,
+          "text_preview": "(empty)"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "selector": "[data-testid='property-description']",
+      "tagName": "property-description",
+      "description": "Free-form property description text written by the owner",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"basiclayout\"]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"basiclayout\"]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "b99b6ef58f f1152bae71",
+          "id": "",
+          "textPreview": "Ideally located at the foot of the Eiffel Tower and just steps from the Trocad\u00c3\u00a9ro,the Pullman Paris"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Ideally located at the foot of the Eiffel Tower and just steps from the Trocad\u00c3\u00a9ro,the Pullman Paris"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "selector": "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-text'] .b99b6ef58f",
+      "tagName": "featured-review-quote",
+      "description": "Guest review quote text in the gallery featured reviews carousel",
+      "count": 10,
+      "element_ids": [
+        "//*[@id=\":r7f:\"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+        "//*[@id=\":r7f:\"]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+        "//*[@id=\":r7f:\"]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]",
+        "//*[@id=\":r7f:\"]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]",
+        "//*[@id=\":r7f:\"]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]",
+        "//*[@id=\":r7f:\"]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]",
+        "//*[@id=\":r7f:\"]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]",
+        "//*[@id=\":r7f:\"]/div[8]/div[1]/div[1]/div[1]/div[1]/div[1]",
+        "//*[@id=\":r7f:\"]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]",
+        "//*[@id=\":r7f:\"]/div[10]/div[1]/div[1]/div[1]/div[1]/div[1]"
+      ],
+      "element_info": {
+        "//*[@id=\":r7f:\"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "b99b6ef58f d14152e7c3 e01adb21c0",
+          "id": "",
+          "textPreview": "\u00e2\u20ac\u0153The hotel is close by to everywhere. Very convenient.\u00e2\u20ac\u009d"
+        },
+        "//*[@id=\":r7f:\"]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "b99b6ef58f d14152e7c3 e01adb21c0",
+          "id": "",
+          "textPreview": "\u00e2\u20ac\u0153How close it was to the tower and other places were walking distance\u00e2\u20ac\u009d"
+        },
+        "//*[@id=\":r7f:\"]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "b99b6ef58f d14152e7c3 e01adb21c0",
+          "id": "",
+          "textPreview": "\u00e2\u20ac\u0153The interior of property is beautiful and well maintained. The room was very spacious and had a g"
+        },
+        "//*[@id=\":r7f:\"]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "b99b6ef58f d14152e7c3 e01adb21c0",
+          "id": "",
+          "textPreview": "\u00e2\u20ac\u0153Amazing views and staff, specially Miza at the reception is 10/10.\u00e2\u20ac\u009d"
+        },
+        "//*[@id=\":r7f:\"]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "b99b6ef58f d14152e7c3 e01adb21c0",
+          "id": "",
+          "textPreview": "\u00e2\u20ac\u0153Location very good next to Eiffel Tower and close to metro station, service was good in the hotel"
+        },
+        "//*[@id=\":r7f:\"]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "b99b6ef58f d14152e7c3 e01adb21c0",
+          "id": "",
+          "textPreview": "\u00e2\u20ac\u0153Besides the view, the staff went above and beyond to make sure I enjoyed my stay\u00e2\u20ac\u009d"
+        },
+        "//*[@id=\":r7f:\"]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "b99b6ef58f d14152e7c3 e01adb21c0",
+          "id": "",
+          "textPreview": "\u00e2\u20ac\u0153Location is wonderful with an amazing view of Eiffel tower\u00e2\u20ac\u009d"
+        },
+        "//*[@id=\":r7f:\"]/div[8]/div[1]/div[1]/div[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "b99b6ef58f d14152e7c3 e01adb21c0",
+          "id": "",
+          "textPreview": "\u00e2\u20ac\u0153Superb location, friendly staff , very well organized events\u00e2\u20ac\u009d"
+        },
+        "//*[@id=\":r7f:\"]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "b99b6ef58f d14152e7c3 e01adb21c0",
+          "id": "",
+          "textPreview": "\u00e2\u20ac\u0153Being close to the Eiffel Tower, a Christmas  market, restaurants, boulangerie and a small grocer"
+        },
+        "//*[@id=\":r7f:\"]/div[10]/div[1]/div[1]/div[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "b99b6ef58f d14152e7c3 e01adb21c0",
+          "id": "",
+          "textPreview": "\u00e2\u20ac\u0153Excellent location, even more so the staff. Ms Leonnie is a super star and so was the night recep"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "\u00e2\u20ac\u0153The hotel is close by to everywhere. Very convenient.\u00e2\u20ac\u009d"
+        },
+        {
+          "index": 2,
+          "text_preview": "\u00e2\u20ac\u0153How close it was to the tower and other places were walking distance\u00e2\u20ac\u009d"
+        },
+        {
+          "index": 3,
+          "text_preview": "\u00e2\u20ac\u0153The interior of property is beautiful and well maintained. The room was very spacious and had a g"
+        },
+        {
+          "index": 4,
+          "text_preview": "\u00e2\u20ac\u0153Amazing views and staff, specially Miza at the reception is 10/10.\u00e2\u20ac\u009d"
+        },
+        {
+          "index": 5,
+          "text_preview": "\u00e2\u20ac\u0153Location very good next to Eiffel Tower and close to metro station, service was good in the hotel"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "selector": "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .a787c7cca4",
+      "tagName": "featured-review-name",
+      "description": "Reviewer display name in the gallery featured reviews carousel",
+      "count": 10,
+      "element_ids": [
+        "//*[@id=\":r7f:\"]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+        "//*[@id=\":r7f:\"]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+        "//*[@id=\":r7f:\"]/div[3]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+        "//*[@id=\":r7f:\"]/div[4]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+        "//*[@id=\":r7f:\"]/div[5]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+        "//*[@id=\":r7f:\"]/div[6]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+        "//*[@id=\":r7f:\"]/div[7]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+        "//*[@id=\":r7f:\"]/div[8]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+        "//*[@id=\":r7f:\"]/div[9]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]",
+        "//*[@id=\":r7f:\"]/div[10]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]"
+      ],
+      "element_info": {
+        "//*[@id=\":r7f:\"]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]": {
+          "tagName": "span",
+          "className": "a787c7cca4",
+          "id": "",
+          "textPreview": "Sim"
+        },
+        "//*[@id=\":r7f:\"]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]": {
+          "tagName": "span",
+          "className": "a787c7cca4",
+          "id": "",
+          "textPreview": "Teilica"
+        },
+        "//*[@id=\":r7f:\"]/div[3]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]": {
+          "tagName": "span",
+          "className": "a787c7cca4",
+          "id": "",
+          "textPreview": "Vivian"
+        },
+        "//*[@id=\":r7f:\"]/div[4]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]": {
+          "tagName": "span",
+          "className": "a787c7cca4",
+          "id": "",
+          "textPreview": "Purvi"
+        },
+        "//*[@id=\":r7f:\"]/div[5]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]": {
+          "tagName": "span",
+          "className": "a787c7cca4",
+          "id": "",
+          "textPreview": "Nourhan"
+        },
+        "//*[@id=\":r7f:\"]/div[6]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]": {
+          "tagName": "span",
+          "className": "a787c7cca4",
+          "id": "",
+          "textPreview": "Xianna"
+        },
+        "//*[@id=\":r7f:\"]/div[7]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]": {
+          "tagName": "span",
+          "className": "a787c7cca4",
+          "id": "",
+          "textPreview": "Khalid"
+        },
+        "//*[@id=\":r7f:\"]/div[8]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]": {
+          "tagName": "span",
+          "className": "a787c7cca4",
+          "id": "",
+          "textPreview": "Zeinab"
+        },
+        "//*[@id=\":r7f:\"]/div[9]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]": {
+          "tagName": "span",
+          "className": "a787c7cca4",
+          "id": "",
+          "textPreview": "Gary"
+        },
+        "//*[@id=\":r7f:\"]/div[10]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[1]": {
+          "tagName": "span",
+          "className": "a787c7cca4",
+          "id": "",
+          "textPreview": "Saebel"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Sim"
+        },
+        {
+          "index": 2,
+          "text_preview": "Teilica"
+        },
+        {
+          "index": 3,
+          "text_preview": "Vivian"
+        },
+        {
+          "index": 4,
+          "text_preview": "Purvi"
+        },
+        {
+          "index": 5,
+          "text_preview": "Nourhan"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "selector": "[data-testid='featuredreview-text'] .b99b6ef58f",
+      "tagName": "review-quote-text",
+      "description": "Guest review quote text in what guests loved section",
+      "count": 10,
+      "element_ids": [
+        "//*[@id=\":r8l:\"]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]",
+        "//*[@id=\":r8l:\"]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+        "//*[@id=\":r8l:\"]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]",
+        "//*[@id=\":r8l:\"]/div[4]/div[1]/div[1]/div[2]/div[1]/div[1]",
+        "//*[@id=\":r8l:\"]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]",
+        "//*[@id=\":r8l:\"]/div[6]/div[1]/div[1]/div[2]/div[1]/div[1]",
+        "//*[@id=\":r8l:\"]/div[7]/div[1]/div[1]/div[2]/div[1]/div[1]",
+        "//*[@id=\":r8l:\"]/div[8]/div[1]/div[1]/div[2]/div[1]/div[1]",
+        "//*[@id=\":r8l:\"]/div[9]/div[1]/div[1]/div[2]/div[1]/div[1]",
+        "//*[@id=\":r8l:\"]/div[10]/div[1]/div[1]/div[2]/div[1]/div[1]"
+      ],
+      "element_info": {
+        "//*[@id=\":r8l:\"]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "b99b6ef58f d14152e7c3",
+          "id": "",
+          "textPreview": "\u00e2\u20ac\u0153The hotel is close by to everywhere. Very convenient.\u00e2\u20ac\u009d"
+        },
+        "//*[@id=\":r8l:\"]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "b99b6ef58f d14152e7c3",
+          "id": "",
+          "textPreview": "\u00e2\u20ac\u0153How close it was to the tower and other places were walking distance\u00e2\u20ac\u009d"
+        },
+        "//*[@id=\":r8l:\"]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "b99b6ef58f d14152e7c3",
+          "id": "",
+          "textPreview": "\u00e2\u20ac\u0153The interior of property is beautiful and well maintained. The room was very spacious and had a g"
+        },
+        "//*[@id=\":r8l:\"]/div[4]/div[1]/div[1]/div[2]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "b99b6ef58f d14152e7c3",
+          "id": "",
+          "textPreview": "\u00e2\u20ac\u0153Amazing views and staff, specially Miza at the reception is 10/10.\u00e2\u20ac\u009d"
+        },
+        "//*[@id=\":r8l:\"]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "b99b6ef58f d14152e7c3",
+          "id": "",
+          "textPreview": "\u00e2\u20ac\u0153Location very good next to Eiffel Tower and close to metro station, service was good in the hotel"
+        },
+        "//*[@id=\":r8l:\"]/div[6]/div[1]/div[1]/div[2]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "b99b6ef58f d14152e7c3",
+          "id": "",
+          "textPreview": "\u00e2\u20ac\u0153Besides the view, the staff went above and beyond to make sure I enjoyed my stay\u00e2\u20ac\u009d"
+        },
+        "//*[@id=\":r8l:\"]/div[7]/div[1]/div[1]/div[2]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "b99b6ef58f d14152e7c3",
+          "id": "",
+          "textPreview": "\u00e2\u20ac\u0153Location is wonderful with an amazing view of Eiffel tower\u00e2\u20ac\u009d"
+        },
+        "//*[@id=\":r8l:\"]/div[8]/div[1]/div[1]/div[2]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "b99b6ef58f d14152e7c3",
+          "id": "",
+          "textPreview": "\u00e2\u20ac\u0153Superb location, friendly staff , very well organized events\u00e2\u20ac\u009d"
+        },
+        "//*[@id=\":r8l:\"]/div[9]/div[1]/div[1]/div[2]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "b99b6ef58f d14152e7c3",
+          "id": "",
+          "textPreview": "\u00e2\u20ac\u0153Being close to the Eiffel Tower, a Christmas  market, restaurants, boulangerie and a small grocer"
+        },
+        "//*[@id=\":r8l:\"]/div[10]/div[1]/div[1]/div[2]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "b99b6ef58f d14152e7c3",
+          "id": "",
+          "textPreview": "\u00e2\u20ac\u0153Excellent location, even more so the staff. Ms Leonnie is a super star and so was the night recep"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "\u00e2\u20ac\u0153The hotel is close by to everywhere. Very convenient.\u00e2\u20ac\u009d"
+        },
+        {
+          "index": 2,
+          "text_preview": "\u00e2\u20ac\u0153How close it was to the tower and other places were walking distance\u00e2\u20ac\u009d"
+        },
+        {
+          "index": 3,
+          "text_preview": "\u00e2\u20ac\u0153The interior of property is beautiful and well maintained. The room was very spacious and had a g"
+        },
+        {
+          "index": 4,
+          "text_preview": "\u00e2\u20ac\u0153Amazing views and staff, specially Miza at the reception is 10/10.\u00e2\u20ac\u009d"
+        },
+        {
+          "index": 5,
+          "text_preview": "\u00e2\u20ac\u0153Location very good next to Eiffel Tower and close to metro station, service was good in the hotel"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "selector": "[data-testid='featuredreview-avatar'] .b08850ce41.f546354b44",
+      "tagName": "reviewer-name",
+      "description": "Reviewer display name in what guests loved section",
+      "count": 10,
+      "element_ids": [
+        "//*[@id=\":r8l:\"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+        "//*[@id=\":r8l:\"]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+        "//*[@id=\":r8l:\"]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+        "//*[@id=\":r8l:\"]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+        "//*[@id=\":r8l:\"]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+        "//*[@id=\":r8l:\"]/div[6]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+        "//*[@id=\":r8l:\"]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+        "//*[@id=\":r8l:\"]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+        "//*[@id=\":r8l:\"]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+        "//*[@id=\":r8l:\"]/div[10]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]"
+      ],
+      "element_info": {
+        "//*[@id=\":r8l:\"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]": {
+          "tagName": "div",
+          "className": "b08850ce41 f546354b44",
+          "id": "",
+          "textPreview": "Sim"
+        },
+        "//*[@id=\":r8l:\"]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]": {
+          "tagName": "div",
+          "className": "b08850ce41 f546354b44",
+          "id": "",
+          "textPreview": "Teilica"
+        },
+        "//*[@id=\":r8l:\"]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]": {
+          "tagName": "div",
+          "className": "b08850ce41 f546354b44",
+          "id": "",
+          "textPreview": "Vivian"
+        },
+        "//*[@id=\":r8l:\"]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]": {
+          "tagName": "div",
+          "className": "b08850ce41 f546354b44",
+          "id": "",
+          "textPreview": "Purvi"
+        },
+        "//*[@id=\":r8l:\"]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]": {
+          "tagName": "div",
+          "className": "b08850ce41 f546354b44",
+          "id": "",
+          "textPreview": "Nourhan"
+        },
+        "//*[@id=\":r8l:\"]/div[6]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]": {
+          "tagName": "div",
+          "className": "b08850ce41 f546354b44",
+          "id": "",
+          "textPreview": "Xianna"
+        },
+        "//*[@id=\":r8l:\"]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]": {
+          "tagName": "div",
+          "className": "b08850ce41 f546354b44",
+          "id": "",
+          "textPreview": "Khalid"
+        },
+        "//*[@id=\":r8l:\"]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]": {
+          "tagName": "div",
+          "className": "b08850ce41 f546354b44",
+          "id": "",
+          "textPreview": "Zeinab"
+        },
+        "//*[@id=\":r8l:\"]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]": {
+          "tagName": "div",
+          "className": "b08850ce41 f546354b44",
+          "id": "",
+          "textPreview": "Gary"
+        },
+        "//*[@id=\":r8l:\"]/div[10]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]": {
+          "tagName": "div",
+          "className": "b08850ce41 f546354b44",
+          "id": "",
+          "textPreview": "Saebel"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Sim"
+        },
+        {
+          "index": 2,
+          "text_preview": "Teilica"
+        },
+        {
+          "index": 3,
+          "text_preview": "Vivian"
+        },
+        {
+          "index": 4,
+          "text_preview": "Purvi"
+        },
+        {
+          "index": 5,
+          "text_preview": "Nourhan"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "selector": "[data-testid='rt-name-link'] .b08850ce41",
+      "tagName": "room-type-name",
+      "description": "Room type name set by the property owner",
+      "count": 14,
+      "element_ids": [
+        "//*[@id=\"room_type_id_2673015\"]/span[1]/div[1]",
+        "//*[@id=\"room_type_id_2673025\"]/span[1]/div[1]",
+        "//*[@id=\"room_type_id_2673026\"]/span[1]/div[1]",
+        "//*[@id=\"room_type_id_2673027\"]/span[1]/div[1]",
+        "//*[@id=\"room_type_id_2673028\"]/span[1]/div[1]",
+        "//*[@id=\"room_type_id_2673034\"]/span[1]/div[1]",
+        "//*[@id=\"room_type_id_2673035\"]/span[1]/div[1]",
+        "//*[@id=\"room_type_id_2673039\"]/span[1]/div[1]",
+        "//*[@id=\"room_type_id_2673040\"]/span[1]/div[1]",
+        "//*[@id=\"room_type_id_2673041\"]/span[1]/div[1]",
+        "//*[@id=\"room_type_id_2673044\"]/span[1]/div[1]",
+        "//*[@id=\"room_type_id_2673045\"]/span[1]/div[1]",
+        "//*[@id=\"room_type_id_2673048\"]/span[1]/div[1]",
+        "//*[@id=\"room_type_id_2673049\"]/span[1]/div[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"room_type_id_2673015\"]/span[1]/div[1]": {
+          "tagName": "div",
+          "className": "b08850ce41",
+          "id": "",
+          "textPreview": "Superior King Room - Eiffel Tower View"
+        },
+        "//*[@id=\"room_type_id_2673025\"]/span[1]/div[1]": {
+          "tagName": "div",
+          "className": "b08850ce41",
+          "id": "",
+          "textPreview": "Classic King Room - Garden Side"
+        },
+        "//*[@id=\"room_type_id_2673026\"]/span[1]/div[1]": {
+          "tagName": "div",
+          "className": "b08850ce41",
+          "id": "",
+          "textPreview": "Classic Twin Room - Garden Side"
+        },
+        "//*[@id=\"room_type_id_2673027\"]/span[1]/div[1]": {
+          "tagName": "div",
+          "className": "b08850ce41",
+          "id": "",
+          "textPreview": "Deluxe King Room - Balcony with Eiffel Tower View"
+        },
+        "//*[@id=\"room_type_id_2673028\"]/span[1]/div[1]": {
+          "tagName": "div",
+          "className": "b08850ce41",
+          "id": "",
+          "textPreview": "Deluxe Twin Room with Sofa, Balcony and Eiffel Tower View"
+        },
+        "//*[@id=\"room_type_id_2673034\"]/span[1]/div[1]": {
+          "tagName": "div",
+          "className": "b08850ce41",
+          "id": "",
+          "textPreview": "Junior Family Suite with King Bed and Sofa Bed"
+        },
+        "//*[@id=\"room_type_id_2673035\"]/span[1]/div[1]": {
+          "tagName": "div",
+          "className": "b08850ce41",
+          "id": "",
+          "textPreview": "Superior Twin Room with Eiffel Tower View"
+        },
+        "//*[@id=\"room_type_id_2673039\"]/span[1]/div[1]": {
+          "tagName": "div",
+          "className": "b08850ce41",
+          "id": "",
+          "textPreview": "Suite with Balcony and Eiffel Tower View"
+        },
+        "//*[@id=\"room_type_id_2673040\"]/span[1]/div[1]": {
+          "tagName": "div",
+          "className": "b08850ce41",
+          "id": "",
+          "textPreview": "Classic King Room with Balcony and Garden View"
+        },
+        "//*[@id=\"room_type_id_2673041\"]/span[1]/div[1]": {
+          "tagName": "div",
+          "className": "b08850ce41",
+          "id": "",
+          "textPreview": "Classic Twin Room with Balcony and Garden View"
+        },
+        "//*[@id=\"room_type_id_2673044\"]/span[1]/div[1]": {
+          "tagName": "div",
+          "className": "b08850ce41",
+          "id": "",
+          "textPreview": "Deluxe Twin Room, high floor, with Sofa, Balcony and Eiffel Tower View"
+        },
+        "//*[@id=\"room_type_id_2673045\"]/span[1]/div[1]": {
+          "tagName": "div",
+          "className": "b08850ce41",
+          "id": "",
+          "textPreview": "Deluxe King Room, high floor, with Sofa, Balcony and Eiffel Tower View"
+        },
+        "//*[@id=\"room_type_id_2673048\"]/span[1]/div[1]": {
+          "tagName": "div",
+          "className": "b08850ce41",
+          "id": "",
+          "textPreview": "PENTHOUSE EIFFEL with One King Bed and View - Top floor"
+        },
+        "//*[@id=\"room_type_id_2673049\"]/span[1]/div[1]": {
+          "tagName": "div",
+          "className": "b08850ce41",
+          "id": "",
+          "textPreview": "Junior King Suite with Sofa Bed and Eiffel Tower View"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Superior King Room - Eiffel Tower View"
+        },
+        {
+          "index": 2,
+          "text_preview": "Classic King Room - Garden Side"
+        },
+        {
+          "index": 3,
+          "text_preview": "Classic Twin Room - Garden Side"
+        },
+        {
+          "index": 4,
+          "text_preview": "Deluxe King Room - Balcony with Eiffel Tower View"
+        },
+        {
+          "index": 5,
+          "text_preview": "Deluxe Twin Room with Sofa, Balcony and Eiffel Tower View"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "selector": "[data-testid='PropertyBrandInfo-wrapper'] [data-testid='brand-name'] .b08850ce41",
+      "tagName": "brand-name",
+      "description": "Property brand or chain name associated with the property",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"basiclayout\"]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"basiclayout\"]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "b08850ce41 f546354b44 cc045b173b",
+          "id": "",
+          "textPreview": "Pullman Hotels and Resorts"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Pullman Hotels and Resorts"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "selector": "[data-testid='PropertyBrandInfo-wrapper'] [data-testid='brand-logo'] img",
+      "tagName": "brand-logo",
+      "description": "Property brand logo image uploaded by the brand",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"basiclayout\"]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/picture[1]/img[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"basiclayout\"]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/picture[1]/img[1]": {
+          "tagName": "img",
+          "className": "f6c12c77eb db4ad1b412 c09abd8a52 ca3dad4476",
+          "id": "",
+          "textPreview": ""
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(empty)"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "selector": "[data-testid='location-block-container'] [data-location-block-list='true'] .d1bc97eb82",
+      "tagName": "poi-name",
+      "description": "Point of interest or landmark name near the property",
+      "count": 21,
+      "element_ids": [
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[1]/div[1]/span[1]/div[1]/div[1]",
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[2]/div[1]/span[1]/div[1]/div[1]",
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[3]/div[1]/span[1]/div[1]/div[1]",
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[4]/div[1]/span[1]/div[1]/div[1]",
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[5]/div[1]/span[1]/div[1]/div[1]",
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[6]/div[1]/span[1]/div[1]/div[1]",
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[7]/div[1]/span[1]/div[1]/div[1]",
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[8]/div[1]/span[1]/div[1]/div[1]",
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[9]/div[1]/span[1]/div[1]/div[1]",
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[10]/div[1]/span[1]/div[1]/div[1]",
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[2]/ul[1]/li[1]/div[1]/span[1]/div[1]/div[1]",
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[2]/ul[1]/li[2]/div[1]/span[1]/div[1]/div[1]",
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[2]/ul[1]/li[3]/div[1]/span[1]/div[1]/div[1]",
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[3]/ul[1]/li[1]/div[1]/span[1]/div[1]/div[1]",
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[4]/ul[1]/li[1]/div[1]/span[1]/div[1]/div[1]",
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[4]/ul[1]/li[2]/div[1]/span[1]/div[1]/div[1]",
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[4]/ul[1]/li[3]/div[1]/span[1]/div[1]/div[1]",
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[4]/ul[1]/li[4]/div[1]/span[1]/div[1]/div[1]",
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[5]/ul[1]/li[1]/div[1]/span[1]/div[1]/div[1]",
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[5]/ul[1]/li[2]/div[1]/span[1]/div[1]/div[1]",
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[5]/ul[1]/li[3]/div[1]/span[1]/div[1]/div[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[1]/div[1]/span[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+          "id": "",
+          "textPreview": "Eiffel Tower"
+        },
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[2]/div[1]/span[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+          "id": "",
+          "textPreview": "Rodin Museum"
+        },
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[3]/div[1]/span[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+          "id": "",
+          "textPreview": "Arc de Triomphe"
+        },
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[4]/div[1]/span[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+          "id": "",
+          "textPreview": "d'Orsay Museum"
+        },
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[5]/div[1]/span[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+          "id": "",
+          "textPreview": "Mus\u00c3\u00a9e de l'Orangerie"
+        },
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[6]/div[1]/span[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+          "id": "",
+          "textPreview": "Tuileries Garden"
+        },
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[7]/div[1]/span[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+          "id": "",
+          "textPreview": "Louvre Museum"
+        },
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[8]/div[1]/span[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+          "id": "",
+          "textPreview": "Luxembourg Gardens"
+        },
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[9]/div[1]/span[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+          "id": "",
+          "textPreview": "Pompidou Centre"
+        },
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/ul[1]/li[10]/div[1]/span[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+          "id": "",
+          "textPreview": "Palace of Versailles"
+        },
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[2]/ul[1]/li[1]/div[1]/span[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+          "id": "",
+          "textPreview": "RestaurantFrame"
+        },
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[2]/ul[1]/li[2]/div[1]/span[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+          "id": "",
+          "textPreview": "RestaurantLe Jardin"
+        },
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[2]/ul[1]/li[3]/div[1]/span[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+          "id": "",
+          "textPreview": "RestaurantPacific Eiffel"
+        },
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[3]/ul[1]/li[1]/div[1]/span[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+          "id": "",
+          "textPreview": "ForestBois des Capucins"
+        },
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[4]/ul[1]/li[1]/div[1]/span[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+          "id": "",
+          "textPreview": "SubwayBir Hakeim Metro Station"
+        },
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[4]/ul[1]/li[2]/div[1]/span[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+          "id": "",
+          "textPreview": "TrainChamp de Mars - Tour Eiffel"
+        },
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[4]/ul[1]/li[3]/div[1]/span[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+          "id": "",
+          "textPreview": "SubwayPassy Metro Station"
+        },
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[4]/ul[1]/li[4]/div[1]/span[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+          "id": "",
+          "textPreview": "TrainAvenue Du President Kennedy RER Station"
+        },
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[5]/ul[1]/li[1]/div[1]/span[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+          "id": "",
+          "textPreview": "Paris - Orly Airport"
+        },
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[5]/ul[1]/li[2]/div[1]/span[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+          "id": "",
+          "textPreview": "Paris - Charles de Gaulle Airport"
+        },
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[5]/ul[1]/li[3]/div[1]/span[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "aa225776f2 ca9d921c46 d1bc97eb82",
+          "id": "",
+          "textPreview": "Beauvais\u00e2\u20ac\u201cTill\u00c3\u00a9 Airport"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Eiffel Tower"
+        },
+        {
+          "index": 2,
+          "text_preview": "Rodin Museum"
+        },
+        {
+          "index": 3,
+          "text_preview": "Arc de Triomphe"
+        },
+        {
+          "index": 4,
+          "text_preview": "d'Orsay Museum"
+        },
+        {
+          "index": 5,
+          "text_preview": "Mus\u00c3\u00a9e de l'Orangerie"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "selector": "[data-testid='restaurant-card'] [data-testid='restaurant-title']",
+      "tagName": "restaurant-name",
+      "description": "Restaurant name at the property",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\":r5m:\"]/div[1]/div[1]/div[1]"
+      ],
+      "element_info": {
+        "//*[@id=\":r5m:\"]/div[1]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "ecb8d66605",
+          "id": "",
+          "textPreview": "FRAME"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "FRAME"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "selector": "section[id='questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49",
+      "tagName": "qa-question-text",
+      "description": "Traveler-submitted question text in Q&A section",
+      "count": 10,
+      "element_ids": [
+        "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]/button[1]/div[1]/div[2]",
+        "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]/button[1]/div[1]/div[2]",
+        "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[3]/button[1]/div[1]/div[2]",
+        "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[4]/button[1]/div[1]/div[2]",
+        "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[5]/button[1]/div[1]/div[2]",
+        "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[6]/button[1]/div[1]/div[2]",
+        "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[7]/button[1]/div[1]/div[2]",
+        "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[8]/button[1]/div[1]/div[2]",
+        "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[9]/button[1]/div[1]/div[2]",
+        "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[10]/button[1]/div[1]/div[2]"
+      ],
+      "element_info": {
+        "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[1]/button[1]/div[1]/div[2]": {
+          "tagName": "div",
+          "className": "aa225776f2 ca9d921c46 f6707cac49",
+          "id": "",
+          "textPreview": "Do they serve breakfast?"
+        },
+        "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[2]/button[1]/div[1]/div[2]": {
+          "tagName": "div",
+          "className": "aa225776f2 ca9d921c46 f6707cac49",
+          "id": "",
+          "textPreview": "Can I park there?"
+        },
+        "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[3]/button[1]/div[1]/div[2]": {
+          "tagName": "div",
+          "className": "aa225776f2 ca9d921c46 f6707cac49",
+          "id": "",
+          "textPreview": "Is there a swimming pool?"
+        },
+        "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[4]/button[1]/div[1]/div[2]": {
+          "tagName": "div",
+          "className": "aa225776f2 ca9d921c46 f6707cac49",
+          "id": "",
+          "textPreview": "Is there a restaurant?"
+        },
+        "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[5]/button[1]/div[1]/div[2]": {
+          "tagName": "div",
+          "className": "aa225776f2 ca9d921c46 f6707cac49",
+          "id": "",
+          "textPreview": "Is there a spa?"
+        },
+        "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[6]/button[1]/div[1]/div[2]": {
+          "tagName": "div",
+          "className": "aa225776f2 ca9d921c46 f6707cac49",
+          "id": "",
+          "textPreview": "What restaurants, attractions, and public transit options are nearby?"
+        },
+        "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[7]/button[1]/div[1]/div[2]": {
+          "tagName": "div",
+          "className": "aa225776f2 ca9d921c46 f6707cac49",
+          "id": "",
+          "textPreview": "What are the check-in and check-out times?"
+        },
+        "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[8]/button[1]/div[1]/div[2]": {
+          "tagName": "div",
+          "className": "aa225776f2 ca9d921c46 f6707cac49",
+          "id": "",
+          "textPreview": "Is there an airport shuttle service?"
+        },
+        "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[9]/button[1]/div[1]/div[2]": {
+          "tagName": "div",
+          "className": "aa225776f2 ca9d921c46 f6707cac49",
+          "id": "",
+          "textPreview": "Are there rooms with a private bathroom?"
+        },
+        "//*[@id=\"questions-answers-desktop\"]/div[1]/div[2]/div[1]/div[1]/div[1]/ul[1]/li[10]/button[1]/div[1]/div[2]": {
+          "tagName": "div",
+          "className": "aa225776f2 ca9d921c46 f6707cac49",
+          "id": "",
+          "textPreview": "Are there rooms with a balcony?"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Do they serve breakfast?"
+        },
+        {
+          "index": 2,
+          "text_preview": "Can I park there?"
+        },
+        {
+          "index": 3,
+          "text_preview": "Is there a swimming pool?"
+        },
+        {
+          "index": 4,
+          "text_preview": "Is there a restaurant?"
+        },
+        {
+          "index": 5,
+          "text_preview": "Is there a spa?"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "selector": "[data-testid='property-section--content'] .caad4610a8 h3 .e7addce19e",
+      "tagName": "sustainability-cert-name",
+      "description": "Third-party sustainability certification name",
+      "count": 5,
+      "element_ids": [
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/h3[1]/div[1]",
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[2]/div[1]/h3[1]/div[1]",
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[3]/div[1]/h3[1]/div[1]",
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[4]/div[1]/h3[1]/div[1]",
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[5]/div[1]/h3[1]/div[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/h3[1]/div[1]": {
+          "tagName": "div",
+          "className": "e7addce19e f546354b44 cc045b173b",
+          "id": "",
+          "textPreview": "Top attractions"
+        },
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[2]/div[1]/h3[1]/div[1]": {
+          "tagName": "div",
+          "className": "e7addce19e f546354b44 cc045b173b",
+          "id": "",
+          "textPreview": "Restaurants & cafes"
+        },
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[3]/div[1]/h3[1]/div[1]": {
+          "tagName": "div",
+          "className": "e7addce19e f546354b44 cc045b173b",
+          "id": "",
+          "textPreview": "Natural Beauty"
+        },
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[4]/div[1]/h3[1]/div[1]": {
+          "tagName": "div",
+          "className": "e7addce19e f546354b44 cc045b173b",
+          "id": "",
+          "textPreview": "Public transit"
+        },
+        "//*[@id=\"surroundings_block\"]/div[1]/div[2]/div[3]/div[1]/div[5]/div[1]/h3[1]/div[1]": {
+          "tagName": "div",
+          "className": "e7addce19e f546354b44 cc045b173b",
+          "id": "",
+          "textPreview": "Closest Airports"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Top attractions"
+        },
+        {
+          "index": 2,
+          "text_preview": "Restaurants & cafes"
+        },
+        {
+          "index": 3,
+          "text_preview": "Natural Beauty"
+        },
+        {
+          "index": 4,
+          "text_preview": "Public transit"
+        },
+        {
+          "index": 5,
+          "text_preview": "Closest Airports"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "selector": "[data-testid='faq-accordion-left-card'] h3[itemprop='name']",
+      "tagName": "faq-question-left",
+      "description": "FAQ question heading that embeds property name or owner text",
+      "count": 4,
+      "element_ids": [
+        "//*[@id=\":rb8:\"]/span[1]/h3[1]",
+        "//*[@id=\":rba:\"]/span[1]/h3[1]",
+        "//*[@id=\":rbc:\"]/span[1]/h3[1]",
+        "//*[@id=\":rbe:\"]/span[1]/h3[1]"
+      ],
+      "element_info": {
+        "//*[@id=\":rb8:\"]/span[1]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e",
+          "id": "",
+          "textPreview": "What kind of breakfast is served at Pullman Paris Tour Eiffel?"
+        },
+        "//*[@id=\":rba:\"]/span[1]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e",
+          "id": "",
+          "textPreview": "What type of room can I book at Pullman Paris Tour Eiffel?"
+        },
+        "//*[@id=\":rbc:\"]/span[1]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e",
+          "id": "",
+          "textPreview": "What are the check-in and check-out times at Pullman Paris Tour Eiffel?"
+        },
+        "//*[@id=\":rbe:\"]/span[1]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e",
+          "id": "",
+          "textPreview": "How much does it cost to stay at Pullman Paris Tour Eiffel?"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "What kind of breakfast is served at Pullman Paris Tour Eiffel?"
+        },
+        {
+          "index": 2,
+          "text_preview": "What type of room can I book at Pullman Paris Tour Eiffel?"
+        },
+        {
+          "index": 3,
+          "text_preview": "What are the check-in and check-out times at Pullman Paris Tour Eiffel?"
+        },
+        {
+          "index": 4,
+          "text_preview": "How much does it cost to stay at Pullman Paris Tour Eiffel?"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "selector": "[data-testid='faq-accordion-right-card'] h3[itemprop='name']",
+      "tagName": "faq-question-right",
+      "description": "FAQ question heading that embeds property name or owner text",
+      "count": 3,
+      "element_ids": [
+        "//*[@id=\":rbg:\"]/span[1]/h3[1]",
+        "//*[@id=\":rbi:\"]/span[1]/h3[1]",
+        "//*[@id=\":rbk:\"]/span[1]/h3[1]"
+      ],
+      "element_info": {
+        "//*[@id=\":rbg:\"]/span[1]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e",
+          "id": "",
+          "textPreview": "Does Pullman Paris Tour Eiffel have a restaurant on site?"
+        },
+        "//*[@id=\":rbi:\"]/span[1]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e",
+          "id": "",
+          "textPreview": "What is there to do at Pullman Paris Tour Eiffel?"
+        },
+        "//*[@id=\":rbk:\"]/span[1]/h3[1]": {
+          "tagName": "h3",
+          "className": "e7addce19e",
+          "id": "",
+          "textPreview": "How far is Pullman Paris Tour Eiffel from the center of Paris?"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Does Pullman Paris Tour Eiffel have a restaurant on site?"
+        },
+        {
+          "index": 2,
+          "text_preview": "What is there to do at Pullman Paris Tour Eiffel?"
+        },
+        {
+          "index": 3,
+          "text_preview": "How far is Pullman Paris Tour Eiffel from the center of Paris?"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "selector": "[data-testid='featuredreview-avatar'] .d838fb5f41",
+      "tagName": "reviewer-country",
+      "description": "Reviewer country or nationality text displayed next to reviewer name",
+      "count": 10,
+      "element_ids": [
+        "//*[@id=\":r8l:\"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]",
+        "//*[@id=\":r8l:\"]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]",
+        "//*[@id=\":r8l:\"]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]",
+        "//*[@id=\":r8l:\"]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]",
+        "//*[@id=\":r8l:\"]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]",
+        "//*[@id=\":r8l:\"]/div[6]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]",
+        "//*[@id=\":r8l:\"]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]",
+        "//*[@id=\":r8l:\"]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]",
+        "//*[@id=\":r8l:\"]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]",
+        "//*[@id=\":r8l:\"]/div[10]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]"
+      ],
+      "element_info": {
+        "//*[@id=\":r8l:\"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]": {
+          "tagName": "span",
+          "className": "d838fb5f41 aea5eccb71",
+          "id": "",
+          "textPreview": "United States"
+        },
+        "//*[@id=\":r8l:\"]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]": {
+          "tagName": "span",
+          "className": "d838fb5f41 aea5eccb71",
+          "id": "",
+          "textPreview": "United States"
+        },
+        "//*[@id=\":r8l:\"]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]": {
+          "tagName": "span",
+          "className": "d838fb5f41 aea5eccb71",
+          "id": "",
+          "textPreview": "United States"
+        },
+        "//*[@id=\":r8l:\"]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]": {
+          "tagName": "span",
+          "className": "d838fb5f41 aea5eccb71",
+          "id": "",
+          "textPreview": "United Arab Emirates"
+        },
+        "//*[@id=\":r8l:\"]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]": {
+          "tagName": "span",
+          "className": "d838fb5f41 aea5eccb71",
+          "id": "",
+          "textPreview": "United Arab Emirates"
+        },
+        "//*[@id=\":r8l:\"]/div[6]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]": {
+          "tagName": "span",
+          "className": "d838fb5f41 aea5eccb71",
+          "id": "",
+          "textPreview": "United States"
+        },
+        "//*[@id=\":r8l:\"]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]": {
+          "tagName": "span",
+          "className": "d838fb5f41 aea5eccb71",
+          "id": "",
+          "textPreview": "Saudi Arabia"
+        },
+        "//*[@id=\":r8l:\"]/div[8]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]": {
+          "tagName": "span",
+          "className": "d838fb5f41 aea5eccb71",
+          "id": "",
+          "textPreview": "Egypt"
+        },
+        "//*[@id=\":r8l:\"]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]": {
+          "tagName": "span",
+          "className": "d838fb5f41 aea5eccb71",
+          "id": "",
+          "textPreview": "United States"
+        },
+        "//*[@id=\":r8l:\"]/div[10]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/span[1]": {
+          "tagName": "span",
+          "className": "d838fb5f41 aea5eccb71",
+          "id": "",
+          "textPreview": "Vietnam"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "United States"
+        },
+        {
+          "index": 2,
+          "text_preview": "United States"
+        },
+        {
+          "index": 3,
+          "text_preview": "United States"
+        },
+        {
+          "index": 4,
+          "text_preview": "United Arab Emirates"
+        },
+        {
+          "index": 5,
+          "text_preview": "United Arab Emirates"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "selector": "[data-testid='FeaturedReviewGalleryDesktop-wrapper'] [data-testid='featuredreviewcard-avatar'] .d838fb5f41",
+      "tagName": "featured-reviewer-country",
+      "description": "Reviewer country in the gallery featured reviews carousel",
+      "count": 10,
+      "element_ids": [
+        "//*[@id=\":r7f:\"]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+        "//*[@id=\":r7f:\"]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+        "//*[@id=\":r7f:\"]/div[3]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+        "//*[@id=\":r7f:\"]/div[4]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+        "//*[@id=\":r7f:\"]/div[5]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+        "//*[@id=\":r7f:\"]/div[6]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+        "//*[@id=\":r7f:\"]/div[7]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+        "//*[@id=\":r7f:\"]/div[8]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+        "//*[@id=\":r7f:\"]/div[9]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]",
+        "//*[@id=\":r7f:\"]/div[10]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]"
+      ],
+      "element_info": {
+        "//*[@id=\":r7f:\"]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]": {
+          "tagName": "span",
+          "className": "d838fb5f41 aea5eccb71",
+          "id": "",
+          "textPreview": "United States"
+        },
+        "//*[@id=\":r7f:\"]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]": {
+          "tagName": "span",
+          "className": "d838fb5f41 aea5eccb71",
+          "id": "",
+          "textPreview": "United States"
+        },
+        "//*[@id=\":r7f:\"]/div[3]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]": {
+          "tagName": "span",
+          "className": "d838fb5f41 aea5eccb71",
+          "id": "",
+          "textPreview": "United States"
+        },
+        "//*[@id=\":r7f:\"]/div[4]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]": {
+          "tagName": "span",
+          "className": "d838fb5f41 aea5eccb71",
+          "id": "",
+          "textPreview": "United Arab Emirates"
+        },
+        "//*[@id=\":r7f:\"]/div[5]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]": {
+          "tagName": "span",
+          "className": "d838fb5f41 aea5eccb71",
+          "id": "",
+          "textPreview": "United Arab Emirates"
+        },
+        "//*[@id=\":r7f:\"]/div[6]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]": {
+          "tagName": "span",
+          "className": "d838fb5f41 aea5eccb71",
+          "id": "",
+          "textPreview": "United States"
+        },
+        "//*[@id=\":r7f:\"]/div[7]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]": {
+          "tagName": "span",
+          "className": "d838fb5f41 aea5eccb71",
+          "id": "",
+          "textPreview": "Saudi Arabia"
+        },
+        "//*[@id=\":r7f:\"]/div[8]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]": {
+          "tagName": "span",
+          "className": "d838fb5f41 aea5eccb71",
+          "id": "",
+          "textPreview": "Egypt"
+        },
+        "//*[@id=\":r7f:\"]/div[9]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]": {
+          "tagName": "span",
+          "className": "d838fb5f41 aea5eccb71",
+          "id": "",
+          "textPreview": "United States"
+        },
+        "//*[@id=\":r7f:\"]/div[10]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/span[2]": {
+          "tagName": "span",
+          "className": "d838fb5f41 aea5eccb71",
+          "id": "",
+          "textPreview": "Vietnam"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "United States"
+        },
+        {
+          "index": 2,
+          "text_preview": "United States"
+        },
+        {
+          "index": 3,
+          "text_preview": "United States"
+        },
+        {
+          "index": 4,
+          "text_preview": "United Arab Emirates"
+        },
+        {
+          "index": 5,
+          "text_preview": "United Arab Emirates"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "selector": "[data-testid='faq-accordion-left-card'] [itemprop='text']",
+      "tagName": "faq-answer-left",
+      "description": "FAQ answer text that may embed property-specific content",
+      "count": 4,
+      "element_ids": [
+        "//*[@id=\"content-1\"]/div[1]",
+        "//*[@id=\"content-2\"]/div[1]",
+        "//*[@id=\"content-3\"]/div[1]",
+        "//*[@id=\"content-4\"]/div[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"content-1\"]/div[1]": {
+          "tagName": "div",
+          "className": "b99b6ef58f b4207c2ab6",
+          "id": "",
+          "textPreview": "Guests staying at Pullman Paris Tour Eiffel can enjoy a highly-rated breakfast during their stay (gu"
+        },
+        "//*[@id=\"content-2\"]/div[1]": {
+          "tagName": "div",
+          "className": "b99b6ef58f b4207c2ab6",
+          "id": "",
+          "textPreview": "Room options at Pullman Paris Tour Eiffel include: DoubleTripleSuite"
+        },
+        "//*[@id=\"content-3\"]/div[1]": {
+          "tagName": "div",
+          "className": "b99b6ef58f b4207c2ab6",
+          "id": "",
+          "textPreview": "Check-in at Pullman Paris Tour Eiffel is from 16:00, and check-out is until 11:00."
+        },
+        "//*[@id=\"content-4\"]/div[1]": {
+          "tagName": "div",
+          "className": "b99b6ef58f b4207c2ab6",
+          "id": "",
+          "textPreview": "The prices at Pullman Paris Tour Eiffel may vary depending on your stay (e.g. dates, hotel's policy "
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Guests staying at Pullman Paris Tour Eiffel can enjoy a highly-rated breakfast during their stay (gu"
+        },
+        {
+          "index": 2,
+          "text_preview": "Room options at Pullman Paris Tour Eiffel include: DoubleTripleSuite"
+        },
+        {
+          "index": 3,
+          "text_preview": "Check-in at Pullman Paris Tour Eiffel is from 16:00, and check-out is until 11:00."
+        },
+        {
+          "index": 4,
+          "text_preview": "The prices at Pullman Paris Tour Eiffel may vary depending on your stay (e.g. dates, hotel's policy"
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "selector": "[data-testid='faq-accordion-right-card'] [itemprop='text']",
+      "tagName": "faq-answer-right",
+      "description": "FAQ answer text that may embed property-specific content",
+      "count": 3,
+      "element_ids": [
+        "//*[@id=\"content-1\"]/div[1]",
+        "//*[@id=\"content-2\"]/div[1]",
+        "//*[@id=\"content-3\"]/div[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"content-1\"]/div[1]": {
+          "tagName": "div",
+          "className": "b99b6ef58f b4207c2ab6",
+          "id": "",
+          "textPreview": "Pullman Paris Tour Eiffel has 1 restaurants: FRAME"
+        },
+        "//*[@id=\"content-2\"]/div[1]": {
+          "tagName": "div",
+          "className": "b99b6ef58f b4207c2ab6",
+          "id": "",
+          "textPreview": "Pullman Paris Tour Eiffel offers the following activities/services (charges may apply): BowlingTempo"
+        },
+        "//*[@id=\"content-3\"]/div[1]": {
+          "tagName": "div",
+          "className": "b99b6ef58f b4207c2ab6",
+          "id": "",
+          "textPreview": "Pullman Paris Tour Eiffel is 4.3 km from the center of Paris."
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Pullman Paris Tour Eiffel has 1 restaurants: FRAME"
+        },
+        {
+          "index": 2,
+          "text_preview": "Pullman Paris Tour Eiffel offers the following activities/services (charges may apply): BowlingTempo"
+        },
+        {
+          "index": 3,
+          "text_preview": "Pullman Paris Tour Eiffel is 4.3 km from the center of Paris."
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "selector": "[data-testid='web-core-property-card'] h3.e7addce19e",
+      "tagName": "property-name",
+      "description": "Property name headings in property cards throughout carousels",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 28,
+      "selector": "[data-testid='webcore-carousel-image'] img",
+      "tagName": "property-image",
+      "description": "Property images uploaded by owners in carousel cards",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 29,
+      "selector": "[data-testid='promotional-banner-content-caption']",
+      "tagName": "promo-banner-caption",
+      "description": "Promotional banner caption text in secondary banner carousel",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    }
+  ]
+}

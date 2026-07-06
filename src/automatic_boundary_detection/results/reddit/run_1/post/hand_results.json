@@ -1,0 +1,1515 @@
+{
+  "summary": {
+    "totalSelectors": 17,
+    "selectorsWithMatches": 11,
+    "totalElements": 170,
+    "uniqueElements": 168,
+    "url": "http://localhost:8001/llm_input_original_post.html",
+    "configFile": "hand_labels.json",
+    "configVersion": "hand",
+    "configGeneratedBy": "Manual approximation from known old.reddit HTML structure"
+  },
+  "results": [
+    {
+      "index": 1,
+      "selector": "a.title",
+      "tagName": "post-title",
+      "description": "Post/submission title links",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "selector": ".thing .usertext-body .md",
+      "tagName": "post-body-comment",
+      "description": "Self-post text and comment body (excludes sidebar description)",
+      "count": 46,
+      "element_ids": [
+        "//*[@id=\"form-t1_ocf4d7py07\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocf9si7g39\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfu7sinfg\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocg3ntoi2k\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocg7z3t07u\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgblhyzww\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgr3we0u8\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgrpzyuj5\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocf9o9o0eg\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_och41ih4pr\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgk9b0yvq\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfcis909s\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocflna0wlw\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfp5b5gm7\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfu402sfk\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgtbdya4c\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgccwi9i9\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocggtzq8p2\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgwgozbtz\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocflh4nfi8\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgixa2wu4\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgbtw2t5x\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfuday6k9\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgur0we6t\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfk5aa90q\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocght67m4w\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgra3o6ec\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgj9d9il1\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocg6rwm1zh\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfslftbbw\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgdjbvr00\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgqi366j7\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocguslh9m0\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ochasci6lm\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ochcb2ipyu\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_och615ca8z\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocf7jcoxqd\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocg5samfwh\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocg7mg03mw\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocg38s87av\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgldqou3i\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgxdjw8ej\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocganlalbz\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgmixz9zo\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgmqj3czx\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocgti75r6p\"]/div[1]/div[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"form-t1_ocf4d7py07\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Hi, openrct2 developer here. \n\nNo amount of assembly saves you from writing bubble sorts or not cach"
+        },
+        "//*[@id=\"form-t1_ocf9si7g39\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Arguably, with modern compilers, you're probably more likely to get better optimized code writing C "
+        },
+        "//*[@id=\"form-t1_ocfu7sinfg\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "When handwriting assembly, you often make unoptimized choices for readability and maintenance reason"
+        },
+        "//*[@id=\"form-t1_ocg3ntoi2k\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "The last part is very true.  Early C compilers weren't doing profiling or even figuring out the best"
+        },
+        "//*[@id=\"form-t1_ocg7z3t07u\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "If the goal is hand-optimized assembly, then the best way to do it is start with writing C, see what"
+        },
+        "//*[@id=\"form-t1_ocgblhyzww\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "With modern compilers there are only three places I write any assembly: initialization, inner loops,"
+        },
+        "//*[@id=\"form-t1_ocgr3we0u8\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "When targeting the ARM Cortex-M0 or Cortex-M3, clang and gcc are both prone to perform \"optimizing\" "
+        },
+        "//*[@id=\"form-t1_ocgrpzyuj5\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Arguably, with modern compilers, you're probably more likely to get better optimized code writing C "
+        },
+        "//*[@id=\"form-t1_ocf9o9o0eg\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Wish people would remember this more \n\nNow im at the point I never take any discussion about this ga"
+        },
+        "//*[@id=\"form-t1_och41ih4pr\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Until just now when you said it I never heard anyone claim it was \"perofrmant\" because it was writte"
+        },
+        "//*[@id=\"form-t1_ocgk9b0yvq\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "It is true although the optimizations that do work are memory access based. Traditional linked lists"
+        },
+        "//*[@id=\"form-t1_ocfcis909s\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "RCT does this trick all the time, and even in its OpenRCT2 version, this syntax hasn\u2019t been changed,"
+        },
+        "//*[@id=\"form-t1_ocflna0wlw\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "They definitely do when one operand is constant, this is routine peephole optimization.\n\nAnd it can "
+        },
+        "//*[@id=\"form-t1_ocfp5b5gm7\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Divisions are even weirder, using reciprocals and wrapping multiplications to achieve the desired ef"
+        },
+        "//*[@id=\"form-t1_ocfu402sfk\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Yep.\n\nI could figure out that x << 2 + x is used to mean x * 5, but there's no way I could figure ou"
+        },
+        "//*[@id=\"form-t1_ocgtbdya4c\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "The main idea is to replace the division by 5 with a multiplication with 233/5 and then divide the r"
+        },
+        "//*[@id=\"form-t1_ocgccwi9i9\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "good lord."
+        },
+        "//*[@id=\"form-t1_ocggtzq8p2\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Those shifts and adds may look complicated, but they are exactly the long multiplication algorithm t"
+        },
+        "//*[@id=\"form-t1_ocgwgozbtz\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Delicious"
+        },
+        "//*[@id=\"form-t1_ocflh4nfi8\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "I'd be surprised if they weren't doing it back then. The knowledge of how to do this dates back long"
+        },
+        "//*[@id=\"form-t1_ocgixa2wu4\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Most do nowadays, but even when using modern compilers it's not guaranteed. There is a reason why Op"
+        },
+        "//*[@id=\"form-t1_ocgbtw2t5x\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Multiplication by constants is ALWAYS converted into bit shifts. Even if you are on GCC 2.6, and eve"
+        },
+        "//*[@id=\"form-t1_ocfuday6k9\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "That's just the second most clueless thing in the article, the first is this gem:\n\n\nBut besides the "
+        },
+        "//*[@id=\"form-t1_ocgur0we6t\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "That's just a rhetorical question, the answer is given in the next sentences:\n\n\nWe have something th"
+        },
+        "//*[@id=\"form-t1_ocfk5aa90q\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Yeap, compilers can totally do that. Check Matt Godbolts YouTube videos on compilers optimizations"
+        },
+        "//*[@id=\"form-t1_ocght67m4w\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Most modern compilers do, but it's not guaranteed even with those. I tried multiple ones via godbolt"
+        },
+        "//*[@id=\"form-t1_ocgra3o6ec\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "I'm fairly certain compilers can optimize some division/multiplication into bit shifting\n\n\nAnd much,"
+        },
+        "//*[@id=\"form-t1_ocgj9d9il1\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "the openrct2 dev nailing it above, but there's a layer on top of this worth adding.\n\nwhat made RCT r"
+        },
+        "//*[@id=\"form-t1_ocg6rwm1zh\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "the  article reads like it was written for someone who barely has any idea what programming is. usin"
+        },
+        "//*[@id=\"form-t1_ocfslftbbw\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Cool post. Imo, there seems to be a fixation with the technological aspect of the development when I"
+        },
+        "//*[@id=\"form-t1_ocgdjbvr00\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "This is a team culture issue. I have suggested to the team lead that we rewrite our react CRUD app i"
+        },
+        "//*[@id=\"form-t1_ocgqi366j7\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "RollerCoaster Tycoon and its sequel are often named as some of the best-optimized games out there, w"
+        },
+        "//*[@id=\"form-t1_ocguslh9m0\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "In addition to assembly language and \"portable\" C, another option for performance is to write code i"
+        },
+        "//*[@id=\"form-t1_ochasci6lm\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "(Note: I got a lot of notes and comments about this optimization being pointless, since modern compi"
+        },
+        "//*[@id=\"form-t1_ochcb2ipyu\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Note that this is one of the optimizations that has been removed in OpenRCT2, which changed all occu"
+        },
+        "//*[@id=\"form-t1_och615ca8z\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "RCT is the benchmark people pull out every time the \"just write clean code, performance will follow\""
+        },
+        "//*[@id=\"form-t1_ocf7jcoxqd\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Modern software developers could never."
+        },
+        "//*[@id=\"form-t1_ocg5samfwh\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "ThEy DoN't MaKe ThEm LiKe ThEy UsEd To"
+        },
+        "//*[@id=\"form-t1_ocg7mg03mw\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "This but unironically."
+        },
+        "//*[@id=\"form-t1_ocg38s87av\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "This modern developer almost always does"
+        },
+        "//*[@id=\"form-t1_ocgldqou3i\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "You almost always write in asm ? Your profile says you write about vibr coding."
+        },
+        "//*[@id=\"form-t1_ocgxdjw8ej\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "I adapt with the times, have a lot in my toolbox."
+        },
+        "//*[@id=\"form-t1_ocganlalbz\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "No, they don't. They might use a low level library that does, but most themselves do not."
+        },
+        "//*[@id=\"form-t1_ocgmixz9zo\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "The person you just replied to was speaking only of themselves. Note the \"This\" at the start of the "
+        },
+        "//*[@id=\"form-t1_ocgmqj3czx\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Thought it was a typo. My bad."
+        },
+        "//*[@id=\"form-t1_ocgti75r6p\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Then you get games like Factorio that can have vast mega factories across multiple planets simulated"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Hi, openrct2 developer here. \n\nNo amount of assembly saves you from writing bubble sorts or not cach"
+        },
+        {
+          "index": 2,
+          "text_preview": "Arguably, with modern compilers, you're probably more likely to get better optimized code writing C"
+        },
+        {
+          "index": 3,
+          "text_preview": "When handwriting assembly, you often make unoptimized choices for readability and maintenance reason"
+        },
+        {
+          "index": 4,
+          "text_preview": "The last part is very true.  Early C compilers weren't doing profiling or even figuring out the best"
+        },
+        {
+          "index": 5,
+          "text_preview": "If the goal is hand-optimized assembly, then the best way to do it is start with writing C, see what"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "selector": ".author",
+      "tagName": "username",
+      "description": "Username links throughout the site",
+      "count": 48,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[2]",
+        "//*[@id=\"thing_t1_ocf4d7p\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocf9si7\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfu7si\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocg3nto\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocg7z3t\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgblhy\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgr3we\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgrpzy\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocf9o9o\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_och41ih\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgk9b0\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfcis9\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocflna0\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfp5b5\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfu402\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgtbdy\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgccwi\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocggtzq\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgwgoz\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocflh4n\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgixa2\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgbtw2\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfuday\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgur0w\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfk5aa\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocght67\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgra3o\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgj9d9\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocg6rwm\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfslft\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgdjbv\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgqi36\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocguslh\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ochasci\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ochcb2i\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_och615c\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocf7jco\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocg5sam\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocg7mg0\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocg38s8\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgldqo\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgxdjw\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocganla\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgmixz\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgmqj3\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocgti75\"]/div[2]/p[1]/a[2]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1q1jbnhq",
+          "id": "",
+          "textPreview": "r_retrohacking_mod2"
+        },
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1q1jbnhq",
+          "id": "",
+          "textPreview": "r_retrohacking_mod2"
+        },
+        "//*[@id=\"thing_t1_ocf4d7p\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_ibzwv",
+          "id": "",
+          "textPreview": "janisozaur"
+        },
+        "//*[@id=\"thing_t1_ocf9si7\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_ftf51",
+          "id": "",
+          "textPreview": "Norphesius"
+        },
+        "//*[@id=\"thing_t1_ocfu7si\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_52x2f",
+          "id": "",
+          "textPreview": "vytah"
+        },
+        "//*[@id=\"thing_t1_ocg3nto\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_379gd",
+          "id": "",
+          "textPreview": "jhaluska"
+        },
+        "//*[@id=\"thing_t1_ocg7z3t\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_6j25c6dm",
+          "id": "",
+          "textPreview": "Luke22_36"
+        },
+        "//*[@id=\"thing_t1_ocgblhy\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_4aaq1",
+          "id": "",
+          "textPreview": "gimpwiz"
+        },
+        "//*[@id=\"thing_t1_ocgr3we\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1ynyypvj",
+          "id": "",
+          "textPreview": "flatfinger"
+        },
+        "//*[@id=\"thing_t1_ocgrpzy\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_mbfe7da7",
+          "id": "",
+          "textPreview": "Asyncrosaurus"
+        },
+        "//*[@id=\"thing_t1_ocf9o9o\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_x9soxg2",
+          "id": "",
+          "textPreview": "WJMazepas"
+        },
+        "//*[@id=\"thing_t1_och41ih\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_4pdql",
+          "id": "",
+          "textPreview": "Sage2050"
+        },
+        "//*[@id=\"thing_t1_ocgk9b0\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1m5peuejy6",
+          "id": "",
+          "textPreview": "VictoryMotel"
+        },
+        "//*[@id=\"thing_t1_ocfcis9\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_ftf51",
+          "id": "",
+          "textPreview": "Norphesius"
+        },
+        "//*[@id=\"thing_t1_ocflna0\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_5ij2c",
+          "id": "",
+          "textPreview": "matthieum"
+        },
+        "//*[@id=\"thing_t1_ocfp5b5\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_15246q",
+          "id": "",
+          "textPreview": "vowelqueue"
+        },
+        "//*[@id=\"thing_t1_ocfu402\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_5ij2c",
+          "id": "",
+          "textPreview": "matthieum"
+        },
+        "//*[@id=\"thing_t1_ocgtbdy\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_52np03ys",
+          "id": "",
+          "textPreview": "YellowBunnyReddit"
+        },
+        "//*[@id=\"thing_t1_ocgccwi\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_4aaq1",
+          "id": "",
+          "textPreview": "gimpwiz"
+        },
+        "//*[@id=\"thing_t1_ocggtzq\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_ibq05",
+          "id": "",
+          "textPreview": "Anabaena_azollae"
+        },
+        "//*[@id=\"thing_t1_ocgwgoz\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_cd18ckdak",
+          "id": "",
+          "textPreview": "_I_AM_A_STRANGE_LOOP"
+        },
+        "//*[@id=\"thing_t1_ocflh4n\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_3dcvoeuf",
+          "id": "",
+          "textPreview": "BobBulldogBriscoe"
+        },
+        "//*[@id=\"thing_t1_ocgixa2\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1m9fncvxr2",
+          "id": "",
+          "textPreview": "LarstOfUs"
+        },
+        "//*[@id=\"thing_t1_ocgbtw2\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_c1oyp",
+          "id": "",
+          "textPreview": "WaitForItTheMongols"
+        },
+        "//*[@id=\"thing_t1_ocfuday\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_ig8yw9sc",
+          "id": "",
+          "textPreview": "wintrmt3"
+        },
+        "//*[@id=\"thing_t1_ocgur0w\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1038di",
+          "id": "",
+          "textPreview": "ShinyHappyREM"
+        },
+        "//*[@id=\"thing_t1_ocfk5aa\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_25714r5qos",
+          "id": "",
+          "textPreview": "albertopodesta"
+        },
+        "//*[@id=\"thing_t1_ocght67\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1m9fncvxr2",
+          "id": "",
+          "textPreview": "LarstOfUs"
+        },
+        "//*[@id=\"thing_t1_ocgra3o\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1038di",
+          "id": "",
+          "textPreview": "ShinyHappyREM"
+        },
+        "//*[@id=\"thing_t1_ocgj9d9\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_21bguwcab7",
+          "id": "",
+          "textPreview": "NeatRuin7406"
+        },
+        "//*[@id=\"thing_t1_ocg6rwm\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_m24q",
+          "id": "",
+          "textPreview": "floodyberry"
+        },
+        "//*[@id=\"thing_t1_ocfslft\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_46l6nh",
+          "id": "",
+          "textPreview": "Draconicrose_"
+        },
+        "//*[@id=\"thing_t1_ocgdjbv\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_gyuqi",
+          "id": "",
+          "textPreview": "Wodanaz_Odinn"
+        },
+        "//*[@id=\"thing_t1_ocgqi36\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1038di",
+          "id": "",
+          "textPreview": "ShinyHappyREM"
+        },
+        "//*[@id=\"thing_t1_ocguslh\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1ynyypvj",
+          "id": "",
+          "textPreview": "flatfinger"
+        },
+        "//*[@id=\"thing_t1_ochasci\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_4u1iu",
+          "id": "",
+          "textPreview": "KeytarVillain"
+        },
+        "//*[@id=\"thing_t1_ochcb2i\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_4u1iu",
+          "id": "",
+          "textPreview": "KeytarVillain"
+        },
+        "//*[@id=\"thing_t1_och615c\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_hc9le",
+          "id": "",
+          "textPreview": "glenrhodes"
+        },
+        "//*[@id=\"thing_t1_ocf7jco\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_16bijn",
+          "id": "",
+          "textPreview": "BlueGoliath"
+        },
+        "//*[@id=\"thing_t1_ocg5sam\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_h7v53",
+          "id": "",
+          "textPreview": "N546RV"
+        },
+        "//*[@id=\"thing_t1_ocg7mg0\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_16bijn",
+          "id": "",
+          "textPreview": "BlueGoliath"
+        },
+        "//*[@id=\"thing_t1_ocg38s8\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_m9srlau5o",
+          "id": "",
+          "textPreview": "who_am_i_to_say_so"
+        },
+        "//*[@id=\"thing_t1_ocgldqo\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1m5peuejy6",
+          "id": "",
+          "textPreview": "VictoryMotel"
+        },
+        "//*[@id=\"thing_t1_ocgxdjw\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_m9srlau5o",
+          "id": "",
+          "textPreview": "who_am_i_to_say_so"
+        },
+        "//*[@id=\"thing_t1_ocganla\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_16bijn",
+          "id": "",
+          "textPreview": "BlueGoliath"
+        },
+        "//*[@id=\"thing_t1_ocgmixz\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_kufh0",
+          "id": "",
+          "textPreview": "entropicdrift"
+        },
+        "//*[@id=\"thing_t1_ocgmqj3\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_16bijn",
+          "id": "",
+          "textPreview": "BlueGoliath"
+        },
+        "//*[@id=\"thing_t1_ocgti75\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_30zagjen",
+          "id": "",
+          "textPreview": "OMGItsCheezWTF"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "r_retrohacking_mod2"
+        },
+        {
+          "index": 2,
+          "text_preview": "r_retrohacking_mod2"
+        },
+        {
+          "index": 3,
+          "text_preview": "janisozaur"
+        },
+        {
+          "index": 4,
+          "text_preview": "Norphesius"
+        },
+        {
+          "index": 5,
+          "text_preview": "vytah"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "selector": ".flair",
+      "tagName": "user-flair",
+      "description": "User flair text (user-chosen label)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 5,
+      "selector": ".linkflair-text",
+      "tagName": "link-flair",
+      "description": "Post flair/category label",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 6,
+      "selector": ".titlebox .md a[href^=\"/r/\"]",
+      "tagName": "related-subreddit-link",
+      "description": "Individual subreddit name links in sidebar (can have malicious names)",
+      "count": 21,
+      "element_ids": [
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/p[1]/a[1]",
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[2]/li[1]/a[1]",
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[2]/li[1]/a[2]",
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[2]/li[2]/a[1]",
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[2]/li[3]/a[1]",
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[2]/li[3]/a[2]",
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[1]/a[1]",
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[2]/a[1]",
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[3]/a[1]",
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[4]/a[1]",
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[5]/a[1]",
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[6]/a[1]",
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[7]/a[1]",
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[8]/a[1]",
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[9]/a[1]",
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[10]/a[1]",
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[11]/a[1]",
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[12]/a[1]",
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[13]/a[1]",
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[14]/a[1]",
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[15]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/programming"
+        },
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[2]/li[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/learnprogramming"
+        },
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[2]/li[1]/a[2]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/cscareerquestions"
+        },
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[2]/li[2]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/ProgrammerHumor/"
+        },
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[2]/li[3]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/forhire"
+        },
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[2]/li[3]/a[2]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/jobbit"
+        },
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/technology"
+        },
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[2]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/ProgrammerTIL"
+        },
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[3]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/learnprogramming"
+        },
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[4]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/askprogramming"
+        },
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[5]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/coding"
+        },
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[6]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/compsci"
+        },
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[7]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/dailyprogrammer"
+        },
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[8]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/netsec"
+        },
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[9]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/webdev"
+        },
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[10]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/web_design"
+        },
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[11]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/gamedev"
+        },
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[12]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/cscareerquestions"
+        },
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[13]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/reverseengineering"
+        },
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[14]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/startups"
+        },
+        "//*[@id=\"form-t5_2fwoez9\"]/div[1]/div[1]/ul[3]/li[15]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "/r/techsupport"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "/r/programming"
+        },
+        {
+          "index": 2,
+          "text_preview": "/r/learnprogramming"
+        },
+        {
+          "index": 3,
+          "text_preview": "/r/cscareerquestions"
+        },
+        {
+          "index": 4,
+          "text_preview": "/r/ProgrammerHumor/"
+        },
+        {
+          "index": 5,
+          "text_preview": "/r/forhire"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "selector": ".profile-page .titlebox h1",
+      "tagName": "profile-username",
+      "description": "Username displayed in profile page header (bare text, not an <a> tag)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 8,
+      "selector": ".titlebox h1 a",
+      "tagName": "subreddit-name",
+      "description": "Subreddit display name",
+      "count": 1,
+      "element_ids": [
+        "/html/body/div[2]/div[5]/div[1]/h1[1]/a[1]"
+      ],
+      "element_info": {
+        "/html/body/div[2]/div[5]/div[1]/h1[1]/a[1]": {
+          "tagName": "a",
+          "className": "hover",
+          "id": "",
+          "textPreview": "programming"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "programming"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "selector": ".domain a",
+      "tagName": "link-domain",
+      "description": "Source domain of linked post",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/span[1]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "larstofus.com"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "larstofus.com"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "selector": ".trophy-name",
+      "tagName": "trophy-name",
+      "description": "Trophy/badge names on user profile",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 11,
+      "selector": ".trophy-description",
+      "tagName": "trophy-description",
+      "description": "Trophy descriptions on user profile",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 12,
+      "selector": ".crosspost-preview .title",
+      "tagName": "crosspost-title",
+      "description": "Crosspost original post title",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/p[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/p[1]": {
+          "tagName": "p",
+          "className": "title",
+          "id": "",
+          "textPreview": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "selector": ".crosspost-preview .author",
+      "tagName": "crosspost-username",
+      "description": "Crosspost original poster username",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[2]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[2]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1q1jbnhq",
+          "id": "",
+          "textPreview": "r_retrohacking_mod2"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "r_retrohacking_mod2"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "selector": ".crosspost-preview .subreddit",
+      "tagName": "crosspost-subreddit",
+      "description": "Crosspost source subreddit name",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[3]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[3]": {
+          "tagName": "a",
+          "className": "subreddit hover may-blank",
+          "id": "",
+          "textPreview": "r/retrogamedev"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "r/retrogamedev"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "selector": "a.subreddit",
+      "tagName": "subreddit-link",
+      "description": "Subreddit name links in post listings (e.g. 'in redditstock')",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[3]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[3]": {
+          "tagName": "a",
+          "className": "subreddit hover may-blank",
+          "id": "",
+          "textPreview": "r/retrogamedev"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "r/retrogamedev"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "selector": ".stickied-tagline",
+      "tagName": "stickied-tag",
+      "description": "Moderator-applied stickied/announcement tag",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 17,
+      "selector": ".userattrs",
+      "tagName": "user-attributes",
+      "description": "User attribute badges like [S] submitter, [M] mod, [A] admin",
+      "count": 48,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/span[4]",
+        "//*[@id=\"thing_t1_ocf4d7p\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocf9si7\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocfu7si\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocg3nto\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocg7z3t\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgblhy\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgr3we\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgrpzy\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocf9o9o\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_och41ih\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgk9b0\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocfcis9\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocflna0\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocfp5b5\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocfu402\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgtbdy\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgccwi\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocggtzq\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgwgoz\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocflh4n\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgixa2\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgbtw2\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocfuday\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgur0w\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocfk5aa\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocght67\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgra3o\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgj9d9\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocg6rwm\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocfslft\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgdjbv\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgqi36\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocguslh\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ochasci\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ochcb2i\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_och615c\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocf7jco\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocg5sam\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocg7mg0\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocg38s8\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgldqo\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgxdjw\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocganla\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgmixz\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgmqj3\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocgti75\"]/div[2]/p[1]/span[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/span[4]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocf4d7p\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocf9si7\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocfu7si\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocg3nto\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocg7z3t\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgblhy\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgr3we\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgrpzy\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocf9o9o\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_och41ih\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgk9b0\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocfcis9\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocflna0\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocfp5b5\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocfu402\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgtbdy\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgccwi\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocggtzq\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgwgoz\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocflh4n\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgixa2\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgbtw2\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocfuday\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgur0w\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocfk5aa\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocght67\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgra3o\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgj9d9\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocg6rwm\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocfslft\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgdjbv\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgqi36\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocguslh\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ochasci\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ochcb2i\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_och615c\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocf7jco\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocg5sam\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocg7mg0\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocg38s8\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgldqo\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgxdjw\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocganla\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgmixz\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgmqj3\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocgti75\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 2,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 3,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 4,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 5,
+          "text_preview": "(empty)"
+        }
+      ]
+    }
+  ]
+}

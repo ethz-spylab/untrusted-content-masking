@@ -1,0 +1,216 @@
+{
+  "version": "sanitized",
+  "generated_by": "LLM analysis (claude-sonnet-4-5-20250929)",
+  "untrusted_selectors": [
+    {
+      "selector": "[data-testid='title']",
+      "tagName": "property-name",
+      "description": "Property name heading on search result cards, typed by property owners.",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid='property-card'] [data-testid='title-link'] .b87c397a13.a3e0b4ffd1",
+      "tagName": "property-name-link",
+      "description": "Property name as clickable title text in search listing cards.",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid='promotional-banner-content-title']",
+      "tagName": "promotional-banner-title",
+      "description": "Title text in promotional banner that may contain property or marketing content.",
+      "confidence": "medium"
+    },
+    {
+      "selector": "[data-testid='promotional-banner-content-subtitle']",
+      "tagName": "promotional-banner-subtitle",
+      "description": "Subtitle text in promotional banner containing descriptive content.",
+      "confidence": "medium"
+    },
+    {
+      "selector": "[data-testid='property-card'] img[src]:not([alt=''])",
+      "tagName": "property-image",
+      "description": "Property thumbnail images uploaded by property owners in search result cards.",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid='promotional-banner-partial-image'] img",
+      "tagName": "promotional-banner-image",
+      "description": "Image content in promotional banner that may be property-uploaded.",
+      "confidence": "medium"
+    },
+    {
+      "selector": "[data-testid=\"PropertyBadges-wrapper\"] [data-testid=\"brand-name\"] .b08850ce41",
+      "tagName": "brand-name",
+      "description": "Property brand or chain name uploaded by the owner",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-capla-component-boundary] h2.ddb12f4f86.pp-header__title",
+      "tagName": "property-name",
+      "description": "Hotel property name entered by the owner",
+      "confidence": "high"
+    },
+    {
+      "selector": "a.fn[href=\"#availability\"]",
+      "tagName": "property-name-link",
+      "description": "Property name text in the reviews link",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid=\"GalleryUnifiedDesktop-wrapper\"] img[alt]",
+      "tagName": "property-gallery-images",
+      "description": "Property gallery photos uploaded by the owner",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid=\"property-description\"]",
+      "tagName": "property-description",
+      "description": "Free-text property description written by the owner",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid=\"featuredreviewcard-text\"] .b99b6ef58f.d14152e7c3.e01adb21c0",
+      "tagName": "featured-review-quote",
+      "description": "Guest review quote excerpt in featured reviews carousel",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid=\"featuredreviewcard-avatar\"] .a787c7cca4",
+      "tagName": "featured-reviewer-name",
+      "description": "Guest reviewer name in featured reviews carousel",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid=\"FeaturedReviewGalleryDesktop-wrapper\"] [data-testid=\"featuredreviewcard-text\"] .b99b6ef58f.d14152e7c3.e01adb21c0",
+      "tagName": "sidebar-featured-review-quote",
+      "description": "Guest review quote in sidebar featured reviews section",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid=\"FeaturedReviewGalleryDesktop-wrapper\"] [data-testid=\"featuredreviewcard-avatar\"] .a787c7cca4",
+      "tagName": "sidebar-featured-reviewer-name",
+      "description": "Guest reviewer name in sidebar featured reviews",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid=\"featuredreview-text\"] .b99b6ef58f.d14152e7c3",
+      "tagName": "guest-loved-review-quote",
+      "description": "Guest review quote in what guests loved section",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid=\"featuredreview-avatar\"] .b08850ce41.f546354b44",
+      "tagName": "guest-loved-reviewer-name",
+      "description": "Guest reviewer name in what guests loved section",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid=\"rt-name-link\"] .b08850ce41",
+      "tagName": "room-type-name",
+      "description": "Room type name entered by the property",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid=\"PropertyBrandInfo-wrapper\"] [data-testid=\"brand-logo\"] img",
+      "tagName": "brand-logo",
+      "description": "Property brand logo image uploaded by the owner",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid=\"location-block-container\"] [data-location-block-list] .d1bc97eb82",
+      "tagName": "poi-name",
+      "description": "Point of interest name from third-party data sources",
+      "confidence": "medium"
+    },
+    {
+      "selector": "[data-testid=\"restaurant-card\"] [data-testid=\"restaurant-title\"] .e7addce19e",
+      "tagName": "restaurant-name",
+      "description": "Restaurant name provided by the property",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid=\"sustainability-banner-container\"] [aria-label=\"Certification name\"]",
+      "tagName": "certification-name",
+      "description": "Third-party sustainability certification name",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid=\"sustainability-banner-container\"] img[alt]",
+      "tagName": "certification-logo",
+      "description": "Third-party sustainability certification logo image",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid=\"matchmaking-questions-answers-desktop\"] .aa225776f2.ca9d921c46.f6707cac49",
+      "tagName": "faq-question",
+      "description": "FAQ question text that embeds property-specific information",
+      "confidence": "medium"
+    },
+    {
+      "selector": "[data-testid=\"faq-accordion-left-card\"] [data-testid=\"answer\"]",
+      "tagName": "faq-answer-left",
+      "description": "FAQ answer text that may embed property-specific details",
+      "confidence": "medium"
+    },
+    {
+      "selector": "[data-testid=\"faq-accordion-right-card\"] [data-testid=\"answer\"]",
+      "tagName": "faq-answer-right",
+      "description": "FAQ answer text that may embed property-specific details",
+      "confidence": "medium"
+    },
+    {
+      "selector": "[itemtype=\"https://schema.org/FAQPage\"] [data-testid=\"question\"]",
+      "tagName": "structured-faq-question",
+      "description": "Structured FAQ question that embeds property name",
+      "confidence": "medium"
+    },
+    {
+      "selector": "[itemtype=\"https://schema.org/FAQPage\"] [data-testid=\"answer\"]",
+      "tagName": "structured-faq-answer",
+      "description": "Structured FAQ answer with property-specific content",
+      "confidence": "medium"
+    },
+    {
+      "selector": "[data-testid=\"FeaturedReviewGalleryDesktop-wrapper\"] .d838fb5f41.aea5eccb71",
+      "tagName": "sidebar-featured-reviewer-country",
+      "description": "Guest reviewer country in sidebar featured reviews",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid=\"featuredreviewcard-avatar\"] .d838fb5f41.aea5eccb71",
+      "tagName": "featured-reviewer-country",
+      "description": "Guest reviewer country in featured reviews carousel",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid=\"featuredreview-avatar\"] .d838fb5f41.aea5eccb71",
+      "tagName": "guest-loved-reviewer-country",
+      "description": "Guest reviewer country in what guests loved section",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid=\"restaurant-card\"] .fb14de7f14",
+      "tagName": "restaurant-details",
+      "description": "Restaurant cuisine types and details provided by property",
+      "confidence": "medium"
+    },
+    {
+      "selector": "[data-testid='webcore-carousel-image'] img[alt='']",
+      "tagName": "property-image",
+      "description": "Property images uploaded by property owners in carousel cards",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid='web-core-property-card'] h3.e7addce19e",
+      "tagName": "property-name",
+      "description": "Property name heading entered by property owners",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid='web-core-stacked-card'] h3[data-testid='webcore-carousel-title']",
+      "tagName": "destination-name",
+      "description": "Destination or location names in stacked cards which may include third-party POI names",
+      "confidence": "medium"
+    }
+  ]
+}

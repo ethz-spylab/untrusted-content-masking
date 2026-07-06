@@ -1,0 +1,810 @@
+/* =====================================================================
+   COMMUNITY FORUM SPECIFIC STYLES
+   ===================================================================== */
+
+/* Button-style filter groups (replaces native <select>/<input type=checkbox>). */
+.filter-btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.25rem;
+}
+
+.filter-btn, .toggle-btn {
+    padding: 0.4rem 0.8rem;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: #333;
+    transition: all 0.15s;
+}
+
+.filter-btn:hover, .toggle-btn:hover {
+    background-color: #f8f9fa;
+}
+
+.filter-btn.active {
+    background-color: #2563eb;
+    color: white;
+    border-color: #2563eb;
+}
+
+.toggle-btn {
+    background-color: #f9fafb;
+    color: #6b7280;
+}
+
+.toggle-btn.active {
+    background-color: #2563eb;
+    color: white;
+    border-color: #2563eb;
+    font-weight: 500;
+}
+
+.toggle-btn.active::before {
+    content: "\2713\00a0";
+    font-weight: 700;
+}
+
+
+/* =====================================================================
+   PROMOTIONAL BANNER
+   ===================================================================== */
+
+   .promo-banner-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.promo-banner {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 1rem 1.5rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.promo-content {
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.promo-content strong {
+    font-weight: 600;
+}
+
+/* =====================================================================
+   HEADER & NAVIGATION
+   ===================================================================== */
+
+   .header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.nav {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.nav-btn {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.nav-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.nav-btn.active {
+    background: white;
+    color: #667eea;
+}
+
+.badge {
+    background: #f5576c;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    border-radius: 10px;
+    font-size: 0.75rem;
+    margin-left: 0.5rem;
+}
+
+/* =====================================================================
+   FORUM CONTAINER
+   ===================================================================== */
+
+.forum-container {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 2rem;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    min-height: calc(100vh - 100px);
+}
+
+/* =====================================================================
+   SIDEBAR
+   ===================================================================== */
+
+.sidebar {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    height: fit-content;
+}
+
+.sidebar-section {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.sidebar-section:last-child {
+    border-bottom: none;
+}
+
+.sidebar-section h3 {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+    font-size: 1rem;
+}
+
+.tags-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.tag-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.follow-btn {
+    background: white;
+    border: 2px solid #e0e0e0;
+    color: #667eea;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 700;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.follow-btn:hover {
+    border-color: #667eea;
+    background: #667eea;
+    color: white;
+}
+
+.follow-btn.following {
+    background: #667eea;
+    color: white;
+    border-color: #667eea;
+}
+
+/* =====================================================================
+   MAIN CONTENT
+   ===================================================================== */
+
+.main-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+.content-header {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.content-header h2 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.stats-bar {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+}
+
+.stat-item {
+    padding: 0.5rem 1rem;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+}
+
+/* =====================================================================
+   POST CARDS
+   ===================================================================== */
+
+.posts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.post-card {
+    display: grid;
+    grid-template-columns: 60px 1fr auto;
+    gap: 1rem;
+    padding: 1.5rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    transition: all 0.2s;
+    background: white;
+}
+
+.post-card:hover {
+    border-color: #cbd5e0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.spam-post {
+    background-color: #fff5f5;
+    border-color: #ef4444;
+}
+
+.spam-post:hover {
+    border-color: #dc2626;
+}
+
+/* Post Votes */
+.post-votes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 0.5rem;
+}
+
+.vote-count {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #667eea;
+}
+
+.vote-label {
+    font-size: 0.75rem;
+    color: #7f8c8d;
+}
+
+/* Post Content Preview */
+.post-content-preview {
+    flex: 1;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.post-type {
+    font-size: 1.5rem;
+}
+
+.post-title {
+    color: #2c3e50;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.spam-badge {
+    background: #ef4444;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.post-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.tag {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    border: 1px solid;
+}
+
+.post-meta {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+    color: #7f8c8d;
+}
+
+.sentiment {
+    font-size: 1.2rem;
+}
+
+/* Post Stats */
+.post-stats {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.stat {
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.stat.answered {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.stat.unanswered {
+    background-color: #f8f9fa;
+    color: #6c757d;
+}
+
+.unanswered-badge {
+    background: #ffc107;
+    color: #856404;
+    padding: 0.35rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.post-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.open-post-btn {
+    background: #667eea;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.open-post-btn:hover {
+    background: #5568d3;
+    box-shadow: 0 2px 4px rgba(102, 126, 234, 0.3);
+}
+
+.report-btn {
+    background: none;
+    border: 1px solid #e0e0e0;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.report-btn:hover {
+    border-color: #ef4444;
+    color: #ef4444;
+    background: #fff5f5;
+}
+
+/* =====================================================================
+   LOAD MORE
+   ===================================================================== */
+
+.load-more-container {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.no-results {
+    text-align: center;
+    padding: 3rem;
+    color: #7f8c8d;
+    font-size: 1.1rem;
+}
+
+/* =====================================================================
+   POST DETAIL MODAL
+   ===================================================================== */
+
+.modal-content {
+    position: relative;
+}
+
+.modal-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #7f8c8d;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: all 0.2s;
+    z-index: 2000; /* above reveal placeholder overlays */
+}
+
+.modal-close:hover {
+    background: #f8f9fa;
+    color: #2c3e50;
+}
+
+.post-detail-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.post-type-large {
+    font-size: 3rem;
+}
+
+.post-detail-header h2 {
+    color: #2c3e50;
+    margin: 0;
+}
+
+.post-detail-meta {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+}
+
+.post-author {
+    font-weight: 600;
+    color: #667eea;
+}
+
+.post-detail-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.post-detail-body {
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    color: #2c3e50;
+}
+
+/* Replies Section */
+.replies-section {
+    margin-bottom: 2rem;
+}
+
+.replies-section h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.reply-card {
+    padding: 1.5rem;
+    background: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.reply-card.accepted-answer {
+    border-color: #10b981;
+    background-color: #ecfdf5;
+}
+
+.accepted-badge {
+    position: absolute;
+    top: -12px;
+    right: 1rem;
+    background: #10b981;
+    color: white;
+    padding: 0.35rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.reply-meta {
+    margin-bottom: 0.75rem;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+}
+
+.reply-meta strong {
+    color: #667eea;
+}
+
+.reply-content {
+    line-height: 1.6;
+    color: #2c3e50;
+}
+
+.post-detail-actions {
+    display: flex;
+    gap: 1rem;
+    padding-top: 1.5rem;
+    border-top: 2px solid #e0e0e0;
+}
+
+/* =====================================================================
+   RICH TEXT EDITOR
+   ===================================================================== */
+
+.rich-editor {
+    font-family: 'Courier New', monospace;
+    font-size: 0.95rem;
+}
+
+.editor-toolbar {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+}
+
+.editor-btn {
+    background: white;
+    border: 1px solid #e0e0e0;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+}
+
+.editor-btn:hover {
+    border-color: #667eea;
+    color: #667eea;
+}
+
+.tags-selector {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+}
+
+/* =====================================================================
+   ANALYTICS
+   ===================================================================== */
+
+.analytics-section {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.analytics-section:last-child {
+    border-bottom: none;
+}
+
+.analytics-section h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.sentiment-chart {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sentiment-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.sentiment-label {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.sentiment-value {
+    color: #7f8c8d;
+}
+
+.issues-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.issue-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+}
+
+.issue-rank {
+    background: #667eea;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.issue-name {
+    flex: 1;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.issue-count {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+}
+
+.metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.metric-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.metric-value {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.metric-label {
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+/* =====================================================================
+   RESPONSIVE LAYOUT
+   ===================================================================== */
+
+@media (max-width: 1200px) {
+    .forum-container {
+        grid-template-columns: 260px 1fr;
+    }
+}
+
+@media (max-width: 992px) {
+    .forum-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .sidebar {
+        position: static;
+    }
+    
+    .post-card {
+        grid-template-columns: 50px 1fr;
+    }
+    
+    .post-stats {
+        grid-column: 2;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .metrics-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .forum-container {
+        padding: 1rem;
+    }
+    
+    .main-content,
+    .sidebar {
+        padding: 1rem;
+    }
+    
+    .nav {
+        flex-wrap: wrap;
+    }
+    
+    .post-card {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+    
+    .post-votes {
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+    
+    .post-actions {
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    .open-post-btn,
+    .report-btn {
+        flex: 1;
+    }
+    
+    .metrics-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/**
+ * SUMMARY:
+ * - Uses common.css for: buttons, forms, modals, base styles
+ * - Forum-specific: post cards, voting, replies, sentiment, analytics
+ * - Professional color scheme: purple/blue gradient theme
+ * - Spam post highlighting with red borders
+ * - Accepted answer badges in green
+ * - Responsive design with mobile optimizations
+ */

@@ -1,0 +1,600 @@
+{
+  "version": "sanitized",
+  "generated_by": "LLM analysis (claude-sonnet-4-5-20250929)",
+  "untrusted_selectors": [
+    {
+      "selector": ".breadcrumbs-links li a span",
+      "tagName": "breadcrumb-username",
+      "description": "Username in breadcrumb navigation",
+      "confidence": "high"
+    },
+    {
+      "selector": ".breadcrumb-item-text",
+      "tagName": "breadcrumb-project-name",
+      "description": "Project name in breadcrumb navigation",
+      "confidence": "high"
+    },
+    {
+      "selector": ".context-header .sidebar-context-title span",
+      "tagName": "sidebar-project-name",
+      "description": "Project name in sidebar header",
+      "confidence": "high"
+    },
+    {
+      "selector": ".home-panel-title",
+      "tagName": "project-title",
+      "description": "Main project title on project home page",
+      "confidence": "high"
+    },
+    {
+      "selector": ".home-panel-description-markdown",
+      "tagName": "project-description",
+      "description": "Project description text in markdown",
+      "confidence": "high"
+    },
+    {
+      "selector": ".commit-row-message",
+      "tagName": "commit-message",
+      "description": "Commit message text",
+      "confidence": "high"
+    },
+    {
+      "selector": ".tree-commit-link span",
+      "tagName": "file-tree-commit-message",
+      "description": "Commit messages in file tree view",
+      "confidence": "high"
+    },
+    {
+      "selector": ".tree-item-link .position-relative",
+      "tagName": "file-directory-name",
+      "description": "File and directory names in repository tree",
+      "confidence": "high"
+    },
+    {
+      "selector": ".file-content.md",
+      "tagName": "readme-content",
+      "description": "README and markdown file rendered content",
+      "confidence": "high"
+    },
+    {
+      "selector": ".file-content.md h1",
+      "tagName": "readme-heading-1",
+      "description": "H1 headings in README markdown content",
+      "confidence": "high"
+    },
+    {
+      "selector": ".file-content.md h2",
+      "tagName": "readme-heading-2",
+      "description": "H2 headings in README markdown content",
+      "confidence": "high"
+    },
+    {
+      "selector": ".file-content.md h3",
+      "tagName": "readme-heading-3",
+      "description": "H3 headings in README markdown content",
+      "confidence": "high"
+    },
+    {
+      "selector": ".file-content.md p",
+      "tagName": "readme-paragraph",
+      "description": "Paragraph text in README markdown content",
+      "confidence": "high"
+    },
+    {
+      "selector": ".file-content.md a",
+      "tagName": "readme-link-text",
+      "description": "Link text in README markdown content",
+      "confidence": "high"
+    },
+    {
+      "selector": ".file-content.md li",
+      "tagName": "readme-list-item",
+      "description": "List items in README markdown content",
+      "confidence": "high"
+    },
+    {
+      "selector": ".file-content.md td",
+      "tagName": "readme-table-cell",
+      "description": "Table cell content in README markdown",
+      "confidence": "high"
+    },
+    {
+      "selector": ".file-content.md th",
+      "tagName": "readme-table-header",
+      "description": "Table header content in README markdown",
+      "confidence": "high"
+    },
+    {
+      "selector": ".user-counter .gl-badge",
+      "tagName": "issue-count-badge",
+      "description": "Count badges that may include user-generated numbers",
+      "confidence": "medium"
+    },
+    {
+      "selector": ".ref-selector .gl-dropdown-button-text",
+      "tagName": "branch-name-selector",
+      "description": "Branch name in branch selector dropdown",
+      "confidence": "high"
+    },
+    {
+      "selector": ".breadcrumb.repo-breadcrumb li a span",
+      "tagName": "repo-breadcrumb-text",
+      "description": "Repository breadcrumb navigation items including project name",
+      "confidence": "high"
+    },
+    {
+      "selector": ".current-user a div",
+      "tagName": "current-user-display-name",
+      "description": "Current user's display name in dropdown menu",
+      "confidence": "high"
+    },
+    {
+      "selector": ".header-user-dropdown-toggle",
+      "tagName": "user-avatar-alt",
+      "description": "User avatar alt text",
+      "confidence": "high"
+    },
+    {
+      "selector": "#dir_name",
+      "tagName": "new-directory-name-input",
+      "description": "Input field for new directory name",
+      "confidence": "high"
+    },
+    {
+      "selector": "#commit_message-fdaa2f8cd41c5492dea9357ed72450c6",
+      "tagName": "commit-message-input",
+      "description": "Commit message textarea input",
+      "confidence": "high"
+    },
+    {
+      "selector": ".js-branch-name",
+      "tagName": "branch-name-input",
+      "description": "Branch name input field",
+      "confidence": "high"
+    },
+    {
+      "selector": ".clone-options-dropdown .dropdown-menu-inner-content",
+      "tagName": "clone-url",
+      "description": "Repository clone URLs containing project path",
+      "confidence": "high"
+    },
+    {
+      "selector": ".open-with-link .gl-dropdown-item-text-wrapper",
+      "tagName": "open-with-app-name",
+      "description": "Application names in open-with menu",
+      "confidence": "medium"
+    },
+    {
+      "selector": ".commit-detail .commit-row-message span",
+      "tagName": "last-commit-message-span",
+      "description": "Last commit message displayed on project page",
+      "confidence": "high"
+    },
+    {
+      "selector": ".committer span",
+      "tagName": "committer-info",
+      "description": "Committer information text",
+      "confidence": "high"
+    },
+    {
+      "selector": ".project-stat-value",
+      "tagName": "project-statistics",
+      "description": "Project statistics values that may include user content",
+      "confidence": "medium"
+    },
+    {
+      "selector": ".file-holder .file-header-content a strong",
+      "tagName": "readme-filename",
+      "description": "README filename in file holder",
+      "confidence": "high"
+    },
+    {
+      "selector": ".avatar-container .avatar",
+      "tagName": "project-avatar-identicon",
+      "description": "Project avatar identicon text (single letter from project name)",
+      "confidence": "high"
+    },
+    {
+      "selector": ".home-panel-avatar .avatar",
+      "tagName": "home-panel-project-avatar",
+      "description": "Project avatar on home panel (contains first letter of project name)",
+      "confidence": "high"
+    },
+    {
+      "selector": ".commit-detail .commit-content a",
+      "tagName": "commit-message-link",
+      "description": "Commit message as clickable link in commit detail",
+      "confidence": "high"
+    },
+    {
+      "selector": "input#ssh_project_clone",
+      "tagName": "ssh-clone-url",
+      "description": "SSH clone URL containing project namespace and name",
+      "confidence": "high"
+    },
+    {
+      "selector": "input#http_project_clone",
+      "tagName": "http-clone-url",
+      "description": "HTTP clone URL containing project namespace and name",
+      "confidence": "high"
+    },
+    {
+      "selector": ".gl-font-monospace.gl-button span.gl-button-text",
+      "tagName": "commit-sha-display",
+      "description": "Commit SHA displayed in monospace font",
+      "confidence": "medium"
+    },
+    {
+      "selector": ".shortcuts-project span",
+      "tagName": "sidebar-project-link-text",
+      "description": "Project name link text in sidebar shortcuts",
+      "confidence": "high"
+    },
+    {
+      "selector": ".mobile-git-clone .clone.url-selector strong",
+      "tagName": "mobile-clone-url-label",
+      "description": "Clone URL labels on mobile view",
+      "confidence": "medium"
+    },
+    {
+      "selector": ".mobile-git-clone .clone.url-selector span",
+      "tagName": "mobile-clone-url-value",
+      "description": "Clone URL values on mobile containing project path",
+      "confidence": "high"
+    },
+    {
+      "selector": "#search",
+      "tagName": "search-input-placeholder",
+      "description": "Search input that may retain user search queries",
+      "confidence": "medium"
+    },
+    {
+      "selector": ".file-content.md code",
+      "tagName": "readme-inline-code",
+      "description": "Inline code snippets in README markdown",
+      "confidence": "high"
+    },
+    {
+      "selector": "title",
+      "tagName": "page-title",
+      "description": "Browser page title containing project name",
+      "confidence": "high"
+    },
+    {
+      "selector": ".home-panel-metadata span",
+      "tagName": "project-metadata",
+      "description": "Project ID and metadata display",
+      "confidence": "medium"
+    },
+    {
+      "selector": "h1.title span",
+      "tagName": "issue-title",
+      "description": "Issue title text",
+      "confidence": "high"
+    },
+    {
+      "selector": ".description .md",
+      "tagName": "issue-description",
+      "description": "Issue description content in markdown",
+      "confidence": "high"
+    },
+    {
+      "selector": ".note-text.md",
+      "tagName": "comment-content",
+      "description": "Comment/note content in discussions",
+      "confidence": "high"
+    },
+    {
+      "selector": ".note-header-author-name",
+      "tagName": "comment-author-name",
+      "description": "Display name of comment author",
+      "confidence": "high"
+    },
+    {
+      "selector": ".author-username-link .note-headline-light",
+      "tagName": "comment-author-username",
+      "description": "Username of comment author",
+      "confidence": "high"
+    },
+    {
+      "selector": ".breadcrumbs-links a span",
+      "tagName": "breadcrumb-text",
+      "description": "Breadcrumb navigation including project and namespace names",
+      "confidence": "high"
+    },
+    {
+      "selector": ".author-link .author",
+      "tagName": "issue-author-name",
+      "description": "Issue author display name",
+      "confidence": "high"
+    },
+    {
+      "selector": ".user-profile-link",
+      "tagName": "user-profile-link",
+      "description": "User profile display name in header dropdown",
+      "confidence": "high"
+    },
+    {
+      "selector": ".assignee-grid .gl-display-flex span",
+      "tagName": "assignee-name",
+      "description": "Assignee display name in sidebar",
+      "confidence": "high"
+    },
+    {
+      "selector": ".participants-author img[alt]",
+      "tagName": "participant-avatar",
+      "description": "Participant avatar with alt text containing username",
+      "confidence": "high"
+    },
+    {
+      "selector": ".system-note-message",
+      "tagName": "system-note-content",
+      "description": "System note messages that may contain user references",
+      "confidence": "medium"
+    },
+    {
+      "selector": ".note-body .md a",
+      "tagName": "comment-links",
+      "description": "Links within comment content",
+      "confidence": "high"
+    },
+    {
+      "selector": ".description .md a",
+      "tagName": "description-links",
+      "description": "Links within issue description",
+      "confidence": "high"
+    },
+    {
+      "selector": ".note-body .md p",
+      "tagName": "comment-paragraphs",
+      "description": "Paragraph content in comments",
+      "confidence": "high"
+    },
+    {
+      "selector": ".description .md p",
+      "tagName": "description-paragraphs",
+      "description": "Paragraph content in issue description",
+      "confidence": "high"
+    },
+    {
+      "selector": ".note-body .md code",
+      "tagName": "comment-inline-code",
+      "description": "Inline code snippets in comments",
+      "confidence": "high"
+    },
+    {
+      "selector": ".description .md code",
+      "tagName": "description-inline-code",
+      "description": "Inline code snippets in issue description",
+      "confidence": "high"
+    },
+    {
+      "selector": ".note-body .md ul",
+      "tagName": "comment-lists",
+      "description": "Lists in comment content",
+      "confidence": "high"
+    },
+    {
+      "selector": ".description .md ul",
+      "tagName": "description-lists",
+      "description": "Lists in issue description",
+      "confidence": "high"
+    },
+    {
+      "selector": ".note-body .md img[alt]",
+      "tagName": "comment-images",
+      "description": "Images with alt text in comments",
+      "confidence": "high"
+    },
+    {
+      "selector": ".description .md img[alt]",
+      "tagName": "description-images",
+      "description": "Images with alt text in issue description",
+      "confidence": "high"
+    },
+    {
+      "selector": ".gfm-project_member",
+      "tagName": "mentioned-user",
+      "description": "User mentions in markdown content",
+      "confidence": "high"
+    },
+    {
+      "selector": ".note-header-author-name.gl-font-weight-bold",
+      "tagName": "comment-author-display-name",
+      "description": "Bold display name of comment authors in note headers",
+      "confidence": "high"
+    },
+    {
+      "selector": ".author-name-link span",
+      "tagName": "author-name-span",
+      "description": "Author name spans in various contexts",
+      "confidence": "high"
+    },
+    {
+      "selector": ".sidebar-collapsed-user .author span",
+      "tagName": "collapsed-assignee-name",
+      "description": "Assignee name in collapsed sidebar state",
+      "confidence": "high"
+    },
+    {
+      "selector": ".header-user-avatar[alt]",
+      "tagName": "user-avatar-alt",
+      "description": "User avatar alt text in header",
+      "confidence": "high"
+    },
+    {
+      "selector": ".current-user .fly-out-top-item-name",
+      "tagName": "current-user-name",
+      "description": "Current user display name in navigation",
+      "confidence": "high"
+    },
+    {
+      "selector": "input[name='issue[note]']",
+      "tagName": "comment-input-field",
+      "description": "Comment textarea where users enter new comments",
+      "confidence": "high"
+    },
+    {
+      "selector": ".collapse-truncated-title",
+      "tagName": "collapsed-sidebar-text",
+      "description": "Truncated text in collapsed sidebar (may include user-generated labels)",
+      "confidence": "medium"
+    },
+    {
+      "selector": ".dropdown-menu-user .author",
+      "tagName": "user-dropdown-name",
+      "description": "User names in assignee/user dropdown menus",
+      "confidence": "high"
+    },
+    {
+      "selector": ".avatar.identicon",
+      "tagName": "identicon-avatar",
+      "description": "Generated avatar icons with potential user initials",
+      "confidence": "medium"
+    },
+    {
+      "selector": "h1.cover-title span",
+      "tagName": "user-display-name",
+      "description": "User's display name on profile page",
+      "confidence": "high"
+    },
+    {
+      "selector": ".profile-user-bio span",
+      "tagName": "user-bio",
+      "description": "User's biography/about text on profile page",
+      "confidence": "high"
+    },
+    {
+      "selector": ".user-info .gl-mb-3.gl-display-inline-block.middle-dot-divider",
+      "tagName": "user-username-location-company",
+      "description": "Username, location, and company information in user profile",
+      "confidence": "high"
+    },
+    {
+      "selector": "[itemprop='addressLocality']",
+      "tagName": "user-location",
+      "description": "User's location information",
+      "confidence": "high"
+    },
+    {
+      "selector": "[itemprop='worksFor']",
+      "tagName": "user-company",
+      "description": "User's company/organization",
+      "confidence": "high"
+    },
+    {
+      "selector": ".event-target-title",
+      "tagName": "activity-issue-title",
+      "description": "Issue/MR titles in activity feed",
+      "confidence": "high"
+    },
+    {
+      "selector": ".event-note .md p",
+      "tagName": "activity-comment",
+      "description": "Comment content in activity feed",
+      "confidence": "high"
+    },
+    {
+      "selector": ".commit-row-title",
+      "tagName": "commit-message",
+      "description": "Commit message in activity feed",
+      "confidence": "high"
+    },
+    {
+      "selector": ".project-name span",
+      "tagName": "project-name",
+      "description": "Project name in project list",
+      "confidence": "high"
+    },
+    {
+      "selector": ".namespace-name span",
+      "tagName": "namespace-name",
+      "description": "Namespace/user name in project list",
+      "confidence": "high"
+    },
+    {
+      "selector": ".description p",
+      "tagName": "project-description",
+      "description": "Project description in project list",
+      "confidence": "high"
+    },
+    {
+      "selector": ".event-user-info .author-name a",
+      "tagName": "activity-author-name",
+      "description": "Author display name in activity items",
+      "confidence": "high"
+    },
+    {
+      "selector": ".event-user-info .username span",
+      "tagName": "activity-author-username",
+      "description": "Author username in activity items",
+      "confidence": "high"
+    },
+    {
+      "selector": ".event-scope .namespace-name span",
+      "tagName": "activity-namespace",
+      "description": "Namespace in activity scope",
+      "confidence": "high"
+    },
+    {
+      "selector": ".event-scope .project-name span",
+      "tagName": "activity-project",
+      "description": "Project name in activity scope",
+      "confidence": "high"
+    },
+    {
+      "selector": ".current-user .gl-font-weight-bold",
+      "tagName": "dropdown-user-name",
+      "description": "User display name in dropdown menu",
+      "confidence": "high"
+    },
+    {
+      "selector": ".ref-name span",
+      "tagName": "branch-name",
+      "description": "Branch/ref name in push activity",
+      "confidence": "high"
+    },
+    {
+      "selector": ".current-user a[data-user]",
+      "tagName": "dropdown-user-username",
+      "description": "User username in dropdown menu (second line)",
+      "confidence": "high"
+    },
+    {
+      "selector": ".commit-sha",
+      "tagName": "commit-sha-link",
+      "description": "Commit SHA in activity feed (can be part of user-controlled repo)",
+      "confidence": "medium"
+    },
+    {
+      "selector": ".header-user-dropdown-toggle img.header-user-avatar",
+      "tagName": "header-avatar",
+      "description": "User avatar image in header dropdown",
+      "confidence": "high"
+    },
+    {
+      "selector": ".avatar-holder img",
+      "tagName": "profile-avatar",
+      "description": "User avatar image on profile page",
+      "confidence": "high"
+    },
+    {
+      "selector": ".event-item .user-avatar img",
+      "tagName": "activity-avatar",
+      "description": "User avatar images in activity feed",
+      "confidence": "high"
+    },
+    {
+      "selector": ".project-cell img.gl-avatar",
+      "tagName": "project-avatar",
+      "description": "Project avatar images in project list",
+      "confidence": "high"
+    },
+    {
+      "selector": ".project-cell .gl-avatar-identicon",
+      "tagName": "project-identicon",
+      "description": "Project identicon (generated from project name)",
+      "confidence": "high"
+    }
+  ]
+}

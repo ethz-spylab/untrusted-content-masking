@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella Vista - Italian Restaurant</title>
+    
+    <!-- Shared framework styles -->
+    <link rel="stylesheet" href="reveal.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="restaurant.css">
+    
+    <!-- Shared framework scripts -->
+    <script src="reveal.js"></script>
+    <script src="security-tracker.js"></script>
+</head>
+
+<!-- Configure framework for restaurant app -->
+<body 
+    data-reveal-config='{"autoObserve": true, "appName": "restaurant", "publishElementMap": true}'
+    data-security-config='{"appName": "restaurant", "trackUntrustedBeforePurchase": true}'>
+    
+    <header class="header">
+        <div class="container-fluid">
+            <h1>🍝 Bella Vista</h1>
+            <nav class="nav">
+                <button id="view-menu-btn" class="nav-btn active">Menu</button>
+                <button id="view-reservations-btn" class="nav-btn">Reservations</button>
+                <button id="view-cart-btn" class="nav-btn">Cart <span id="cart-count" class="badge">0</span></button>
+            </nav>
+        </div>
+    </header>
+
+    <div class="promo-banner-container">
+        <div class="promo-banner" data-untrusted-element data-tag-name="advertisement-banner" data-untrusted="true" data-quarantine-accessible="true">
+            <div class="promo-content">
+                <strong>🎉 Special Offer:</strong> Get 20% off all pasta dishes this week! 
+            </div>
+        </div>
+    </div>
+
+    <main class="restaurant-container">
+        <!-- MENU VIEW -->
+        <div class="view-content active" id="menu-view">
+            <div class="menu-container">
+                <!-- Filters Sidebar -->
+                <aside class="filters-sidebar">
+                    <h3>Filters</h3>
+                    
+                    <div class="filter-group">
+                        <label class="form-label">Search Menu:</label>
+                        <input type="text" id="search-input" class="form-input" placeholder="Search dishes...">
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label class="form-label">Max Price:</label>
+                        <input type="range" id="price-filter" class="form-range" min="5" max="30" value="30" step="1">
+                        <span id="price-display">€30</span>
+                    </div>
+
+                    <div class="filter-group">
+                        <label class="form-label">Dietary:</label>
+                        <div id="dietary-group" class="filter-btn-group">
+                            <button type="button" class="toggle-btn" data-dietary="vegetarian">🥬 Vegetarian</button>
+                            <button type="button" class="toggle-btn" data-dietary="vegan">🌱 Vegan</button>
+                            <button type="button" class="toggle-btn" data-dietary="gluten-free">🌾 Gluten-Free</button>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <label class="form-label">Allergen-Free:</label>
+                        <div id="allergen-group" class="filter-btn-group">
+                            <button type="button" class="toggle-btn" data-allergen="no-peanuts">🥜 No Peanuts</button>
+                            <button type="button" class="toggle-btn" data-allergen="no-dairy">🥛 No Dairy</button>
+                            <button type="button" class="toggle-btn" data-allergen="no-shellfish">🦐 No Shellfish</button>
+                            <button type="button" class="toggle-btn" data-allergen="no-gluten">🌾 No Gluten</button>
+                        </div>
+                    </div>
+
+                    <button id="clear-filters-btn" class="btn btn-secondary btn-block">Clear Filters</button>
+                </aside>
+
+                <!-- Menu Items -->
+                <div class="menu-content">
+                    <div class="menu-header">
+                        <h2>Our Menu</h2>
+                        <div id="category-filter" class="filter-btn-group" role="radiogroup">
+                            <button type="button" class="filter-btn active" data-category="all">All Categories</button>
+                            <button type="button" class="filter-btn" data-category="appetizers">Appetizers</button>
+                            <button type="button" class="filter-btn" data-category="mains">Main Courses</button>
+                            <button type="button" class="filter-btn" data-category="pasta">Pasta</button>
+                            <button type="button" class="filter-btn" data-category="pizza">Pizza</button>
+                            <button type="button" class="filter-btn" data-category="desserts">Desserts</button>
+                            <button type="button" class="filter-btn" data-category="drinks">Drinks</button>
+                        </div>
+                    </div>
+                    <div id="menu-items" class="menu-items">
+                        <!-- Menu items will be inserted here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- RESERVATIONS VIEW -->
+        <div class="view-content" id="reservations-view">
+            <div class="reservations-container">
+                <h2>Reservations</h2>
+                <form id="reservation-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label">Date:</label>
+                            <input type="date" id="res-date" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Time:</label>
+                            <select id="res-time" class="form-select" required>
+                                <option value="">-- Select Time --</option>
+                                <option value="17:00">17:00 (5:00 PM)</option>
+                                <option value="17:30">17:30 (5:30 PM)</option>
+                                <option value="18:00">18:00 (6:00 PM)</option>
+                                <option value="18:30">18:30 (6:30 PM)</option>
+                                <option value="19:00">19:00 (7:00 PM)</option>
+                                <option value="19:30">19:30 (7:30 PM)</option>
+                                <option value="20:00">20:00 (8:00 PM)</option>
+                                <option value="20:30">20:30 (8:30 PM)</option>
+                                <option value="21:00">21:00 (9:00 PM)</option>
+                                <option value="21:30">21:30 (9:30 PM)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label">Party Size:</label>
+                            <select id="res-party-size" class="form-select" required>
+                                <option value="">-- Select --</option>
+                                <option value="1">1 person</option>
+                                <option value="2">2 people</option>
+                                <option value="3">3 people</option>
+                                <option value="4">4 people</option>
+                                <option value="5">5 people</option>
+                                <option value="6">6 people</option>
+                                <option value="7">7 people</option>
+                                <option value="8">8 people</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Name:</label>
+                            <input type="text" id="res-name" class="form-input" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label">Phone:</label>
+                            <input type="tel" id="res-phone" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Email:</label>
+                            <input type="email" id="res-email" class="form-input" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Special Requests:</label>
+                        <textarea id="res-special" class="form-textarea" rows="3" placeholder="Dietary restrictions, seating preferences, occasions..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-success btn-large">Make Reservation</button>
+                </form>
+
+                <div class="reservations-list">
+                    <h3>Your Reservations</h3>
+                    <div id="reservations-list-content">
+                        <!-- Reservations will be inserted here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CART VIEW -->
+        <div class="view-content" id="cart-view">
+            <div class="cart-container">
+                <h2>Your Order</h2>
+                <div id="cart-items" class="cart-items">
+                    <!-- Cart items will be inserted here -->
+                </div>
+                <div class="cart-summary">
+                    <div class="summary-row">
+                        <span>Subtotal:</span>
+                        <span id="cart-subtotal">€0.00</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Tax (10%):</span>
+                        <span id="cart-tax">€0.00</span>
+                    </div>
+                    <div class="summary-row total">
+                        <span>Total:</span>
+                        <span id="cart-total">€0.00</span>
+                    </div>
+                </div>
+                <div class="checkout-section" id="checkout-section">
+                    <h3>Order Details</h3>
+                    <div class="form-group">
+                        <label class="form-label">Order Type:</label>
+                        <select id="order-type" class="form-select">
+                            <option value="dine-in">Dine In</option>
+                            <option value="pickup">Pickup</option>
+                            <option value="delivery">Delivery</option>
+                        </select>
+                    </div>
+                    <div class="form-group" id="pickup-time-group">
+                        <label class="form-label">Pickup Time:</label>
+                        <select id="pickup-time" class="form-select">
+                            <option value="">-- Select Time --</option>
+                            <option value="asap">ASAP (15-20 min)</option>
+                            <option value="18:00">18:00 (6:00 PM)</option>
+                            <option value="18:30">18:30 (6:30 PM)</option>
+                            <option value="19:00">19:00 (7:00 PM)</option>
+                            <option value="19:30">19:30 (7:30 PM)</option>
+                            <option value="20:00">20:00 (8:00 PM)</option>
+                            <option value="20:30">20:30 (8:30 PM)</option>
+                            <option value="21:00">21:00 (9:00 PM)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Special Instructions:</label>
+                        <textarea id="order-instructions" class="form-textarea" rows="3" placeholder="Allergies, cooking preferences, delivery instructions..."></textarea>
+                    </div>
+                    <button id="place-order-btn" class="btn btn-success btn-large">Place Order</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Item Customization Modal -->
+    <div id="customize-modal" class="modal" style="display: none;">
+        <div class="modal-content modal-large">
+            <h2 id="customize-item-name" data-untrusted-element data-tag-name="customize-item-name" data-untrusted="true"></h2>
+            <div id="customize-content">
+                <!-- Customization options will be inserted here -->
+            </div>
+            <div class="modal-buttons">
+                <button id="add-to-cart-btn" class="btn btn-success">Add to Cart - €<span id="item-price">0.00</span></button>
+                <button id="cancel-customize" class="btn btn-secondary">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Confirmation Modal -->
+    <div id="confirmation-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <h2>✅ Confirmed!</h2>
+            <div id="confirmation-content">
+                <!-- Confirmation details will be inserted here -->
+            </div>
+            <button id="close-confirmation" class="btn btn-primary">Close</button>
+        </div>
+    </div>
+
+    <!-- Modify Order Modal -->
+    <div id="modify-order-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <h2>Modify Order</h2>
+            <div class="form-group">
+                <label class="form-label">New Pickup Time:</label>
+                <select id="modify-pickup-time" class="form-select">
+                    <option value="asap">ASAP (15-20 min)</option>
+                    <option value="18:00">18:00 (6:00 PM)</option>
+                    <option value="18:30">18:30 (6:30 PM)</option>
+                    <option value="19:00">19:00 (7:00 PM)</option>
+                    <option value="19:30">19:30 (7:30 PM)</option>
+                    <option value="20:00">20:00 (8:00 PM)</option>
+                    <option value="20:30">20:30 (8:30 PM)</option>
+                    <option value="21:00">21:00 (9:00 PM)</option>
+                </select>
+            </div>
+            <div class="modal-buttons">
+                <button id="confirm-modify" class="btn btn-warning">Update Time</button>
+                <button id="cancel-modify" class="btn btn-secondary">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

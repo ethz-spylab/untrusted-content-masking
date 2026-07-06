@@ -1,0 +1,3486 @@
+{
+  "summary": {
+    "totalSelectors": 37,
+    "selectorsWithMatches": 25,
+    "totalElements": 389,
+    "uniqueElements": 238,
+    "url": "http://localhost:8001/llm_input_original_user.html",
+    "configFile": "llm_labels.json",
+    "configVersion": "sanitized",
+    "configGeneratedBy": "LLM analysis (claude-sonnet-4-5-20250929)"
+  },
+  "results": [
+    {
+      "index": 1,
+      "selector": ".thing .title a.title",
+      "tagName": "post-title",
+      "description": "Post/submission title text",
+      "count": 2,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[1]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Humans welcome (bots must wear name tags)"
+        },
+        "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank ",
+          "id": "",
+          "textPreview": "Humans welcome (bots must wear name tags)"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Humans welcome (bots must wear name tags)"
+        },
+        {
+          "index": 2,
+          "text_preview": "Humans welcome (bots must wear name tags)"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "selector": ".thing a.author",
+      "tagName": "username",
+      "description": "Username of post or comment author",
+      "count": 48,
+      "element_ids": [
+        "//*[@id=\"thing_t1_ocfdez3\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_ocfdez3\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfcbs9\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_ocfcbs9\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfaspc\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_ocfaspc\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfa6a3\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_ocfa6a3\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocf538k\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_ocf538k\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocf4918\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_ocf4918\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t1_obbmr5y\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_obbmr5y\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o8gk2ud\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o8gk2ud\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o40tlwf\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o40tlwf\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t7qd9\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t7qd9\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t7k89\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t7k89\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t774z\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t774z\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t70wv\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t70wv\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t6nst\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t6nst\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t6gff\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t6gff\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t6ebz\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t6ebz\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t6bxs\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t6bxs\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t69i6\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t69i6\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t66uw\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t66uw\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t64ts\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t64ts\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t62bh\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t62bh\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t5yi2\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t5yi2\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t5w5c\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t5w5c\"]/div[2]/p[1]/a[2]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t1_ocfdez3\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocfdez3\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocfcbs9\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocfcbs9\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocfaspc\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocfaspc\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocfa6a3\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocfa6a3\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocf538k\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocf538k\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocf4918\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocf4918\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_obbmr5y\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_20ud0a18ft",
+          "id": "",
+          "textPreview": "One-Event6199"
+        },
+        "//*[@id=\"thing_t1_obbmr5y\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o8gk2ud\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_25yly9h6po",
+          "id": "",
+          "textPreview": "Ordinary-Heron-6821"
+        },
+        "//*[@id=\"thing_t1_o8gk2ud\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o40tlwf\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1sd8mpb6wr",
+          "id": "",
+          "textPreview": "Tight-Falcon4829"
+        },
+        "//*[@id=\"thing_t1_o40tlwf\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t7qd9\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t7qd9\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t7k89\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t7k89\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t774z\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t774z\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t70wv\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t70wv\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t6nst\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t6nst\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t6gff\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_v399waejy",
+          "id": "",
+          "textPreview": "rddt_IR"
+        },
+        "//*[@id=\"thing_t1_o3t6gff\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t6ebz\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_v399waejy",
+          "id": "",
+          "textPreview": "rddt_IR"
+        },
+        "//*[@id=\"thing_t1_o3t6ebz\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t6bxs\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_v399waejy",
+          "id": "",
+          "textPreview": "rddt_IR"
+        },
+        "//*[@id=\"thing_t1_o3t6bxs\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t69i6\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_v399waejy",
+          "id": "",
+          "textPreview": "rddt_IR"
+        },
+        "//*[@id=\"thing_t1_o3t69i6\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t66uw\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_v399waejy",
+          "id": "",
+          "textPreview": "rddt_IR"
+        },
+        "//*[@id=\"thing_t1_o3t66uw\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t64ts\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_v399waejy",
+          "id": "",
+          "textPreview": "rddt_IR"
+        },
+        "//*[@id=\"thing_t1_o3t64ts\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t62bh\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_v399waejy",
+          "id": "",
+          "textPreview": "rddt_IR"
+        },
+        "//*[@id=\"thing_t1_o3t62bh\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t5yi2\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_v399waejy",
+          "id": "",
+          "textPreview": "rddt_IR"
+        },
+        "//*[@id=\"thing_t1_o3t5yi2\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t5w5c\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_v399waejy",
+          "id": "",
+          "textPreview": "rddt_IR"
+        },
+        "//*[@id=\"thing_t1_o3t5w5c\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "spez"
+        },
+        {
+          "index": 2,
+          "text_preview": "spez"
+        },
+        {
+          "index": 3,
+          "text_preview": "spez"
+        },
+        {
+          "index": 4,
+          "text_preview": "spez"
+        },
+        {
+          "index": 5,
+          "text_preview": "spez"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "selector": ".thing .domain a",
+      "tagName": "external-domain",
+      "description": "External link domain name",
+      "count": 2,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[1]/span[1]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "self.spez"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 2,
+          "text_preview": "self.spez"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "selector": ".titlebox .usertext-body .md",
+      "tagName": "sidebar-description",
+      "description": "Subreddit sidebar description (markdown content)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 5,
+      "selector": ".titlebox h1.redditname a",
+      "tagName": "subreddit-name-sidebar",
+      "description": "Subreddit name in sidebar title",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 6,
+      "selector": ".pagename.redditname a",
+      "tagName": "subreddit-name-header",
+      "description": "Subreddit name in page header",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 7,
+      "selector": ".thing .expando",
+      "tagName": "post-expando-content",
+      "description": "Expanded content area for self-posts and embedded content",
+      "count": 2,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[2]",
+        "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[2]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[2]": {
+          "tagName": "div",
+          "className": "expando expando-uninitialized",
+          "id": "",
+          "textPreview": "loading..."
+        },
+        "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[2]": {
+          "tagName": "div",
+          "className": "expando expando-uninitialized",
+          "id": "",
+          "textPreview": "loading..."
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "loading..."
+        },
+        {
+          "index": 2,
+          "text_preview": "loading..."
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "selector": ".crosspost-badge",
+      "tagName": "crosspost-badge",
+      "description": "Crosspost indicator showing origin subreddit",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[1]/span[2]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[1]/span[2]": {
+          "tagName": "span",
+          "className": "crosspost-badge",
+          "id": "",
+          "textPreview": ""
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(empty)"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "selector": ".thing[data-domain]",
+      "tagName": "post-external-url",
+      "description": "External URL destination for link posts",
+      "count": 2,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3f2fe\"]",
+        "//*[@id=\"thing_t3_1s3ezrc\"]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3f2fe\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s3f2fe linkflair odd  link ",
+          "id": "thing_t3_1s3f2fe",
+          "textPreview": "111112113Humans welcome (bots must wear name tags) ()submitted 4 hours ago by spez[A] to r/redditsto"
+        },
+        "//*[@id=\"thing_t3_1s3ezrc\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s3ezrc even  link self",
+          "id": "thing_t3_1s3ezrc",
+          "textPreview": "346347348Humans welcome (bots must wear name tags) (self.spez)submitted 4 hours ago by spez[A]179 co"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "111112113Humans welcome (bots must wear name tags) ()submitted 4 hours ago by spez[A] to r/redditsto"
+        },
+        {
+          "index": 2,
+          "text_preview": "346347348Humans welcome (bots must wear name tags) (self.spez)submitted 4 hours ago by spez[A]179 co"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "selector": ".userattrs",
+      "tagName": "user-attributes",
+      "description": "User flair and special badges next to username",
+      "count": 48,
+      "element_ids": [
+        "//*[@id=\"thing_t1_ocfdez3\"]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocfdez3\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocfcbs9\"]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocfcbs9\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocfaspc\"]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocfaspc\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocfa6a3\"]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocfa6a3\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocf538k\"]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocf538k\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocf4918\"]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_ocf4918\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t1_obbmr5y\"]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_obbmr5y\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o8gk2ud\"]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o8gk2ud\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o40tlwf\"]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o40tlwf\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o3t7qd9\"]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o3t7qd9\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o3t7k89\"]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o3t7k89\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o3t774z\"]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o3t774z\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o3t70wv\"]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o3t70wv\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o3t6nst\"]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o3t6nst\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o3t6gff\"]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o3t6gff\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o3t6ebz\"]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o3t6ebz\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o3t6bxs\"]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o3t6bxs\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o3t69i6\"]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o3t69i6\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o3t66uw\"]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o3t66uw\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o3t64ts\"]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o3t64ts\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o3t62bh\"]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o3t62bh\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o3t5yi2\"]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o3t5yi2\"]/div[2]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o3t5w5c\"]/p[1]/span[1]",
+        "//*[@id=\"thing_t1_o3t5w5c\"]/div[2]/p[1]/span[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t1_ocfdez3\"]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocfdez3\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": "[S,A]"
+        },
+        "//*[@id=\"thing_t1_ocfcbs9\"]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocfcbs9\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": "[S,A]"
+        },
+        "//*[@id=\"thing_t1_ocfaspc\"]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocfaspc\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": "[S,A]"
+        },
+        "//*[@id=\"thing_t1_ocfa6a3\"]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocfa6a3\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": "[S,A]"
+        },
+        "//*[@id=\"thing_t1_ocf538k\"]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocf538k\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": "[S,A]"
+        },
+        "//*[@id=\"thing_t1_ocf4918\"]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_ocf4918\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": "[S,A]"
+        },
+        "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": "[A]"
+        },
+        "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": "[A]"
+        },
+        "//*[@id=\"thing_t1_obbmr5y\"]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_obbmr5y\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": "[A]"
+        },
+        "//*[@id=\"thing_t1_o8gk2ud\"]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_o8gk2ud\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": "[A]"
+        },
+        "//*[@id=\"thing_t1_o40tlwf\"]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_o40tlwf\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": "[A]"
+        },
+        "//*[@id=\"thing_t1_o3t7qd9\"]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_o3t7qd9\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": "[S,A]"
+        },
+        "//*[@id=\"thing_t1_o3t7k89\"]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_o3t7k89\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": "[S,A]"
+        },
+        "//*[@id=\"thing_t1_o3t774z\"]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_o3t774z\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": "[S,A]"
+        },
+        "//*[@id=\"thing_t1_o3t70wv\"]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_o3t70wv\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": "[S,A]"
+        },
+        "//*[@id=\"thing_t1_o3t6nst\"]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_o3t6nst\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": "[S,A]"
+        },
+        "//*[@id=\"thing_t1_o3t6gff\"]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_o3t6gff\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": "[A]"
+        },
+        "//*[@id=\"thing_t1_o3t6ebz\"]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_o3t6ebz\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": "[A]"
+        },
+        "//*[@id=\"thing_t1_o3t6bxs\"]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_o3t6bxs\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": "[A]"
+        },
+        "//*[@id=\"thing_t1_o3t69i6\"]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_o3t69i6\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": "[A]"
+        },
+        "//*[@id=\"thing_t1_o3t66uw\"]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_o3t66uw\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": "[A]"
+        },
+        "//*[@id=\"thing_t1_o3t64ts\"]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_o3t64ts\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": "[A]"
+        },
+        "//*[@id=\"thing_t1_o3t62bh\"]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_o3t62bh\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": "[A]"
+        },
+        "//*[@id=\"thing_t1_o3t5yi2\"]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_o3t5yi2\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": "[A]"
+        },
+        "//*[@id=\"thing_t1_o3t5w5c\"]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t1_o3t5w5c\"]/div[2]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": "[A]"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 2,
+          "text_preview": "[S,A]"
+        },
+        {
+          "index": 3,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 4,
+          "text_preview": "[S,A]"
+        },
+        {
+          "index": 5,
+          "text_preview": "(empty)"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "selector": ".thing .usertext-body .md",
+      "tagName": "self-post-body",
+      "description": "Self-post and comment body text (rendered markdown)",
+      "count": 23,
+      "element_ids": [
+        "//*[@id=\"form-t1_ocfdez3ige\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfcbs9aku\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfaspct23\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfa6a3aps\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocf538kq5w\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocf4918ifk\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_obbmr5yhr5\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o8gk2ud5i9\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o40tlwfupd\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t7qd9ht9\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t7k8996k\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t774znyv\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t70wv3jp\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t6nst9e1\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t6gffe2o\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t6ebz1z3\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t6bxsvmn\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t69i6lkb\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t66uwil4\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t64tsxgz\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t62bh9cb\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t5yi2ln1\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t5w5cfbb\"]/div[1]/div[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"form-t1_ocfdez3ige\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "<image>"
+        },
+        "//*[@id=\"form-t1_ocfcbs9aku\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Are you referring to our CFO, Drew? I can assure you nobody hates SBC more he does."
+        },
+        "//*[@id=\"form-t1_ocfaspct23\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "We'll accept an eyeball."
+        },
+        "//*[@id=\"form-t1_ocfa6a3aps\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "You can see what it will look like here:\nhttps://www.reddit.com/r/redditdev/comments/1s3f3ag/keeping"
+        },
+        "//*[@id=\"form-t1_ocf538kq5w\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "The best bot app."
+        },
+        "//*[@id=\"form-t1_ocf4918ifk\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "We know, but hear me out, no ID, but you need to send us a copy of your diary."
+        },
+        "//*[@id=\"form-t1_obbmr5yhr5\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Congrats on the gf \ud83d\udc4a\ud83c\udffc"
+        },
+        "//*[@id=\"form-t1_o8gk2ud5i9\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Hey can you add an option for 5M+ shares?"
+        },
+        "//*[@id=\"form-t1_o40tlwfupd\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "There was a comment yesterday that I almost replied to with \u201cdo you want me to shitpost more or focu"
+        },
+        "//*[@id=\"form-t1_o3t7qd9ht9\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Thanks, Mom."
+        },
+        "//*[@id=\"form-t1_o3t7k8996k\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Yep"
+        },
+        "//*[@id=\"form-t1_o3t774znyv\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Love that! Programming was my first love. Still write code every day. All the best."
+        },
+        "//*[@id=\"form-t1_o3t70wv3jp\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "I especially enjoyed the post bitching about me not hyping the stock enough."
+        },
+        "//*[@id=\"form-t1_o3t6nst9e1\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "\ud83e\udd17"
+        },
+        "//*[@id=\"form-t1_o3t6gffe2o\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Our focus markets outside of the US have been India, Australia, Brazil, Germany, and France. What we"
+        },
+        "//*[@id=\"form-t1_o3t6ebz1z3\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "The cohort of users that matters the most is those opening the app for the first time. This group is"
+        },
+        "//*[@id=\"form-t1_o3t6bxsvmn\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Our first and only Super Bowl ad was all of 5 seconds long. We\u2019re pretty spendthrift, so I would exp"
+        },
+        "//*[@id=\"form-t1_o3t69i6lkb\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Well. Where do you think original content comes from? We need to find a way for creators to get thei"
+        },
+        "//*[@id=\"form-t1_o3t66uwil4\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Something we\u2019d still love to do, but not a priority right now. All in on new user retention."
+        },
+        "//*[@id=\"form-t1_o3t64tsxgz\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Thank you! While there is a lot of low hanging fruit in the onboarding process, I think the biggest "
+        },
+        "//*[@id=\"form-t1_o3t62bh9cb\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Reddit\u2019s purpose is for people to talk to other people. Our biggest value is being the most human pl"
+        },
+        "//*[@id=\"form-t1_o3t5yi2ln1\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Reddit is people. If users can\u2019t tell the difference between a person and a bot, that trust erodes a"
+        },
+        "//*[@id=\"form-t1_o3t5w5cfbb\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Search trends and algorithms will always shift. But people specifically want Reddit, which is why on"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "<image>"
+        },
+        {
+          "index": 2,
+          "text_preview": "Are you referring to our CFO, Drew? I can assure you nobody hates SBC more he does."
+        },
+        {
+          "index": 3,
+          "text_preview": "We'll accept an eyeball."
+        },
+        {
+          "index": 4,
+          "text_preview": "You can see what it will look like here:\nhttps://www.reddit.com/r/redditdev/comments/1s3f3ag/keeping"
+        },
+        {
+          "index": 5,
+          "text_preview": "The best bot app."
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "selector": ".thing .linkflairlabel",
+      "tagName": "post-flair",
+      "description": "Post flair text set by moderators or users",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 13,
+      "selector": ".flair",
+      "tagName": "user-flair",
+      "description": "User flair text next to usernames",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 14,
+      "selector": ".thing[data-crosspost-root-title]::before",
+      "tagName": "crosspost-original-title",
+      "description": "Original post title in crosspost attribution",
+      "count": 0,
+      "element_ids": [],
+      "previews": [],
+      "error": "Locator.count: Unexpected token \":\" while parsing css selector \".thing[data-crosspost-root-title]::before\". Did you mean to CSS.escape it?"
+    },
+    {
+      "index": 15,
+      "selector": ".thing[data-crosspost-root-author]",
+      "tagName": "crosspost-original-author",
+      "description": "Original post author in crosspost data",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3f2fe\"]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3f2fe\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s3f2fe linkflair odd  link ",
+          "id": "thing_t3_1s3f2fe",
+          "textPreview": "111112113Humans welcome (bots must wear name tags) ()submitted 4 hours ago by spez[A] to r/redditsto"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "111112113Humans welcome (bots must wear name tags) ()submitted 4 hours ago by spez[A] to r/redditsto"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "selector": ".thing[data-crosspost-root-subreddit]",
+      "tagName": "crosspost-source-subreddit",
+      "description": "Source subreddit name in crosspost data",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3f2fe\"]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3f2fe\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s3f2fe linkflair odd  link ",
+          "id": "thing_t3_1s3f2fe",
+          "textPreview": "111112113Humans welcome (bots must wear name tags) ()submitted 4 hours ago by spez[A] to r/redditsto"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "111112113Humans welcome (bots must wear name tags) ()submitted 4 hours ago by spez[A] to r/redditsto"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "selector": ".thing.link .title > a.title",
+      "tagName": "post-title",
+      "description": "Submission/post title text",
+      "count": 2,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[1]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Humans welcome (bots must wear name tags)"
+        },
+        "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank ",
+          "id": "",
+          "textPreview": "Humans welcome (bots must wear name tags)"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Humans welcome (bots must wear name tags)"
+        },
+        {
+          "index": 2,
+          "text_preview": "Humans welcome (bots must wear name tags)"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "selector": ".thing.link .domain a",
+      "tagName": "external-domain",
+      "description": "External link domain name",
+      "count": 2,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[1]/span[1]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "self.spez"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 2,
+          "text_preview": "self.spez"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "selector": ".thing.comment .usertext-body .md",
+      "tagName": "comment-body",
+      "description": "Comment body text (rendered markdown)",
+      "count": 23,
+      "element_ids": [
+        "//*[@id=\"form-t1_ocfdez3ige\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfcbs9aku\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfaspct23\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfa6a3aps\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocf538kq5w\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocf4918ifk\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_obbmr5yhr5\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o8gk2ud5i9\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o40tlwfupd\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t7qd9ht9\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t7k8996k\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t774znyv\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t70wv3jp\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t6nst9e1\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t6gffe2o\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t6ebz1z3\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t6bxsvmn\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t69i6lkb\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t66uwil4\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t64tsxgz\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t62bh9cb\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t5yi2ln1\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t5w5cfbb\"]/div[1]/div[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"form-t1_ocfdez3ige\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "<image>"
+        },
+        "//*[@id=\"form-t1_ocfcbs9aku\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Are you referring to our CFO, Drew? I can assure you nobody hates SBC more he does."
+        },
+        "//*[@id=\"form-t1_ocfaspct23\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "We'll accept an eyeball."
+        },
+        "//*[@id=\"form-t1_ocfa6a3aps\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "You can see what it will look like here:\nhttps://www.reddit.com/r/redditdev/comments/1s3f3ag/keeping"
+        },
+        "//*[@id=\"form-t1_ocf538kq5w\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "The best bot app."
+        },
+        "//*[@id=\"form-t1_ocf4918ifk\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "We know, but hear me out, no ID, but you need to send us a copy of your diary."
+        },
+        "//*[@id=\"form-t1_obbmr5yhr5\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Congrats on the gf \ud83d\udc4a\ud83c\udffc"
+        },
+        "//*[@id=\"form-t1_o8gk2ud5i9\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Hey can you add an option for 5M+ shares?"
+        },
+        "//*[@id=\"form-t1_o40tlwfupd\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "There was a comment yesterday that I almost replied to with \u201cdo you want me to shitpost more or focu"
+        },
+        "//*[@id=\"form-t1_o3t7qd9ht9\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Thanks, Mom."
+        },
+        "//*[@id=\"form-t1_o3t7k8996k\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Yep"
+        },
+        "//*[@id=\"form-t1_o3t774znyv\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Love that! Programming was my first love. Still write code every day. All the best."
+        },
+        "//*[@id=\"form-t1_o3t70wv3jp\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "I especially enjoyed the post bitching about me not hyping the stock enough."
+        },
+        "//*[@id=\"form-t1_o3t6nst9e1\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "\ud83e\udd17"
+        },
+        "//*[@id=\"form-t1_o3t6gffe2o\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Our focus markets outside of the US have been India, Australia, Brazil, Germany, and France. What we"
+        },
+        "//*[@id=\"form-t1_o3t6ebz1z3\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "The cohort of users that matters the most is those opening the app for the first time. This group is"
+        },
+        "//*[@id=\"form-t1_o3t6bxsvmn\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Our first and only Super Bowl ad was all of 5 seconds long. We\u2019re pretty spendthrift, so I would exp"
+        },
+        "//*[@id=\"form-t1_o3t69i6lkb\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Well. Where do you think original content comes from? We need to find a way for creators to get thei"
+        },
+        "//*[@id=\"form-t1_o3t66uwil4\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Something we\u2019d still love to do, but not a priority right now. All in on new user retention."
+        },
+        "//*[@id=\"form-t1_o3t64tsxgz\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Thank you! While there is a lot of low hanging fruit in the onboarding process, I think the biggest "
+        },
+        "//*[@id=\"form-t1_o3t62bh9cb\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Reddit\u2019s purpose is for people to talk to other people. Our biggest value is being the most human pl"
+        },
+        "//*[@id=\"form-t1_o3t5yi2ln1\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Reddit is people. If users can\u2019t tell the difference between a person and a bot, that trust erodes a"
+        },
+        "//*[@id=\"form-t1_o3t5w5cfbb\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Search trends and algorithms will always shift. But people specifically want Reddit, which is why on"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "<image>"
+        },
+        {
+          "index": 2,
+          "text_preview": "Are you referring to our CFO, Drew? I can assure you nobody hates SBC more he does."
+        },
+        {
+          "index": 3,
+          "text_preview": "We'll accept an eyeball."
+        },
+        {
+          "index": 4,
+          "text_preview": "You can see what it will look like here:\nhttps://www.reddit.com/r/redditdev/comments/1s3f3ag/keeping"
+        },
+        {
+          "index": 5,
+          "text_preview": "The best bot app."
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "selector": "a.author",
+      "tagName": "username",
+      "description": "Username of post or comment author",
+      "count": 48,
+      "element_ids": [
+        "//*[@id=\"thing_t1_ocfdez3\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_ocfdez3\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfcbs9\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_ocfcbs9\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfaspc\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_ocfaspc\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfa6a3\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_ocfa6a3\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocf538k\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_ocf538k\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocf4918\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_ocf4918\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t1_obbmr5y\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_obbmr5y\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o8gk2ud\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o8gk2ud\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o40tlwf\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o40tlwf\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t7qd9\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t7qd9\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t7k89\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t7k89\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t774z\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t774z\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t70wv\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t70wv\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t6nst\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t6nst\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t6gff\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t6gff\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t6ebz\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t6ebz\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t6bxs\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t6bxs\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t69i6\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t69i6\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t66uw\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t66uw\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t64ts\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t64ts\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t62bh\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t62bh\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t5yi2\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t5yi2\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t5w5c\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t5w5c\"]/div[2]/p[1]/a[2]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t1_ocfdez3\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocfdez3\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocfcbs9\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocfcbs9\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocfaspc\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocfaspc\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocfa6a3\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocfa6a3\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocf538k\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocf538k\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocf4918\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocf4918\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_obbmr5y\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_20ud0a18ft",
+          "id": "",
+          "textPreview": "One-Event6199"
+        },
+        "//*[@id=\"thing_t1_obbmr5y\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o8gk2ud\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_25yly9h6po",
+          "id": "",
+          "textPreview": "Ordinary-Heron-6821"
+        },
+        "//*[@id=\"thing_t1_o8gk2ud\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o40tlwf\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1sd8mpb6wr",
+          "id": "",
+          "textPreview": "Tight-Falcon4829"
+        },
+        "//*[@id=\"thing_t1_o40tlwf\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t7qd9\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t7qd9\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t7k89\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t7k89\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t774z\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t774z\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t70wv\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t70wv\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t6nst\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t6nst\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t6gff\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_v399waejy",
+          "id": "",
+          "textPreview": "rddt_IR"
+        },
+        "//*[@id=\"thing_t1_o3t6gff\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t6ebz\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_v399waejy",
+          "id": "",
+          "textPreview": "rddt_IR"
+        },
+        "//*[@id=\"thing_t1_o3t6ebz\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t6bxs\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_v399waejy",
+          "id": "",
+          "textPreview": "rddt_IR"
+        },
+        "//*[@id=\"thing_t1_o3t6bxs\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t69i6\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_v399waejy",
+          "id": "",
+          "textPreview": "rddt_IR"
+        },
+        "//*[@id=\"thing_t1_o3t69i6\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t66uw\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_v399waejy",
+          "id": "",
+          "textPreview": "rddt_IR"
+        },
+        "//*[@id=\"thing_t1_o3t66uw\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t64ts\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_v399waejy",
+          "id": "",
+          "textPreview": "rddt_IR"
+        },
+        "//*[@id=\"thing_t1_o3t64ts\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t62bh\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_v399waejy",
+          "id": "",
+          "textPreview": "rddt_IR"
+        },
+        "//*[@id=\"thing_t1_o3t62bh\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t5yi2\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_v399waejy",
+          "id": "",
+          "textPreview": "rddt_IR"
+        },
+        "//*[@id=\"thing_t1_o3t5yi2\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t5w5c\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_v399waejy",
+          "id": "",
+          "textPreview": "rddt_IR"
+        },
+        "//*[@id=\"thing_t1_o3t5w5c\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "spez"
+        },
+        {
+          "index": 2,
+          "text_preview": "spez"
+        },
+        {
+          "index": 3,
+          "text_preview": "spez"
+        },
+        {
+          "index": 4,
+          "text_preview": "spez"
+        },
+        {
+          "index": 5,
+          "text_preview": "spez"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "selector": ".crosspost-preview .title",
+      "tagName": "crosspost-title",
+      "description": "Title of crossposted submission",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 22,
+      "selector": ".crosspost-preview-tagline a.subreddit",
+      "tagName": "crosspost-subreddit",
+      "description": "Subreddit name in crosspost attribution",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 23,
+      "selector": ".crosspost-preview-tagline a.author",
+      "tagName": "crosspost-author",
+      "description": "Author name in crosspost attribution",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 24,
+      "selector": ".thing[data-subreddit] .tagline a.subreddit",
+      "tagName": "post-subreddit-attribution",
+      "description": "Subreddit name in post attribution line",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[2]/a[2]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[2]/a[2]": {
+          "tagName": "a",
+          "className": "subreddit hover may-blank",
+          "id": "",
+          "textPreview": "r/redditstock"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "r/redditstock"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "selector": ".titlebox h1.hover a",
+      "tagName": "subreddit-name-header",
+      "description": "Subreddit name in sidebar header (user-created)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 26,
+      "selector": ".thing.link .linkflairlabel",
+      "tagName": "post-flair",
+      "description": "Post flair text (moderator or user-set)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 27,
+      "selector": "form.usertext .usertext-body .md",
+      "tagName": "self-post-body",
+      "description": "Self-post body text (rendered markdown)",
+      "count": 23,
+      "element_ids": [
+        "//*[@id=\"form-t1_ocfdez3ige\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfcbs9aku\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfaspct23\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocfa6a3aps\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocf538kq5w\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_ocf4918ifk\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_obbmr5yhr5\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o8gk2ud5i9\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o40tlwfupd\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t7qd9ht9\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t7k8996k\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t774znyv\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t70wv3jp\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t6nst9e1\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t6gffe2o\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t6ebz1z3\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t6bxsvmn\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t69i6lkb\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t66uwil4\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t64tsxgz\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t62bh9cb\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t5yi2ln1\"]/div[1]/div[1]",
+        "//*[@id=\"form-t1_o3t5w5cfbb\"]/div[1]/div[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"form-t1_ocfdez3ige\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "<image>"
+        },
+        "//*[@id=\"form-t1_ocfcbs9aku\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Are you referring to our CFO, Drew? I can assure you nobody hates SBC more he does."
+        },
+        "//*[@id=\"form-t1_ocfaspct23\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "We'll accept an eyeball."
+        },
+        "//*[@id=\"form-t1_ocfa6a3aps\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "You can see what it will look like here:\nhttps://www.reddit.com/r/redditdev/comments/1s3f3ag/keeping"
+        },
+        "//*[@id=\"form-t1_ocf538kq5w\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "The best bot app."
+        },
+        "//*[@id=\"form-t1_ocf4918ifk\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "We know, but hear me out, no ID, but you need to send us a copy of your diary."
+        },
+        "//*[@id=\"form-t1_obbmr5yhr5\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Congrats on the gf \ud83d\udc4a\ud83c\udffc"
+        },
+        "//*[@id=\"form-t1_o8gk2ud5i9\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Hey can you add an option for 5M+ shares?"
+        },
+        "//*[@id=\"form-t1_o40tlwfupd\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "There was a comment yesterday that I almost replied to with \u201cdo you want me to shitpost more or focu"
+        },
+        "//*[@id=\"form-t1_o3t7qd9ht9\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Thanks, Mom."
+        },
+        "//*[@id=\"form-t1_o3t7k8996k\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Yep"
+        },
+        "//*[@id=\"form-t1_o3t774znyv\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Love that! Programming was my first love. Still write code every day. All the best."
+        },
+        "//*[@id=\"form-t1_o3t70wv3jp\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "I especially enjoyed the post bitching about me not hyping the stock enough."
+        },
+        "//*[@id=\"form-t1_o3t6nst9e1\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "\ud83e\udd17"
+        },
+        "//*[@id=\"form-t1_o3t6gffe2o\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Our focus markets outside of the US have been India, Australia, Brazil, Germany, and France. What we"
+        },
+        "//*[@id=\"form-t1_o3t6ebz1z3\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "The cohort of users that matters the most is those opening the app for the first time. This group is"
+        },
+        "//*[@id=\"form-t1_o3t6bxsvmn\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Our first and only Super Bowl ad was all of 5 seconds long. We\u2019re pretty spendthrift, so I would exp"
+        },
+        "//*[@id=\"form-t1_o3t69i6lkb\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Well. Where do you think original content comes from? We need to find a way for creators to get thei"
+        },
+        "//*[@id=\"form-t1_o3t66uwil4\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Something we\u2019d still love to do, but not a priority right now. All in on new user retention."
+        },
+        "//*[@id=\"form-t1_o3t64tsxgz\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Thank you! While there is a lot of low hanging fruit in the onboarding process, I think the biggest "
+        },
+        "//*[@id=\"form-t1_o3t62bh9cb\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Reddit\u2019s purpose is for people to talk to other people. Our biggest value is being the most human pl"
+        },
+        "//*[@id=\"form-t1_o3t5yi2ln1\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Reddit is people. If users can\u2019t tell the difference between a person and a bot, that trust erodes a"
+        },
+        "//*[@id=\"form-t1_o3t5w5cfbb\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "Search trends and algorithms will always shift. But people specifically want Reddit, which is why on"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "<image>"
+        },
+        {
+          "index": 2,
+          "text_preview": "Are you referring to our CFO, Drew? I can assure you nobody hates SBC more he does."
+        },
+        {
+          "index": 3,
+          "text_preview": "We'll accept an eyeball."
+        },
+        {
+          "index": 4,
+          "text_preview": "You can see what it will look like here:\nhttps://www.reddit.com/r/redditdev/comments/1s3f3ag/keeping"
+        },
+        {
+          "index": 5,
+          "text_preview": "The best bot app."
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "selector": ".thing.link .title a.title",
+      "tagName": "post-title",
+      "description": "Post/submission title text",
+      "count": 2,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[1]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Humans welcome (bots must wear name tags)"
+        },
+        "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank ",
+          "id": "",
+          "textPreview": "Humans welcome (bots must wear name tags)"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Humans welcome (bots must wear name tags)"
+        },
+        {
+          "index": 2,
+          "text_preview": "Humans welcome (bots must wear name tags)"
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "selector": ".thing .author",
+      "tagName": "username",
+      "description": "Username of post or comment author",
+      "count": 48,
+      "element_ids": [
+        "//*[@id=\"thing_t1_ocfdez3\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_ocfdez3\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfcbs9\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_ocfcbs9\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfaspc\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_ocfaspc\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfa6a3\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_ocfa6a3\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocf538k\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_ocf538k\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocf4918\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_ocf4918\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t1_obbmr5y\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_obbmr5y\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o8gk2ud\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o8gk2ud\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o40tlwf\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o40tlwf\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t7qd9\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t7qd9\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t7k89\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t7k89\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t774z\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t774z\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t70wv\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t70wv\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t6nst\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t6nst\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t6gff\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t6gff\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t6ebz\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t6ebz\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t6bxs\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t6bxs\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t69i6\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t69i6\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t66uw\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t66uw\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t64ts\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t64ts\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t62bh\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t62bh\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t5yi2\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t5yi2\"]/div[2]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t5w5c\"]/p[1]/a[3]",
+        "//*[@id=\"thing_t1_o3t5w5c\"]/div[2]/p[1]/a[2]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t1_ocfdez3\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocfdez3\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocfcbs9\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocfcbs9\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocfaspc\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocfaspc\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocfa6a3\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocfa6a3\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocf538k\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocf538k\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocf4918\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_ocf4918\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_obbmr5y\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_20ud0a18ft",
+          "id": "",
+          "textPreview": "One-Event6199"
+        },
+        "//*[@id=\"thing_t1_obbmr5y\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o8gk2ud\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_25yly9h6po",
+          "id": "",
+          "textPreview": "Ordinary-Heron-6821"
+        },
+        "//*[@id=\"thing_t1_o8gk2ud\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o40tlwf\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1sd8mpb6wr",
+          "id": "",
+          "textPreview": "Tight-Falcon4829"
+        },
+        "//*[@id=\"thing_t1_o40tlwf\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t7qd9\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t7qd9\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t7k89\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t7k89\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t774z\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t774z\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t70wv\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t70wv\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t6nst\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t6nst\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author submitter admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t6gff\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_v399waejy",
+          "id": "",
+          "textPreview": "rddt_IR"
+        },
+        "//*[@id=\"thing_t1_o3t6gff\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t6ebz\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_v399waejy",
+          "id": "",
+          "textPreview": "rddt_IR"
+        },
+        "//*[@id=\"thing_t1_o3t6ebz\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t6bxs\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_v399waejy",
+          "id": "",
+          "textPreview": "rddt_IR"
+        },
+        "//*[@id=\"thing_t1_o3t6bxs\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t69i6\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_v399waejy",
+          "id": "",
+          "textPreview": "rddt_IR"
+        },
+        "//*[@id=\"thing_t1_o3t69i6\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t66uw\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_v399waejy",
+          "id": "",
+          "textPreview": "rddt_IR"
+        },
+        "//*[@id=\"thing_t1_o3t66uw\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t64ts\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_v399waejy",
+          "id": "",
+          "textPreview": "rddt_IR"
+        },
+        "//*[@id=\"thing_t1_o3t64ts\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t62bh\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_v399waejy",
+          "id": "",
+          "textPreview": "rddt_IR"
+        },
+        "//*[@id=\"thing_t1_o3t62bh\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t5yi2\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_v399waejy",
+          "id": "",
+          "textPreview": "rddt_IR"
+        },
+        "//*[@id=\"thing_t1_o3t5yi2\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        },
+        "//*[@id=\"thing_t1_o3t5w5c\"]/p[1]/a[3]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_v399waejy",
+          "id": "",
+          "textPreview": "rddt_IR"
+        },
+        "//*[@id=\"thing_t1_o3t5w5c\"]/div[2]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "author admin may-blank id-t2_1w72",
+          "id": "",
+          "textPreview": "spez"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "spez"
+        },
+        {
+          "index": 2,
+          "text_preview": "spez"
+        },
+        {
+          "index": 3,
+          "text_preview": "spez"
+        },
+        {
+          "index": 4,
+          "text_preview": "spez"
+        },
+        {
+          "index": 5,
+          "text_preview": "spez"
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "selector": ".thing .tagline .subreddit",
+      "tagName": "subreddit-name-in-post",
+      "description": "Subreddit name displayed within post/comment tagline context",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[2]/a[2]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[2]/a[2]": {
+          "tagName": "a",
+          "className": "subreddit hover may-blank",
+          "id": "",
+          "textPreview": "r/redditstock"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "r/redditstock"
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "selector": ".thing.comment p.parent a.title",
+      "tagName": "parent-post-title",
+      "description": "Title of parent post in comment context",
+      "count": 23,
+      "element_ids": [
+        "//*[@id=\"thing_t1_ocfdez3\"]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfcbs9\"]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfaspc\"]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocfa6a3\"]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocf538k\"]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_ocf4918\"]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_obbmr5y\"]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o8gk2ud\"]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o40tlwf\"]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t7qd9\"]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t7k89\"]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t774z\"]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t70wv\"]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t6nst\"]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t6gff\"]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t6ebz\"]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t6bxs\"]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t69i6\"]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t66uw\"]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t64ts\"]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t62bh\"]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t5yi2\"]/p[1]/a[2]",
+        "//*[@id=\"thing_t1_o3t5w5c\"]/p[1]/a[2]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t1_ocfdez3\"]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "title",
+          "id": "",
+          "textPreview": "Humans welcome (bots must wear name tags)"
+        },
+        "//*[@id=\"thing_t1_ocfcbs9\"]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "title",
+          "id": "",
+          "textPreview": "Humans welcome (bots must wear name tags)"
+        },
+        "//*[@id=\"thing_t1_ocfaspc\"]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "title",
+          "id": "",
+          "textPreview": "Humans welcome (bots must wear name tags)"
+        },
+        "//*[@id=\"thing_t1_ocfa6a3\"]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "title",
+          "id": "",
+          "textPreview": "Humans welcome (bots must wear name tags)"
+        },
+        "//*[@id=\"thing_t1_ocf538k\"]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "title",
+          "id": "",
+          "textPreview": "Humans welcome (bots must wear name tags)"
+        },
+        "//*[@id=\"thing_t1_ocf4918\"]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "title",
+          "id": "",
+          "textPreview": "Humans welcome (bots must wear name tags)"
+        },
+        "//*[@id=\"thing_t1_obbmr5y\"]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "title",
+          "id": "",
+          "textPreview": "Question for /u/spez"
+        },
+        "//*[@id=\"thing_t1_o8gk2ud\"]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "title",
+          "id": "",
+          "textPreview": "RDDT shareholders: what\u2019s your approximate position size? (Quick anonymous poll)"
+        },
+        "//*[@id=\"thing_t1_o40tlwf\"]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "title",
+          "id": "",
+          "textPreview": "Really unbelievable what spez and team must be feeling rn \ud83d\ude2d"
+        },
+        "//*[@id=\"thing_t1_o3t7qd9\"]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "title",
+          "id": "",
+          "textPreview": "TL;DR: Solid end to a strong year for Reddit. Ask your questions for me, Jen, and Drew in r/RDDT."
+        },
+        "//*[@id=\"thing_t1_o3t7k89\"]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "title",
+          "id": "",
+          "textPreview": "TL;DR: Solid end to a strong year for Reddit. Ask your questions for me, Jen, and Drew in r/RDDT."
+        },
+        "//*[@id=\"thing_t1_o3t774z\"]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "title",
+          "id": "",
+          "textPreview": "TL;DR: Solid end to a strong year for Reddit. Ask your questions for me, Jen, and Drew in r/RDDT."
+        },
+        "//*[@id=\"thing_t1_o3t70wv\"]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "title",
+          "id": "",
+          "textPreview": "TL;DR: Solid end to a strong year for Reddit. Ask your questions for me, Jen, and Drew in r/RDDT."
+        },
+        "//*[@id=\"thing_t1_o3t6nst\"]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "title",
+          "id": "",
+          "textPreview": "TL;DR: Solid end to a strong year for Reddit. Ask your questions for me, Jen, and Drew in r/RDDT."
+        },
+        "//*[@id=\"thing_t1_o3t6gff\"]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "title",
+          "id": "",
+          "textPreview": "Reddit Announces Q4\u201925 and Full Year 2025 Earnings (plus AMA!)"
+        },
+        "//*[@id=\"thing_t1_o3t6ebz\"]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "title",
+          "id": "",
+          "textPreview": "Reddit Announces Q4\u201925 and Full Year 2025 Earnings (plus AMA!)"
+        },
+        "//*[@id=\"thing_t1_o3t6bxs\"]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "title",
+          "id": "",
+          "textPreview": "Reddit Announces Q4\u201925 and Full Year 2025 Earnings (plus AMA!)"
+        },
+        "//*[@id=\"thing_t1_o3t69i6\"]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "title",
+          "id": "",
+          "textPreview": "Reddit Announces Q4\u201925 and Full Year 2025 Earnings (plus AMA!)"
+        },
+        "//*[@id=\"thing_t1_o3t66uw\"]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "title",
+          "id": "",
+          "textPreview": "Reddit Announces Q4\u201925 and Full Year 2025 Earnings (plus AMA!)"
+        },
+        "//*[@id=\"thing_t1_o3t64ts\"]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "title",
+          "id": "",
+          "textPreview": "Reddit Announces Q4\u201925 and Full Year 2025 Earnings (plus AMA!)"
+        },
+        "//*[@id=\"thing_t1_o3t62bh\"]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "title",
+          "id": "",
+          "textPreview": "Reddit Announces Q4\u201925 and Full Year 2025 Earnings (plus AMA!)"
+        },
+        "//*[@id=\"thing_t1_o3t5yi2\"]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "title",
+          "id": "",
+          "textPreview": "Reddit Announces Q4\u201925 and Full Year 2025 Earnings (plus AMA!)"
+        },
+        "//*[@id=\"thing_t1_o3t5w5c\"]/p[1]/a[2]": {
+          "tagName": "a",
+          "className": "title",
+          "id": "",
+          "textPreview": "Reddit Announces Q4\u201925 and Full Year 2025 Earnings (plus AMA!)"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "Humans welcome (bots must wear name tags)"
+        },
+        {
+          "index": 2,
+          "text_preview": "Humans welcome (bots must wear name tags)"
+        },
+        {
+          "index": 3,
+          "text_preview": "Humans welcome (bots must wear name tags)"
+        },
+        {
+          "index": 4,
+          "text_preview": "Humans welcome (bots must wear name tags)"
+        },
+        {
+          "index": 5,
+          "text_preview": "Humans welcome (bots must wear name tags)"
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "selector": ".thing.comment p.parent a.subreddit",
+      "tagName": "parent-subreddit-name",
+      "description": "Subreddit name in comment parent context",
+      "count": 23,
+      "element_ids": [
+        "//*[@id=\"thing_t1_ocfdez3\"]/p[1]/a[4]",
+        "//*[@id=\"thing_t1_ocfcbs9\"]/p[1]/a[4]",
+        "//*[@id=\"thing_t1_ocfaspc\"]/p[1]/a[4]",
+        "//*[@id=\"thing_t1_ocfa6a3\"]/p[1]/a[4]",
+        "//*[@id=\"thing_t1_ocf538k\"]/p[1]/a[4]",
+        "//*[@id=\"thing_t1_ocf4918\"]/p[1]/a[4]",
+        "//*[@id=\"thing_t1_obbmr5y\"]/p[1]/a[4]",
+        "//*[@id=\"thing_t1_o8gk2ud\"]/p[1]/a[4]",
+        "//*[@id=\"thing_t1_o40tlwf\"]/p[1]/a[4]",
+        "//*[@id=\"thing_t1_o3t7qd9\"]/p[1]/a[4]",
+        "//*[@id=\"thing_t1_o3t7k89\"]/p[1]/a[4]",
+        "//*[@id=\"thing_t1_o3t774z\"]/p[1]/a[4]",
+        "//*[@id=\"thing_t1_o3t70wv\"]/p[1]/a[4]",
+        "//*[@id=\"thing_t1_o3t6nst\"]/p[1]/a[4]",
+        "//*[@id=\"thing_t1_o3t6gff\"]/p[1]/a[4]",
+        "//*[@id=\"thing_t1_o3t6ebz\"]/p[1]/a[4]",
+        "//*[@id=\"thing_t1_o3t6bxs\"]/p[1]/a[4]",
+        "//*[@id=\"thing_t1_o3t69i6\"]/p[1]/a[4]",
+        "//*[@id=\"thing_t1_o3t66uw\"]/p[1]/a[4]",
+        "//*[@id=\"thing_t1_o3t64ts\"]/p[1]/a[4]",
+        "//*[@id=\"thing_t1_o3t62bh\"]/p[1]/a[4]",
+        "//*[@id=\"thing_t1_o3t5yi2\"]/p[1]/a[4]",
+        "//*[@id=\"thing_t1_o3t5w5c\"]/p[1]/a[4]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t1_ocfdez3\"]/p[1]/a[4]": {
+          "tagName": "a",
+          "className": "subreddit hover",
+          "id": "",
+          "textPreview": "redditstock"
+        },
+        "//*[@id=\"thing_t1_ocfcbs9\"]/p[1]/a[4]": {
+          "tagName": "a",
+          "className": "subreddit hover",
+          "id": "",
+          "textPreview": "redditstock"
+        },
+        "//*[@id=\"thing_t1_ocfaspc\"]/p[1]/a[4]": {
+          "tagName": "a",
+          "className": "subreddit hover",
+          "id": "",
+          "textPreview": "u/spez"
+        },
+        "//*[@id=\"thing_t1_ocfa6a3\"]/p[1]/a[4]": {
+          "tagName": "a",
+          "className": "subreddit hover",
+          "id": "",
+          "textPreview": "u/spez"
+        },
+        "//*[@id=\"thing_t1_ocf538k\"]/p[1]/a[4]": {
+          "tagName": "a",
+          "className": "subreddit hover",
+          "id": "",
+          "textPreview": "u/spez"
+        },
+        "//*[@id=\"thing_t1_ocf4918\"]/p[1]/a[4]": {
+          "tagName": "a",
+          "className": "subreddit hover",
+          "id": "",
+          "textPreview": "u/spez"
+        },
+        "//*[@id=\"thing_t1_obbmr5y\"]/p[1]/a[4]": {
+          "tagName": "a",
+          "className": "subreddit hover",
+          "id": "",
+          "textPreview": "redditstock"
+        },
+        "//*[@id=\"thing_t1_o8gk2ud\"]/p[1]/a[4]": {
+          "tagName": "a",
+          "className": "subreddit hover",
+          "id": "",
+          "textPreview": "redditstock"
+        },
+        "//*[@id=\"thing_t1_o40tlwf\"]/p[1]/a[4]": {
+          "tagName": "a",
+          "className": "subreddit hover",
+          "id": "",
+          "textPreview": "redditstock"
+        },
+        "//*[@id=\"thing_t1_o3t7qd9\"]/p[1]/a[4]": {
+          "tagName": "a",
+          "className": "subreddit hover",
+          "id": "",
+          "textPreview": "redditstock"
+        },
+        "//*[@id=\"thing_t1_o3t7k89\"]/p[1]/a[4]": {
+          "tagName": "a",
+          "className": "subreddit hover",
+          "id": "",
+          "textPreview": "redditstock"
+        },
+        "//*[@id=\"thing_t1_o3t774z\"]/p[1]/a[4]": {
+          "tagName": "a",
+          "className": "subreddit hover",
+          "id": "",
+          "textPreview": "redditstock"
+        },
+        "//*[@id=\"thing_t1_o3t70wv\"]/p[1]/a[4]": {
+          "tagName": "a",
+          "className": "subreddit hover",
+          "id": "",
+          "textPreview": "redditstock"
+        },
+        "//*[@id=\"thing_t1_o3t6nst\"]/p[1]/a[4]": {
+          "tagName": "a",
+          "className": "subreddit hover",
+          "id": "",
+          "textPreview": "redditstock"
+        },
+        "//*[@id=\"thing_t1_o3t6gff\"]/p[1]/a[4]": {
+          "tagName": "a",
+          "className": "subreddit hover",
+          "id": "",
+          "textPreview": "RDDT"
+        },
+        "//*[@id=\"thing_t1_o3t6ebz\"]/p[1]/a[4]": {
+          "tagName": "a",
+          "className": "subreddit hover",
+          "id": "",
+          "textPreview": "RDDT"
+        },
+        "//*[@id=\"thing_t1_o3t6bxs\"]/p[1]/a[4]": {
+          "tagName": "a",
+          "className": "subreddit hover",
+          "id": "",
+          "textPreview": "RDDT"
+        },
+        "//*[@id=\"thing_t1_o3t69i6\"]/p[1]/a[4]": {
+          "tagName": "a",
+          "className": "subreddit hover",
+          "id": "",
+          "textPreview": "RDDT"
+        },
+        "//*[@id=\"thing_t1_o3t66uw\"]/p[1]/a[4]": {
+          "tagName": "a",
+          "className": "subreddit hover",
+          "id": "",
+          "textPreview": "RDDT"
+        },
+        "//*[@id=\"thing_t1_o3t64ts\"]/p[1]/a[4]": {
+          "tagName": "a",
+          "className": "subreddit hover",
+          "id": "",
+          "textPreview": "RDDT"
+        },
+        "//*[@id=\"thing_t1_o3t62bh\"]/p[1]/a[4]": {
+          "tagName": "a",
+          "className": "subreddit hover",
+          "id": "",
+          "textPreview": "RDDT"
+        },
+        "//*[@id=\"thing_t1_o3t5yi2\"]/p[1]/a[4]": {
+          "tagName": "a",
+          "className": "subreddit hover",
+          "id": "",
+          "textPreview": "RDDT"
+        },
+        "//*[@id=\"thing_t1_o3t5w5c\"]/p[1]/a[4]": {
+          "tagName": "a",
+          "className": "subreddit hover",
+          "id": "",
+          "textPreview": "RDDT"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "redditstock"
+        },
+        {
+          "index": 2,
+          "text_preview": "redditstock"
+        },
+        {
+          "index": 3,
+          "text_preview": "u/spez"
+        },
+        {
+          "index": 4,
+          "text_preview": "u/spez"
+        },
+        {
+          "index": 5,
+          "text_preview": "u/spez"
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "selector": ".titlebox h1",
+      "tagName": "profile-username",
+      "description": "Username displayed in profile sidebar titlebox",
+      "count": 1,
+      "element_ids": [
+        "/html/body/div[2]/div[1]/div[1]/h1[1]"
+      ],
+      "element_info": {
+        "/html/body/div[2]/div[1]/div[1]/h1[1]": {
+          "tagName": "h1",
+          "className": "",
+          "id": "",
+          "textPreview": "spez[A]"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "spez[A]"
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "selector": ".trophy-name",
+      "tagName": "trophy-name",
+      "description": "Trophy/badge name displayed on user profile",
+      "count": 40,
+      "element_ids": [
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/a[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[2]/td[1]/div[1]/a[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[2]/td[2]/div[1]/a[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[3]/td[1]/div[1]/a[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[3]/td[2]/div[1]/a[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[4]/td[1]/div[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[4]/td[2]/div[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[5]/td[1]/div[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[5]/td[2]/div[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[6]/td[1]/div[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[6]/td[2]/div[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[7]/td[1]/div[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[7]/td[2]/div[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[8]/td[1]/div[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[8]/td[2]/div[1]/a[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[9]/td[1]/div[1]/a[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[9]/td[2]/div[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[10]/td[1]/div[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[10]/td[2]/div[1]/a[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[11]/td[1]/div[1]/a[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[11]/td[2]/div[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[12]/td[1]/div[1]/a[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[12]/td[2]/div[1]/a[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[13]/td[1]/div[1]/a[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[13]/td[2]/div[1]/a[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[14]/td[1]/div[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[14]/td[2]/div[1]/a[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[15]/td[1]/div[1]/a[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[15]/td[2]/div[1]/a[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[16]/td[1]/div[1]/a[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[16]/td[2]/div[1]/a[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[17]/td[1]/div[1]/a[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[17]/td[2]/div[1]/a[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[18]/td[1]/div[1]/a[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[18]/td[2]/div[1]/a[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[19]/td[1]/div[1]/a[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[19]/td[2]/div[1]/a[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[20]/td[1]/div[1]/span[1]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[20]/td[2]/div[1]/span[1]"
+      ],
+      "element_info": {
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "15-Year Club"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "Second"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[2]/td[1]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "Inciteful Link"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[2]/td[2]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "Mod World 2025"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[3]/td[1]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "20th Cakeday Participation"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[3]/td[2]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "ModSupport Helper Level 2"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[4]/td[1]/div[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "Mod 101"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[4]/td[2]/div[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "Place '22"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[5]/td[1]/div[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "Place '17"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[5]/td[2]/div[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "First Placer '22"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[6]/td[1]/div[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "End Game '22"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[6]/td[2]/div[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "Ternion Club"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[7]/td[1]/div[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "Argentium Club"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[7]/td[2]/div[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "Wearing is Caring"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[8]/td[1]/div[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "100 Awards Club"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[8]/td[2]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "Inciteful Comment"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[9]/td[1]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "Inciteful Link"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[9]/td[2]/div[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "RPAN Viewer"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[10]/td[1]/div[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "Not Forgotten"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[10]/td[2]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "Sequence | Editor"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[11]/td[1]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "Spared"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[11]/td[2]/div[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "Alpha Tester"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[12]/td[1]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "Inciteful Comment"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[12]/td[2]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "Inciteful Link"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[13]/td[1]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "redditgifts Exchanges"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[13]/td[2]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "Inciteful Comment"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[14]/td[1]/div[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "Beta Team"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[14]/td[2]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "Inciteful Link"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[15]/td[1]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "Inciteful Comment"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[15]/td[2]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "Inciteful Link"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[16]/td[1]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "Inciteful Link"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[16]/td[2]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "Inciteful Link"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[17]/td[1]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "Inciteful Link"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[17]/td[2]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "Best Comment"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[18]/td[1]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "Best Comment"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[18]/td[2]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "Reddit Premium"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[19]/td[1]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "reddit mold"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[19]/td[2]/div[1]/a[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "Rally Monkey"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[20]/td[1]/div[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "Verified Email"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[20]/td[2]/div[1]/span[1]": {
+          "tagName": "span",
+          "className": "trophy-name",
+          "id": "",
+          "textPreview": "ComboCommenter"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "15-Year Club"
+        },
+        {
+          "index": 2,
+          "text_preview": "Second"
+        },
+        {
+          "index": 3,
+          "text_preview": "Inciteful Link"
+        },
+        {
+          "index": 4,
+          "text_preview": "Mod World 2025"
+        },
+        {
+          "index": 5,
+          "text_preview": "20th Cakeday Participation"
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "selector": ".trophy-description",
+      "tagName": "trophy-description",
+      "description": "Trophy/badge description text",
+      "count": 21,
+      "element_ids": [
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/span[2]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/a[1]/span[2]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[2]/td[1]/div[1]/a[1]/span[2]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[8]/td[2]/div[1]/a[1]/span[2]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[9]/td[1]/div[1]/a[1]/span[2]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[12]/td[1]/div[1]/a[1]/span[2]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[12]/td[2]/div[1]/a[1]/span[2]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[13]/td[1]/div[1]/a[1]/span[2]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[13]/td[2]/div[1]/a[1]/span[2]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[14]/td[1]/div[1]/span[2]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[14]/td[2]/div[1]/a[1]/span[2]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[15]/td[1]/div[1]/a[1]/span[2]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[15]/td[2]/div[1]/a[1]/span[2]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[16]/td[1]/div[1]/a[1]/span[2]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[16]/td[2]/div[1]/a[1]/span[2]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[17]/td[1]/div[1]/a[1]/span[2]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[17]/td[2]/div[1]/a[1]/span[2]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[18]/td[1]/div[1]/a[1]/span[2]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[18]/td[2]/div[1]/a[1]/span[2]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[19]/td[2]/div[1]/a[1]/span[2]",
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[20]/td[2]/div[1]/span[2]"
+      ],
+      "element_info": {
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/span[2]": {
+          "tagName": "span",
+          "className": "trophy-description",
+          "id": "",
+          "textPreview": ""
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/a[1]/span[2]": {
+          "tagName": "span",
+          "className": "trophy-description",
+          "id": "",
+          "textPreview": "Top 20%"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[2]/td[1]/div[1]/a[1]/span[2]": {
+          "tagName": "span",
+          "className": "trophy-description",
+          "id": "",
+          "textPreview": "2021-03-24"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[8]/td[2]/div[1]/a[1]/span[2]": {
+          "tagName": "span",
+          "className": "trophy-description",
+          "id": "",
+          "textPreview": "2020-06-05"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[9]/td[1]/div[1]/a[1]/span[2]": {
+          "tagName": "span",
+          "className": "trophy-description",
+          "id": "",
+          "textPreview": "2020-06-05"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[12]/td[1]/div[1]/a[1]/span[2]": {
+          "tagName": "span",
+          "className": "trophy-description",
+          "id": "",
+          "textPreview": "2018-03-05"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[12]/td[2]/div[1]/a[1]/span[2]": {
+          "tagName": "span",
+          "className": "trophy-description",
+          "id": "",
+          "textPreview": "2018-03-05"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[13]/td[1]/div[1]/a[1]/span[2]": {
+          "tagName": "span",
+          "className": "trophy-description",
+          "id": "",
+          "textPreview": "2 Exchanges"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[13]/td[2]/div[1]/a[1]/span[2]": {
+          "tagName": "span",
+          "className": "trophy-description",
+          "id": "",
+          "textPreview": "2016-10-26"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[14]/td[1]/div[1]/span[2]": {
+          "tagName": "span",
+          "className": "trophy-description",
+          "id": "",
+          "textPreview": "Reddit for iOS"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[14]/td[2]/div[1]/a[1]/span[2]": {
+          "tagName": "span",
+          "className": "trophy-description",
+          "id": "",
+          "textPreview": "2016-08-10"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[15]/td[1]/div[1]/a[1]/span[2]": {
+          "tagName": "span",
+          "className": "trophy-description",
+          "id": "",
+          "textPreview": "2016-06-13"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[15]/td[2]/div[1]/a[1]/span[2]": {
+          "tagName": "span",
+          "className": "trophy-description",
+          "id": "",
+          "textPreview": "2016-06-13"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[16]/td[1]/div[1]/a[1]/span[2]": {
+          "tagName": "span",
+          "className": "trophy-description",
+          "id": "",
+          "textPreview": "2015-08-05"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[16]/td[2]/div[1]/a[1]/span[2]": {
+          "tagName": "span",
+          "className": "trophy-description",
+          "id": "",
+          "textPreview": "2015-07-16"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[17]/td[1]/div[1]/a[1]/span[2]": {
+          "tagName": "span",
+          "className": "trophy-description",
+          "id": "",
+          "textPreview": "2015-07-14"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[17]/td[2]/div[1]/a[1]/span[2]": {
+          "tagName": "span",
+          "className": "trophy-description",
+          "id": "",
+          "textPreview": "2015-07-11"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[18]/td[1]/div[1]/a[1]/span[2]": {
+          "tagName": "span",
+          "className": "trophy-description",
+          "id": "",
+          "textPreview": "2015-07-10"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[18]/td[2]/div[1]/a[1]/span[2]": {
+          "tagName": "span",
+          "className": "trophy-description",
+          "id": "",
+          "textPreview": "Since July 2015"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[19]/td[2]/div[1]/a[1]/span[2]": {
+          "tagName": "span",
+          "className": "trophy-description",
+          "id": "",
+          "textPreview": "Century Club"
+        },
+        "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[20]/td[2]/div[1]/span[2]": {
+          "tagName": "span",
+          "className": "trophy-description",
+          "id": "",
+          "textPreview": "2009-10-16"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 2,
+          "text_preview": "Top 20%"
+        },
+        {
+          "index": 3,
+          "text_preview": "2021-03-24"
+        },
+        {
+          "index": 4,
+          "text_preview": "2020-06-05"
+        },
+        {
+          "index": 5,
+          "text_preview": "2020-06-05"
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "selector": ".thing.link .linkflair",
+      "tagName": "post-flair",
+      "description": "Post flair text displayed on submissions",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 37,
+      "selector": ".titlebox .bottom .age time",
+      "tagName": "account-age-display",
+      "description": "Account creation date display text on profile",
+      "count": 1,
+      "element_ids": [
+        "/html/body/div[2]/div[1]/div[1]/div[1]/span[1]/time[1]"
+      ],
+      "element_info": {
+        "/html/body/div[2]/div[1]/div[1]/div[1]/span[1]/time[1]": {
+          "tagName": "time",
+          "className": "",
+          "id": "",
+          "textPreview": "20 years"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "20 years"
+        }
+      ]
+    }
+  ]
+}

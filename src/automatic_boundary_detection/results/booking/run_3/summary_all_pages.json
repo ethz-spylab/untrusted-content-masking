@@ -1,0 +1,84 @@
+{
+  "pages": {
+    "homepage": {
+      "per_element": {
+        "tp": 82,
+        "fp": 34,
+        "fn": 0,
+        "precision": 0.7068965517241379,
+        "recall": 1.0,
+        "f1_score": 0.8282828282828283,
+        "accuracy": 0.7068965517241379
+      },
+      "per_group": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "accuracy": 1.0
+      }
+    },
+    "search": {
+      "per_element": {
+        "tp": 81,
+        "fp": 57,
+        "fn": 0,
+        "precision": 0.5869565217391305,
+        "recall": 1.0,
+        "f1_score": 0.7397260273972603,
+        "accuracy": 0.5869565217391305
+      },
+      "per_group": {
+        "tp": 6,
+        "fp": 4,
+        "fn": 0,
+        "precision": 0.6,
+        "recall": 1.0,
+        "f1_score": 0.7499999999999999,
+        "accuracy": 0.6
+      }
+    },
+    "hotel": {
+      "per_element": {
+        "tp": 128,
+        "fp": 16,
+        "fn": 2,
+        "precision": 0.8888888888888888,
+        "recall": 0.9846153846153847,
+        "f1_score": 0.9343065693430657,
+        "accuracy": 0.8767123287671232
+      },
+      "per_group": {
+        "tp": 16,
+        "fp": 2,
+        "fn": 1,
+        "precision": 0.8888888888888888,
+        "recall": 0.9411764705882353,
+        "f1_score": 0.9142857142857143,
+        "accuracy": 0.8421052631578947
+      }
+    }
+  },
+  "merged": {
+    "per_element": {
+      "tp": 291,
+      "fp": 107,
+      "fn": 2,
+      "precision": 0.7311557788944724,
+      "recall": 0.9931740614334471,
+      "f1_score": 0.8422575976845152,
+      "accuracy": 0.7275
+    },
+    "per_group": {
+      "tp": 24,
+      "fp": 6,
+      "fn": 1,
+      "precision": 0.8,
+      "recall": 0.96,
+      "f1_score": 0.8727272727272728,
+      "accuracy": 0.7741935483870968
+    }
+  }
+}

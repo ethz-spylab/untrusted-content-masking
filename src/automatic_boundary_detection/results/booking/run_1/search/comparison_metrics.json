@@ -1,0 +1,1983 @@
+{
+  "ground_truth_file": "hand_results.json",
+  "predicted_file": "llm_results.json",
+  "ground_truth_metadata": {
+    "totalSelectors": 25,
+    "selectorsWithMatches": 6,
+    "totalElements": 81,
+    "uniqueElements": 81,
+    "url": "http://localhost:8001/llm_input_original_search.html",
+    "configFile": "hand_labels.json",
+    "configVersion": "hand",
+    "configGeneratedBy": "Manual analysis of Booking.com HTML structure"
+  },
+  "predicted_metadata": {
+    "totalSelectors": 30,
+    "selectorsWithMatches": 6,
+    "totalElements": 104,
+    "uniqueElements": 104,
+    "url": "http://localhost:8001/llm_input_original_search.html",
+    "configFile": "llm_labels.json",
+    "configVersion": "sanitized",
+    "configGeneratedBy": "LLM analysis (claude-sonnet-4-5-20250929)"
+  },
+  "metrics": {
+    "tp_count": 80,
+    "tp_exact_count": 80,
+    "tp_related_count": 0,
+    "fp_count": 24,
+    "fn_count": 1,
+    "precision": 0.7692307692307693,
+    "recall": 0.9876543209876543,
+    "f1_score": 0.864864864864865,
+    "accuracy": 0.7619047619047619,
+    "ground_truth_total": 81,
+    "predicted_total": 104
+  },
+  "signature_metrics": {
+    "tp_signature_count": 6,
+    "tp_exact_signature_count": 6,
+    "tp_related_signature_count": 0,
+    "fp_signature_count": 2,
+    "fn_signature_count": 0,
+    "ground_truth_signature_total": 6,
+    "predicted_signature_total": 8,
+    "tp_signatures": [
+      "div.a3e0b4ffd1.b87c397a13",
+      "div.b99b6ef58f.f9b1b69a8a",
+      "div.fff1944c52",
+      "h3.b87c397a13.fb2f406ff9",
+      "img.c09abd8a52.c0e44985a8.ca3dad4476.f6c12c77eb",
+      "img.eedb7a060f"
+    ],
+    "tp_exact_signatures": [
+      "div.a3e0b4ffd1.b87c397a13",
+      "div.b99b6ef58f.f9b1b69a8a",
+      "div.fff1944c52",
+      "h3.b87c397a13.fb2f406ff9",
+      "img.c09abd8a52.c0e44985a8.ca3dad4476.f6c12c77eb",
+      "img.eedb7a060f"
+    ],
+    "tp_related_signatures": [],
+    "fp_signatures": [
+      "div.eaa8455879.fb14de7f14.fff1944c52",
+      "span.b4f3c91e87.cd3e7df908.fff1944c52"
+    ],
+    "fn_signatures": [],
+    "precision": 0.75,
+    "recall": 1.0,
+    "f1_score": 0.8571428571428571,
+    "accuracy": 0.75
+  },
+  "element_details": {
+    "tp": [
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[10]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "preview": "(empty)",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='image']",
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='image']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "tagName": "img",
+        "className": "eedb7a060f",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[10]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='title']",
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='title']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "tagName": "div",
+        "className": "b87c397a13 a3e0b4ffd1",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[10]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)",
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[11]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='image']",
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='image']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "tagName": "img",
+        "className": "eedb7a060f",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[11]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='title']",
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='title']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "tagName": "div",
+        "className": "b87c397a13 a3e0b4ffd1",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[11]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)",
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[13]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='image']",
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='image']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "tagName": "img",
+        "className": "eedb7a060f",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='title']",
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='title']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "tagName": "div",
+        "className": "b87c397a13 a3e0b4ffd1",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)",
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[14]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='image']",
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='image']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "tagName": "img",
+        "className": "eedb7a060f",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[14]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='title']",
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='title']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "tagName": "div",
+        "className": "b87c397a13 a3e0b4ffd1",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[14]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)",
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[14]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)",
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[15]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='image']",
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='image']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "tagName": "img",
+        "className": "eedb7a060f",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[15]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='title']",
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='title']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "tagName": "div",
+        "className": "b87c397a13 a3e0b4ffd1",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[15]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)",
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[16]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+        "preview": "Find privacy and peace of mind with an entire home or apartment to yourself",
+        "selectors": [
+          "[data-testid='promotional-banner-content-subtitle']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='promotional-banner-content-subtitle']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='promotional-banner-content-subtitle']"
+        ],
+        "tagName": "div",
+        "className": "b99b6ef58f f9b1b69a8a",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[16]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]",
+        "preview": "Looking for a space of your own?",
+        "selectors": [
+          "[data-testid='promotional-banner-content-title']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='promotional-banner-content-title']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='promotional-banner-content-title']"
+        ],
+        "tagName": "h3",
+        "className": "b87c397a13 fb2f406ff9",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[16]/div[1]/div[1]/div[1]/div[2]/div[1]/picture[1]/img[1]",
+        "preview": "(empty)",
+        "selectors": [
+          "[data-testid='promotional-banner-partial-image'] img"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='promotional-banner-partial-image'] img"
+        ],
+        "predicted_selectors": [
+          "[data-testid='promotional-banner-partial-image'] img"
+        ],
+        "tagName": "img",
+        "className": "f6c12c77eb c0e44985a8 c09abd8a52 ca3dad4476",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[18]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='image']",
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='image']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "tagName": "img",
+        "className": "eedb7a060f",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[18]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='title']",
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='title']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "tagName": "div",
+        "className": "b87c397a13 a3e0b4ffd1",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[18]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)",
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[22]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='image']",
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='image']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "tagName": "img",
+        "className": "eedb7a060f",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[22]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='title']",
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='title']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "tagName": "div",
+        "className": "b87c397a13 a3e0b4ffd1",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[22]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)",
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[24]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='image']",
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='image']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "tagName": "img",
+        "className": "eedb7a060f",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[24]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='title']",
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='title']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "tagName": "div",
+        "className": "b87c397a13 a3e0b4ffd1",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[24]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)",
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[25]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='image']",
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='image']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "tagName": "img",
+        "className": "eedb7a060f",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[25]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='title']",
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='title']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "tagName": "div",
+        "className": "b87c397a13 a3e0b4ffd1",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[25]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)",
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[27]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='image']",
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='image']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "tagName": "img",
+        "className": "eedb7a060f",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[27]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='title']",
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='title']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "tagName": "div",
+        "className": "b87c397a13 a3e0b4ffd1",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[27]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)",
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[29]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='image']",
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='image']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "tagName": "img",
+        "className": "eedb7a060f",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[29]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='title']",
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='title']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "tagName": "div",
+        "className": "b87c397a13 a3e0b4ffd1",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[29]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)",
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "preview": "Bradford Elys\u00c3\u00a9es - Astotel",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='title']",
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='title']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "tagName": "div",
+        "className": "b87c397a13 a3e0b4ffd1",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "preview": "The 4-star Bradford Elys\u00c3\u00a9es is set in a Haussmannian building, near the famous Champs Elys\u00c3\u00a9es in c",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)",
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[30]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='image']",
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='image']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "tagName": "img",
+        "className": "eedb7a060f",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[30]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='title']",
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='title']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "tagName": "div",
+        "className": "b87c397a13 a3e0b4ffd1",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[30]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)",
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[31]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='image']",
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='image']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "tagName": "img",
+        "className": "eedb7a060f",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[31]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='title']",
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='title']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "tagName": "div",
+        "className": "b87c397a13 a3e0b4ffd1",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[31]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)",
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[31]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)",
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[33]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='image']",
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='image']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "tagName": "img",
+        "className": "eedb7a060f",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[33]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='title']",
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='title']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "tagName": "div",
+        "className": "b87c397a13 a3e0b4ffd1",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[33]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)",
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[34]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='image']",
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='image']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "tagName": "img",
+        "className": "eedb7a060f",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[34]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='title']",
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='title']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "tagName": "div",
+        "className": "b87c397a13 a3e0b4ffd1",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[34]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)",
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[36]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='image']",
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='image']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "tagName": "img",
+        "className": "eedb7a060f",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[36]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='title']",
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='title']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "tagName": "div",
+        "className": "b87c397a13 a3e0b4ffd1",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[36]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)",
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[37]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='image']",
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='image']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "tagName": "img",
+        "className": "eedb7a060f",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[37]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='title']",
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='title']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "tagName": "div",
+        "className": "b87c397a13 a3e0b4ffd1",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[37]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)",
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[38]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='image']",
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='image']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "tagName": "img",
+        "className": "eedb7a060f",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[38]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='title']",
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='title']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "tagName": "div",
+        "className": "b87c397a13 a3e0b4ffd1",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[38]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)",
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[40]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='image']",
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='image']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "tagName": "img",
+        "className": "eedb7a060f",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[40]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='title']",
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='title']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "tagName": "div",
+        "className": "b87c397a13 a3e0b4ffd1",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[40]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)",
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[41]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='image']",
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='image']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "tagName": "img",
+        "className": "eedb7a060f",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[41]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='title']",
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='title']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "tagName": "div",
+        "className": "b87c397a13 a3e0b4ffd1",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[41]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)",
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[5]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "preview": "(empty)",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='image']",
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='image']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "tagName": "img",
+        "className": "eedb7a060f",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[5]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "preview": "Moxy Paris Bastille",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='title']",
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='title']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "tagName": "div",
+        "className": "b87c397a13 a3e0b4ffd1",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[5]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+        "preview": "Moxy Paris Bastille is a hotel located between the Bastille and Le Marais neighborhoods, It offers g",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)",
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[6]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "preview": "(empty)",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='image']",
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='image']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "tagName": "img",
+        "className": "eedb7a060f",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[6]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "preview": "H\u00c3\u00b4tel Botaniste",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='title']",
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='title']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "tagName": "div",
+        "className": "b87c397a13 a3e0b4ffd1",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[6]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "preview": "Located in Paris and with Parc des Princes reachable within a 14-minute walk, H\u00c3\u00b4tel Botaniste provi",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)",
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[7]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "preview": "(empty)",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='image']",
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='image']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "tagName": "img",
+        "className": "eedb7a060f",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[7]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "preview": "Hotel Meslay Republique",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='title']",
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='title']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "tagName": "div",
+        "className": "b87c397a13 a3e0b4ffd1",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[7]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "preview": "Featuring free WiFi throughout the property, Hotel Meslay Republique is set in Paris, 328 feet from",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)",
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[9]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "preview": "(empty)",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='image']",
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='image']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] img[loading='lazy']"
+        ],
+        "tagName": "img",
+        "className": "eedb7a060f",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[9]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+        "preview": "Le Charme Alsacien",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='title']",
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] [data-testid='title']"
+        ],
+        "predicted_selectors": [
+          "[data-testid='title-link'] [data-testid='title']"
+        ],
+        "tagName": "div",
+        "className": "b87c397a13 a3e0b4ffd1",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[9]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+        "preview": "Managed by a private host",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)",
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[9]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)",
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "ground_truth_selectors": [
+          "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])"
+        ],
+        "predicted_selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52",
+        "id": ""
+      }
+    ],
+    "fp": [
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[10]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52 fb14de7f14 eaa8455879",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[11]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52 fb14de7f14 eaa8455879",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[13]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52 fb14de7f14 eaa8455879",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[14]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52 fb14de7f14 eaa8455879",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[15]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52 fb14de7f14 eaa8455879",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[18]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52 fb14de7f14 eaa8455879",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[22]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52 fb14de7f14 eaa8455879",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[24]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52 fb14de7f14 eaa8455879",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[25]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52 fb14de7f14 eaa8455879",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[27]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52 fb14de7f14 eaa8455879",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[29]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52 fb14de7f14 eaa8455879",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+        "preview": "1,168 reviews",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52 fb14de7f14 eaa8455879",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[30]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52 fb14de7f14 eaa8455879",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[31]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52 fb14de7f14 eaa8455879",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[33]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52 fb14de7f14 eaa8455879",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[34]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52 fb14de7f14 eaa8455879",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[36]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52 fb14de7f14 eaa8455879",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[37]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52 fb14de7f14 eaa8455879",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[38]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52 fb14de7f14 eaa8455879",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[40]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52 fb14de7f14 eaa8455879",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[41]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "span",
+        "className": "fff1944c52 cd3e7df908 b4f3c91e87",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[5]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+        "preview": "717 reviews",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52 fb14de7f14 eaa8455879",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[6]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52 fb14de7f14 eaa8455879",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[7]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+        "preview": "",
+        "selectors": [
+          "[data-testid='property-card'] .fff1944c52:not([data-testid='address-link']):not([data-testid='distance']):not([role='button']):not(.f4008c3a61):not(.f546354b44)"
+        ],
+        "tagName": "div",
+        "className": "fff1944c52 fb14de7f14 eaa8455879",
+        "id": ""
+      }
+    ],
+    "fn": [
+      {
+        "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/div[1]/a[1]/img[1]",
+        "preview": "(empty)",
+        "selectors": [
+          "[data-testid='property-card'] [data-testid='image']"
+        ],
+        "tagName": "img",
+        "className": "eedb7a060f",
+        "id": ""
+      }
+    ]
+  },
+  "element_groups": {
+    "fp_by_signature": {
+      "div.eaa8455879.fb14de7f14.fff1944c52": 23,
+      "span.b4f3c91e87.cd3e7df908.fff1944c52": 1
+    },
+    "fn_by_signature": {},
+    "fp_grouped_details": {
+      "div.eaa8455879.fb14de7f14.fff1944c52": [
+        {
+          "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[10]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+          "preview": ""
+        },
+        {
+          "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[11]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+          "preview": ""
+        },
+        {
+          "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[13]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+          "preview": ""
+        }
+      ],
+      "span.b4f3c91e87.cd3e7df908.fff1944c52": [
+        {
+          "xpath": "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[41]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/span[1]",
+          "preview": ""
+        }
+      ]
+    },
+    "fn_grouped_details": {}
+  },
+  "selector_breakdown": {
+    "ground_truth": {
+      "total_selectors": 25,
+      "selectors_with_matches": 6,
+      "selector_to_ids": {
+        "1": [
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[40]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[6]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[33]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[5]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[38]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[37]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[15]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[10]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[22]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[41]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[30]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[24]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[34]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[7]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[25]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[9]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[36]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[14]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[31]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[27]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[18]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[11]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[29]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]"
+        ],
+        "2": [
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[11]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[5]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[22]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[31]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[29]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[25]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[41]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[33]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[9]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[6]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[9]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[37]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[15]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[31]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[10]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[27]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[30]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[40]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[24]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[36]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[18]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[14]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[7]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[38]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[14]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[34]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]"
+        ],
+        "3": [
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[10]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[11]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[18]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[5]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[38]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[37]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[24]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[41]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[9]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[30]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[14]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[31]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[40]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[15]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[25]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[6]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[7]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[27]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[36]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[13]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[29]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[34]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[22]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[33]/div[1]/div[1]/div[1]/a[1]/img[1]"
+        ],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": [],
+        "10": [],
+        "11": [],
+        "12": [],
+        "13": [],
+        "14": [],
+        "15": [],
+        "16": [],
+        "17": [],
+        "18": [],
+        "19": [],
+        "20": [],
+        "21": [],
+        "22": [],
+        "23": [
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[16]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+        ],
+        "24": [
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[16]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        ],
+        "25": [
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[16]/div[1]/div[1]/div[1]/div[2]/div[1]/picture[1]/img[1]"
+        ]
+      }
+    },
+    "predicted": {
+      "total_selectors": 30,
+      "selectors_with_matches": 6,
+      "selector_to_ids": {
+        "1": [
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[40]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[6]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[33]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[5]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[38]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[37]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[15]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[10]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[22]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[41]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[30]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[24]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[34]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[7]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[25]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[9]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[36]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[14]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[31]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[27]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[18]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[11]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[29]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]/a[1]/div[1]"
+        ],
+        "2": [
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[41]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/span[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[22]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[6]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[11]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[18]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[5]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[11]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[22]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[5]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[31]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[27]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[29]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[24]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[25]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[41]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[31]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[13]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[30]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[33]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[9]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[6]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[9]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[40]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[37]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[15]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[37]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[15]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[29]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[10]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[27]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[31]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[36]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[30]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[40]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[14]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[7]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[24]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[25]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[36]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[34]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[18]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[14]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[7]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[38]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[33]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[14]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[34]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[10]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[38]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[1]/div[1]/div[3]/div[2]"
+        ],
+        "3": [
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[16]/div[1]/div[1]/div[1]/div[1]/div[1]/h3[1]"
+        ],
+        "4": [
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[10]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[11]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[18]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[5]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[38]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[37]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[24]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[41]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[9]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[30]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[14]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[31]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[40]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[15]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[25]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[6]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[7]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[27]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[36]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[13]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[29]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[34]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[22]/div[1]/div[1]/div[1]/a[1]/img[1]",
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[33]/div[1]/div[1]/div[1]/a[1]/img[1]"
+        ],
+        "5": [
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[16]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        ],
+        "6": [
+          "//*[@id=\"bodyconstraint-inner\"]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[16]/div[1]/div[1]/div[1]/div[2]/div[1]/picture[1]/img[1]"
+        ],
+        "7": [],
+        "8": [],
+        "9": [],
+        "10": [],
+        "11": [],
+        "12": [],
+        "13": [],
+        "14": [],
+        "15": [],
+        "16": [],
+        "17": [],
+        "18": [],
+        "19": [],
+        "20": [],
+        "21": [],
+        "22": [],
+        "23": [],
+        "24": [],
+        "25": [],
+        "26": [],
+        "27": [],
+        "28": [],
+        "29": [],
+        "30": []
+      }
+    }
+  }
+}

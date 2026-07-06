@@ -1,0 +1,444 @@
+{
+  "version": "hand",
+  "generated_by": "Generated from gitlab-marker.js",
+  "untrusted_selectors": [
+    {
+      "selector": ".project-row .project-name, .projects-list .project-name, a.project",
+      "tagName": "project-link",
+      "description": "Project link in list (contains avatar + name)",
+      "confidence": "high"
+    },
+    {
+      "selector": ".namespace-name",
+      "tagName": "owner-name",
+      "description": "Project owner/username prefix in list (e.g. \"Byte Blaze /\")",
+      "confidence": "high"
+    },
+    {
+      "selector": ".project-row .avatar-container, .projects-list .avatar-container, .project-row .identicon, .projects-list .identicon",
+      "tagName": "project-icon",
+      "description": "Project avatar/icon in list (shows first letter or custom image)",
+      "confidence": "high"
+    },
+    {
+      "selector": "span.project-name",
+      "tagName": "project-name",
+      "description": "Project/repo name text (in notifications, headers, etc.)",
+      "confidence": "high"
+    },
+    {
+      "selector": ".project-row .description, .project-description, .projects-list .description",
+      "tagName": "project-description",
+      "description": "Project description in list",
+      "confidence": "high"
+    },
+    {
+      "selector": ".ref-name, a.ref-name, a.gl-font-monospace.gl-bg-blue-50, span.label-branch, .system-note-message code",
+      "tagName": "branch-name",
+      "description": "Branch/ref name in notifications and links",
+      "confidence": "high"
+    },
+    {
+      "selector": ".ref-selector .gl-dropdown-item-text-primary, [data-qa-selector=\"branches_section\"] .gl-dropdown-item-text-primary, [data-testid=\"branches-section\"] .gl-dropdown-item-text-primary, [data-qa-selector=\"tags_section\"] .gl-dropdown-item-text-primary, [data-testid=\"tags-section\"] .gl-dropdown-item-text-primary, .compare-revision-cards .gl-dropdown-item-text-primary",
+      "tagName": "branch-name",
+      "description": "Branch/tag name in ref-selector and compare dropdown items",
+      "confidence": "high"
+    },
+    {
+      "selector": ".breadcrumb-item a, .repo-breadcrumb a, .breadcrumbs-sub-title a, .breadcrumbs-list a:not(.dropdown-item), .breadcrumbs-links a:not(.dropdown-item)",
+      "tagName": "breadcrumb",
+      "description": "Breadcrumb link (user/group name, repo name)",
+      "confidence": "high"
+    },
+    {
+      "selector": ".sidebar-context-title",
+      "tagName": "project-name",
+      "description": "Project/repo name in sidebar",
+      "confidence": "high"
+    },
+    {
+      "selector": "h1.home-panel-title",
+      "tagName": "project-name",
+      "description": "Project name on project overview page",
+      "confidence": "high"
+    },
+    {
+      "selector": ".home-panel-description-markdown, .home-panel-description.text-break",
+      "tagName": "project-description",
+      "description": "Project description and forked-from on overview page",
+      "confidence": "high"
+    },
+    {
+      "selector": "a[data-qa-selector=\"forked_from_link\"]",
+      "tagName": "forked-from",
+      "description": "Forked-from link on project overview page",
+      "confidence": "high"
+    },
+    {
+      "selector": ".ref-selector button.gl-dropdown-toggle, .ref-selector .gl-dropdown-toggle-text, .ref-selector .gl-new-dropdown-toggle-text, .ref-selector .dropdown-toggle-text, .project-refs-form .dropdown-toggle-text, .tree-ref-holder .dropdown-toggle-text",
+      "tagName": "branch-name",
+      "description": "Selected branch name in ref selector button",
+      "confidence": "high"
+    },
+    {
+      "selector": ".project-item-select-holder .project-item-select",
+      "tagName": "repo-breadcrumb",
+      "description": "Project selector in header",
+      "confidence": "high"
+    },
+    {
+      "selector": ".readme-holder .md, .wiki .md, .file-content .md, .file-content.md",
+      "tagName": "markdown-content",
+      "description": "Rendered markdown content (README, wiki, etc.)",
+      "confidence": "high"
+    },
+    {
+      "selector": ".file-content .code, .blob-content, .file-content .file-content",
+      "tagName": "code-content",
+      "description": "Source code file content",
+      "confidence": "high"
+    },
+    {
+      "selector": ".js-edit-blob-form .editor-ref",
+      "tagName": "branch-name",
+      "description": "Branch name text on edit file page (inside clickable dropdown)",
+      "confidence": "high"
+    },
+    {
+      "selector": ".js-edit-blob-form .file-editor.code, .file-editor.code",
+      "tagName": "code-content",
+      "description": "Source code in inline editor",
+      "confidence": "high"
+    },
+    {
+      "selector": ".tree-item .str-truncated, .tree-item-file-name, .file-name a, strong.file-title-name, [data-qa-selector=\"file_title_content\"]",
+      "tagName": "file-name",
+      "description": "File name in repository tree",
+      "confidence": "high"
+    },
+    {
+      "selector": ".file-row-name .gl-truncate, .diff-file-changes .file-row-name, [data-qa-selector=\"file_name_content\"]",
+      "tagName": "file-name-diff",
+      "description": "File name in MR diff / changes file tree (clickable via role=button parent)",
+      "confidence": "high"
+    },
+    {
+      "selector": ".ide-file-list .file-row-name, .ide-tree-body .file-row-name, [data-testid=\"ide-tree-body\"] .file-row-name",
+      "tagName": "file-name",
+      "description": "File name in WebIDE file tree",
+      "confidence": "high"
+    },
+    {
+      "selector": "#ide.blob-viewer-container, .multi-file-edit-pane-content, .ide-editor .monaco-editor .view-lines, .ide-editor .editor-mounted, .ide-editor .modified-diff-viewer",
+      "tagName": "code-content",
+      "description": "File content in WebIDE editor",
+      "confidence": "high"
+    },
+    {
+      "selector": ".multi-file-tab",
+      "tagName": "file-name",
+      "description": "File tab name in WebIDE tab bar",
+      "confidence": "high"
+    },
+    {
+      "selector": ".ide-status-bar .ide-status-branch, .ide-sidebar-branch-title, .ide-review-sub-header .branch-name, .ide-merge-requests .dropdown-content a, .ide-merge-requests .dropdown-content .btn-link, a[href*=\"/-/ide/project/\"].btn-link, [data-testid=\"ide-nav-dropdown\"] .flex-fill.text-truncate",
+      "tagName": "branch-name",
+      "description": "Branch name in WebIDE (status bar, sidebar, nav button, dropdown)",
+      "confidence": "high"
+    },
+    {
+      "selector": ".commit-row-message, .commit-title, .commits-row .item-title a, a.tree-commit-link",
+      "tagName": "commit-message",
+      "description": "Commit message",
+      "confidence": "high"
+    },
+    {
+      "selector": ".commit-description, .commit-row-description",
+      "tagName": "commit-body",
+      "description": "Commit message body / extended description",
+      "confidence": "high"
+    },
+    {
+      "selector": ".committer",
+      "tagName": "commit-author",
+      "description": "Commit author info (name + authored date)",
+      "confidence": "high"
+    },
+    {
+      "selector": ".contributors-charts .row h4, .contributors-charts .row p",
+      "tagName": "contributor-info",
+      "description": "Contributor name and email on contributors page",
+      "confidence": "high"
+    },
+    {
+      "selector": ".network-graph, .project-network .controls",
+      "tagName": "network-graph",
+      "description": "Network graph (commits, avatars, branch names)",
+      "confidence": "high"
+    },
+    {
+      "selector": ".js-source-project .dropdown-toggle-text, .js-target-project .dropdown-toggle-text",
+      "tagName": "repo-selector",
+      "description": "Selected repo/project name in compare/MR project dropdown",
+      "confidence": "high"
+    },
+    {
+      "selector": ".js-source-branch .dropdown-toggle-text, .js-target-branch .dropdown-toggle-text, .compare-revision-cards span.gl-dropdown-button-text, .ref-selector span.gl-dropdown-button-text",
+      "tagName": "branch-selector",
+      "description": "Selected branch name in compare/MR branch dropdown",
+      "confidence": "high"
+    },
+    {
+      "selector": ".dropdown-source-project .dropdown-content a, .dropdown-target-project .dropdown-content a",
+      "tagName": "repo-option",
+      "description": "Repo/project dropdown items on compare/MR pages",
+      "confidence": "high"
+    },
+    {
+      "selector": ".js-source-branch-dropdown .dropdown-content a, .js-target-branch-dropdown .dropdown-content a, .git-revision-dropdown .dropdown-content a",
+      "tagName": "branch-option",
+      "description": "Branch dropdown items on compare/MR pages",
+      "confidence": "high"
+    },
+    {
+      "selector": ".issue-title-text a, .merge-request-title a, .issuable-header-text a, h1[data-qa-selector=\"title_content\"], .title-container h1.title",
+      "tagName": "issue-title",
+      "description": "Issue or merge request title",
+      "confidence": "high"
+    },
+    {
+      "selector": ".issue-title-text, .issuable-info .title",
+      "tagName": "issue-title-list",
+      "description": "Issue title in list view",
+      "confidence": "high"
+    },
+    {
+      "selector": ".search-results a[data-track-property=\"search_result\"] span.term, .search-results .str-truncated.gl-font-weight-bold",
+      "tagName": "search-result-title",
+      "description": "Issue/MR/etc. title in search results",
+      "confidence": "high"
+    },
+    {
+      "selector": ".search-results .description.term",
+      "tagName": "search-result-description",
+      "description": "Description snippet in search results",
+      "confidence": "high"
+    },
+    {
+      "selector": ".search-results .gl-text-gray-500.gl-my-3",
+      "tagName": "search-result-meta",
+      "description": "Project/issue reference line in search results",
+      "confidence": "high"
+    },
+    {
+      "selector": ".detail-page-description .md, .issuable-details .description .md",
+      "tagName": "issue-body",
+      "description": "Issue/MR description",
+      "confidence": "high"
+    },
+    {
+      "selector": ".note-body .md, .timeline-entry .note-text",
+      "tagName": "comment-content",
+      "description": "Comment (note) content on issues/MRs",
+      "confidence": "high"
+    },
+    {
+      "selector": ".avatar-cell, .avatar-container, .js-avatar-container, .avatar-holder, .system-note-image.user-avatar, .gl-card-body > img.gl-avatar, .todo-avatar, .well-segment img.gl-avatar",
+      "tagName": "user-avatar",
+      "description": "User/commit author avatar container",
+      "confidence": "high"
+    },
+    {
+      "selector": ".issuable-reference",
+      "tagName": "issue-reference",
+      "description": "Issue/MR reference (e.g. namespace/project#123)",
+      "confidence": "high"
+    },
+    {
+      "selector": ".user-info .user-name, .author-name, .commit-author-link, .author-link, .author, a.js-user-link, .dropdown-user-details",
+      "tagName": "user-name",
+      "description": "User display name",
+      "confidence": "high"
+    },
+    {
+      "selector": ".user-info .user-username, .author-username, span.username",
+      "tagName": "user-username",
+      "description": "User username",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid=\"user-popover\"], .gl-popover .user-popover, .popover .user-popover",
+      "tagName": "user-popover",
+      "description": "User profile hover popover (name, bio, avatar, location)",
+      "confidence": "high"
+    },
+    {
+      "selector": ".user-profile .cover-title",
+      "tagName": "profile-name",
+      "description": "User profile display name",
+      "confidence": "high"
+    },
+    {
+      "selector": ".user-info .gl-text-gray-900",
+      "tagName": "profile-info",
+      "description": "User profile info rows (location, org, website, followers)",
+      "confidence": "high"
+    },
+    {
+      "selector": ".user-profile .cover-desc, .profile-user-bio",
+      "tagName": "user-bio",
+      "description": "User biography on profile",
+      "confidence": "high"
+    },
+    {
+      "selector": ".snippet-title, .snippet-header .title",
+      "tagName": "snippet-title",
+      "description": "Snippet title",
+      "confidence": "high"
+    },
+    {
+      "selector": ".snippet-file-content .code, .snippet-file-content .blob-content",
+      "tagName": "snippet-content",
+      "description": "Snippet code content",
+      "confidence": "high"
+    },
+    {
+      "selector": ".diff-content .code, .diff-file .code",
+      "tagName": "diff-content",
+      "description": "Diff / code changes",
+      "confidence": "high"
+    },
+    {
+      "selector": ".issuable-show-labels .label, .gl-label-text",
+      "tagName": "label",
+      "description": "Issue/MR labels",
+      "confidence": "high"
+    },
+    {
+      "selector": ".event-feed .event-title, .event-item .event-title",
+      "tagName": "activity-title",
+      "description": "Activity feed event title",
+      "confidence": "high"
+    },
+    {
+      "selector": ".event-feed .event-body, .event-item .event-body",
+      "tagName": "activity-body",
+      "description": "Activity feed event body",
+      "confidence": "high"
+    },
+    {
+      "selector": "span.todo-target-title",
+      "tagName": "todo-title",
+      "description": "To-Do item title (MR/issue name)",
+      "confidence": "high"
+    },
+    {
+      "selector": "strong.dropdown-menu-user-full-name, .dropdown-menu-user-full-name",
+      "tagName": "user-name",
+      "description": "User full name in dropdown menus",
+      "confidence": "high"
+    },
+    {
+      "selector": "span.dropdown-menu-user-username, .dropdown-menu-user-username",
+      "tagName": "user-username",
+      "description": "Username in dropdown menus",
+      "confidence": "high"
+    },
+    {
+      "selector": ".dropdown-menu-user-link > span.gl-relative",
+      "tagName": "user-avatar",
+      "description": "User avatar container in dropdown menus",
+      "confidence": "high"
+    },
+    {
+      "selector": ".current-user .gl-font-weight-bold",
+      "tagName": "user-name",
+      "description": "User display name in current-user dropdown menu",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-user]",
+      "tagName": "user-name",
+      "description": "User name/username link via data-user attribute",
+      "confidence": "high"
+    },
+    {
+      "selector": ".js-visual-token .value-container, .filtered-search-token .value-container",
+      "tagName": "filter-value",
+      "description": "Filter token value (user/project name in search bar)",
+      "confidence": "high"
+    },
+    {
+      "selector": "#js-dropdown-label span.label-title, #js-dropdown-label .dropdown-label-box, .filter-dropdown-item span.label-title, .filter-dropdown-item .dropdown-label-box, .gl-filtered-search-suggestion-list .label-title, .gl-filtered-search-suggestion-list .dropdown-label-box, .gl-filtered-search-suggestion-list .gl-label-text, .gl-filtered-search-suggestion-list .dropdown-label-box + span, .gl-filtered-search-suggestion-list .dropdown-label-box ~ span",
+      "tagName": "label-name",
+      "description": "Label name and color in filter dropdown",
+      "confidence": "high"
+    },
+    {
+      "selector": ".dropdown-menu-project .dropdown-content li > a, .dropdown-menu-group .dropdown-content li > a",
+      "tagName": "dropdown-project",
+      "description": "Project/group names in filter dropdowns",
+      "confidence": "high"
+    },
+    {
+      "selector": ".deploy-tokens .token-name, .deploy-keys .title",
+      "tagName": "deploy-token-name",
+      "description": "Deploy token or key name",
+      "confidence": "high"
+    },
+    {
+      "selector": ".wiki-page-content .md, .wiki .md",
+      "tagName": "wiki-content",
+      "description": "Wiki page content",
+      "confidence": "high"
+    },
+    {
+      "selector": ".release-block .release-header a, .release-block-title",
+      "tagName": "release-title",
+      "description": "Release title",
+      "confidence": "high"
+    },
+    {
+      "selector": ".release-block .release-body .md",
+      "tagName": "release-content",
+      "description": "Release description/notes",
+      "confidence": "high"
+    },
+    {
+      "selector": ".member .user-info, .members-list .member-name",
+      "tagName": "member-name",
+      "description": "Project member name",
+      "confidence": "high"
+    },
+    {
+      "selector": "td.col-meta a[href*=\"/\"]",
+      "tagName": "user-name",
+      "description": "User name link in members table metadata (e.g. \"by Byte Blaze\")",
+      "confidence": "high"
+    },
+    {
+      "selector": ".gl-avatar-labeled-label",
+      "tagName": "user-name",
+      "description": "User display name in avatar-labeled dropdowns (invite, autocomplete)",
+      "confidence": "high"
+    },
+    {
+      "selector": ".gl-avatar-labeled-sublabel",
+      "tagName": "username",
+      "description": "Username in avatar-labeled dropdowns (invite, autocomplete)",
+      "confidence": "high"
+    },
+    {
+      "selector": ".gl-avatar-labeled .gl-avatar",
+      "tagName": "user-avatar",
+      "description": "User avatar in avatar-labeled dropdowns (invite, autocomplete)",
+      "confidence": "high"
+    },
+    {
+      "selector": ".block .gl-overflow-hidden.gl-text-overflow-ellipsis[title*='/']",
+      "tagName": "issue-reference",
+      "description": "Issue/MR reference string in sidebar (e.g., 'namespace/project#1')",
+      "confidence": "high"
+    }
+  ]
+}

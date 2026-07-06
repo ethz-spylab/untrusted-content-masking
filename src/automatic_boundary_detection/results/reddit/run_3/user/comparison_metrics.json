@@ -1,0 +1,5673 @@
+{
+  "ground_truth_file": "hand_results.json",
+  "predicted_file": "llm_results.json",
+  "ground_truth_metadata": {
+    "totalSelectors": 17,
+    "selectorsWithMatches": 9,
+    "totalElements": 232,
+    "uniqueElements": 232,
+    "url": "http://localhost:8001/llm_input_original_user.html",
+    "configFile": "hand_labels.json",
+    "configVersion": "hand",
+    "configGeneratedBy": "Manual approximation from known old.reddit HTML structure"
+  },
+  "predicted_metadata": {
+    "totalSelectors": 41,
+    "selectorsWithMatches": 28,
+    "totalElements": 361,
+    "uniqueElements": 274,
+    "url": "http://localhost:8001/llm_input_original_user.html",
+    "configFile": "llm_labels.json",
+    "configVersion": "sanitized",
+    "configGeneratedBy": "LLM analysis (claude-sonnet-4-5-20250929)"
+  },
+  "metrics": {
+    "tp_count": 296,
+    "tp_exact_count": 209,
+    "tp_related_count": 87,
+    "fp_count": 1,
+    "fn_count": 0,
+    "precision": 0.9966329966329966,
+    "recall": 1.0,
+    "f1_score": 0.9983136593591906,
+    "accuracy": 0.9966329966329966,
+    "ground_truth_total": 232,
+    "predicted_total": 274
+  },
+  "signature_metrics": {
+    "tp_signature_count": 47,
+    "tp_exact_signature_count": 47,
+    "tp_related_signature_count": 0,
+    "fp_signature_count": 1,
+    "fn_signature_count": 0,
+    "ground_truth_signature_total": 47,
+    "predicted_signature_total": 48,
+    "tp_signatures": [
+      "a",
+      "a.admin.author.id-t2_1w72.may-blank",
+      "a.admin.author.id-t2_1w72.may-blank.submitter",
+      "a.author.id-t2_1sd8mpb6wr.may-blank",
+      "a.author.id-t2_1w72.may-blank",
+      "a.author.id-t2_20ud0a18ft.may-blank",
+      "a.author.id-t2_25yly9h6po.may-blank",
+      "a.author.id-t2_v399waejy.may-blank",
+      "a.hover.may-blank.subreddit",
+      "a.hover.subreddit",
+      "a.may-blank.outbound.title",
+      "a.may-blank.title",
+      "a.submitter",
+      "a.title",
+      "div.comment.even.id-t1_o3t5yi2.noncollapsed.thing",
+      "div.comment.even.id-t1_o3t64ts.noncollapsed.thing",
+      "div.comment.even.id-t1_o3t69i6.noncollapsed.thing",
+      "div.comment.even.id-t1_o3t6ebz.noncollapsed.thing",
+      "div.comment.even.id-t1_o3t6nst.noncollapsed.thing",
+      "div.comment.even.id-t1_o3t774z.noncollapsed.thing",
+      "div.comment.even.id-t1_o3t7qd9.noncollapsed.thing",
+      "div.comment.even.id-t1_o8gk2ud.noncollapsed.thing",
+      "div.comment.even.id-t1_ocf4918.noncollapsed.thing",
+      "div.comment.even.id-t1_ocfa6a3.noncollapsed.thing",
+      "div.comment.even.id-t1_ocfcbs9.noncollapsed.thing",
+      "div.comment.id-t1_o3t5w5c.noncollapsed.odd.thing",
+      "div.comment.id-t1_o3t62bh.noncollapsed.odd.thing",
+      "div.comment.id-t1_o3t66uw.noncollapsed.odd.thing",
+      "div.comment.id-t1_o3t6bxs.noncollapsed.odd.thing",
+      "div.comment.id-t1_o3t6gff.noncollapsed.odd.thing",
+      "div.comment.id-t1_o3t70wv.noncollapsed.odd.thing",
+      "div.comment.id-t1_o3t7k89.noncollapsed.odd.thing",
+      "div.comment.id-t1_o40tlwf.noncollapsed.odd.thing",
+      "div.comment.id-t1_obbmr5y.noncollapsed.odd.thing",
+      "div.comment.id-t1_ocf538k.noncollapsed.odd.thing",
+      "div.comment.id-t1_ocfaspc.noncollapsed.odd.thing",
+      "div.comment.id-t1_ocfdez3.noncollapsed.odd.thing",
+      "div.even.id-t3_1s3ezrc.link.self.thing",
+      "div.id-t3_1s3f2fe.link.linkflair.odd.thing",
+      "div.md",
+      "h1",
+      "span.admin",
+      "span.crosspost-badge",
+      "span.domain",
+      "span.trophy-description",
+      "span.trophy-name",
+      "span.userattrs"
+    ],
+    "tp_exact_signatures": [
+      "a",
+      "a.admin.author.id-t2_1w72.may-blank",
+      "a.admin.author.id-t2_1w72.may-blank.submitter",
+      "a.author.id-t2_1sd8mpb6wr.may-blank",
+      "a.author.id-t2_1w72.may-blank",
+      "a.author.id-t2_20ud0a18ft.may-blank",
+      "a.author.id-t2_25yly9h6po.may-blank",
+      "a.author.id-t2_v399waejy.may-blank",
+      "a.hover.may-blank.subreddit",
+      "a.hover.subreddit",
+      "a.may-blank.outbound.title",
+      "a.may-blank.title",
+      "a.submitter",
+      "a.title",
+      "div.comment.even.id-t1_o3t5yi2.noncollapsed.thing",
+      "div.comment.even.id-t1_o3t64ts.noncollapsed.thing",
+      "div.comment.even.id-t1_o3t69i6.noncollapsed.thing",
+      "div.comment.even.id-t1_o3t6ebz.noncollapsed.thing",
+      "div.comment.even.id-t1_o3t6nst.noncollapsed.thing",
+      "div.comment.even.id-t1_o3t774z.noncollapsed.thing",
+      "div.comment.even.id-t1_o3t7qd9.noncollapsed.thing",
+      "div.comment.even.id-t1_o8gk2ud.noncollapsed.thing",
+      "div.comment.even.id-t1_ocf4918.noncollapsed.thing",
+      "div.comment.even.id-t1_ocfa6a3.noncollapsed.thing",
+      "div.comment.even.id-t1_ocfcbs9.noncollapsed.thing",
+      "div.comment.id-t1_o3t5w5c.noncollapsed.odd.thing",
+      "div.comment.id-t1_o3t62bh.noncollapsed.odd.thing",
+      "div.comment.id-t1_o3t66uw.noncollapsed.odd.thing",
+      "div.comment.id-t1_o3t6bxs.noncollapsed.odd.thing",
+      "div.comment.id-t1_o3t6gff.noncollapsed.odd.thing",
+      "div.comment.id-t1_o3t70wv.noncollapsed.odd.thing",
+      "div.comment.id-t1_o3t7k89.noncollapsed.odd.thing",
+      "div.comment.id-t1_o40tlwf.noncollapsed.odd.thing",
+      "div.comment.id-t1_obbmr5y.noncollapsed.odd.thing",
+      "div.comment.id-t1_ocf538k.noncollapsed.odd.thing",
+      "div.comment.id-t1_ocfaspc.noncollapsed.odd.thing",
+      "div.comment.id-t1_ocfdez3.noncollapsed.odd.thing",
+      "div.even.id-t3_1s3ezrc.link.self.thing",
+      "div.id-t3_1s3f2fe.link.linkflair.odd.thing",
+      "div.md",
+      "h1",
+      "span.admin",
+      "span.crosspost-badge",
+      "span.domain",
+      "span.trophy-description",
+      "span.trophy-name",
+      "span.userattrs"
+    ],
+    "tp_related_signatures": [],
+    "fp_signatures": [
+      "span.pagename.selected"
+    ],
+    "fn_signatures": [],
+    "precision": 0.9791666666666666,
+    "recall": 1.0,
+    "f1_score": 0.9894736842105264,
+    "accuracy": 0.9791666666666666
+  },
+  "element_details": {
+    "tp": [
+      {
+        "xpath": "//*[@id=\"form-t1_o3t5w5cfbb\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .entry .usertext-body .md",
+          ".usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".usertext-body .md",
+          ".thing.comment .entry .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_o3t5yi2ln1\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .entry .usertext-body .md",
+          ".usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".usertext-body .md",
+          ".thing.comment .entry .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_o3t62bh9cb\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .entry .usertext-body .md",
+          ".usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".usertext-body .md",
+          ".thing.comment .entry .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_o3t64tsxgz\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .entry .usertext-body .md",
+          ".usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".usertext-body .md",
+          ".thing.comment .entry .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_o3t66uwil4\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .entry .usertext-body .md",
+          ".usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".usertext-body .md",
+          ".thing.comment .entry .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_o3t69i6lkb\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .entry .usertext-body .md",
+          ".usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".usertext-body .md",
+          ".thing.comment .entry .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_o3t6bxsvmn\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .entry .usertext-body .md",
+          ".usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".usertext-body .md",
+          ".thing.comment .entry .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_o3t6ebz1z3\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .entry .usertext-body .md",
+          ".usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".usertext-body .md",
+          ".thing.comment .entry .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_o3t6gffe2o\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .entry .usertext-body .md",
+          ".usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".usertext-body .md",
+          ".thing.comment .entry .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_o3t6nst9e1\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .entry .usertext-body .md",
+          ".usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".usertext-body .md",
+          ".thing.comment .entry .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_o3t70wv3jp\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .entry .usertext-body .md",
+          ".usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".usertext-body .md",
+          ".thing.comment .entry .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_o3t774znyv\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .entry .usertext-body .md",
+          ".usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".usertext-body .md",
+          ".thing.comment .entry .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_o3t7k8996k\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .entry .usertext-body .md",
+          ".usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".usertext-body .md",
+          ".thing.comment .entry .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_o3t7qd9ht9\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .entry .usertext-body .md",
+          ".usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".usertext-body .md",
+          ".thing.comment .entry .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_o40tlwfupd\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .entry .usertext-body .md",
+          ".usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".usertext-body .md",
+          ".thing.comment .entry .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_o8gk2ud5i9\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .entry .usertext-body .md",
+          ".usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".usertext-body .md",
+          ".thing.comment .entry .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_obbmr5yhr5\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .entry .usertext-body .md",
+          ".usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".usertext-body .md",
+          ".thing.comment .entry .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocf4918ifk\"]/div[1]/div[1]",
+        "preview": "",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .entry .usertext-body .md",
+          ".usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".usertext-body .md",
+          ".thing.comment .entry .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocf538kq5w\"]/div[1]/div[1]",
+        "preview": "The best bot app.",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .entry .usertext-body .md",
+          ".usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".usertext-body .md",
+          ".thing.comment .entry .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocfa6a3aps\"]/div[1]/div[1]",
+        "preview": "You can see what it will look like here:\nhttps://www.reddit.com/r/redditdev/comments/1s3f3ag/keeping",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .entry .usertext-body .md",
+          ".usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".usertext-body .md",
+          ".thing.comment .entry .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocfaspct23\"]/div[1]/div[1]",
+        "preview": "We'll accept an eyeball.",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .entry .usertext-body .md",
+          ".usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".usertext-body .md",
+          ".thing.comment .entry .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocfcbs9aku\"]/div[1]/div[1]",
+        "preview": "Are you referring to our CFO, Drew? I can assure you nobody hates SBC more he does.",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .entry .usertext-body .md",
+          ".usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".usertext-body .md",
+          ".thing.comment .entry .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"form-t1_ocfdez3ige\"]/div[1]/div[1]",
+        "preview": "<image>",
+        "selectors": [
+          ".thing .usertext-body .md",
+          ".thing.comment .entry .usertext-body .md",
+          ".usertext-body .md"
+        ],
+        "ground_truth_selectors": [
+          ".thing .usertext-body .md"
+        ],
+        "predicted_selectors": [
+          ".usertext-body .md",
+          ".thing.comment .entry .usertext-body .md"
+        ],
+        "tagName": "div",
+        "className": "md",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t5w5c\"]",
+        "preview": "",
+        "selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "tagName": "div",
+        "className": " thing id-t1_o3t5w5c noncollapsed odd  comment ",
+        "id": "thing_t1_o3t5w5c"
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t5w5c\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author admin may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t5w5c\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t5w5c\"]/div[2]/p[1]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs .admin"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .admin"
+        ],
+        "tagName": "span",
+        "className": "admin",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t5w5c\"]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          "a.title"
+        ],
+        "ground_truth_selectors": [
+          "a.title"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "title",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t5w5c\"]/p[1]/a[3]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_v399waejy",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t5w5c\"]/p[1]/a[4]",
+        "preview": "",
+        "selectors": [
+          ".thing.comment .parent .subreddit",
+          "a.subreddit"
+        ],
+        "ground_truth_selectors": [
+          "a.subreddit"
+        ],
+        "predicted_selectors": [
+          ".thing.comment .parent .subreddit"
+        ],
+        "tagName": "a",
+        "className": "subreddit hover",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t5w5c\"]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t5yi2\"]",
+        "preview": "",
+        "selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "tagName": "div",
+        "className": " thing id-t1_o3t5yi2 noncollapsed even  comment ",
+        "id": "thing_t1_o3t5yi2"
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t5yi2\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author admin may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t5yi2\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t5yi2\"]/div[2]/p[1]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs .admin"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .admin"
+        ],
+        "tagName": "span",
+        "className": "admin",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t5yi2\"]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          "a.title"
+        ],
+        "ground_truth_selectors": [
+          "a.title"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "title",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t5yi2\"]/p[1]/a[3]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_v399waejy",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t5yi2\"]/p[1]/a[4]",
+        "preview": "",
+        "selectors": [
+          ".thing.comment .parent .subreddit",
+          "a.subreddit"
+        ],
+        "ground_truth_selectors": [
+          "a.subreddit"
+        ],
+        "predicted_selectors": [
+          ".thing.comment .parent .subreddit"
+        ],
+        "tagName": "a",
+        "className": "subreddit hover",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t5yi2\"]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t62bh\"]",
+        "preview": "",
+        "selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "tagName": "div",
+        "className": " thing id-t1_o3t62bh noncollapsed odd  comment ",
+        "id": "thing_t1_o3t62bh"
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t62bh\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author admin may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t62bh\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t62bh\"]/div[2]/p[1]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs .admin"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .admin"
+        ],
+        "tagName": "span",
+        "className": "admin",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t62bh\"]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          "a.title"
+        ],
+        "ground_truth_selectors": [
+          "a.title"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "title",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t62bh\"]/p[1]/a[3]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_v399waejy",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t62bh\"]/p[1]/a[4]",
+        "preview": "",
+        "selectors": [
+          ".thing.comment .parent .subreddit",
+          "a.subreddit"
+        ],
+        "ground_truth_selectors": [
+          "a.subreddit"
+        ],
+        "predicted_selectors": [
+          ".thing.comment .parent .subreddit"
+        ],
+        "tagName": "a",
+        "className": "subreddit hover",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t62bh\"]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t64ts\"]",
+        "preview": "",
+        "selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "tagName": "div",
+        "className": " thing id-t1_o3t64ts noncollapsed even  comment ",
+        "id": "thing_t1_o3t64ts"
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t64ts\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author admin may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t64ts\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t64ts\"]/div[2]/p[1]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs .admin"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .admin"
+        ],
+        "tagName": "span",
+        "className": "admin",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t64ts\"]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          "a.title"
+        ],
+        "ground_truth_selectors": [
+          "a.title"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "title",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t64ts\"]/p[1]/a[3]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_v399waejy",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t64ts\"]/p[1]/a[4]",
+        "preview": "",
+        "selectors": [
+          ".thing.comment .parent .subreddit",
+          "a.subreddit"
+        ],
+        "ground_truth_selectors": [
+          "a.subreddit"
+        ],
+        "predicted_selectors": [
+          ".thing.comment .parent .subreddit"
+        ],
+        "tagName": "a",
+        "className": "subreddit hover",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t64ts\"]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t66uw\"]",
+        "preview": "",
+        "selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "tagName": "div",
+        "className": " thing id-t1_o3t66uw noncollapsed odd  comment ",
+        "id": "thing_t1_o3t66uw"
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t66uw\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author admin may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t66uw\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t66uw\"]/div[2]/p[1]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs .admin"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .admin"
+        ],
+        "tagName": "span",
+        "className": "admin",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t66uw\"]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          "a.title"
+        ],
+        "ground_truth_selectors": [
+          "a.title"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "title",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t66uw\"]/p[1]/a[3]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_v399waejy",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t66uw\"]/p[1]/a[4]",
+        "preview": "",
+        "selectors": [
+          ".thing.comment .parent .subreddit",
+          "a.subreddit"
+        ],
+        "ground_truth_selectors": [
+          "a.subreddit"
+        ],
+        "predicted_selectors": [
+          ".thing.comment .parent .subreddit"
+        ],
+        "tagName": "a",
+        "className": "subreddit hover",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t66uw\"]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t69i6\"]",
+        "preview": "",
+        "selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "tagName": "div",
+        "className": " thing id-t1_o3t69i6 noncollapsed even  comment ",
+        "id": "thing_t1_o3t69i6"
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t69i6\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author admin may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t69i6\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t69i6\"]/div[2]/p[1]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs .admin"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .admin"
+        ],
+        "tagName": "span",
+        "className": "admin",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t69i6\"]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          "a.title"
+        ],
+        "ground_truth_selectors": [
+          "a.title"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "title",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t69i6\"]/p[1]/a[3]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_v399waejy",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t69i6\"]/p[1]/a[4]",
+        "preview": "",
+        "selectors": [
+          ".thing.comment .parent .subreddit",
+          "a.subreddit"
+        ],
+        "ground_truth_selectors": [
+          "a.subreddit"
+        ],
+        "predicted_selectors": [
+          ".thing.comment .parent .subreddit"
+        ],
+        "tagName": "a",
+        "className": "subreddit hover",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t69i6\"]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6bxs\"]",
+        "preview": "",
+        "selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "tagName": "div",
+        "className": " thing id-t1_o3t6bxs noncollapsed odd  comment ",
+        "id": "thing_t1_o3t6bxs"
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6bxs\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author admin may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6bxs\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6bxs\"]/div[2]/p[1]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs .admin"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .admin"
+        ],
+        "tagName": "span",
+        "className": "admin",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6bxs\"]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          "a.title"
+        ],
+        "ground_truth_selectors": [
+          "a.title"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "title",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6bxs\"]/p[1]/a[3]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_v399waejy",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6bxs\"]/p[1]/a[4]",
+        "preview": "",
+        "selectors": [
+          ".thing.comment .parent .subreddit",
+          "a.subreddit"
+        ],
+        "ground_truth_selectors": [
+          "a.subreddit"
+        ],
+        "predicted_selectors": [
+          ".thing.comment .parent .subreddit"
+        ],
+        "tagName": "a",
+        "className": "subreddit hover",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6bxs\"]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6ebz\"]",
+        "preview": "",
+        "selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "tagName": "div",
+        "className": " thing id-t1_o3t6ebz noncollapsed even  comment ",
+        "id": "thing_t1_o3t6ebz"
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6ebz\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author admin may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6ebz\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6ebz\"]/div[2]/p[1]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs .admin"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .admin"
+        ],
+        "tagName": "span",
+        "className": "admin",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6ebz\"]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          "a.title"
+        ],
+        "ground_truth_selectors": [
+          "a.title"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "title",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6ebz\"]/p[1]/a[3]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_v399waejy",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6ebz\"]/p[1]/a[4]",
+        "preview": "",
+        "selectors": [
+          ".thing.comment .parent .subreddit",
+          "a.subreddit"
+        ],
+        "ground_truth_selectors": [
+          "a.subreddit"
+        ],
+        "predicted_selectors": [
+          ".thing.comment .parent .subreddit"
+        ],
+        "tagName": "a",
+        "className": "subreddit hover",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6ebz\"]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6gff\"]",
+        "preview": "",
+        "selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "tagName": "div",
+        "className": " thing id-t1_o3t6gff noncollapsed odd  comment ",
+        "id": "thing_t1_o3t6gff"
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6gff\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author admin may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6gff\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6gff\"]/div[2]/p[1]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs .admin"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .admin"
+        ],
+        "tagName": "span",
+        "className": "admin",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6gff\"]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          "a.title"
+        ],
+        "ground_truth_selectors": [
+          "a.title"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "title",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6gff\"]/p[1]/a[3]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_v399waejy",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6gff\"]/p[1]/a[4]",
+        "preview": "",
+        "selectors": [
+          ".thing.comment .parent .subreddit",
+          "a.subreddit"
+        ],
+        "ground_truth_selectors": [
+          "a.subreddit"
+        ],
+        "predicted_selectors": [
+          ".thing.comment .parent .subreddit"
+        ],
+        "tagName": "a",
+        "className": "subreddit hover",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6gff\"]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6nst\"]",
+        "preview": "",
+        "selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "tagName": "div",
+        "className": " thing id-t1_o3t6nst noncollapsed even  comment ",
+        "id": "thing_t1_o3t6nst"
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6nst\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author submitter admin may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6nst\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6nst\"]/div[2]/p[1]/span[1]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs .submitter"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .submitter"
+        ],
+        "tagName": "a",
+        "className": "submitter",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6nst\"]/div[2]/p[1]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs .admin"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .admin"
+        ],
+        "tagName": "span",
+        "className": "admin",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6nst\"]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          "a.title"
+        ],
+        "ground_truth_selectors": [
+          "a.title"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "title",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6nst\"]/p[1]/a[3]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6nst\"]/p[1]/a[4]",
+        "preview": "",
+        "selectors": [
+          ".thing.comment .parent .subreddit",
+          "a.subreddit"
+        ],
+        "ground_truth_selectors": [
+          "a.subreddit"
+        ],
+        "predicted_selectors": [
+          ".thing.comment .parent .subreddit"
+        ],
+        "tagName": "a",
+        "className": "subreddit hover",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t6nst\"]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t70wv\"]",
+        "preview": "",
+        "selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "tagName": "div",
+        "className": " thing id-t1_o3t70wv noncollapsed odd  comment ",
+        "id": "thing_t1_o3t70wv"
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t70wv\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author submitter admin may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t70wv\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t70wv\"]/div[2]/p[1]/span[1]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs .submitter"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .submitter"
+        ],
+        "tagName": "a",
+        "className": "submitter",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t70wv\"]/div[2]/p[1]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs .admin"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .admin"
+        ],
+        "tagName": "span",
+        "className": "admin",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t70wv\"]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          "a.title"
+        ],
+        "ground_truth_selectors": [
+          "a.title"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "title",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t70wv\"]/p[1]/a[3]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t70wv\"]/p[1]/a[4]",
+        "preview": "",
+        "selectors": [
+          ".thing.comment .parent .subreddit",
+          "a.subreddit"
+        ],
+        "ground_truth_selectors": [
+          "a.subreddit"
+        ],
+        "predicted_selectors": [
+          ".thing.comment .parent .subreddit"
+        ],
+        "tagName": "a",
+        "className": "subreddit hover",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t70wv\"]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t774z\"]",
+        "preview": "",
+        "selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "tagName": "div",
+        "className": " thing id-t1_o3t774z noncollapsed even  comment ",
+        "id": "thing_t1_o3t774z"
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t774z\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author submitter admin may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t774z\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t774z\"]/div[2]/p[1]/span[1]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs .submitter"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .submitter"
+        ],
+        "tagName": "a",
+        "className": "submitter",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t774z\"]/div[2]/p[1]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs .admin"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .admin"
+        ],
+        "tagName": "span",
+        "className": "admin",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t774z\"]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          "a.title"
+        ],
+        "ground_truth_selectors": [
+          "a.title"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "title",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t774z\"]/p[1]/a[3]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t774z\"]/p[1]/a[4]",
+        "preview": "",
+        "selectors": [
+          ".thing.comment .parent .subreddit",
+          "a.subreddit"
+        ],
+        "ground_truth_selectors": [
+          "a.subreddit"
+        ],
+        "predicted_selectors": [
+          ".thing.comment .parent .subreddit"
+        ],
+        "tagName": "a",
+        "className": "subreddit hover",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t774z\"]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t7k89\"]",
+        "preview": "",
+        "selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "tagName": "div",
+        "className": " thing id-t1_o3t7k89 noncollapsed odd  comment ",
+        "id": "thing_t1_o3t7k89"
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t7k89\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author submitter admin may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t7k89\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t7k89\"]/div[2]/p[1]/span[1]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs .submitter"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .submitter"
+        ],
+        "tagName": "a",
+        "className": "submitter",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t7k89\"]/div[2]/p[1]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs .admin"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .admin"
+        ],
+        "tagName": "span",
+        "className": "admin",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t7k89\"]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          "a.title"
+        ],
+        "ground_truth_selectors": [
+          "a.title"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "title",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t7k89\"]/p[1]/a[3]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t7k89\"]/p[1]/a[4]",
+        "preview": "",
+        "selectors": [
+          ".thing.comment .parent .subreddit",
+          "a.subreddit"
+        ],
+        "ground_truth_selectors": [
+          "a.subreddit"
+        ],
+        "predicted_selectors": [
+          ".thing.comment .parent .subreddit"
+        ],
+        "tagName": "a",
+        "className": "subreddit hover",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t7k89\"]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t7qd9\"]",
+        "preview": "",
+        "selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "tagName": "div",
+        "className": " thing id-t1_o3t7qd9 noncollapsed even  comment ",
+        "id": "thing_t1_o3t7qd9"
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t7qd9\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author submitter admin may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t7qd9\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t7qd9\"]/div[2]/p[1]/span[1]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs .submitter"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .submitter"
+        ],
+        "tagName": "a",
+        "className": "submitter",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t7qd9\"]/div[2]/p[1]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs .admin"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .admin"
+        ],
+        "tagName": "span",
+        "className": "admin",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t7qd9\"]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          "a.title"
+        ],
+        "ground_truth_selectors": [
+          "a.title"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "title",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t7qd9\"]/p[1]/a[3]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t7qd9\"]/p[1]/a[4]",
+        "preview": "",
+        "selectors": [
+          ".thing.comment .parent .subreddit",
+          "a.subreddit"
+        ],
+        "ground_truth_selectors": [
+          "a.subreddit"
+        ],
+        "predicted_selectors": [
+          ".thing.comment .parent .subreddit"
+        ],
+        "tagName": "a",
+        "className": "subreddit hover",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o3t7qd9\"]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o40tlwf\"]",
+        "preview": "",
+        "selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "tagName": "div",
+        "className": " thing id-t1_o40tlwf noncollapsed odd  comment ",
+        "id": "thing_t1_o40tlwf"
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o40tlwf\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author admin may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o40tlwf\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o40tlwf\"]/div[2]/p[1]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs .admin"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .admin"
+        ],
+        "tagName": "span",
+        "className": "admin",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o40tlwf\"]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          "a.title"
+        ],
+        "ground_truth_selectors": [
+          "a.title"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "title",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o40tlwf\"]/p[1]/a[3]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_1sd8mpb6wr",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o40tlwf\"]/p[1]/a[4]",
+        "preview": "",
+        "selectors": [
+          ".thing.comment .parent .subreddit",
+          "a.subreddit"
+        ],
+        "ground_truth_selectors": [
+          "a.subreddit"
+        ],
+        "predicted_selectors": [
+          ".thing.comment .parent .subreddit"
+        ],
+        "tagName": "a",
+        "className": "subreddit hover",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o40tlwf\"]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o8gk2ud\"]",
+        "preview": "",
+        "selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "tagName": "div",
+        "className": " thing id-t1_o8gk2ud noncollapsed even  comment ",
+        "id": "thing_t1_o8gk2ud"
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o8gk2ud\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author admin may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o8gk2ud\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o8gk2ud\"]/div[2]/p[1]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs .admin"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .admin"
+        ],
+        "tagName": "span",
+        "className": "admin",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o8gk2ud\"]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          "a.title"
+        ],
+        "ground_truth_selectors": [
+          "a.title"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "title",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o8gk2ud\"]/p[1]/a[3]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_25yly9h6po",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o8gk2ud\"]/p[1]/a[4]",
+        "preview": "",
+        "selectors": [
+          ".thing.comment .parent .subreddit",
+          "a.subreddit"
+        ],
+        "ground_truth_selectors": [
+          "a.subreddit"
+        ],
+        "predicted_selectors": [
+          ".thing.comment .parent .subreddit"
+        ],
+        "tagName": "a",
+        "className": "subreddit hover",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_o8gk2ud\"]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_obbmr5y\"]",
+        "preview": "",
+        "selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "tagName": "div",
+        "className": " thing id-t1_obbmr5y noncollapsed odd  comment ",
+        "id": "thing_t1_obbmr5y"
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_obbmr5y\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author admin may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_obbmr5y\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_obbmr5y\"]/div[2]/p[1]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs .admin"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .admin"
+        ],
+        "tagName": "span",
+        "className": "admin",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_obbmr5y\"]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          "a.title"
+        ],
+        "ground_truth_selectors": [
+          "a.title"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "title",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_obbmr5y\"]/p[1]/a[3]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_20ud0a18ft",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_obbmr5y\"]/p[1]/a[4]",
+        "preview": "",
+        "selectors": [
+          ".thing.comment .parent .subreddit",
+          "a.subreddit"
+        ],
+        "ground_truth_selectors": [
+          "a.subreddit"
+        ],
+        "predicted_selectors": [
+          ".thing.comment .parent .subreddit"
+        ],
+        "tagName": "a",
+        "className": "subreddit hover",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_obbmr5y\"]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocf4918\"]",
+        "preview": "",
+        "selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "tagName": "div",
+        "className": " thing id-t1_ocf4918 noncollapsed even  comment ",
+        "id": "thing_t1_ocf4918"
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocf4918\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author submitter admin may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocf4918\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocf4918\"]/div[2]/p[1]/span[1]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs .submitter"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .submitter"
+        ],
+        "tagName": "a",
+        "className": "submitter",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocf4918\"]/div[2]/p[1]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs .admin"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .admin"
+        ],
+        "tagName": "span",
+        "className": "admin",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocf4918\"]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          "a.title"
+        ],
+        "ground_truth_selectors": [
+          "a.title"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "title",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocf4918\"]/p[1]/a[3]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocf4918\"]/p[1]/a[4]",
+        "preview": "",
+        "selectors": [
+          ".thing.comment .parent .subreddit",
+          "a.subreddit"
+        ],
+        "ground_truth_selectors": [
+          "a.subreddit"
+        ],
+        "predicted_selectors": [
+          ".thing.comment .parent .subreddit"
+        ],
+        "tagName": "a",
+        "className": "subreddit hover",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocf4918\"]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocf538k\"]",
+        "preview": "Humans welcome (bots must wear name tags) by spez in u/spez[\u2013]spez[S,A] 30 points31 points32 points",
+        "selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "tagName": "div",
+        "className": " thing id-t1_ocf538k noncollapsed odd  comment ",
+        "id": "thing_t1_ocf538k"
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocf538k\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author submitter admin may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocf538k\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocf538k\"]/div[2]/p[1]/span[1]/a[1]",
+        "preview": "S",
+        "selectors": [
+          ".userattrs .submitter"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .submitter"
+        ],
+        "tagName": "a",
+        "className": "submitter",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocf538k\"]/div[2]/p[1]/span[1]/span[1]",
+        "preview": "A",
+        "selectors": [
+          ".userattrs .admin"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .admin"
+        ],
+        "tagName": "span",
+        "className": "admin",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocf538k\"]/p[1]/a[2]",
+        "preview": "Humans welcome (bots must wear name tags)",
+        "selectors": [
+          "a.title"
+        ],
+        "ground_truth_selectors": [
+          "a.title"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "title",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocf538k\"]/p[1]/a[3]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocf538k\"]/p[1]/a[4]",
+        "preview": "u/spez",
+        "selectors": [
+          ".thing.comment .parent .subreddit",
+          "a.subreddit"
+        ],
+        "ground_truth_selectors": [
+          "a.subreddit"
+        ],
+        "predicted_selectors": [
+          ".thing.comment .parent .subreddit"
+        ],
+        "tagName": "a",
+        "className": "subreddit hover",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocf538k\"]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfa6a3\"]",
+        "preview": "Humans welcome (bots must wear name tags) by spez in u/spez[\u2013]spez[S,A] 8 points9 points10 points 3",
+        "selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "tagName": "div",
+        "className": " thing id-t1_ocfa6a3 noncollapsed even  comment ",
+        "id": "thing_t1_ocfa6a3"
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfa6a3\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author submitter admin may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfa6a3\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfa6a3\"]/div[2]/p[1]/span[1]/a[1]",
+        "preview": "S",
+        "selectors": [
+          ".userattrs .submitter"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .submitter"
+        ],
+        "tagName": "a",
+        "className": "submitter",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfa6a3\"]/div[2]/p[1]/span[1]/span[1]",
+        "preview": "A",
+        "selectors": [
+          ".userattrs .admin"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .admin"
+        ],
+        "tagName": "span",
+        "className": "admin",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfa6a3\"]/p[1]/a[2]",
+        "preview": "Humans welcome (bots must wear name tags)",
+        "selectors": [
+          "a.title"
+        ],
+        "ground_truth_selectors": [
+          "a.title"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "title",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfa6a3\"]/p[1]/a[3]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfa6a3\"]/p[1]/a[4]",
+        "preview": "u/spez",
+        "selectors": [
+          ".thing.comment .parent .subreddit",
+          "a.subreddit"
+        ],
+        "ground_truth_selectors": [
+          "a.subreddit"
+        ],
+        "predicted_selectors": [
+          ".thing.comment .parent .subreddit"
+        ],
+        "tagName": "a",
+        "className": "subreddit hover",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfa6a3\"]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfaspc\"]",
+        "preview": "Humans welcome (bots must wear name tags) by spez in u/spez[\u2013]spez[S,A] 18 points19 points20 points",
+        "selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "tagName": "div",
+        "className": " thing id-t1_ocfaspc noncollapsed odd  comment ",
+        "id": "thing_t1_ocfaspc"
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfaspc\"]/div[2]/p[1]/a[2]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author submitter admin may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfaspc\"]/div[2]/p[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfaspc\"]/div[2]/p[1]/span[1]/a[1]",
+        "preview": "S",
+        "selectors": [
+          ".userattrs .submitter"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .submitter"
+        ],
+        "tagName": "a",
+        "className": "submitter",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfaspc\"]/div[2]/p[1]/span[1]/span[1]",
+        "preview": "A",
+        "selectors": [
+          ".userattrs .admin"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .admin"
+        ],
+        "tagName": "span",
+        "className": "admin",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfaspc\"]/p[1]/a[2]",
+        "preview": "Humans welcome (bots must wear name tags)",
+        "selectors": [
+          "a.title"
+        ],
+        "ground_truth_selectors": [
+          "a.title"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "title",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfaspc\"]/p[1]/a[3]",
+        "preview": "spez",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfaspc\"]/p[1]/a[4]",
+        "preview": "u/spez",
+        "selectors": [
+          ".thing.comment .parent .subreddit",
+          "a.subreddit"
+        ],
+        "ground_truth_selectors": [
+          "a.subreddit"
+        ],
+        "predicted_selectors": [
+          ".thing.comment .parent .subreddit"
+        ],
+        "tagName": "a",
+        "className": "subreddit hover",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfaspc\"]/p[1]/span[1]",
+        "preview": "(empty)",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfcbs9\"]",
+        "preview": "Humans welcome (bots must wear name tags) by spez in redditstock[\u2013]spez[S,A] 24 points25 points26 po",
+        "selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "tagName": "div",
+        "className": " thing id-t1_ocfcbs9 noncollapsed even  comment ",
+        "id": "thing_t1_ocfcbs9"
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfcbs9\"]/div[2]/p[1]/a[2]",
+        "preview": "spez",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author submitter admin may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfcbs9\"]/div[2]/p[1]/span[1]",
+        "preview": "[S,A]",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfcbs9\"]/div[2]/p[1]/span[1]/a[1]",
+        "preview": "S",
+        "selectors": [
+          ".userattrs .submitter"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .submitter"
+        ],
+        "tagName": "a",
+        "className": "submitter",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfcbs9\"]/div[2]/p[1]/span[1]/span[1]",
+        "preview": "A",
+        "selectors": [
+          ".userattrs .admin"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .admin"
+        ],
+        "tagName": "span",
+        "className": "admin",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfcbs9\"]/p[1]/a[2]",
+        "preview": "Humans welcome (bots must wear name tags)",
+        "selectors": [
+          "a.title"
+        ],
+        "ground_truth_selectors": [
+          "a.title"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "title",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfcbs9\"]/p[1]/a[3]",
+        "preview": "spez",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfcbs9\"]/p[1]/a[4]",
+        "preview": "redditstock",
+        "selectors": [
+          ".thing.comment .parent .subreddit",
+          "a.subreddit"
+        ],
+        "ground_truth_selectors": [
+          "a.subreddit"
+        ],
+        "predicted_selectors": [
+          ".thing.comment .parent .subreddit"
+        ],
+        "tagName": "a",
+        "className": "subreddit hover",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfcbs9\"]/p[1]/span[1]",
+        "preview": "(empty)",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfdez3\"]",
+        "preview": "Humans welcome (bots must wear name tags) by spez in redditstock[\u2013]spez[S,A] 35 points36 points37 po",
+        "selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "tagName": "div",
+        "className": " thing id-t1_ocfdez3 noncollapsed odd  comment ",
+        "id": "thing_t1_ocfdez3"
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfdez3\"]/div[2]/p[1]/a[2]",
+        "preview": "spez",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author submitter admin may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfdez3\"]/div[2]/p[1]/span[1]",
+        "preview": "[S,A]",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfdez3\"]/div[2]/p[1]/span[1]/a[1]",
+        "preview": "S",
+        "selectors": [
+          ".userattrs .submitter"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .submitter"
+        ],
+        "tagName": "a",
+        "className": "submitter",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfdez3\"]/div[2]/p[1]/span[1]/span[1]",
+        "preview": "A",
+        "selectors": [
+          ".userattrs .admin"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .admin"
+        ],
+        "tagName": "span",
+        "className": "admin",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfdez3\"]/p[1]/a[2]",
+        "preview": "Humans welcome (bots must wear name tags)",
+        "selectors": [
+          "a.title"
+        ],
+        "ground_truth_selectors": [
+          "a.title"
+        ],
+        "predicted_selectors": [],
+        "tagName": "a",
+        "className": "title",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfdez3\"]/p[1]/a[3]",
+        "preview": "spez",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfdez3\"]/p[1]/a[4]",
+        "preview": "redditstock",
+        "selectors": [
+          ".thing.comment .parent .subreddit",
+          "a.subreddit"
+        ],
+        "ground_truth_selectors": [
+          "a.subreddit"
+        ],
+        "predicted_selectors": [
+          ".thing.comment .parent .subreddit"
+        ],
+        "tagName": "a",
+        "className": "subreddit hover",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t1_ocfdez3\"]/p[1]/span[1]",
+        "preview": "(empty)",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t3_1s3ezrc\"]",
+        "preview": "346347348Humans welcome (bots must wear name tags) (self.spez)submitted 4 hours ago by spez[A]179 co",
+        "selectors": [
+          ".thing.link[data-domain]",
+          ".thing[data-subreddit-prefixed]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".thing[data-subreddit-prefixed]",
+          ".thing.link[data-domain]"
+        ],
+        "tagName": "div",
+        "className": " thing id-t3_1s3ezrc even  link self",
+        "id": "thing_t3_1s3ezrc"
+      },
+      {
+        "xpath": "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[1]/a[1]",
+        "preview": "Humans welcome (bots must wear name tags)",
+        "selectors": [
+          ".thing .title a.title",
+          ".thing.link .entry .title a.title",
+          ".thing.link .title a.title",
+          "a.title"
+        ],
+        "ground_truth_selectors": [
+          "a.title"
+        ],
+        "predicted_selectors": [
+          ".thing .title a.title",
+          ".thing.link .entry .title a.title",
+          ".thing.link .title a.title"
+        ],
+        "tagName": "a",
+        "className": "title may-blank ",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[1]/span[1]",
+        "preview": "(self.spez)",
+        "selectors": [
+          ".thing .entry .title .domain",
+          ".thing.link .title .domain"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".thing .entry .title .domain",
+          ".thing.link .title .domain"
+        ],
+        "tagName": "span",
+        "className": "domain",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "preview": "self.spez",
+        "selectors": [
+          ".domain a",
+          ".thing .domain a",
+          ".thing.link .entry .domain a"
+        ],
+        "ground_truth_selectors": [
+          ".domain a"
+        ],
+        "predicted_selectors": [
+          ".domain a",
+          ".thing.link .entry .domain a",
+          ".thing .domain a"
+        ],
+        "tagName": "a",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[2]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author admin may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[2]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[2]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs .admin"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .admin"
+        ],
+        "tagName": "span",
+        "className": "admin",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t3_1s3f2fe\"]",
+        "preview": "111112113Humans welcome (bots must wear name tags) ()submitted 4 hours ago by spez[A] to r/redditsto",
+        "selectors": [
+          ".linkflair",
+          ".thing.link[data-domain]",
+          ".thing[data-subreddit-prefixed]",
+          "[data-crosspost-root-title]"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".thing[data-subreddit-prefixed]",
+          "[data-crosspost-root-title]",
+          ".thing.link[data-domain]",
+          ".linkflair"
+        ],
+        "tagName": "div",
+        "className": " thing id-t3_1s3f2fe linkflair odd  link ",
+        "id": "thing_t3_1s3f2fe"
+      },
+      {
+        "xpath": "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[1]/a[1]",
+        "preview": "Humans welcome (bots must wear name tags)",
+        "selectors": [
+          ".thing .title a.title",
+          ".thing.link .entry .title a.title",
+          ".thing.link .title a.title",
+          "a.title",
+          "a.title[data-href-url]"
+        ],
+        "ground_truth_selectors": [
+          "a.title"
+        ],
+        "predicted_selectors": [
+          ".thing .title a.title",
+          "a.title[data-href-url]",
+          ".thing.link .entry .title a.title",
+          ".thing.link .title a.title"
+        ],
+        "tagName": "a",
+        "className": "title may-blank outbound",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[1]/span[1]",
+        "preview": "()",
+        "selectors": [
+          ".thing .entry .title .domain",
+          ".thing.link .title .domain"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".thing .entry .title .domain",
+          ".thing.link .title .domain"
+        ],
+        "tagName": "span",
+        "className": "domain",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "preview": "(empty)",
+        "selectors": [
+          ".domain a",
+          ".thing .domain a",
+          ".thing.link .entry .domain a"
+        ],
+        "ground_truth_selectors": [
+          ".domain a"
+        ],
+        "predicted_selectors": [
+          ".domain a",
+          ".thing.link .entry .domain a",
+          ".thing .domain a"
+        ],
+        "tagName": "a",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[1]/span[2]",
+        "preview": "(empty)",
+        "selectors": [
+          ".crosspost-badge",
+          "span.crosspost-badge"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".crosspost-badge",
+          "span.crosspost-badge"
+        ],
+        "tagName": "span",
+        "className": "crosspost-badge",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[2]/a[1]",
+        "preview": "",
+        "selectors": [
+          ".author",
+          "a.author"
+        ],
+        "ground_truth_selectors": [
+          ".author"
+        ],
+        "predicted_selectors": [
+          ".author",
+          "a.author"
+        ],
+        "tagName": "a",
+        "className": "author admin may-blank id-t2_1w72",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[2]/a[2]",
+        "preview": "r/redditstock",
+        "selectors": [
+          ".thing .tagline .subreddit",
+          "a.subreddit"
+        ],
+        "ground_truth_selectors": [
+          "a.subreddit"
+        ],
+        "predicted_selectors": [
+          ".thing .tagline .subreddit"
+        ],
+        "tagName": "a",
+        "className": "subreddit hover may-blank",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[2]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs"
+        ],
+        "ground_truth_selectors": [
+          ".userattrs"
+        ],
+        "predicted_selectors": [
+          ".userattrs"
+        ],
+        "tagName": "span",
+        "className": "userattrs",
+        "id": ""
+      },
+      {
+        "xpath": "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[2]/span[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".userattrs .admin"
+        ],
+        "ground_truth_selectors": [],
+        "predicted_selectors": [
+          ".userattrs .admin"
+        ],
+        "tagName": "span",
+        "className": "admin",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[1]/div[1]/h1[1]",
+        "preview": "spez[A]",
+        "selectors": [
+          ".profile-page .titlebox h1",
+          ".titlebox h1"
+        ],
+        "ground_truth_selectors": [
+          ".profile-page .titlebox h1"
+        ],
+        "predicted_selectors": [
+          ".titlebox h1"
+        ],
+        "tagName": "h1",
+        "className": "",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[10]/td[1]/div[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[10]/td[2]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[11]/td[1]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[11]/td[2]/div[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[12]/td[1]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[12]/td[1]/div[1]/a[1]/span[2]",
+        "preview": "",
+        "selectors": [
+          ".trophy-description"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-description"
+        ],
+        "predicted_selectors": [
+          ".trophy-description"
+        ],
+        "tagName": "span",
+        "className": "trophy-description",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[12]/td[2]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[12]/td[2]/div[1]/a[1]/span[2]",
+        "preview": "",
+        "selectors": [
+          ".trophy-description"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-description"
+        ],
+        "predicted_selectors": [
+          ".trophy-description"
+        ],
+        "tagName": "span",
+        "className": "trophy-description",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[13]/td[1]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[13]/td[1]/div[1]/a[1]/span[2]",
+        "preview": "",
+        "selectors": [
+          ".trophy-description"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-description"
+        ],
+        "predicted_selectors": [
+          ".trophy-description"
+        ],
+        "tagName": "span",
+        "className": "trophy-description",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[13]/td[2]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[13]/td[2]/div[1]/a[1]/span[2]",
+        "preview": "",
+        "selectors": [
+          ".trophy-description"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-description"
+        ],
+        "predicted_selectors": [
+          ".trophy-description"
+        ],
+        "tagName": "span",
+        "className": "trophy-description",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[14]/td[1]/div[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[14]/td[1]/div[1]/span[2]",
+        "preview": "",
+        "selectors": [
+          ".trophy-description"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-description"
+        ],
+        "predicted_selectors": [
+          ".trophy-description"
+        ],
+        "tagName": "span",
+        "className": "trophy-description",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[14]/td[2]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[14]/td[2]/div[1]/a[1]/span[2]",
+        "preview": "",
+        "selectors": [
+          ".trophy-description"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-description"
+        ],
+        "predicted_selectors": [
+          ".trophy-description"
+        ],
+        "tagName": "span",
+        "className": "trophy-description",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[15]/td[1]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[15]/td[1]/div[1]/a[1]/span[2]",
+        "preview": "",
+        "selectors": [
+          ".trophy-description"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-description"
+        ],
+        "predicted_selectors": [
+          ".trophy-description"
+        ],
+        "tagName": "span",
+        "className": "trophy-description",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[15]/td[2]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[15]/td[2]/div[1]/a[1]/span[2]",
+        "preview": "",
+        "selectors": [
+          ".trophy-description"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-description"
+        ],
+        "predicted_selectors": [
+          ".trophy-description"
+        ],
+        "tagName": "span",
+        "className": "trophy-description",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[16]/td[1]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[16]/td[1]/div[1]/a[1]/span[2]",
+        "preview": "",
+        "selectors": [
+          ".trophy-description"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-description"
+        ],
+        "predicted_selectors": [
+          ".trophy-description"
+        ],
+        "tagName": "span",
+        "className": "trophy-description",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[16]/td[2]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[16]/td[2]/div[1]/a[1]/span[2]",
+        "preview": "",
+        "selectors": [
+          ".trophy-description"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-description"
+        ],
+        "predicted_selectors": [
+          ".trophy-description"
+        ],
+        "tagName": "span",
+        "className": "trophy-description",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[17]/td[1]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[17]/td[1]/div[1]/a[1]/span[2]",
+        "preview": "",
+        "selectors": [
+          ".trophy-description"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-description"
+        ],
+        "predicted_selectors": [
+          ".trophy-description"
+        ],
+        "tagName": "span",
+        "className": "trophy-description",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[17]/td[2]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[17]/td[2]/div[1]/a[1]/span[2]",
+        "preview": "",
+        "selectors": [
+          ".trophy-description"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-description"
+        ],
+        "predicted_selectors": [
+          ".trophy-description"
+        ],
+        "tagName": "span",
+        "className": "trophy-description",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[18]/td[1]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[18]/td[1]/div[1]/a[1]/span[2]",
+        "preview": "",
+        "selectors": [
+          ".trophy-description"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-description"
+        ],
+        "predicted_selectors": [
+          ".trophy-description"
+        ],
+        "tagName": "span",
+        "className": "trophy-description",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[18]/td[2]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[18]/td[2]/div[1]/a[1]/span[2]",
+        "preview": "",
+        "selectors": [
+          ".trophy-description"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-description"
+        ],
+        "predicted_selectors": [
+          ".trophy-description"
+        ],
+        "tagName": "span",
+        "className": "trophy-description",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[19]/td[1]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[19]/td[2]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[19]/td[2]/div[1]/a[1]/span[2]",
+        "preview": "",
+        "selectors": [
+          ".trophy-description"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-description"
+        ],
+        "predicted_selectors": [
+          ".trophy-description"
+        ],
+        "tagName": "span",
+        "className": "trophy-description",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/span[1]",
+        "preview": "15-Year Club",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/span[2]",
+        "preview": "(empty)",
+        "selectors": [
+          ".trophy-description"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-description"
+        ],
+        "predicted_selectors": [
+          ".trophy-description"
+        ],
+        "tagName": "span",
+        "className": "trophy-description",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/a[1]/span[1]",
+        "preview": "Second",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/a[1]/span[2]",
+        "preview": "Top 20%",
+        "selectors": [
+          ".trophy-description"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-description"
+        ],
+        "predicted_selectors": [
+          ".trophy-description"
+        ],
+        "tagName": "span",
+        "className": "trophy-description",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[20]/td[1]/div[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[20]/td[2]/div[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[20]/td[2]/div[1]/span[2]",
+        "preview": "",
+        "selectors": [
+          ".trophy-description"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-description"
+        ],
+        "predicted_selectors": [
+          ".trophy-description"
+        ],
+        "tagName": "span",
+        "className": "trophy-description",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[2]/td[1]/div[1]/a[1]/span[1]",
+        "preview": "Inciteful Link",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[2]/td[1]/div[1]/a[1]/span[2]",
+        "preview": "2021-03-24",
+        "selectors": [
+          ".trophy-description"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-description"
+        ],
+        "predicted_selectors": [
+          ".trophy-description"
+        ],
+        "tagName": "span",
+        "className": "trophy-description",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[2]/td[2]/div[1]/a[1]/span[1]",
+        "preview": "Mod World 2025",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[3]/td[1]/div[1]/a[1]/span[1]",
+        "preview": "20th Cakeday Participation",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[3]/td[2]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[4]/td[1]/div[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[4]/td[2]/div[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[5]/td[1]/div[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[5]/td[2]/div[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[6]/td[1]/div[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[6]/td[2]/div[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[7]/td[1]/div[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[7]/td[2]/div[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[8]/td[1]/div[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[8]/td[2]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[8]/td[2]/div[1]/a[1]/span[2]",
+        "preview": "2020-06-05",
+        "selectors": [
+          ".trophy-description"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-description"
+        ],
+        "predicted_selectors": [
+          ".trophy-description"
+        ],
+        "tagName": "span",
+        "className": "trophy-description",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[9]/td[1]/div[1]/a[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[9]/td[1]/div[1]/a[1]/span[2]",
+        "preview": "2020-06-05",
+        "selectors": [
+          ".trophy-description"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-description"
+        ],
+        "predicted_selectors": [
+          ".trophy-description"
+        ],
+        "tagName": "span",
+        "className": "trophy-description",
+        "id": ""
+      },
+      {
+        "xpath": "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[9]/td[2]/div[1]/span[1]",
+        "preview": "",
+        "selectors": [
+          ".trophy-name"
+        ],
+        "ground_truth_selectors": [
+          ".trophy-name"
+        ],
+        "predicted_selectors": [
+          ".trophy-name"
+        ],
+        "tagName": "span",
+        "className": "trophy-name",
+        "id": ""
+      }
+    ],
+    "fp": [
+      {
+        "xpath": "//*[@id=\"header-bottom-left\"]/span[1]",
+        "preview": "spez",
+        "selectors": [
+          ".pagename"
+        ],
+        "tagName": "span",
+        "className": "pagename selected",
+        "id": ""
+      }
+    ],
+    "fn": []
+  },
+  "element_groups": {
+    "fp_by_signature": {
+      "span.pagename.selected": 1
+    },
+    "fn_by_signature": {},
+    "fp_grouped_details": {
+      "span.pagename.selected": [
+        {
+          "xpath": "//*[@id=\"header-bottom-left\"]/span[1]",
+          "preview": "spez"
+        }
+      ]
+    },
+    "fn_grouped_details": {}
+  },
+  "selector_breakdown": {
+    "ground_truth": {
+      "total_selectors": 17,
+      "selectors_with_matches": 9,
+      "selector_to_ids": {
+        "1": [
+          "//*[@id=\"thing_t1_ocfdez3\"]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t62bh\"]/p[1]/a[2]",
+          "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[1]/a[1]",
+          "//*[@id=\"thing_t1_ocfcbs9\"]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t6ebz\"]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t66uw\"]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocfaspc\"]/p[1]/a[2]",
+          "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[1]/a[1]",
+          "//*[@id=\"thing_t1_o8gk2ud\"]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t7qd9\"]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t69i6\"]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t6bxs\"]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t70wv\"]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t64ts\"]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t7k89\"]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t6gff\"]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocf538k\"]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t5yi2\"]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t6nst\"]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t774z\"]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocf4918\"]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_obbmr5y\"]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocfa6a3\"]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t5w5c\"]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o40tlwf\"]/p[1]/a[2]"
+        ],
+        "2": [
+          "//*[@id=\"form-t1_o3t6nst9e1\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o8gk2ud5i9\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t64tsxgz\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_obbmr5yhr5\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t6bxsvmn\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfa6a3aps\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t69i6lkb\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t6gffe2o\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t6ebz1z3\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t70wv3jp\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocf4918ifk\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t774znyv\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t7qd9ht9\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o40tlwfupd\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t5w5cfbb\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t7k8996k\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocf538kq5w\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t5yi2ln1\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t62bh9cb\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfaspct23\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t66uwil4\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfdez3ige\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfcbs9aku\"]/div[1]/div[1]"
+        ],
+        "3": [
+          "//*[@id=\"thing_t1_o3t7qd9\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t774z\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_ocfa6a3\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t6nst\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t5w5c\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_obbmr5y\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_ocf538k\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_obbmr5y\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t64ts\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t62bh\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[2]/a[1]",
+          "//*[@id=\"thing_t1_o3t6nst\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t7k89\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t6gff\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocf4918\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[2]/a[1]",
+          "//*[@id=\"thing_t1_o3t7k89\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t66uw\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_ocfdez3\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o8gk2ud\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o40tlwf\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t6ebz\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t6gff\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_ocfcbs9\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t6bxs\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t5yi2\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t7qd9\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_ocfcbs9\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t64ts\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t5w5c\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t69i6\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t774z\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t70wv\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t69i6\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t6ebz\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocf4918\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t5yi2\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o40tlwf\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t6bxs\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t66uw\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o8gk2ud\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_ocfaspc\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t70wv\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_ocfdez3\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_ocf538k\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t62bh\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_ocfaspc\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_ocfa6a3\"]/div[2]/p[1]/a[2]"
+        ],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [
+          "/html/body/div[2]/div[1]/div[1]/h1[1]"
+        ],
+        "8": [],
+        "9": [
+          "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+          "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[1]/span[1]/a[1]"
+        ],
+        "10": [
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[17]/td[2]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[4]/td[2]/div[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[10]/td[1]/div[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[19]/td[1]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[12]/td[1]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[10]/td[2]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[14]/td[2]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[8]/td[1]/div[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[6]/td[2]/div[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[2]/td[2]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[7]/td[1]/div[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[16]/td[1]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[8]/td[2]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[5]/td[2]/div[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[13]/td[1]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[17]/td[1]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[3]/td[2]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[4]/td[1]/div[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[5]/td[1]/div[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[11]/td[1]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[16]/td[2]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[9]/td[1]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[3]/td[1]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[7]/td[2]/div[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[15]/td[1]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[19]/td[2]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[13]/td[2]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[2]/td[1]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[12]/td[2]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[18]/td[2]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[20]/td[2]/div[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[11]/td[2]/div[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[18]/td[1]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[6]/td[1]/div[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[15]/td[2]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[9]/td[2]/div[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[20]/td[1]/div[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[14]/td[1]/div[1]/span[1]"
+        ],
+        "11": [
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[15]/td[2]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[16]/td[1]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[14]/td[1]/div[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[13]/td[2]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[2]/td[1]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[18]/td[2]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[13]/td[1]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[14]/td[2]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[16]/td[2]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[8]/td[2]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[9]/td[1]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[12]/td[1]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[15]/td[1]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[12]/td[2]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[17]/td[2]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[19]/td[2]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[18]/td[1]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[20]/td[2]/div[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[17]/td[1]/div[1]/a[1]/span[2]"
+        ],
+        "12": [],
+        "13": [],
+        "14": [],
+        "15": [
+          "//*[@id=\"thing_t1_obbmr5y\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_ocfcbs9\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_o3t7qd9\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_ocf538k\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_o3t5yi2\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_o40tlwf\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_o3t66uw\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[2]/a[2]",
+          "//*[@id=\"thing_t1_o8gk2ud\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_o3t64ts\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_o3t62bh\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_ocfa6a3\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_ocfdez3\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_ocf4918\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_o3t7k89\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_ocfaspc\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_o3t6bxs\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_o3t6nst\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_o3t69i6\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_o3t5w5c\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_o3t774z\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_o3t6gff\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_o3t6ebz\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_o3t70wv\"]/p[1]/a[4]"
+        ],
+        "16": [],
+        "17": [
+          "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[2]/span[1]",
+          "//*[@id=\"thing_t1_o8gk2ud\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t6ebz\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t64ts\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocfa6a3\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocf4918\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t7k89\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t70wv\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t6nst\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocfaspc\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t7k89\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocfdez3\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocf4918\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_obbmr5y\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t774z\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t6gff\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t6bxs\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t7qd9\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t62bh\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t64ts\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t62bh\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_obbmr5y\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocf538k\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t7qd9\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t6ebz\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t5yi2\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t6bxs\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocf538k\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t66uw\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t774z\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o8gk2ud\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocfcbs9\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocfdez3\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t6gff\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t66uw\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t69i6\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t5w5c\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t70wv\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t69i6\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t5w5c\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t5yi2\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocfa6a3\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocfaspc\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o40tlwf\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocfcbs9\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[2]/span[1]",
+          "//*[@id=\"thing_t1_o40tlwf\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t6nst\"]/div[2]/p[1]/span[1]"
+        ]
+      }
+    },
+    "predicted": {
+      "total_selectors": 41,
+      "selectors_with_matches": 28,
+      "selector_to_ids": {
+        "1": [
+          "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[1]/a[1]",
+          "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[1]/a[1]"
+        ],
+        "2": [
+          "//*[@id=\"thing_t1_o3t7qd9\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t774z\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_ocfa6a3\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t6nst\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t5w5c\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_obbmr5y\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_ocf538k\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_obbmr5y\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t64ts\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t62bh\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[2]/a[1]",
+          "//*[@id=\"thing_t1_o3t6nst\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t7k89\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t6gff\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocf4918\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[2]/a[1]",
+          "//*[@id=\"thing_t1_o3t7k89\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t66uw\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_ocfdez3\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o8gk2ud\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o40tlwf\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t6ebz\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t6gff\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_ocfcbs9\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t6bxs\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t5yi2\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t7qd9\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_ocfcbs9\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t64ts\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t5w5c\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t69i6\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t774z\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t70wv\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t69i6\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t6ebz\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocf4918\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t5yi2\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o40tlwf\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t6bxs\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t66uw\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o8gk2ud\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_ocfaspc\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t70wv\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_ocfdez3\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_ocf538k\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t62bh\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_ocfaspc\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_ocfa6a3\"]/div[2]/p[1]/a[2]"
+        ],
+        "3": [
+          "//*[@id=\"form-t1_o3t6nst9e1\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o8gk2ud5i9\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t64tsxgz\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_obbmr5yhr5\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t6bxsvmn\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfa6a3aps\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t69i6lkb\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t6gffe2o\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t6ebz1z3\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t70wv3jp\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocf4918ifk\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t774znyv\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t7qd9ht9\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o40tlwfupd\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t5w5cfbb\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t7k8996k\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocf538kq5w\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t5yi2ln1\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t62bh9cb\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfaspct23\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t66uwil4\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfdez3ige\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfcbs9aku\"]/div[1]/div[1]"
+        ],
+        "4": [
+          "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+          "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[1]/span[1]/a[1]"
+        ],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [
+          "//*[@id=\"thing_t1_o3t64ts\"]",
+          "//*[@id=\"thing_t1_ocfcbs9\"]",
+          "//*[@id=\"thing_t1_ocf538k\"]",
+          "//*[@id=\"thing_t1_o3t6bxs\"]",
+          "//*[@id=\"thing_t1_o3t774z\"]",
+          "//*[@id=\"thing_t1_o3t6ebz\"]",
+          "//*[@id=\"thing_t3_1s3ezrc\"]",
+          "//*[@id=\"thing_t1_obbmr5y\"]",
+          "//*[@id=\"thing_t1_o3t69i6\"]",
+          "//*[@id=\"thing_t1_o3t66uw\"]",
+          "//*[@id=\"thing_t1_o3t5yi2\"]",
+          "//*[@id=\"thing_t1_o3t7k89\"]",
+          "//*[@id=\"thing_t1_ocfaspc\"]",
+          "//*[@id=\"thing_t1_o3t5w5c\"]",
+          "//*[@id=\"thing_t1_o3t6gff\"]",
+          "//*[@id=\"thing_t1_ocf4918\"]",
+          "//*[@id=\"thing_t1_o3t70wv\"]",
+          "//*[@id=\"thing_t1_o3t7qd9\"]",
+          "//*[@id=\"thing_t1_ocfdez3\"]",
+          "//*[@id=\"thing_t1_o3t6nst\"]",
+          "//*[@id=\"thing_t3_1s3f2fe\"]",
+          "//*[@id=\"thing_t1_ocfa6a3\"]",
+          "//*[@id=\"thing_t1_o8gk2ud\"]",
+          "//*[@id=\"thing_t1_o40tlwf\"]",
+          "//*[@id=\"thing_t1_o3t62bh\"]"
+        ],
+        "9": [
+          "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[1]/span[2]"
+        ],
+        "10": [
+          "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[2]/span[1]",
+          "//*[@id=\"thing_t1_o8gk2ud\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t6ebz\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t64ts\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocfa6a3\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocf4918\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t7k89\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t70wv\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t6nst\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocfaspc\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t7k89\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocfdez3\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocf4918\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_obbmr5y\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t774z\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t6gff\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t6bxs\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t7qd9\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t62bh\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t64ts\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t62bh\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_obbmr5y\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocf538k\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t7qd9\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t6ebz\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t5yi2\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t6bxs\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocf538k\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t66uw\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t774z\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o8gk2ud\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocfcbs9\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocfdez3\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t6gff\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t66uw\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t69i6\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t5w5c\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t70wv\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t69i6\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t5w5c\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t5yi2\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocfa6a3\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocfaspc\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o40tlwf\"]/div[2]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_ocfcbs9\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[2]/span[1]",
+          "//*[@id=\"thing_t1_o40tlwf\"]/p[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t6nst\"]/div[2]/p[1]/span[1]"
+        ],
+        "11": [
+          "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[1]/a[1]"
+        ],
+        "12": [],
+        "13": [],
+        "14": [],
+        "15": [
+          "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[1]/span[1]",
+          "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[1]/span[1]"
+        ],
+        "16": [],
+        "17": [
+          "//*[@id=\"thing_t3_1s3f2fe\"]"
+        ],
+        "18": [
+          "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[1]/a[1]",
+          "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[1]/a[1]"
+        ],
+        "19": [
+          "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+          "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[1]/span[1]/a[1]"
+        ],
+        "20": [
+          "//*[@id=\"form-t1_o3t6nst9e1\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o8gk2ud5i9\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t64tsxgz\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_obbmr5yhr5\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t6bxsvmn\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfa6a3aps\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t69i6lkb\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t6gffe2o\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t6ebz1z3\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t70wv3jp\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocf4918ifk\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t774znyv\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t7qd9ht9\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o40tlwfupd\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t5w5cfbb\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t7k8996k\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocf538kq5w\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t5yi2ln1\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t62bh9cb\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfaspct23\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_o3t66uwil4\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfdez3ige\"]/div[1]/div[1]",
+          "//*[@id=\"form-t1_ocfcbs9aku\"]/div[1]/div[1]"
+        ],
+        "21": [],
+        "22": [],
+        "23": [],
+        "24": [
+          "//*[@id=\"thing_t3_1s3f2fe\"]",
+          "//*[@id=\"thing_t3_1s3ezrc\"]"
+        ],
+        "25": [
+          "//*[@id=\"thing_t3_1s3f2fe\"]"
+        ],
+        "26": [],
+        "27": [],
+        "28": [
+          "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[1]/a[1]",
+          "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[1]/a[1]"
+        ],
+        "29": [],
+        "30": [
+          "//*[@id=\"thing_t1_o3t7qd9\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t774z\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_ocfa6a3\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t6nst\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t5w5c\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_obbmr5y\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_ocf538k\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_obbmr5y\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t64ts\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t62bh\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[2]/a[1]",
+          "//*[@id=\"thing_t1_o3t6nst\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t7k89\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t6gff\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocf4918\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[2]/a[1]",
+          "//*[@id=\"thing_t1_o3t7k89\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t66uw\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_ocfdez3\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o8gk2ud\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o40tlwf\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t6ebz\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t6gff\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_ocfcbs9\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t6bxs\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t5yi2\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t7qd9\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_ocfcbs9\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t64ts\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t5w5c\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t69i6\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t774z\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t70wv\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t69i6\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t6ebz\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_ocf4918\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t5yi2\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o40tlwf\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t6bxs\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t66uw\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o8gk2ud\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_ocfaspc\"]/div[2]/p[1]/a[2]",
+          "//*[@id=\"thing_t1_o3t70wv\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_ocfdez3\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_ocf538k\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_o3t62bh\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_ocfaspc\"]/p[1]/a[3]",
+          "//*[@id=\"thing_t1_ocfa6a3\"]/div[2]/p[1]/a[2]"
+        ],
+        "31": [
+          "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+          "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[1]/span[1]/a[1]"
+        ],
+        "32": [
+          "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[2]/a[2]"
+        ],
+        "33": [
+          "//*[@id=\"thing_t1_obbmr5y\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_ocfcbs9\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_o3t7qd9\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_ocf538k\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_o3t5yi2\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_o40tlwf\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_o3t66uw\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_o8gk2ud\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_o3t64ts\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_o3t62bh\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_ocfa6a3\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_ocfdez3\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_ocf4918\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_o3t7k89\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_ocfaspc\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_o3t6bxs\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_o3t6nst\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_o3t69i6\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_o3t5w5c\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_o3t774z\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_o3t6gff\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_o3t6ebz\"]/p[1]/a[4]",
+          "//*[@id=\"thing_t1_o3t70wv\"]/p[1]/a[4]"
+        ],
+        "34": [
+          "/html/body/div[2]/div[1]/div[1]/h1[1]"
+        ],
+        "35": [
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[17]/td[2]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[4]/td[2]/div[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[10]/td[1]/div[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[19]/td[1]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[12]/td[1]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[10]/td[2]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[14]/td[2]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[8]/td[1]/div[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[6]/td[2]/div[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[2]/td[2]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[7]/td[1]/div[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[16]/td[1]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[8]/td[2]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[5]/td[2]/div[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[13]/td[1]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[17]/td[1]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[3]/td[2]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[4]/td[1]/div[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[5]/td[1]/div[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[11]/td[1]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[16]/td[2]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[9]/td[1]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[3]/td[1]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[7]/td[2]/div[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[15]/td[1]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[19]/td[2]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[13]/td[2]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[2]/td[1]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[12]/td[2]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[18]/td[2]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[20]/td[2]/div[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[11]/td[2]/div[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[18]/td[1]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[6]/td[1]/div[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[15]/td[2]/div[1]/a[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[9]/td[2]/div[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[20]/td[1]/div[1]/span[1]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[14]/td[1]/div[1]/span[1]"
+        ],
+        "36": [
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[15]/td[2]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[16]/td[1]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[14]/td[1]/div[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[13]/td[2]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[2]/td[1]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[18]/td[2]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[13]/td[1]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[14]/td[2]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[16]/td[2]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[8]/td[2]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[9]/td[1]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[12]/td[1]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[15]/td[1]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[12]/td[2]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[17]/td[2]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[19]/td[2]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[18]/td[1]/div[1]/a[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[20]/td[2]/div[1]/span[2]",
+          "/html/body/div[2]/div[3]/div[1]/ul[1]/li[1]/table[1]/tbody[1]/tr[17]/td[1]/div[1]/a[1]/span[2]"
+        ],
+        "37": [
+          "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[1]/span[2]"
+        ],
+        "38": [
+          "//*[@id=\"thing_t1_ocfa6a3\"]/div[2]/p[1]/span[1]/a[1]",
+          "//*[@id=\"thing_t1_ocfcbs9\"]/div[2]/p[1]/span[1]/a[1]",
+          "//*[@id=\"thing_t1_o3t7k89\"]/div[2]/p[1]/span[1]/a[1]",
+          "//*[@id=\"thing_t1_ocf4918\"]/div[2]/p[1]/span[1]/a[1]",
+          "//*[@id=\"thing_t1_o3t774z\"]/div[2]/p[1]/span[1]/a[1]",
+          "//*[@id=\"thing_t1_ocfaspc\"]/div[2]/p[1]/span[1]/a[1]",
+          "//*[@id=\"thing_t1_ocf538k\"]/div[2]/p[1]/span[1]/a[1]",
+          "//*[@id=\"thing_t1_o3t6nst\"]/div[2]/p[1]/span[1]/a[1]",
+          "//*[@id=\"thing_t1_o3t7qd9\"]/div[2]/p[1]/span[1]/a[1]",
+          "//*[@id=\"thing_t1_o3t70wv\"]/div[2]/p[1]/span[1]/a[1]",
+          "//*[@id=\"thing_t1_ocfdez3\"]/div[2]/p[1]/span[1]/a[1]"
+        ],
+        "39": [
+          "//*[@id=\"thing_t1_o3t69i6\"]/div[2]/p[1]/span[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t6nst\"]/div[2]/p[1]/span[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t5yi2\"]/div[2]/p[1]/span[1]/span[1]",
+          "//*[@id=\"thing_t1_o40tlwf\"]/div[2]/p[1]/span[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t7k89\"]/div[2]/p[1]/span[1]/span[1]",
+          "//*[@id=\"thing_t1_ocfaspc\"]/div[2]/p[1]/span[1]/span[1]",
+          "//*[@id=\"thing_t1_ocf4918\"]/div[2]/p[1]/span[1]/span[1]",
+          "//*[@id=\"thing_t1_ocfcbs9\"]/div[2]/p[1]/span[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t774z\"]/div[2]/p[1]/span[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t6ebz\"]/div[2]/p[1]/span[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t64ts\"]/div[2]/p[1]/span[1]/span[1]",
+          "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[2]/span[1]/span[1]",
+          "//*[@id=\"thing_t1_o8gk2ud\"]/div[2]/p[1]/span[1]/span[1]",
+          "//*[@id=\"thing_t1_obbmr5y\"]/div[2]/p[1]/span[1]/span[1]",
+          "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[2]/span[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t6bxs\"]/div[2]/p[1]/span[1]/span[1]",
+          "//*[@id=\"thing_t1_ocfa6a3\"]/div[2]/p[1]/span[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t66uw\"]/div[2]/p[1]/span[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t6gff\"]/div[2]/p[1]/span[1]/span[1]",
+          "//*[@id=\"thing_t1_ocf538k\"]/div[2]/p[1]/span[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t7qd9\"]/div[2]/p[1]/span[1]/span[1]",
+          "//*[@id=\"thing_t1_ocfdez3\"]/div[2]/p[1]/span[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t62bh\"]/div[2]/p[1]/span[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t70wv\"]/div[2]/p[1]/span[1]/span[1]",
+          "//*[@id=\"thing_t1_o3t5w5c\"]/div[2]/p[1]/span[1]/span[1]"
+        ],
+        "40": [
+          "//*[@id=\"thing_t3_1s3ezrc\"]/div[2]/div[1]/p[1]/span[1]",
+          "//*[@id=\"thing_t3_1s3f2fe\"]/div[2]/div[1]/p[1]/span[1]"
+        ],
+        "41": [
+          "//*[@id=\"header-bottom-left\"]/span[1]"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "version": "hand",
+  "generated_by": "Manual analysis of Booking.com HTML structure",
+  "untrusted_selectors": [
+    {
+      "selector": "[data-testid='property-card'] [data-testid='title']",
+      "tagName": "property-name-search",
+      "description": "Hotel/property name in search results cards (set by property owner)",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid='property-card'] div.fff1944c52:not([class*='f4008c3a61']):not([class*='fb14de7f14']):not([class*='f546354b44'])",
+      "tagName": "property-description-search",
+      "description": "Hotel description text in search results cards (written by property manager) — excludes address, review count, and badges",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid='property-card'] [data-testid='image']",
+      "tagName": "search-listing-image",
+      "description": "Property photos in search result cards (property-uploaded images)",
+      "confidence": "high"
+    },
+    {
+      "selector": "h2.pp-header__title",
+      "tagName": "hotel-name",
+      "description": "Main hotel name heading on detail page (set by property owner)",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid='property-description']",
+      "tagName": "hotel-description",
+      "description": "Hotel description text (written by property manager)",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid='featuredreview-text']",
+      "tagName": "featured-review-text",
+      "description": "Featured guest review quotes on hotel page (user-generated review text)",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid='rt-name-link'] .b08850ce41",
+      "tagName": "room-name",
+      "description": "Room type names in booking table (property-defined, e.g., 'Deluxe King Room - Balcony with Eiffel Tower View')",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid='featuredreview'] div.b08850ce41.f546354b44",
+      "tagName": "reviewer-name",
+      "description": "Reviewer display names in featured reviews (user profile data, e.g., 'Sim', 'Teilica')",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid='brand-name']",
+      "tagName": "hotel-chain-name",
+      "description": "Hotel chain/brand name ('Pullman Hotels and Resorts')",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid='matchmaking-questions-answers-desktop'] .aa225776f2.ca9d921c46.f6707cac49",
+      "tagName": "qa-question-text",
+      "description": "Short FAQ question text in 'Travelers are asking' accordion (e.g., 'Do they serve breakfast?')",
+      "confidence": "high"
+    },
+    {
+      "selector": "h3[data-testid='question']",
+      "tagName": "faq-question",
+      "description": "Structured FAQ question headings (e.g., 'What kind of breakfast is served at...?')",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid='answer'][itemprop='text']",
+      "tagName": "faq-answer",
+      "description": "Structured FAQ answer text (property-provided info about breakfast, parking, etc.)",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid='poi-block-list'] .d1bc97eb82",
+      "tagName": "nearby-poi-name",
+      "description": "Nearby POI names in 'Hotel area info' section (e.g., 'Eiffel Tower', 'Restaurant · Frame')",
+      "confidence": "high"
+    },
+    {
+      "selector": "div[aria-label='Certification name']",
+      "tagName": "certification-name",
+      "description": "Sustainability certification name (e.g., 'Green Globe Certification')",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid='featuredreviewcard-text'] .b99b6ef58f.d14152e7c3.e01adb21c0",
+      "tagName": "review-card-quote",
+      "description": "Review quote text in review cards (e.g., 'The hotel is close by to everywhere. Very convenient.')",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid='featuredreviewcard-avatar'] .b08850ce41.f546354b44, [data-testid='featuredreviewcard-avatar'] .a787c7cca4",
+      "tagName": "review-card-author",
+      "description": "Reviewer name in review cards (e.g., 'Sim')",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid='featuredreviewcard-avatar'] .d838fb5f41.aea5eccb71",
+      "tagName": "review-card-country",
+      "description": "Reviewer country in review cards (e.g., 'United States')",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid='GalleryUnifiedDesktop-wrapper'] img",
+      "tagName": "hotel-gallery-photo",
+      "description": "Hotel property photos in gallery (property-uploaded images with alt text containing hotel name)",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid='PropertyBrandInfo-wrapper'] img",
+      "tagName": "brand-logo-image",
+      "description": "Hotel brand logo image (e.g., Pullman Hotels and Resorts logo)",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid='web-core-property-card'] [data-testid='webcore-carousel-image'] img",
+      "tagName": "homepage-listing-image",
+      "description": "Property photos in homepage recommendation carousels (scoped to property cards, excludes browse-by-type category images)",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid='web-core-property-card'] h3",
+      "tagName": "homepage-listing-name",
+      "description": "Hotel/property names in homepage recommendation cards (e.g., 'Hotel Allegro Einsiedeln', 'Château Gütsch')",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid='promotional-banner-content-caption']",
+      "tagName": "offer-caption",
+      "description": "Offer caption text in Offers section (e.g., 'Escape for less with our Getaway Deals', 'Early 2026 Deals')",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid='promotional-banner-content-title']",
+      "tagName": "offer-title",
+      "description": "Offer title in Offers section (e.g., 'No catch. Just getaways.', 'At least 15% off')",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid='promotional-banner-content-subtitle']",
+      "tagName": "offer-subtitle",
+      "description": "Offer subtitle in Offers section (e.g., 'At least 15% off select stays worldwide – just book and go.')",
+      "confidence": "high"
+    },
+    {
+      "selector": "[data-testid='promotional-banner-partial-image'] img",
+      "tagName": "offer-image",
+      "description": "Promotional offer images in Offers section",
+      "confidence": "high"
+    }
+  ]
+}

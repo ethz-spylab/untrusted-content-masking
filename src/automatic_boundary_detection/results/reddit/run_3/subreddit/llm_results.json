@@ -1,0 +1,3409 @@
+{
+  "summary": {
+    "totalSelectors": 41,
+    "selectorsWithMatches": 25,
+    "totalElements": 366,
+    "uniqueElements": 159,
+    "url": "http://localhost:8001/llm_input_original_subreddit.html",
+    "configFile": "llm_labels.json",
+    "configVersion": "sanitized",
+    "configGeneratedBy": "LLM analysis (claude-sonnet-4-5-20250929)"
+  },
+  "results": [
+    {
+      "index": 1,
+      "selector": ".thing .title a.title",
+      "tagName": "post-title",
+      "description": "Post/submission titles written by users",
+      "count": 25,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[1]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank ",
+          "id": "",
+          "textPreview": "State of the Subreddit (January 2027): Mods applications and rules updates"
+        },
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon"
+        },
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "The goal of platform engineering is to make the right thing the easy thing. You don't enforce compli"
+        },
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Mojo's not (yet) Python"
+        },
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "How the TeamPCP attack exploited CI/CD pipelines and trusted releases to release infected Trivy and "
+        },
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Litellm 1.82.7 and 1.82.8 on PyPI are compromised, do not update!"
+        },
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Convert Once, Consume Many: SDF for Cacheable, Typed Semantic Extraction from Web Pages"
+        },
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "LiteLLM supply chain attack - complete analysis and what it says about trust in dependencies"
+        },
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Malicious litellm 1.82.8: Credential Theft and Persistent Backdoor"
+        },
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Designing a Python Language Server: Lessons from Pyre that Shaped Pyrefly"
+        },
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Paper: What if independently deployable functions shared memory instead of serializing data between "
+        },
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Developer Experience 2026: DX Is the Competitive Moat | RuneHub"
+        },
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Why Raft can\u2019t safely commit old-term entries \u2014 from an implementation/debugging perspective"
+        },
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Software dev job postings are up 15% since mid 2025"
+        },
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Handheld NES on a ESP32"
+        },
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Debug, visualize and test embedded C/C++ through instrumentation"
+        },
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "A table was all that was needed to fix Python autocomplete"
+        },
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Open source isn't a tip jar \u2013 it's time to charge for access"
+        },
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Announcing TypeScript 6.0"
+        },
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Is waterfall making a quiet comeback? (sort of)"
+        },
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "T-shirt Driven Development"
+        },
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Generators in lone lisp"
+        },
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Don't Count Java out Yet"
+        },
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Qt 6.11 released"
+        },
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Let's see Paul Allen's SIMD CSV parser"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "State of the Subreddit (January 2027): Mods applications and rules updates"
+        },
+        {
+          "index": 2,
+          "text_preview": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon"
+        },
+        {
+          "index": 3,
+          "text_preview": "The goal of platform engineering is to make the right thing the easy thing. You don't enforce compli"
+        },
+        {
+          "index": 4,
+          "text_preview": "Mojo's not (yet) Python"
+        },
+        {
+          "index": 5,
+          "text_preview": "How the TeamPCP attack exploited CI/CD pipelines and trusted releases to release infected Trivy and"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "selector": ".author",
+      "tagName": "username",
+      "description": "Usernames chosen by users",
+      "count": 25,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[2]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author moderator may-blank id-t2_nn0q",
+          "id": "",
+          "textPreview": "ketralnis"
+        },
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1q1jbnhq",
+          "id": "",
+          "textPreview": "r_retrohacking_mod2"
+        },
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_180wn7uz34",
+          "id": "",
+          "textPreview": "Low-Trust2491"
+        },
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_knt9w",
+          "id": "",
+          "textPreview": "eatonphil"
+        },
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_48blmj42",
+          "id": "",
+          "textPreview": "raptorhunter22"
+        },
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_4hfcm",
+          "id": "",
+          "textPreview": "ddp26"
+        },
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_a3pe1y9a",
+          "id": "",
+          "textPreview": "PlayfulLingonberry73"
+        },
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_48blmj42",
+          "id": "",
+          "textPreview": "raptorhunter22"
+        },
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1nhc0tyito",
+          "id": "",
+          "textPreview": "No_Plan_3442"
+        },
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_13i16q",
+          "id": "",
+          "textPreview": "BeamMeUpBiscotti"
+        },
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_a3pe1y9a",
+          "id": "",
+          "textPreview": "PlayfulLingonberry73"
+        },
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_180wn7uz34",
+          "id": "",
+          "textPreview": "Low-Trust2491"
+        },
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_155j4yes",
+          "id": "",
+          "textPreview": "am0123"
+        },
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_21ctbse53d",
+          "id": "",
+          "textPreview": "IdeasInProcess"
+        },
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_16bijn",
+          "id": "",
+          "textPreview": "BlueGoliath"
+        },
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_t6xoar79",
+          "id": "",
+          "textPreview": "pylessard"
+        },
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_sxld1h40",
+          "id": "",
+          "textPreview": "matan-h"
+        },
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_387qc",
+          "id": "",
+          "textPreview": "henk53"
+        },
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_432e5",
+          "id": "",
+          "textPreview": "DanielRosenwasser"
+        },
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_crkuw",
+          "id": "",
+          "textPreview": "ludovicianul"
+        },
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_mwy6r93",
+          "id": "",
+          "textPreview": "boodleboodle"
+        },
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_8lmya",
+          "id": "",
+          "textPreview": "matheusmoreira"
+        },
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1tb0c",
+          "id": "",
+          "textPreview": "scottedwards2000"
+        },
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_5nqcmcmb",
+          "id": "",
+          "textPreview": "jlpcsl"
+        },
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_29i35v8gm8",
+          "id": "",
+          "textPreview": "NosePersonal326"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "ketralnis"
+        },
+        {
+          "index": 2,
+          "text_preview": "r_retrohacking_mod2"
+        },
+        {
+          "index": 3,
+          "text_preview": "Low-Trust2491"
+        },
+        {
+          "index": 4,
+          "text_preview": "eatonphil"
+        },
+        {
+          "index": 5,
+          "text_preview": "raptorhunter22"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "selector": ".usertext-body .md",
+      "tagName": "post-selftext-body",
+      "description": "Self-post body text and comment text (rendered markdown)",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "/r/programming is a reddit for discussion and news about computer programming\n\n\n\nGuidelines\n\n\nPlease"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "/r/programming is a reddit for discussion and news about computer programming\n\n\n\nGuidelines\n\n\nPlease"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "selector": ".domain a",
+      "tagName": "link-domain",
+      "description": "External link domains submitted by users",
+      "count": 25,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[1]/span[1]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "self.programming"
+        },
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "larstofus.com"
+        },
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "rune.codes"
+        },
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "theconsensus.dev"
+        },
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "thecybersecguru.com"
+        },
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "futuresearch.ai"
+        },
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "zenodo.org"
+        },
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "thecybersecguru.com"
+        },
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "safedep.io"
+        },
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "pyrefly.org"
+        },
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "doi.org"
+        },
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "rune.codes"
+        },
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "abdellani.dev"
+        },
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "fred.stlouisfed.org"
+        },
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "youtube.com"
+        },
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "embeddedrelated.com"
+        },
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "matan-h.com"
+        },
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "theregister.com"
+        },
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "devblogs.microsoft.com"
+        },
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "blog.dochia.dev"
+        },
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "seongminpark.com"
+        },
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "matheusmoreira.com"
+        },
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "infoworld.com"
+        },
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "qt.io"
+        },
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "chunkofcoal.com"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "self.programming"
+        },
+        {
+          "index": 2,
+          "text_preview": "larstofus.com"
+        },
+        {
+          "index": 3,
+          "text_preview": "rune.codes"
+        },
+        {
+          "index": 4,
+          "text_preview": "theconsensus.dev"
+        },
+        {
+          "index": 5,
+          "text_preview": "thecybersecguru.com"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "selector": ".titlebox .usertext-body .md",
+      "tagName": "sidebar-content",
+      "description": "Subreddit sidebar content created by moderators",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"form-t5_2fwo7dc\"]/div[1]/div[1]": {
+          "tagName": "div",
+          "className": "md",
+          "id": "",
+          "textPreview": "/r/programming is a reddit for discussion and news about computer programming\n\n\n\nGuidelines\n\n\nPlease"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "/r/programming is a reddit for discussion and news about computer programming\n\n\n\nGuidelines\n\n\nPlease"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "selector": ".titlebox h1.redditname a",
+      "tagName": "subreddit-name-sidebar",
+      "description": "Subreddit name in sidebar (user-created)",
+      "count": 1,
+      "element_ids": [
+        "/html/body/div[2]/div[4]/div[1]/h1[1]/a[1]"
+      ],
+      "element_info": {
+        "/html/body/div[2]/div[4]/div[1]/h1[1]/a[1]": {
+          "tagName": "a",
+          "className": "hover",
+          "id": "",
+          "textPreview": "programming"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "programming"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "selector": ".pagename.redditname a",
+      "tagName": "subreddit-name-header",
+      "description": "Subreddit name in page header (user-created)",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"header-bottom-left\"]/span[1]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"header-bottom-left\"]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "programming"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "programming"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "selector": ".thing[data-subreddit-prefixed]",
+      "tagName": "subreddit-attribution",
+      "description": "Subreddit attribution in post listings (content area)",
+      "count": 25,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1qoxwdt\"]",
+        "//*[@id=\"thing_t3_1s3fj4b\"]",
+        "//*[@id=\"thing_t3_1s3i5ri\"]",
+        "//*[@id=\"thing_t3_1s3gbuz\"]",
+        "//*[@id=\"thing_t3_1s35ohw\"]",
+        "//*[@id=\"thing_t3_1s2h8lt\"]",
+        "//*[@id=\"thing_t3_1s3jc75\"]",
+        "//*[@id=\"thing_t3_1s3kxvw\"]",
+        "//*[@id=\"thing_t3_1s2h4by\"]",
+        "//*[@id=\"thing_t3_1s2bw68\"]",
+        "//*[@id=\"thing_t3_1s3fnlu\"]",
+        "//*[@id=\"thing_t3_1s2oisv\"]",
+        "//*[@id=\"thing_t3_1s32qin\"]",
+        "//*[@id=\"thing_t3_1s1e4il\"]",
+        "//*[@id=\"thing_t3_1s2blu7\"]",
+        "//*[@id=\"thing_t3_1s2xapb\"]",
+        "//*[@id=\"thing_t3_1s1rynd\"]",
+        "//*[@id=\"thing_t3_1s3ams9\"]",
+        "//*[@id=\"thing_t3_1s1luym\"]",
+        "//*[@id=\"thing_t3_1s1jkki\"]",
+        "//*[@id=\"thing_t3_1s2wfne\"]",
+        "//*[@id=\"thing_t3_1s2077v\"]",
+        "//*[@id=\"thing_t3_1s2gjgv\"]",
+        "//*[@id=\"thing_t3_1s1dtk5\"]",
+        "//*[@id=\"thing_t3_1s0rldb\"]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1qoxwdt\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1qoxwdt odd  stickied link self",
+          "id": "thing_t3_1qoxwdt",
+          "textPreview": "1120121122State of the Subreddit (January 2027): Mods applications and rules updates (self.programmi"
+        },
+        "//*[@id=\"thing_t3_1s3fj4b\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s3fj4b even  link ",
+          "id": "thing_t3_1s3fj4b",
+          "textPreview": "2126127128The gold standard of optimization: A look under the hood of RollerCoaster Tycoon (larstofu"
+        },
+        "//*[@id=\"thing_t3_1s3i5ri\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s3i5ri odd  link ",
+          "id": "thing_t3_1s3i5ri",
+          "textPreview": "38910The goal of platform engineering is to make the right thing the easy thing. You don't enforce c"
+        },
+        "//*[@id=\"thing_t3_1s3gbuz\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s3gbuz even  link ",
+          "id": "thing_t3_1s3gbuz",
+          "textPreview": "4678Mojo's not (yet) Python (theconsensus.dev)submitted 3 hours ago by eatonphil3 commentssharesaveh"
+        },
+        "//*[@id=\"thing_t3_1s35ohw\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s35ohw odd  link ",
+          "id": "thing_t3_1s35ohw",
+          "textPreview": "5192021How the TeamPCP attack exploited CI/CD pipelines and trusted releases to release infected Tri"
+        },
+        "//*[@id=\"thing_t3_1s2h8lt\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s2h8lt even  link ",
+          "id": "thing_t3_1s2h8lt",
+          "textPreview": "6507508509Litellm 1.82.7 and 1.82.8 on PyPI are compromised, do not update! (futuresearch.ai)submitt"
+        },
+        "//*[@id=\"thing_t3_1s3jc75\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s3jc75 odd  link ",
+          "id": "thing_t3_1s3jc75",
+          "textPreview": "7\u2022\u2022\u2022Convert Once, Consume Many: SDF for Cacheable, Typed Semantic Extraction from Web Pages (zenodo."
+        },
+        "//*[@id=\"thing_t3_1s3kxvw\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s3kxvw even  controversial link ",
+          "id": "thing_t3_1s3kxvw",
+          "textPreview": "8\u2022\u2022\u2022LiteLLM supply chain attack - complete analysis and what it says about trust in dependencies (th"
+        },
+        "//*[@id=\"thing_t3_1s2h4by\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s2h4by odd  link ",
+          "id": "thing_t3_1s2h4by",
+          "textPreview": "99899100Malicious litellm 1.82.8: Credential Theft and Persistent Backdoor (safedep.io)submitted 1 d"
+        },
+        "//*[@id=\"thing_t3_1s2bw68\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s2bw68 even  link ",
+          "id": "thing_t3_1s2bw68",
+          "textPreview": "10606162Designing a Python Language Server: Lessons from Pyre that Shaped Pyrefly (pyrefly.org)submi"
+        },
+        "//*[@id=\"thing_t3_1s3fnlu\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s3fnlu odd  link ",
+          "id": "thing_t3_1s3fnlu",
+          "textPreview": "11000Paper: What if independently deployable functions shared memory instead of serializing data bet"
+        },
+        "//*[@id=\"thing_t3_1s2oisv\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s2oisv even  link ",
+          "id": "thing_t3_1s2oisv",
+          "textPreview": "12678Developer Experience 2026: DX Is the Competitive Moat | RuneHub (rune.codes)submitted 1 day ago"
+        },
+        "//*[@id=\"thing_t3_1s32qin\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s32qin odd  link ",
+          "id": "thing_t3_1s32qin",
+          "textPreview": "13000Why Raft can\u2019t safely commit old-term entries \u2014 from an implementation/debugging perspective (a"
+        },
+        "//*[@id=\"thing_t3_1s1e4il\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s1e4il even  link ",
+          "id": "thing_t3_1s1e4il",
+          "textPreview": "14203620372038Software dev job postings are up 15% since mid 2025 (fred.stlouisfed.org)submitted 2 d"
+        },
+        "//*[@id=\"thing_t3_1s2blu7\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s2blu7 odd  link ",
+          "id": "thing_t3_1s2blu7",
+          "textPreview": "15181920Handheld NES on a ESP32 (youtube.com)submitted 1 day ago by BlueGoliath10 commentssharesaveh"
+        },
+        "//*[@id=\"thing_t3_1s2xapb\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s2xapb even  link ",
+          "id": "thing_t3_1s2xapb",
+          "textPreview": "16001Debug, visualize and test embedded C/C++ through instrumentation (embeddedrelated.com)submitted"
+        },
+        "//*[@id=\"thing_t3_1s1rynd\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s1rynd odd  link ",
+          "id": "thing_t3_1s1rynd",
+          "textPreview": "17137138139A table was all that was needed to fix Python autocomplete (matan-h.com)submitted 2 days "
+        },
+        "//*[@id=\"thing_t3_1s3ams9\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s3ams9 even  link ",
+          "id": "thing_t3_1s3ams9",
+          "textPreview": "18000Open source isn't a tip jar \u2013 it's time to charge for access (theregister.com)submitted 7 hours"
+        },
+        "//*[@id=\"thing_t3_1s1luym\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s1luym odd  link ",
+          "id": "thing_t3_1s1luym",
+          "textPreview": "19234235236Announcing TypeScript 6.0 (devblogs.microsoft.com)submitted 2 days ago by DanielRosenwass"
+        },
+        "//*[@id=\"thing_t3_1s1jkki\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s1jkki even  link ",
+          "id": "thing_t3_1s1jkki",
+          "textPreview": "20228229230Is waterfall making a quiet comeback? (sort of) (blog.dochia.dev)submitted 2 days ago by "
+        },
+        "//*[@id=\"thing_t3_1s2wfne\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s2wfne odd  controversial link ",
+          "id": "thing_t3_1s2wfne",
+          "textPreview": "21000T-shirt Driven Development (seongminpark.com)submitted 19 hours ago by boodleboodle12 commentss"
+        },
+        "//*[@id=\"thing_t3_1s2077v\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s2077v even  link ",
+          "id": "thing_t3_1s2077v",
+          "textPreview": "22123Generators in lone lisp (matheusmoreira.com)submitted 1 day ago by matheusmoreiracommentsharesa"
+        },
+        "//*[@id=\"thing_t3_1s2gjgv\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s2gjgv odd  link ",
+          "id": "thing_t3_1s2gjgv",
+          "textPreview": "23000Don't Count Java out Yet (infoworld.com)submitted 1 day ago by scottedwards200028 commentsshare"
+        },
+        "//*[@id=\"thing_t3_1s1dtk5\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s1dtk5 even  link ",
+          "id": "thing_t3_1s1dtk5",
+          "textPreview": "24202122Qt 6.11 released (qt.io)submitted 2 days ago by jlpcsl1 commentsharesavehidereport"
+        },
+        "//*[@id=\"thing_t3_1s0rldb\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s0rldb odd  link ",
+          "id": "thing_t3_1s0rldb",
+          "textPreview": "25348349350Let's see Paul Allen's SIMD CSV parser (chunkofcoal.com)submitted 3 days ago by NosePerso"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "1120121122State of the Subreddit (January 2027): Mods applications and rules updates (self.programmi"
+        },
+        {
+          "index": 2,
+          "text_preview": "2126127128The gold standard of optimization: A look under the hood of RollerCoaster Tycoon (larstofu"
+        },
+        {
+          "index": 3,
+          "text_preview": "38910The goal of platform engineering is to make the right thing the easy thing. You don't enforce c"
+        },
+        {
+          "index": 4,
+          "text_preview": "4678Mojo's not (yet) Python (theconsensus.dev)submitted 3 hours ago by eatonphil3 commentssharesaveh"
+        },
+        {
+          "index": 5,
+          "text_preview": "5192021How the TeamPCP attack exploited CI/CD pipelines and trusted releases to release infected Tri"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "selector": ".crosspost-badge",
+      "tagName": "crosspost-badge",
+      "description": "Crosspost badge showing source subreddit",
+      "count": 3,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/span[2]",
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[1]/span[2]",
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[1]/span[2]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/span[2]": {
+          "tagName": "span",
+          "className": "crosspost-badge",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[1]/span[2]": {
+          "tagName": "span",
+          "className": "crosspost-badge",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[1]/span[2]": {
+          "tagName": "span",
+          "className": "crosspost-badge",
+          "id": "",
+          "textPreview": ""
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 2,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 3,
+          "text_preview": "(empty)"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "selector": ".userattrs",
+      "tagName": "user-flair",
+      "description": "User flair badges and text",
+      "count": 25,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[2]/span[1]",
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[2]/span[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": "[M]"
+        },
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[2]/span[1]": {
+          "tagName": "span",
+          "className": "userattrs",
+          "id": "",
+          "textPreview": ""
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "[M]"
+        },
+        {
+          "index": 2,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 3,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 4,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 5,
+          "text_preview": "(empty)"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "selector": "a.title[data-href-url]",
+      "tagName": "external-url",
+      "description": "External URLs submitted by users in link posts",
+      "count": 24,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[1]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon"
+        },
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "The goal of platform engineering is to make the right thing the easy thing. You don't enforce compli"
+        },
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Mojo's not (yet) Python"
+        },
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "How the TeamPCP attack exploited CI/CD pipelines and trusted releases to release infected Trivy and "
+        },
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Litellm 1.82.7 and 1.82.8 on PyPI are compromised, do not update!"
+        },
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Convert Once, Consume Many: SDF for Cacheable, Typed Semantic Extraction from Web Pages"
+        },
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "LiteLLM supply chain attack - complete analysis and what it says about trust in dependencies"
+        },
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Malicious litellm 1.82.8: Credential Theft and Persistent Backdoor"
+        },
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Designing a Python Language Server: Lessons from Pyre that Shaped Pyrefly"
+        },
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Paper: What if independently deployable functions shared memory instead of serializing data between "
+        },
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Developer Experience 2026: DX Is the Competitive Moat | RuneHub"
+        },
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Why Raft can\u2019t safely commit old-term entries \u2014 from an implementation/debugging perspective"
+        },
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Software dev job postings are up 15% since mid 2025"
+        },
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Handheld NES on a ESP32"
+        },
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Debug, visualize and test embedded C/C++ through instrumentation"
+        },
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "A table was all that was needed to fix Python autocomplete"
+        },
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Open source isn't a tip jar \u2013 it's time to charge for access"
+        },
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Announcing TypeScript 6.0"
+        },
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Is waterfall making a quiet comeback? (sort of)"
+        },
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "T-shirt Driven Development"
+        },
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Generators in lone lisp"
+        },
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Don't Count Java out Yet"
+        },
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Qt 6.11 released"
+        },
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Let's see Paul Allen's SIMD CSV parser"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon"
+        },
+        {
+          "index": 2,
+          "text_preview": "The goal of platform engineering is to make the right thing the easy thing. You don't enforce compli"
+        },
+        {
+          "index": 3,
+          "text_preview": "Mojo's not (yet) Python"
+        },
+        {
+          "index": 4,
+          "text_preview": "How the TeamPCP attack exploited CI/CD pipelines and trusted releases to release infected Trivy and"
+        },
+        {
+          "index": 5,
+          "text_preview": "Litellm 1.82.7 and 1.82.8 on PyPI are compromised, do not update!"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "selector": ".stickied-tagline",
+      "tagName": "stickied-post-label",
+      "description": "Stickied post label text (may contain moderator-set text)",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[2]/span[2]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[2]/span[2]": {
+          "tagName": "span",
+          "className": "stickied-tagline",
+          "id": "",
+          "textPreview": "announcement"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "announcement"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "selector": ".linkflairlabel",
+      "tagName": "post-flair",
+      "description": "Post flair text set by users or moderators",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 14,
+      "selector": ".flair",
+      "tagName": "user-flair-text",
+      "description": "User flair text chosen by users or moderators",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 15,
+      "selector": ".thing .entry .title .domain",
+      "tagName": "domain-container",
+      "description": "Container showing external domain (the text within parentheses)",
+      "count": 25,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[1]/span[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(self.programming)"
+        },
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(larstofus.com)"
+        },
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(rune.codes)"
+        },
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(theconsensus.dev)"
+        },
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(thecybersecguru.com)"
+        },
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(futuresearch.ai)"
+        },
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(zenodo.org)"
+        },
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(thecybersecguru.com)"
+        },
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(safedep.io)"
+        },
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(pyrefly.org)"
+        },
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(doi.org)"
+        },
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(rune.codes)"
+        },
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(abdellani.dev)"
+        },
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(fred.stlouisfed.org)"
+        },
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(youtube.com)"
+        },
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(embeddedrelated.com)"
+        },
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(matan-h.com)"
+        },
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(theregister.com)"
+        },
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(devblogs.microsoft.com)"
+        },
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(blog.dochia.dev)"
+        },
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(seongminpark.com)"
+        },
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(matheusmoreira.com)"
+        },
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(infoworld.com)"
+        },
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(qt.io)"
+        },
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(chunkofcoal.com)"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(self.programming)"
+        },
+        {
+          "index": 2,
+          "text_preview": "(larstofus.com)"
+        },
+        {
+          "index": 3,
+          "text_preview": "(rune.codes)"
+        },
+        {
+          "index": 4,
+          "text_preview": "(theconsensus.dev)"
+        },
+        {
+          "index": 5,
+          "text_preview": "(thecybersecguru.com)"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "selector": "a[data-crosspost-root-subreddit]",
+      "tagName": "crosspost-source-subreddit",
+      "description": "Source subreddit name in crosspost attribution",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 17,
+      "selector": "[data-crosspost-root-title]",
+      "tagName": "crosspost-original-title",
+      "description": "Original post title in crosspost data",
+      "count": 3,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3fj4b\"]",
+        "//*[@id=\"thing_t3_1s3i5ri\"]",
+        "//*[@id=\"thing_t3_1s2077v\"]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3fj4b\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s3fj4b even  link ",
+          "id": "thing_t3_1s3fj4b",
+          "textPreview": "2126127128The gold standard of optimization: A look under the hood of RollerCoaster Tycoon (larstofu"
+        },
+        "//*[@id=\"thing_t3_1s3i5ri\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s3i5ri odd  link ",
+          "id": "thing_t3_1s3i5ri",
+          "textPreview": "38910The goal of platform engineering is to make the right thing the easy thing. You don't enforce c"
+        },
+        "//*[@id=\"thing_t3_1s2077v\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s2077v even  link ",
+          "id": "thing_t3_1s2077v",
+          "textPreview": "22123Generators in lone lisp (matheusmoreira.com)submitted 1 day ago by matheusmoreiracommentsharesa"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "2126127128The gold standard of optimization: A look under the hood of RollerCoaster Tycoon (larstofu"
+        },
+        {
+          "index": 2,
+          "text_preview": "38910The goal of platform engineering is to make the right thing the easy thing. You don't enforce c"
+        },
+        {
+          "index": 3,
+          "text_preview": "22123Generators in lone lisp (matheusmoreira.com)submitted 1 day ago by matheusmoreiracommentsharesa"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "selector": ".thing.link .entry .title a.title",
+      "tagName": "post-title",
+      "description": "Post submission title text",
+      "count": 25,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[1]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank ",
+          "id": "",
+          "textPreview": "State of the Subreddit (January 2027): Mods applications and rules updates"
+        },
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon"
+        },
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "The goal of platform engineering is to make the right thing the easy thing. You don't enforce compli"
+        },
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Mojo's not (yet) Python"
+        },
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "How the TeamPCP attack exploited CI/CD pipelines and trusted releases to release infected Trivy and "
+        },
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Litellm 1.82.7 and 1.82.8 on PyPI are compromised, do not update!"
+        },
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Convert Once, Consume Many: SDF for Cacheable, Typed Semantic Extraction from Web Pages"
+        },
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "LiteLLM supply chain attack - complete analysis and what it says about trust in dependencies"
+        },
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Malicious litellm 1.82.8: Credential Theft and Persistent Backdoor"
+        },
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Designing a Python Language Server: Lessons from Pyre that Shaped Pyrefly"
+        },
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Paper: What if independently deployable functions shared memory instead of serializing data between "
+        },
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Developer Experience 2026: DX Is the Competitive Moat | RuneHub"
+        },
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Why Raft can\u2019t safely commit old-term entries \u2014 from an implementation/debugging perspective"
+        },
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Software dev job postings are up 15% since mid 2025"
+        },
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Handheld NES on a ESP32"
+        },
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Debug, visualize and test embedded C/C++ through instrumentation"
+        },
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "A table was all that was needed to fix Python autocomplete"
+        },
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Open source isn't a tip jar \u2013 it's time to charge for access"
+        },
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Announcing TypeScript 6.0"
+        },
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Is waterfall making a quiet comeback? (sort of)"
+        },
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "T-shirt Driven Development"
+        },
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Generators in lone lisp"
+        },
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Don't Count Java out Yet"
+        },
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Qt 6.11 released"
+        },
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Let's see Paul Allen's SIMD CSV parser"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "State of the Subreddit (January 2027): Mods applications and rules updates"
+        },
+        {
+          "index": 2,
+          "text_preview": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon"
+        },
+        {
+          "index": 3,
+          "text_preview": "The goal of platform engineering is to make the right thing the easy thing. You don't enforce compli"
+        },
+        {
+          "index": 4,
+          "text_preview": "Mojo's not (yet) Python"
+        },
+        {
+          "index": 5,
+          "text_preview": "How the TeamPCP attack exploited CI/CD pipelines and trusted releases to release infected Trivy and"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "selector": ".thing.link .entry .domain a",
+      "tagName": "post-domain",
+      "description": "External link domain displayed for link posts",
+      "count": 25,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[1]/span[1]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "self.programming"
+        },
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "larstofus.com"
+        },
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "rune.codes"
+        },
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "theconsensus.dev"
+        },
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "thecybersecguru.com"
+        },
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "futuresearch.ai"
+        },
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "zenodo.org"
+        },
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "thecybersecguru.com"
+        },
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "safedep.io"
+        },
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "pyrefly.org"
+        },
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "doi.org"
+        },
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "rune.codes"
+        },
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "abdellani.dev"
+        },
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "fred.stlouisfed.org"
+        },
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "youtube.com"
+        },
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "embeddedrelated.com"
+        },
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "matan-h.com"
+        },
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "theregister.com"
+        },
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "devblogs.microsoft.com"
+        },
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "blog.dochia.dev"
+        },
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "seongminpark.com"
+        },
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "matheusmoreira.com"
+        },
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "infoworld.com"
+        },
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "qt.io"
+        },
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "chunkofcoal.com"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "self.programming"
+        },
+        {
+          "index": 2,
+          "text_preview": "larstofus.com"
+        },
+        {
+          "index": 3,
+          "text_preview": "rune.codes"
+        },
+        {
+          "index": 4,
+          "text_preview": "theconsensus.dev"
+        },
+        {
+          "index": 5,
+          "text_preview": "thecybersecguru.com"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "selector": ".thing.comment .entry .usertext-body .md",
+      "tagName": "comment-body",
+      "description": "Comment body text (rendered markdown)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 21,
+      "selector": ".thing.link .expando .usertext-body .md",
+      "tagName": "selftext-body",
+      "description": "Self-post body text (rendered markdown)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 22,
+      "selector": ".thing.link .entry .crosspost-preview .crosspost-preview-tagline a.subreddit",
+      "tagName": "crosspost-subreddit",
+      "description": "Subreddit name in crosspost attribution",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 23,
+      "selector": ".crosspost-preview .text-content .title",
+      "tagName": "crosspost-title",
+      "description": "Title of crossposted content",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 24,
+      "selector": ".thing.link[data-domain]",
+      "tagName": "external-link-url",
+      "description": "External URL that link posts direct to",
+      "count": 25,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1qoxwdt\"]",
+        "//*[@id=\"thing_t3_1s3fj4b\"]",
+        "//*[@id=\"thing_t3_1s3i5ri\"]",
+        "//*[@id=\"thing_t3_1s3gbuz\"]",
+        "//*[@id=\"thing_t3_1s35ohw\"]",
+        "//*[@id=\"thing_t3_1s2h8lt\"]",
+        "//*[@id=\"thing_t3_1s3jc75\"]",
+        "//*[@id=\"thing_t3_1s3kxvw\"]",
+        "//*[@id=\"thing_t3_1s2h4by\"]",
+        "//*[@id=\"thing_t3_1s2bw68\"]",
+        "//*[@id=\"thing_t3_1s3fnlu\"]",
+        "//*[@id=\"thing_t3_1s2oisv\"]",
+        "//*[@id=\"thing_t3_1s32qin\"]",
+        "//*[@id=\"thing_t3_1s1e4il\"]",
+        "//*[@id=\"thing_t3_1s2blu7\"]",
+        "//*[@id=\"thing_t3_1s2xapb\"]",
+        "//*[@id=\"thing_t3_1s1rynd\"]",
+        "//*[@id=\"thing_t3_1s3ams9\"]",
+        "//*[@id=\"thing_t3_1s1luym\"]",
+        "//*[@id=\"thing_t3_1s1jkki\"]",
+        "//*[@id=\"thing_t3_1s2wfne\"]",
+        "//*[@id=\"thing_t3_1s2077v\"]",
+        "//*[@id=\"thing_t3_1s2gjgv\"]",
+        "//*[@id=\"thing_t3_1s1dtk5\"]",
+        "//*[@id=\"thing_t3_1s0rldb\"]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1qoxwdt\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1qoxwdt odd  stickied link self",
+          "id": "thing_t3_1qoxwdt",
+          "textPreview": "1120121122State of the Subreddit (January 2027): Mods applications and rules updates (self.programmi"
+        },
+        "//*[@id=\"thing_t3_1s3fj4b\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s3fj4b even  link ",
+          "id": "thing_t3_1s3fj4b",
+          "textPreview": "2126127128The gold standard of optimization: A look under the hood of RollerCoaster Tycoon (larstofu"
+        },
+        "//*[@id=\"thing_t3_1s3i5ri\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s3i5ri odd  link ",
+          "id": "thing_t3_1s3i5ri",
+          "textPreview": "38910The goal of platform engineering is to make the right thing the easy thing. You don't enforce c"
+        },
+        "//*[@id=\"thing_t3_1s3gbuz\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s3gbuz even  link ",
+          "id": "thing_t3_1s3gbuz",
+          "textPreview": "4678Mojo's not (yet) Python (theconsensus.dev)submitted 3 hours ago by eatonphil3 commentssharesaveh"
+        },
+        "//*[@id=\"thing_t3_1s35ohw\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s35ohw odd  link ",
+          "id": "thing_t3_1s35ohw",
+          "textPreview": "5192021How the TeamPCP attack exploited CI/CD pipelines and trusted releases to release infected Tri"
+        },
+        "//*[@id=\"thing_t3_1s2h8lt\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s2h8lt even  link ",
+          "id": "thing_t3_1s2h8lt",
+          "textPreview": "6507508509Litellm 1.82.7 and 1.82.8 on PyPI are compromised, do not update! (futuresearch.ai)submitt"
+        },
+        "//*[@id=\"thing_t3_1s3jc75\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s3jc75 odd  link ",
+          "id": "thing_t3_1s3jc75",
+          "textPreview": "7\u2022\u2022\u2022Convert Once, Consume Many: SDF for Cacheable, Typed Semantic Extraction from Web Pages (zenodo."
+        },
+        "//*[@id=\"thing_t3_1s3kxvw\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s3kxvw even  controversial link ",
+          "id": "thing_t3_1s3kxvw",
+          "textPreview": "8\u2022\u2022\u2022LiteLLM supply chain attack - complete analysis and what it says about trust in dependencies (th"
+        },
+        "//*[@id=\"thing_t3_1s2h4by\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s2h4by odd  link ",
+          "id": "thing_t3_1s2h4by",
+          "textPreview": "99899100Malicious litellm 1.82.8: Credential Theft and Persistent Backdoor (safedep.io)submitted 1 d"
+        },
+        "//*[@id=\"thing_t3_1s2bw68\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s2bw68 even  link ",
+          "id": "thing_t3_1s2bw68",
+          "textPreview": "10606162Designing a Python Language Server: Lessons from Pyre that Shaped Pyrefly (pyrefly.org)submi"
+        },
+        "//*[@id=\"thing_t3_1s3fnlu\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s3fnlu odd  link ",
+          "id": "thing_t3_1s3fnlu",
+          "textPreview": "11000Paper: What if independently deployable functions shared memory instead of serializing data bet"
+        },
+        "//*[@id=\"thing_t3_1s2oisv\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s2oisv even  link ",
+          "id": "thing_t3_1s2oisv",
+          "textPreview": "12678Developer Experience 2026: DX Is the Competitive Moat | RuneHub (rune.codes)submitted 1 day ago"
+        },
+        "//*[@id=\"thing_t3_1s32qin\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s32qin odd  link ",
+          "id": "thing_t3_1s32qin",
+          "textPreview": "13000Why Raft can\u2019t safely commit old-term entries \u2014 from an implementation/debugging perspective (a"
+        },
+        "//*[@id=\"thing_t3_1s1e4il\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s1e4il even  link ",
+          "id": "thing_t3_1s1e4il",
+          "textPreview": "14203620372038Software dev job postings are up 15% since mid 2025 (fred.stlouisfed.org)submitted 2 d"
+        },
+        "//*[@id=\"thing_t3_1s2blu7\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s2blu7 odd  link ",
+          "id": "thing_t3_1s2blu7",
+          "textPreview": "15181920Handheld NES on a ESP32 (youtube.com)submitted 1 day ago by BlueGoliath10 commentssharesaveh"
+        },
+        "//*[@id=\"thing_t3_1s2xapb\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s2xapb even  link ",
+          "id": "thing_t3_1s2xapb",
+          "textPreview": "16001Debug, visualize and test embedded C/C++ through instrumentation (embeddedrelated.com)submitted"
+        },
+        "//*[@id=\"thing_t3_1s1rynd\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s1rynd odd  link ",
+          "id": "thing_t3_1s1rynd",
+          "textPreview": "17137138139A table was all that was needed to fix Python autocomplete (matan-h.com)submitted 2 days "
+        },
+        "//*[@id=\"thing_t3_1s3ams9\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s3ams9 even  link ",
+          "id": "thing_t3_1s3ams9",
+          "textPreview": "18000Open source isn't a tip jar \u2013 it's time to charge for access (theregister.com)submitted 7 hours"
+        },
+        "//*[@id=\"thing_t3_1s1luym\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s1luym odd  link ",
+          "id": "thing_t3_1s1luym",
+          "textPreview": "19234235236Announcing TypeScript 6.0 (devblogs.microsoft.com)submitted 2 days ago by DanielRosenwass"
+        },
+        "//*[@id=\"thing_t3_1s1jkki\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s1jkki even  link ",
+          "id": "thing_t3_1s1jkki",
+          "textPreview": "20228229230Is waterfall making a quiet comeback? (sort of) (blog.dochia.dev)submitted 2 days ago by "
+        },
+        "//*[@id=\"thing_t3_1s2wfne\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s2wfne odd  controversial link ",
+          "id": "thing_t3_1s2wfne",
+          "textPreview": "21000T-shirt Driven Development (seongminpark.com)submitted 19 hours ago by boodleboodle12 commentss"
+        },
+        "//*[@id=\"thing_t3_1s2077v\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s2077v even  link ",
+          "id": "thing_t3_1s2077v",
+          "textPreview": "22123Generators in lone lisp (matheusmoreira.com)submitted 1 day ago by matheusmoreiracommentsharesa"
+        },
+        "//*[@id=\"thing_t3_1s2gjgv\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s2gjgv odd  link ",
+          "id": "thing_t3_1s2gjgv",
+          "textPreview": "23000Don't Count Java out Yet (infoworld.com)submitted 1 day ago by scottedwards200028 commentsshare"
+        },
+        "//*[@id=\"thing_t3_1s1dtk5\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s1dtk5 even  link ",
+          "id": "thing_t3_1s1dtk5",
+          "textPreview": "24202122Qt 6.11 released (qt.io)submitted 2 days ago by jlpcsl1 commentsharesavehidereport"
+        },
+        "//*[@id=\"thing_t3_1s0rldb\"]": {
+          "tagName": "div",
+          "className": " thing id-t3_1s0rldb odd  link ",
+          "id": "thing_t3_1s0rldb",
+          "textPreview": "25348349350Let's see Paul Allen's SIMD CSV parser (chunkofcoal.com)submitted 3 days ago by NosePerso"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "1120121122State of the Subreddit (January 2027): Mods applications and rules updates (self.programmi"
+        },
+        {
+          "index": 2,
+          "text_preview": "2126127128The gold standard of optimization: A look under the hood of RollerCoaster Tycoon (larstofu"
+        },
+        {
+          "index": 3,
+          "text_preview": "38910The goal of platform engineering is to make the right thing the easy thing. You don't enforce c"
+        },
+        {
+          "index": 4,
+          "text_preview": "4678Mojo's not (yet) Python (theconsensus.dev)submitted 3 hours ago by eatonphil3 commentssharesaveh"
+        },
+        {
+          "index": 5,
+          "text_preview": "5192021How the TeamPCP attack exploited CI/CD pipelines and trusted releases to release infected Tri"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "selector": ".linkflair",
+      "tagName": "post-flair",
+      "description": "Post flair text/label",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 26,
+      "selector": "#header .pagename a",
+      "tagName": "subreddit-header-name",
+      "description": "Subreddit name in page header",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"header-bottom-left\"]/span[1]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"header-bottom-left\"]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "programming"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "programming"
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "selector": ".thing.link .entry .title .linkflairlabel",
+      "tagName": "link-flair-label",
+      "description": "Link flair label on posts",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 28,
+      "selector": ".thing.link .title a.title",
+      "tagName": "post-title",
+      "description": "Post/submission titles created by users",
+      "count": 25,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[1]/a[1]",
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[1]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank ",
+          "id": "",
+          "textPreview": "State of the Subreddit (January 2027): Mods applications and rules updates"
+        },
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon"
+        },
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "The goal of platform engineering is to make the right thing the easy thing. You don't enforce compli"
+        },
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Mojo's not (yet) Python"
+        },
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "How the TeamPCP attack exploited CI/CD pipelines and trusted releases to release infected Trivy and "
+        },
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Litellm 1.82.7 and 1.82.8 on PyPI are compromised, do not update!"
+        },
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Convert Once, Consume Many: SDF for Cacheable, Typed Semantic Extraction from Web Pages"
+        },
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "LiteLLM supply chain attack - complete analysis and what it says about trust in dependencies"
+        },
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Malicious litellm 1.82.8: Credential Theft and Persistent Backdoor"
+        },
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Designing a Python Language Server: Lessons from Pyre that Shaped Pyrefly"
+        },
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Paper: What if independently deployable functions shared memory instead of serializing data between "
+        },
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Developer Experience 2026: DX Is the Competitive Moat | RuneHub"
+        },
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Why Raft can\u2019t safely commit old-term entries \u2014 from an implementation/debugging perspective"
+        },
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Software dev job postings are up 15% since mid 2025"
+        },
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Handheld NES on a ESP32"
+        },
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Debug, visualize and test embedded C/C++ through instrumentation"
+        },
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "A table was all that was needed to fix Python autocomplete"
+        },
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Open source isn't a tip jar \u2013 it's time to charge for access"
+        },
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Announcing TypeScript 6.0"
+        },
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Is waterfall making a quiet comeback? (sort of)"
+        },
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "T-shirt Driven Development"
+        },
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Generators in lone lisp"
+        },
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Don't Count Java out Yet"
+        },
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Qt 6.11 released"
+        },
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[1]/a[1]": {
+          "tagName": "a",
+          "className": "title may-blank outbound",
+          "id": "",
+          "textPreview": "Let's see Paul Allen's SIMD CSV parser"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "State of the Subreddit (January 2027): Mods applications and rules updates"
+        },
+        {
+          "index": 2,
+          "text_preview": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon"
+        },
+        {
+          "index": 3,
+          "text_preview": "The goal of platform engineering is to make the right thing the easy thing. You don't enforce compli"
+        },
+        {
+          "index": 4,
+          "text_preview": "Mojo's not (yet) Python"
+        },
+        {
+          "index": 5,
+          "text_preview": "How the TeamPCP attack exploited CI/CD pipelines and trusted releases to release infected Trivy and"
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "selector": ".thing.comment .title a.title",
+      "tagName": "comment-parent-title",
+      "description": "Parent post title shown in comment context",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 30,
+      "selector": "a.author",
+      "tagName": "username",
+      "description": "Username links (user-chosen names)",
+      "count": 25,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[2]/a[1]",
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[2]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author moderator may-blank id-t2_nn0q",
+          "id": "",
+          "textPreview": "ketralnis"
+        },
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1q1jbnhq",
+          "id": "",
+          "textPreview": "r_retrohacking_mod2"
+        },
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_180wn7uz34",
+          "id": "",
+          "textPreview": "Low-Trust2491"
+        },
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_knt9w",
+          "id": "",
+          "textPreview": "eatonphil"
+        },
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_48blmj42",
+          "id": "",
+          "textPreview": "raptorhunter22"
+        },
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_4hfcm",
+          "id": "",
+          "textPreview": "ddp26"
+        },
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_a3pe1y9a",
+          "id": "",
+          "textPreview": "PlayfulLingonberry73"
+        },
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_48blmj42",
+          "id": "",
+          "textPreview": "raptorhunter22"
+        },
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1nhc0tyito",
+          "id": "",
+          "textPreview": "No_Plan_3442"
+        },
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_13i16q",
+          "id": "",
+          "textPreview": "BeamMeUpBiscotti"
+        },
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_a3pe1y9a",
+          "id": "",
+          "textPreview": "PlayfulLingonberry73"
+        },
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_180wn7uz34",
+          "id": "",
+          "textPreview": "Low-Trust2491"
+        },
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_155j4yes",
+          "id": "",
+          "textPreview": "am0123"
+        },
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_21ctbse53d",
+          "id": "",
+          "textPreview": "IdeasInProcess"
+        },
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_16bijn",
+          "id": "",
+          "textPreview": "BlueGoliath"
+        },
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_t6xoar79",
+          "id": "",
+          "textPreview": "pylessard"
+        },
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_sxld1h40",
+          "id": "",
+          "textPreview": "matan-h"
+        },
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_387qc",
+          "id": "",
+          "textPreview": "henk53"
+        },
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_432e5",
+          "id": "",
+          "textPreview": "DanielRosenwasser"
+        },
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_crkuw",
+          "id": "",
+          "textPreview": "ludovicianul"
+        },
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_mwy6r93",
+          "id": "",
+          "textPreview": "boodleboodle"
+        },
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_8lmya",
+          "id": "",
+          "textPreview": "matheusmoreira"
+        },
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_1tb0c",
+          "id": "",
+          "textPreview": "scottedwards2000"
+        },
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_5nqcmcmb",
+          "id": "",
+          "textPreview": "jlpcsl"
+        },
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[2]/a[1]": {
+          "tagName": "a",
+          "className": "author may-blank id-t2_29i35v8gm8",
+          "id": "",
+          "textPreview": "NosePersonal326"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "ketralnis"
+        },
+        {
+          "index": 2,
+          "text_preview": "r_retrohacking_mod2"
+        },
+        {
+          "index": 3,
+          "text_preview": "Low-Trust2491"
+        },
+        {
+          "index": 4,
+          "text_preview": "eatonphil"
+        },
+        {
+          "index": 5,
+          "text_preview": "raptorhunter22"
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "selector": ".thing .domain a",
+      "tagName": "link-domain",
+      "description": "External link domains posted by users",
+      "count": 25,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[1]/span[1]/a[1]",
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[1]/span[1]/a[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "self.programming"
+        },
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "larstofus.com"
+        },
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "rune.codes"
+        },
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "theconsensus.dev"
+        },
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "thecybersecguru.com"
+        },
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "futuresearch.ai"
+        },
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "zenodo.org"
+        },
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "thecybersecguru.com"
+        },
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "safedep.io"
+        },
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "pyrefly.org"
+        },
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "doi.org"
+        },
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "rune.codes"
+        },
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "abdellani.dev"
+        },
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "fred.stlouisfed.org"
+        },
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "youtube.com"
+        },
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "embeddedrelated.com"
+        },
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "matan-h.com"
+        },
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "theregister.com"
+        },
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "devblogs.microsoft.com"
+        },
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "blog.dochia.dev"
+        },
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "seongminpark.com"
+        },
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "matheusmoreira.com"
+        },
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "infoworld.com"
+        },
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "qt.io"
+        },
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[1]/span[1]/a[1]": {
+          "tagName": "a",
+          "className": "",
+          "id": "",
+          "textPreview": "chunkofcoal.com"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "self.programming"
+        },
+        {
+          "index": 2,
+          "text_preview": "larstofus.com"
+        },
+        {
+          "index": 3,
+          "text_preview": "rune.codes"
+        },
+        {
+          "index": 4,
+          "text_preview": "theconsensus.dev"
+        },
+        {
+          "index": 5,
+          "text_preview": "thecybersecguru.com"
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "selector": ".thing .tagline .subreddit",
+      "tagName": "post-subreddit-attribution",
+      "description": "Subreddit name shown in post tagline (user-created subreddit)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 33,
+      "selector": ".thing.comment .parent .subreddit",
+      "tagName": "comment-subreddit-context",
+      "description": "Subreddit name in comment parent context",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 34,
+      "selector": ".titlebox h1",
+      "tagName": "user-profile-name",
+      "description": "Username displayed in user profile titlebox",
+      "count": 1,
+      "element_ids": [
+        "/html/body/div[2]/div[4]/div[1]/h1[1]"
+      ],
+      "element_info": {
+        "/html/body/div[2]/div[4]/div[1]/h1[1]": {
+          "tagName": "h1",
+          "className": "hover redditname",
+          "id": "",
+          "textPreview": "programming"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "programming"
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "selector": ".trophy-name",
+      "tagName": "trophy-name",
+      "description": "Trophy/badge names (may be user-created or custom)",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 36,
+      "selector": ".trophy-description",
+      "tagName": "trophy-description",
+      "description": "Trophy descriptions that may reference user content",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 37,
+      "selector": "span.crosspost-badge",
+      "tagName": "crosspost-badge",
+      "description": "Crosspost attribution text",
+      "count": 3,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/span[2]",
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[1]/span[2]",
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[1]/span[2]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/span[2]": {
+          "tagName": "span",
+          "className": "crosspost-badge",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[1]/span[2]": {
+          "tagName": "span",
+          "className": "crosspost-badge",
+          "id": "",
+          "textPreview": ""
+        },
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[1]/span[2]": {
+          "tagName": "span",
+          "className": "crosspost-badge",
+          "id": "",
+          "textPreview": ""
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 2,
+          "text_preview": "(empty)"
+        },
+        {
+          "index": 3,
+          "text_preview": "(empty)"
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "selector": ".userattrs .submitter",
+      "tagName": "submitter-badge-text",
+      "description": "Submitter badge text (S) next to username - may display user-chosen badge",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 39,
+      "selector": ".userattrs .admin",
+      "tagName": "admin-badge-text",
+      "description": "Admin badge text (A) next to username - displays user role indicator",
+      "count": 0,
+      "element_ids": [],
+      "element_info": {},
+      "previews": []
+    },
+    {
+      "index": 40,
+      "selector": ".thing.link .title .domain",
+      "tagName": "post-domain-container",
+      "description": "Domain text container for external links (parenthetical domain display)",
+      "count": 25,
+      "element_ids": [
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[1]/span[1]",
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[1]/span[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"thing_t3_1qoxwdt\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(self.programming)"
+        },
+        "//*[@id=\"thing_t3_1s3fj4b\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(larstofus.com)"
+        },
+        "//*[@id=\"thing_t3_1s3i5ri\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(rune.codes)"
+        },
+        "//*[@id=\"thing_t3_1s3gbuz\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(theconsensus.dev)"
+        },
+        "//*[@id=\"thing_t3_1s35ohw\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(thecybersecguru.com)"
+        },
+        "//*[@id=\"thing_t3_1s2h8lt\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(futuresearch.ai)"
+        },
+        "//*[@id=\"thing_t3_1s3jc75\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(zenodo.org)"
+        },
+        "//*[@id=\"thing_t3_1s3kxvw\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(thecybersecguru.com)"
+        },
+        "//*[@id=\"thing_t3_1s2h4by\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(safedep.io)"
+        },
+        "//*[@id=\"thing_t3_1s2bw68\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(pyrefly.org)"
+        },
+        "//*[@id=\"thing_t3_1s3fnlu\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(doi.org)"
+        },
+        "//*[@id=\"thing_t3_1s2oisv\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(rune.codes)"
+        },
+        "//*[@id=\"thing_t3_1s32qin\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(abdellani.dev)"
+        },
+        "//*[@id=\"thing_t3_1s1e4il\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(fred.stlouisfed.org)"
+        },
+        "//*[@id=\"thing_t3_1s2blu7\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(youtube.com)"
+        },
+        "//*[@id=\"thing_t3_1s2xapb\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(embeddedrelated.com)"
+        },
+        "//*[@id=\"thing_t3_1s1rynd\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(matan-h.com)"
+        },
+        "//*[@id=\"thing_t3_1s3ams9\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(theregister.com)"
+        },
+        "//*[@id=\"thing_t3_1s1luym\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(devblogs.microsoft.com)"
+        },
+        "//*[@id=\"thing_t3_1s1jkki\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(blog.dochia.dev)"
+        },
+        "//*[@id=\"thing_t3_1s2wfne\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(seongminpark.com)"
+        },
+        "//*[@id=\"thing_t3_1s2077v\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(matheusmoreira.com)"
+        },
+        "//*[@id=\"thing_t3_1s2gjgv\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(infoworld.com)"
+        },
+        "//*[@id=\"thing_t3_1s1dtk5\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(qt.io)"
+        },
+        "//*[@id=\"thing_t3_1s0rldb\"]/div[2]/div[1]/p[1]/span[1]": {
+          "tagName": "span",
+          "className": "domain",
+          "id": "",
+          "textPreview": "(chunkofcoal.com)"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "(self.programming)"
+        },
+        {
+          "index": 2,
+          "text_preview": "(larstofus.com)"
+        },
+        {
+          "index": 3,
+          "text_preview": "(rune.codes)"
+        },
+        {
+          "index": 4,
+          "text_preview": "(theconsensus.dev)"
+        },
+        {
+          "index": 5,
+          "text_preview": "(thecybersecguru.com)"
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "selector": ".pagename",
+      "tagName": "profile-page-name",
+      "description": "Page name in header showing username on profile pages",
+      "count": 1,
+      "element_ids": [
+        "//*[@id=\"header-bottom-left\"]/span[1]"
+      ],
+      "element_info": {
+        "//*[@id=\"header-bottom-left\"]/span[1]": {
+          "tagName": "span",
+          "className": "hover pagename redditname",
+          "id": "",
+          "textPreview": "programming"
+        }
+      },
+      "previews": [
+        {
+          "index": 1,
+          "text_preview": "programming"
+        }
+      ]
+    }
+  ]
+}

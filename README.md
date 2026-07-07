@@ -1,4 +1,4 @@
-# Untrusted Content Masking for Web Agents with Security Guarantees
+# [Untrusted Content Masking for Web Agents with Security Guarantees](https://arxiv.org/abs/2607.05277v1)
 
 Kristina Nikolić*, Egor Zverev*, Javier Rando, Matthew Jagielski, Edoardo Debenedetti, and Florian Tramèr.
 
